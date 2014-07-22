@@ -135,7 +135,7 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 	}
 
 	/**
-	 * 2.查询供应商snow 增加前将供应商查找到
+	 * 2.查询供应商，然后跳转到增加Tomcat页面
 	 * 
 	 * @return
 	 */
@@ -147,6 +147,11 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 		return "/application/tomcat/add.jsp";
 	}
 
+	/**
+	 * 4.实现中间件-Tomcat的增加
+	 * 
+	 * @return
+	 */
 	private String add() {
 		Tomcat vo = new Tomcat();
 		vo.setId(KeyGenerator.getInstance().getNextKey());

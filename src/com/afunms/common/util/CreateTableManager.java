@@ -8,27 +8,15 @@
 
 package com.afunms.common.util;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Vector;
-import java.util.Hashtable;
-
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 import com.afunms.polling.PollingEngine;
 
-import net.sf.hibernate.HibernateException;
-
 /**
  * @author Administrator
  * 
- * To change the template for this generated type comment go to
- * Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
+ *         To change the template for this generated type comment go to
+ *         Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
  */
 public class CreateTableManager {
 	/*
@@ -37,7 +25,8 @@ public class CreateTableManager {
 	 * public CreateTableManager() { conn = new DBManager(); } public void
 	 * close(){ conn.close(); }
 	 */
-	public void createTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+	public void createTable(DBManager conn, String tablename, String ipstr,
+			String tablestr) {
 		try {
 			createRootTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -46,8 +35,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	public void createVMhostTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMhostTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createVMhostTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -56,7 +46,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	public void createVMguesthostTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMguesthostTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createVMguesthostTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -65,8 +57,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	public void createVMCRTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMCRTable(DBManager conn, String tablename, String ipstr,
+			String tablestr) {
 		try {
 			createVMCRTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -75,7 +68,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	public void createVMDSTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMDSTable(DBManager conn, String tablename, String ipstr,
+			String tablestr) {
 		try {
 			createVMDSTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -84,7 +79,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	public void createVMRPTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMRPTable(DBManager conn, String tablename, String ipstr,
+			String tablestr) {
 		try {
 			createVMRPTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -93,9 +90,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	
-	public void createVMBaseTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createVMBaseTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createVMBaseTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -104,8 +101,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	public void createEmcTable(DBManager conn, String tablename, String ipstr,String tablestr) {
+
+	public void createEmcTable(DBManager conn, String tablename, String ipstr,
+			String tablestr) {
 		try {
 			createEmcTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -114,9 +112,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
 
-	public void createCiscoCMTSTable(DBManager conn, String tablename,String ipstr, String tablestr) {
+	public void createCiscoCMTSTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createCiscoCMTSRootTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -125,8 +123,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	public void createCiscoCMTSIPMACTable(DBManager conn, String tablename,String ipstr, String tablestr) {
+
+	public void createCiscoCMTSIPMACTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createCiscoCMTSIPMACRootTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -135,8 +134,9 @@ public class CreateTableManager {
 			// conn.close();
 		}
 	}
-	
-	public void createInformixLogTable(DBManager conn, String tablename,String ipstr, String tablestr) {
+
+	public void createInformixLogTable(DBManager conn, String tablename,
+			String ipstr, String tablestr) {
 		try {
 			createInformixLogRootTable(conn, tablename, ipstr);
 		} catch (Exception ex) {
@@ -181,7 +181,7 @@ public class CreateTableManager {
 			String tablestr) {
 		try {
 			dropRootTable(conn, tablename, ipstr);
-//			System.out.println("CreateTableManager.java-------160hang----->>>>"+tablename+ipstr);
+			// System.out.println("CreateTableManager.java-------160hang----->>>>"+tablename+ipstr);
 		} catch (Exception ex) {
 		} finally {
 		}
@@ -190,44 +190,45 @@ public class CreateTableManager {
 	public void createSyslogRootTable(DBManager conn, String tablename,
 			String ipstr) {
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			sql = "create table "
-				+ tablename
-				+ ipstr
-				+ "(ID bigint(20) not null auto_increment,IPADDRESS VARCHAR(30),hostname VARCHAR(20),message VARCHAR(2500),"
-				+ "facility bigint(10),priority bigint(10),priorityName VARCHAR(100),facilityName VARCHAR(60),"
-				+ "processId bigint(10),processName VARCHAR(100),processIdStr VARCHAR(30),"
-				+ "recordtime timestamp,username VARCHAR(100),eventid bigint(10), PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			sql="create table "+tablename+ipstr
-		 	+"(ID number(20) not null,IPADDRESS VARCHAR2(20),hostname VARCHAR2(100),message VARCHAR2(4000),"
-		 	+"facility number(10),priority number(10),priorityName VARCHAR2(100),facilityName VARCHAR2(60),"
-		 	+"processId number(10),processName VARCHAR2(100),processIdStr VARCHAR2(30),"
-		 	+"recordtime date,username VARCHAR2(100),eventid number(10), PRIMARY KEY  (ID)) ";	 
+					+ tablename
+					+ ipstr
+					+ "(ID bigint(20) not null auto_increment,IPADDRESS VARCHAR(30),hostname VARCHAR(20),message VARCHAR(2500),"
+					+ "facility bigint(10),priority bigint(10),priorityName VARCHAR(100),facilityName VARCHAR(60),"
+					+ "processId bigint(10),processName VARCHAR(100),processIdStr VARCHAR(30),"
+					+ "recordtime timestamp,username VARCHAR(100),eventid bigint(10), PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ "(ID number(20) not null,IPADDRESS VARCHAR2(20),hostname VARCHAR2(100),message VARCHAR2(4000),"
+					+ "facility number(10),priority number(10),priorityName VARCHAR2(100),facilityName VARCHAR2(60),"
+					+ "processId number(10),processName VARCHAR2(100),processIdStr VARCHAR2(30),"
+					+ "recordtime date,username VARCHAR2(100),eventid number(10), PRIMARY KEY  (ID)) ";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			try {
 				conn.rollback();
 			} catch (Exception ex) {
-
 			}
-
 		} finally {
 		}
 	}
 
 	public void createRootTable(DBManager conn, String tablename, String ipstr) {
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
-			//mysql
+		if (SystemConstant.getDBType().equals("mysql")) {
+			// mysql
 			if (tablename.indexOf("hour") >= 0) {
 				// 创建小时表格
 				sql = "create table "
@@ -258,8 +259,7 @@ public class CreateTableManager {
 						+ ipstr
 						+ "(ID bigint(20) not null auto_increment,IPADDRESS VARCHAR(30),name varchar(200),swid varchar(100),"
 						+ "type varchar(100),insdate varchar(100),PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
-			} 
-			else {
+			} else {
 				// 创建按分钟采集数据的表
 				sql = "create table "
 						+ tablename
@@ -268,44 +268,55 @@ public class CreateTableManager {
 						+ "THEVALUE    VARCHAR(255),COLLECTTIME timestamp,UNIT VARCHAR(30),COUNT bigint(20),BAK VARCHAR(100),CHNAME VARCHAR(100),"
 						+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
 			}
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			
-			if (tablename.indexOf("hour")>=0){
-		 		//创建小时表格
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1/24,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}else if (tablename.indexOf("day")>=0){
-		 		//创建天的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	} else if (tablename.indexOf("utilhdx") >= 0) {
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			if (tablename.indexOf("hour") >= 0) {
+				// 创建小时表格
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1/24,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			} else if (tablename.indexOf("day") >= 0) {
 				// 创建天的表
-		 		sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-			}else if (tablename.indexOf("software")>=0){
-			 		sql="CREATE TABLE "+tablename+ipstr
-			 		+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),name VARCHAR2(200),swid VARCHAR2(100),"
-			 		+"type VARCHAR2(100),insdate VARCHAR2(100),PRIMARY KEY  (ID)) ";
-		 	}else{
-		 		//创建按分钟采集数据的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE    VARCHAR2(255),COLLECTTIME date,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			} else if (tablename.indexOf("utilhdx") >= 0) {
+				// 创建天的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			} else if (tablename.indexOf("software") >= 0) {
+				sql = "CREATE TABLE "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),name VARCHAR2(200),swid VARCHAR2(100),"
+						+ "type VARCHAR2(100),insdate VARCHAR2(100),PRIMARY KEY  (ID)) ";
+			} else {
+				// 创建按分钟采集数据的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE    VARCHAR2(255),COLLECTTIME date,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			}
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -317,17 +328,11 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	
-	
-	
-	
-	
 
 	public void createBNodeRootTable(DBManager conn, String tablename,
 			String ipstr) {
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			if (tablename.indexOf("hour") >= 0) {
 				// 创建小时表格
 				sql = "create table "
@@ -350,30 +355,37 @@ public class CreateTableManager {
 						+ "(ID bigint(20) not null auto_increment,THEVALUE VARCHAR(255),RESPONSETIME VARCHAR(100),COLLECTTIME timestamp, "
 						+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
 			}
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			if (tablename.indexOf("hour")>=0){
-		 		//创建小时表格
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date default sysdate-1/24, "
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}else if (tablename.indexOf("day")>=0){
-		 		//创建天的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date default sysdate-1, "
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}else{
-		 		//创建按分钟采集数据的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date, "
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			if (tablename.indexOf("hour") >= 0) {
+				// 创建小时表格
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date default sysdate-1/24, "
+						+ " PRIMARY KEY  (ID)) ";
+			} else if (tablename.indexOf("day") >= 0) {
+				// 创建天的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date default sysdate-1, "
+						+ " PRIMARY KEY  (ID)) ";
+			} else {
+				// 创建按分钟采集数据的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,THEVALUE VARCHAR2(255),RESPONSETIME VARCHAR2(100),COLLECTTIME date, "
+						+ " PRIMARY KEY  (ID)) ";
+			}
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -390,7 +402,7 @@ public class CreateTableManager {
 			String ipstr) {
 		PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			if (tablename.indexOf("hour") >= 0) {
 				// 创建小时表格
 				sql = "create table "
@@ -417,33 +429,40 @@ public class CreateTableManager {
 						+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
 			}
 
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			if (tablename.indexOf("hour")>=0){
-		 		//创建小时表格
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1/24,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}else if (tablename.indexOf("day")>=0){
-		 		//创建天的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}else{
-		 		//创建按分钟采集数据的表
-			 	sql="create table "+tablename+ipstr
-			 	+"(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
-			 	+"THEVALUE    VARCHAR2(255),COLLECTTIME date,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
-			 	+" PRIMARY KEY  (ID)) ";
-		 	}
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			if (tablename.indexOf("hour") >= 0) {
+				// 创建小时表格
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1/24,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			} else if (tablename.indexOf("day") >= 0) {
+				// 创建天的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE VARCHAR2(255),COLLECTTIME date default sysdate-1,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			} else {
+				// 创建按分钟采集数据的表
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ "(ID number(20) not null ,IPADDRESS VARCHAR2(30),RESTYPE VARCHAR2(20),CATEGORY VARCHAR2(50),ENTITY VARCHAR2(100),SUBENTITY VARCHAR2(60),"
+						+ "THEVALUE    VARCHAR2(255),COLLECTTIME date,UNIT VARCHAR2(30),COUNT number(20),BAK VARCHAR2(100),CHNAME VARCHAR2(100),"
+						+ " PRIMARY KEY  (ID)) ";
+			}
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -461,7 +480,7 @@ public class CreateTableManager {
 		PreparedStatement stmt = null;
 		String sql = "";
 		// 创建按分钟采集数据的表
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			// 创建按分钟采集数据的表
 			sql = "create table "
 					+ tablename
@@ -469,19 +488,21 @@ public class CreateTableManager {
 					+ "(ID bigint(20) not null auto_increment,DBNODEID VARCHAR(30),DETAIL VARCHAR(500),"
 					+ "COLLECTTIME timestamp,"
 					+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			//创建按分钟采集数据的表
-		 	sql="create table "+tablename+ipstr
-		 	+"(ID number(20) not null ,DBNODEID VARCHAR2(30),DETAIL VARCHAR2(500),"
-		 	+"COLLECTTIME date,"
-		 	+" PRIMARY KEY  (ID))";	
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			// 创建按分钟采集数据的表
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ "(ID number(20) not null ,DBNODEID VARCHAR2(30),DETAIL VARCHAR2(500),"
+					+ "COLLECTTIME date," + " PRIMARY KEY  (ID))";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -493,11 +514,12 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	public void createCiscoCMTSRootTable(DBManager conn, String tablename,String ipstr) {
+
+	public void createCiscoCMTSRootTable(DBManager conn, String tablename,
+			String ipstr) {
 		String sql = "";
 		// 创建按分钟采集数据信噪比的表
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			// 创建按分钟采集数据的表
 			sql = "create table "
 					+ tablename
@@ -506,20 +528,22 @@ public class CreateTableManager {
 					+ "UpChannel int(11),DownChannel int(11),channledirect int(1),thevalue int(10),"
 					+ "COLLECTTIME timestamp,"
 					+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			//创建按分钟采集数据的表
-		 	sql="create table "+tablename+ipstr
-		 	+"(ID number(11) not null ,channelid number(11),userindex number(11),"
-		 	+" UpChannel number(11),DownChannel number(11),channledirect number(1),thevalue number(10)"
-		 	+"COLLECTTIME date,"
-		 	+" PRIMARY KEY  (ID))";	
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			// 创建按分钟采集数据的表
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ "(ID number(11) not null ,channelid number(11),userindex number(11),"
+					+ " UpChannel number(11),DownChannel number(11),channledirect number(1),thevalue number(10)"
+					+ "COLLECTTIME date," + " PRIMARY KEY  (ID))";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -531,11 +555,12 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	public void createCiscoCMTSIPMACRootTable(DBManager conn, String tablename,String ipstr) {
+
+	public void createCiscoCMTSIPMACRootTable(DBManager conn, String tablename,
+			String ipstr) {
 		String sql = "";
 		// 创建按分钟采集数据信噪比的表
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			// 创建按分钟采集数据的表
 			sql = "create table "
 					+ tablename
@@ -544,20 +569,22 @@ public class CreateTableManager {
 					+ "status int(1),"
 					+ "COLLECTTIME timestamp,"
 					+ " PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			//创建按分钟采集数据的表
-		 	sql="create table "+tablename+ipstr
-		 	+"(ID number(11) not null ,ipaddress VARCHAR2(15),mac VARCHAR2(11),"
-		 	+" status number(11)"
-		 	+"COLLECTTIME date,"
-		 	+" PRIMARY KEY  (ID))";	
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+			// 创建按分钟采集数据的表
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ "(ID number(11) not null ,ipaddress VARCHAR2(15),mac VARCHAR2(11),"
+					+ " status number(11)" + "COLLECTTIME date,"
+					+ " PRIMARY KEY  (ID))";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -572,9 +599,9 @@ public class CreateTableManager {
 
 	public void dropRootTable(DBManager conn, String tablename, String ipstr) {
 		String sql = "";
-		if(SystemConstant.DBType.equals("mysql")){
+		if (SystemConstant.DBType.equals("mysql")) {
 			sql = "drop table if exists " + tablename + ipstr;
-		}else if(SystemConstant.DBType.equals("oracle")){
+		} else if (SystemConstant.DBType.equals("oracle")) {
 			sql = "drop table " + tablename + ipstr;
 			CreateTableManager.dropSeqOrcl(conn, tablename, ipstr);
 		}
@@ -600,11 +627,11 @@ public class CreateTableManager {
 		indexstr = "create index " + tname + ipstr + indexsub + " on "
 				+ tablename + ipstr + " (" + fieldname
 				+ ") tablespace DHCC_ITTABSPACE";
-		//System.out.println(indexstr);
+		// System.out.println(indexstr);
 		try {
-//			stmt = con.prepareStatement(indexstr);
-//			stmt.execute();
-//			stmt.close();
+			// stmt = con.prepareStatement(indexstr);
+			// stmt.execute();
+			// stmt.close();
 			con.executeUpdate(indexstr);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -616,8 +643,8 @@ public class CreateTableManager {
 			}
 		} finally {
 			try {
-//				if (stmt != null)
-//					stmt.close();
+				// if (stmt != null)
+				// stmt.close();
 			} catch (Exception e) {
 
 			}
@@ -631,11 +658,11 @@ public class CreateTableManager {
 				+ "_"
 				+ ipstr
 				+ "SEQ minvalue 1 maxvalue 999999999999999999999999999 start with 1 increment by 1 cache 10";
-		//System.out.println(createSeqStr);
+		// System.out.println(createSeqStr);
 		try {
-//			stmt = con.prepareStatement(createSeqStr);
-//			stmt.execute();
-//			stmt.close();
+			// stmt = con.prepareStatement(createSeqStr);
+			// stmt.execute();
+			// stmt.close();
 			con.executeUpdate(createSeqStr);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -665,7 +692,7 @@ public class CreateTableManager {
 
 	public void createTriger(DBManager con, String tablestr, String ipstr,
 			String tablename) {
-//		PreparedStatement stmt = null;
+		// PreparedStatement stmt = null;
 		String trigerstr = "";
 		trigerstr = "create or replace trigger " + tablestr + ipstr
 				+ "id before insert on " + tablename + ipstr
@@ -674,9 +701,9 @@ public class CreateTableManager {
 				+ "SEQ.nextval into :new.id from dual; end;";
 		System.out.println(trigerstr);
 		try {
-//			stmt = con.prepareStatement(trigerstr);
-//			stmt.execute();
-//			stmt.close();
+			// stmt = con.prepareStatement(trigerstr);
+			// stmt.execute();
+			// stmt.close();
 			con.executeUpdate(trigerstr);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -688,8 +715,8 @@ public class CreateTableManager {
 			}
 		} finally {
 			try {
-//				if (stmt != null)
-//					stmt.close();
+				// if (stmt != null)
+				// stmt.close();
 			} catch (Exception e) {
 
 			}
@@ -726,7 +753,7 @@ public class CreateTableManager {
 	public void createWasRootTable(DBManager conn, String tablename,
 			String ipstr) {
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			if (tablename.indexOf("system") >= 0) {
 				sql = "create table "
 						+ tablename
@@ -789,7 +816,7 @@ public class CreateTableManager {
 				// }
 				// System.out.println(sql);
 			}
-		}else if(SystemConstant.getDBType().equals("oracle")){
+		} else if (SystemConstant.getDBType().equals("oracle")) {
 			if (tablename.indexOf("system") >= 0) {
 				sql = "create table "
 						+ tablename
@@ -853,14 +880,15 @@ public class CreateTableManager {
 						+ "localActiveCount VARCHAR2(20),localBegunCount VARCHAR2(20),localRolledbackCount VARCHAR2(20),localTimeoutCount VARCHAR2(20),localTranTime VARCHAR2(20),"
 						+ "rolledbackCount VARCHAR2(20),recordtime date default sysdate-1,PRIMARY KEY  (ID))";
 				// }
-				 System.out.println(sql);
+				System.out.println(sql);
 			}
 		}
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -877,7 +905,7 @@ public class CreateTableManager {
 	public void createTelnetTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 			if (tablename.indexOf("baseinfo") >= 0) {
 
 				sql = "create table "
@@ -905,7 +933,7 @@ public class CreateTableManager {
 						+ "outputMax  bigint(11) DEFAULT NULL,outputDrops  bigint(11) DEFAULT NULL,outputThreshold  bigint(11) DEFAULT NULL,"
 						+ "availBandwidth bigint(11) DEFAULT NULL,collecttime timestamp NULL DEFAULT NULL,PRIMARY KEY  (ID)) ENGINE=InnoDB DEFAULT CHARSET=gb2312";
 			}
-		}else if(SystemConstant.getDBType().equals("oracle")){
+		} else if (SystemConstant.getDBType().equals("oracle")) {
 			if (tablename.indexOf("baseinfo") >= 0) {
 
 				sql = "create table "
@@ -938,9 +966,10 @@ public class CreateTableManager {
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -974,7 +1003,7 @@ public class CreateTableManager {
 					for (String tableName : tableNames) {
 						String sql = "delete from " + tableName
 								+ " where nodeid='" + id + "'";
-						
+
 						dbmanager.addBatch(sql);
 					}
 				}
@@ -1021,140 +1050,152 @@ public class CreateTableManager {
 		}
 		return true;
 	}
-	
+
 	/**
 	 * 删除Oracle的主键自增长的方法
+	 * 
 	 * @param con
 	 * @param tablestr
 	 * @param ipstr
 	 */
-	 public static void dropSeqOrcl(DBManager conn,String tablestr,String ipstr){
-		 	String createSeqStr="";
-		 	createSeqStr="drop sequence "+tablestr+"_"+ipstr+"_SEQ";
-		 	try{
-		 		
-//		 		System.out.println("CreateTableManager------984---------->"+tablestr);
-		 		conn.executeUpdate(createSeqStr);
-		 	}catch(Exception e){
-		 		e.printStackTrace();
-		 		try{		 			
-		 			//con.rollback();
-		 			//DataGate.freeCon(con);		 			
-		 		}catch(Exception ex){
-		 			
-		 		}
-		 		
-		 	}finally{
-		 	}		 	
-		 	
-		 }
-	 /**
-		 * 新加的方法，Oracle实现主键自增长的方法
-		 * @param con
-		 * @param tablestr
-		 * @param ipstr
-		 */
-		public static void createSeqOrcl(DBManager conn,String tablestr,String ipstr){
-		 	String createSeqStr="";
-		 	createSeqStr="create sequence "+tablestr+"_"+ipstr+"_SEQ minvalue 1 maxvalue 999999999999999999999999999 start with 1 increment by 1 cache 10";
-		 	try{
-		 		conn.executeUpdate(createSeqStr);
-		 	}catch(Exception e){
-		 		e.printStackTrace();
-		 		try{		 			
-		 			//con.rollback();
-		 			//DataGate.freeCon(con);		 			
-		 		}catch(Exception ex){
-		 			
-		 		}
-		 		
-		 	}finally{
-		 		
-		 	}
-		 }
-		/**
-		 * 创建Oracle的触发器
-		 * @param con
-		 * @param tablestr
-		 * @param ipstr
-		 * @param tablename
-		 */
+	public static void dropSeqOrcl(DBManager conn, String tablestr, String ipstr) {
+		String createSeqStr = "";
+		createSeqStr = "drop sequence " + tablestr + "_" + ipstr + "_SEQ";
+		try {
 
-		public static void createTrigerOrcl(DBManager conn,String tablestr,String ipstr,String tablename){
-		 	PreparedStatement stmt = null;
-		 	String trigerstr="";
-		 	trigerstr="create or replace trigger "+tablestr+ipstr+"id before insert on "+tablestr+ipstr+" for each row when (new.id is null) begin "
-					+" select "+tablestr+"_"+ipstr+"_SEQ.nextval into :new.id from dual; end ;";
-		 	try{
-		 		conn.executeUpdate(trigerstr);
-		 	}catch(Exception e){
-		 		e.printStackTrace();
-		 		try{		 			
-		 			//con.rollback();
-		 			//DataGate.freeCon(con);		 			
-		 		}catch(Exception ex){
-		 			
-		 		}		 		
-		 	}finally{
-		 		try{
-		 			if (stmt != null)stmt.close();
-		 		}catch(Exception e){
-		 			
-		 		}
-		 	}		 	
-      }
-	
+			// System.out.println("CreateTableManager------984---------->"+tablestr);
+			conn.executeUpdate(createSeqStr);
+		} catch (Exception e) {
+			e.printStackTrace();
+			try {
+				// con.rollback();
+				// DataGate.freeCon(con);
+			} catch (Exception ex) {
+
+			}
+
+		} finally {
+		}
+
+	}
+
+	/**
+	 * 新加的方法，Oracle实现主键自增长的方法
+	 * 
+	 * @param con
+	 * @param tablestr
+	 * @param ipstr
+	 */
+	public static void createSeqOrcl(DBManager conn, String tablestr,
+			String ipstr) {
+		String createSeqStr = "";
+		createSeqStr = "create sequence "
+				+ tablestr
+				+ "_"
+				+ ipstr
+				+ "_SEQ minvalue 1 maxvalue 999999999999999999999999999 start with 1 increment by 1 cache 10";
+		try {
+			conn.executeUpdate(createSeqStr);
+		} catch (Exception e) {
+			e.printStackTrace();
+			try {
+				// con.rollback();
+				// DataGate.freeCon(con);
+			} catch (Exception ex) {
+
+			}
+
+		} finally {
+
+		}
+	}
+
+	/**
+	 * 创建Oracle的触发器
+	 * 
+	 * @param con
+	 * @param tablestr
+	 * @param ipstr
+	 * @param tablename
+	 */
+
+	public static void createTrigerOrcl(DBManager conn, String tablestr,
+			String ipstr, String tablename) {
+		PreparedStatement stmt = null;
+		String trigerstr = "";
+		trigerstr = "create or replace trigger " + tablestr + ipstr
+				+ "id before insert on " + tablestr + ipstr
+				+ " for each row when (new.id is null) begin " + " select "
+				+ tablestr + "_" + ipstr
+				+ "_SEQ.nextval into :new.id from dual; end ;";
+		try {
+			conn.executeUpdate(trigerstr);
+		} catch (Exception e) {
+			e.printStackTrace();
+			try {
+				// con.rollback();
+				// DataGate.freeCon(con);
+			} catch (Exception ex) {
+
+			}
+		} finally {
+			try {
+				if (stmt != null)
+					stmt.close();
+			} catch (Exception e) {
+
+			}
+		}
+	}
 
 	public static void main(String[] args) {
 		// PingUtil pingU=new PingUtil("10.40.30.133");
 		// Integer[] packet=pingU.ping();
 		// pingU.addhis(packet);
 	}
-	
+
 	public void createVMhostTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						+ " (id bigint(20) NOT NULL auto_increment," +
-								"hostid varchar(100) default NULL," +
-								"cpu varchar(100) default NULL," +
-								"cpuuse varchar(50) default NULL," +
-								"collecttime timestamp NULL default NULL," +
-								"meminc varchar(50) default NULL," +
-								"memin varchar(50) default NULL," +
-								"memout varchar(50) default NULL," +
-								"mem varchar(50) default NULL,disk varchar(50) default NULL," +
-								"PRIMARY KEY  (id)) " +
-								"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ " (id bigint(20) NOT NULL auto_increment,"
+					+ "hostid varchar(100) default NULL,"
+					+ "cpu varchar(100) default NULL,"
+					+ "cpuuse varchar(50) default NULL,"
+					+ "collecttime timestamp NULL default NULL,"
+					+ "meminc varchar(50) default NULL,"
+					+ "memin varchar(50) default NULL,"
+					+ "memout varchar(50) default NULL,"
+					+ "mem varchar(50) default NULL,disk varchar(50) default NULL,"
+					+ "PRIMARY KEY  (id)) "
+					+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-				+ " (id number(20) NOT NULL ," +
-				"hostid varchar2(100) default NULL," +
-				"cpu varchar2(100) default NULL," +
-				"cpuuse varchar2(50) default NULL," +
-				"collecttime date default sysdate-1 NULL DEFAULT NULL," +
-				"meminc varchar2(50) default NULL," +
-				"memin varchar2(50) default NULL," +
-				"memout varchar2(50) default NULL," +
-				"mem varchar2(50) default NULL," +
-				"disk varchar2(50) default NULL," +
-				"PRIMARY KEY  (id)) " ;
-			
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			sql = "create table " + tablename + ipstr
+					+ " (id number(20) NOT NULL ,"
+					+ "hostid varchar2(100) default NULL,"
+					+ "cpu varchar2(100) default NULL,"
+					+ "cpuuse varchar2(50) default NULL,"
+					+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+					+ "meminc varchar2(50) default NULL,"
+					+ "memin varchar2(50) default NULL,"
+					+ "memout varchar2(50) default NULL,"
+					+ "mem varchar2(50) default NULL,"
+					+ "disk varchar2(50) default NULL," + "PRIMARY KEY  (id)) ";
+
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1166,51 +1207,53 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	public void createVMguesthostTable(DBManager conn, String tablename, String ipstr) {
+
+	public void createVMguesthostTable(DBManager conn, String tablename,
+			String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					   + " (id bigint(20) NOT NULL auto_increment," +
-					    "vid varchar(100) default NULL,"+
-						"hostid varchar(100) default NULL," +
-						"cpu varchar(100) default NULL," +
-						"cpuuse varchar(50) default NULL," +
-						"collecttime timestamp NULL default NULL," +
-						"meminc varchar(50) default NULL," +
-						"memin varchar(50) default NULL," +
-						"memout varchar(50) default NULL," +
-						"mem varchar(50) default NULL,disk varchar(50) default NULL,net varchar(50) default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ " (id bigint(20) NOT NULL auto_increment,"
+					+ "vid varchar(100) default NULL,"
+					+ "hostid varchar(100) default NULL,"
+					+ "cpu varchar(100) default NULL,"
+					+ "cpuuse varchar(50) default NULL,"
+					+ "collecttime timestamp NULL default NULL,"
+					+ "meminc varchar(50) default NULL,"
+					+ "memin varchar(50) default NULL,"
+					+ "memout varchar(50) default NULL,"
+					+ "mem varchar(50) default NULL,disk varchar(50) default NULL,net varchar(50) default NULL,"
+					+ "PRIMARY KEY  (id)) "
+					+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						+ " (id number(20) NOT NULL ," +
-						"vid varchar(100) default NULL,"+
-						"hostid varchar2(100) default NULL," +
-						"cpu varchar2(100) default NULL," +
-						"cpuuse varchar2(50) default NULL," +
-						"collecttime date default sysdate-1 NULL DEFAULT NULL," +
-						"meminc varchar2(50) default NULL," +
-						"memin varchar2(50) default NULL," +
-						"memout varchar2(50) default NULL," +
-						"mem varchar(50) default NULL,disk varchar(50) default NULL,net varchar(50) default NULL," +
-						"PRIMARY KEY  (id)) " ;
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			sql = "create table "
+					+ tablename
+					+ ipstr
+					+ " (id number(20) NOT NULL ,"
+					+ "vid varchar(100) default NULL,"
+					+ "hostid varchar2(100) default NULL,"
+					+ "cpu varchar2(100) default NULL,"
+					+ "cpuuse varchar2(50) default NULL,"
+					+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+					+ "meminc varchar2(50) default NULL,"
+					+ "memin varchar2(50) default NULL,"
+					+ "memout varchar2(50) default NULL,"
+					+ "mem varchar(50) default NULL,disk varchar(50) default NULL,net varchar(50) default NULL,"
+					+ "PRIMARY KEY  (id)) ";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1222,45 +1265,40 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	
+
 	public void createVMDSTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(20) NOT NULL auto_increment," +
-						"vid varchar(100) default NULL," +
-						"used varchar(100) default NULL," +
-						"assigned varchar(50) default NULL," +
-						"collecttime timestamp NULL default NULL," +
-						"capacity varchar(50) default NULL," +
-						"useuse varchar(50) default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+		if (SystemConstant.getDBType().equals("mysql")) {
+			sql = "create table " + tablename + ipstr
+					+ " (id bigint(20) NOT NULL auto_increment,"
+					+ "vid varchar(100) default NULL,"
+					+ "used varchar(100) default NULL,"
+					+ "assigned varchar(50) default NULL,"
+					+ "collecttime timestamp NULL default NULL,"
+					+ "capacity varchar(50) default NULL,"
+					+ "useuse varchar(50) default NULL,"
+					+ "PRIMARY KEY  (id)) "
+					+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(20) NOT NULL ," +
-							"vid varchar2(100) default NULL," +
-							"used varchar2(100) default NULL," +
-							"assigned varchar2(50) default NULL," +
-							"collecttime date default sysdate-1 NULL DEFAULT NULL," +
-							"capacity varchar2(50) default NULL," +
-							"use varchar2(50) default NULL," +
-							"PRIMARY KEY  (id)) " ;
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			sql = "create table " + tablename + ipstr
+					+ " (id number(20) NOT NULL ,"
+					+ "vid varchar2(100) default NULL,"
+					+ "used varchar2(100) default NULL,"
+					+ "assigned varchar2(50) default NULL,"
+					+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+					+ "capacity varchar2(50) default NULL,"
+					+ "use varchar2(50) default NULL," + "PRIMARY KEY  (id)) ";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1272,45 +1310,42 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
+
 	public void createVMCRTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(20) NOT NULL auto_increment," +
-						"vid varchar(100) default NULL," +
-						"cpu varchar(100) default NULL," +
-						"cputotal varchar(50) default NULL," +
-						"collecttime timestamp NULL default NULL," +
-						"mem varchar(50) default NULL," +
-						"memtotal varchar(50) default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+			sql = "create table " + tablename + ipstr
+					+ " (id bigint(20) NOT NULL auto_increment,"
+					+ "vid varchar(100) default NULL,"
+					+ "cpu varchar(100) default NULL,"
+					+ "cputotal varchar(50) default NULL,"
+					+ "collecttime timestamp NULL default NULL,"
+					+ "mem varchar(50) default NULL,"
+					+ "memtotal varchar(50) default NULL,"
+					+ "PRIMARY KEY  (id)) "
+					+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(20) NOT NULL," +
-							"vid varchar2(100) default NULL," +
-							"cpu varchar2(100) default NULL," +
-							"cputotal varchar2(50) default NULL," +
-							"collecttime date default sysdate-1 NULL DEFAULT NULL," +
-							"mem varchar2(50) default NULL," +
-							"memtotal varchar2(50) default NULL," +
-							"PRIMARY KEY  (id)) " ;
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			sql = "create table " + tablename + ipstr
+					+ " (id number(20) NOT NULL,"
+					+ "vid varchar2(100) default NULL,"
+					+ "cpu varchar2(100) default NULL,"
+					+ "cputotal varchar2(50) default NULL,"
+					+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+					+ "mem varchar2(50) default NULL,"
+					+ "memtotal varchar2(50) default NULL,"
+					+ "PRIMARY KEY  (id)) ";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1322,40 +1357,36 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	
+
 	public void createVMRPTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(20) NOT NULL auto_increment," +
-						"vid varchar(100) default NULL," +
-						"cpu varchar(100) default NULL," +
-						"collecttime timestamp NULL default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+			sql = "create table " + tablename + ipstr
+					+ " (id bigint(20) NOT NULL auto_increment,"
+					+ "vid varchar(100) default NULL,"
+					+ "cpu varchar(100) default NULL,"
+					+ "collecttime timestamp NULL default NULL,"
+					+ "PRIMARY KEY  (id)) "
+					+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(20) NOT NULL," +
-							"vid varchar2(100) default NULL," +
-							"cpu varchar2(100) default NULL," +
-							"collecttime date default sysdate-1 NULL DEFAULT NULL," +
-							"PRIMARY KEY  (id)) " ;
+		} else if (SystemConstant.getDBType().equals("oracle")) {
+
+			sql = "create table " + tablename + ipstr
+					+ " (id number(20) NOT NULL,"
+					+ "vid varchar2(100) default NULL,"
+					+ "cpu varchar2(100) default NULL,"
+					+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+					+ "PRIMARY KEY  (id)) ";
 		}
 		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1367,194 +1398,169 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	
+
 	public void createVMBaseTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-	 if(tablename.equalsIgnoreCase("vm_basephysical")){
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (tablename.equalsIgnoreCase("vm_basephysical")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"model varchar(100) default null," +
-					    		"cpunum varchar(100) default null," +
-					    		"netnum  varchar(100) default null," +
-					    		"memory varchar(100) default null," +
-					    		"ghz varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-					    		"hostpower varchar(100) default null,"+
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "model varchar(100) default null,"
+						+ "cpunum varchar(100) default null,"
+						+ "netnum  varchar(100) default null,"
+						+ "memory varchar(100) default null,"
+						+ "ghz varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "hostpower varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-				    		"name varchar2(100) default null," +
-				    		"model varchar2(100) default null," +
-				    		"cpunum varchar2(100) default null," +
-				    		"netnum  varchar2(100) default null," +
-				    		"memory varchar2(100) default null," +
-				    		"ghz varchar2(100) default null," +
-				    		"vid varchar2(100) default null," +
-				    		"hostpower varchar2(100) default null,"+
-					"PRIMARY KEY  (id)) " ;
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar2(100) default null,"
+						+ "model varchar2(100) default null,"
+						+ "cpunum varchar2(100) default null,"
+						+ "netnum  varchar2(100) default null,"
+						+ "memory varchar2(100) default null,"
+						+ "ghz varchar2(100) default null,"
+						+ "vid varchar2(100) default null,"
+						+ "hostpower varchar2(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("vm_basevmware")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "fullname varchar(100) default null,"
+						+ "cpu varchar(100) default null,"
+						+ "memoryuse  varchar(100) default null,"
+						+ "vmpower varchar(100) default null,"
+						+ "hoid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "fullname varchar(100) default null,"
+						+ "cpu varchar(100) default null,"
+						+ "memoryuse  varchar(100) default null,"
+						+ "vmpower varchar(100) default null,"
+						+ "hoid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("vm_baseresource")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "dcid varchar(100) default null,"
+						+ "crid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "dcid varchar(100) default null,"
+						+ "crid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("vm_baseyun")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "disk varchar(100) default null,"
+						+ "cpuuse varchar(100) default null,"
+						+ "hostnum varchar(100) default null,"
+						+ "mem varchar(100) default null,"
+						+ "cpunum varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "disk varchar(100) default null,"
+						+ "cpuuse varchar(100) default null,"
+						+ "hostnum varchar(100) default null,"
+						+ "mem varchar(100) default null,"
+						+ "cpunum varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("vm_basedatastore")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "store varchar(100) default null,"
+						+ "unusedstore varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "store varchar(100) default null,"
+						+ "unusedstore varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("vm_basedatacenter")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "dcid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "dcid varchar(100) default null,"
+						+ "vid varchar(100) default null,"
+						+ "PRIMARY KEY  (id)) ";
+			}
 		}
-	  }else if(tablename.equalsIgnoreCase("vm_basevmware")){
-		  if(SystemConstant.getDBType().equals("mysql")){
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"fullname varchar(100) default null," +
-					    		"cpu varchar(100) default null," +
-					    		"memoryuse  varchar(100) default null," +
-					    		"vmpower varchar(100) default null," +
-					    		"hoid varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						    "name varchar(100) default null," +
-				    		"fullname varchar(100) default null," +
-				    		"cpu varchar(100) default null," +
-				    		"memoryuse  varchar(100) default null," +
-				    		"vmpower varchar(100) default null," +
-				    		"hoid varchar(100) default null," +
-				    		"vid varchar(100) default null," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("vm_baseresource")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"dcid varchar(100) default null," +
-					    		"crid varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						    "name varchar(100) default null," +
-				    		"dcid varchar(100) default null," +
-				    		"crid varchar(100) default null," +
-				    		"vid varchar(100) default null," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("vm_baseyun")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"disk varchar(100) default null," +
-					    		"cpuuse varchar(100) default null," +
-					    		"hostnum varchar(100) default null," +
-					    		"mem varchar(100) default null," +
-					    		"cpunum varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						    "name varchar(100) default null," +
-				    		"disk varchar(100) default null," +
-				    		"cpuuse varchar(100) default null," +
-				    		"hostnum varchar(100) default null," +
-				    		"mem varchar(100) default null," +
-				    		"cpunum varchar(100) default null," +
-				    		"vid varchar(100) default null," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("vm_basedatastore")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"store varchar(100) default null," +
-					    		"unusedstore varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						    "name varchar(100) default null," +
-				    		"store varchar(100) default null," +
-				    		"unusedstore varchar(100) default null," +
-				    		"vid varchar(100) default null," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("vm_basedatacenter")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"dcid varchar(100) default null," +
-					    		"vid varchar(100) default null," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						    "name varchar(100) default null," +
-				    		"dcid varchar(100) default null," +
-				    		"vid varchar(100) default null," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }
-	 
-	 
-	    SysLogger.info(sql);
+		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1567,182 +1573,171 @@ public class CreateTableManager {
 		}
 	}
 
-	
-	
 	public void createEmcTable(DBManager conn, String tablename, String ipstr) {
 		// PreparedStatement stmt = null;
 		String sql = "";
-		if(ipstr.contains(".")){
+		if (ipstr.contains(".")) {
 			ipstr = ipstr.replace(".", "_");
 		}
-	 if(tablename.equalsIgnoreCase("emcDiskPer")){
-		if(SystemConstant.getDBType().equals("mysql")){
+		if (tablename.equalsIgnoreCase("emcDiskPer")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment," +
-					    		"serialnumber varchar(100) default null," +
-					     "numberofreads varchar(100) default null," +
-					     "numberofwrites varchar(100) default null," +
-					     "softreaderrors varchar(100) default null," +
-					     "softwriteerrors varchar(100) default null," +
-					     "kbytesread varchar(100) default null," +
-					     "kbyteswritten varchar(100) default null," +
-					     "idleticks varchar(100) default null," +
-					     "busyticks varchar(100) default null," +
-					     "hardreaderrors varchar(100) default null," +
-					     "hardwritererrors varchar(100) default null," +
-					     "collecttime timestamp NULL default NULL," +
-					     "primary key(id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-			
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						  + " (id bigint(11) not null auto_increment," +
-				    		"serialnumber varchar(100) default null," +
-				     "numberofreads varchar(100) default null," +
-				     "numberofwrites varchar(100) default null," +
-				     "softreaderrors varchar(100) default null," +
-				     "softwriteerrors varchar(100) default null," +
-				     "kbytesread varchar(100) default null," +
-				     "kbyteswritten varchar(100) default null," +
-				     "idleticks varchar(100) default null," +
-				     "busyticks varchar(100) default null," +
-				     "hardreaderrors varchar(100) default null," +
-				     "hardwritererrors varchar(100) default null," +
-				     "collecttime date default sysdate-1 NULL DEFAULT NULL," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("emcLunPer")){
-		  if(SystemConstant.getDBType().equals("mysql")){
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment,"
+						+ "serialnumber varchar(100) default null,"
+						+ "numberofreads varchar(100) default null,"
+						+ "numberofwrites varchar(100) default null,"
+						+ "softreaderrors varchar(100) default null,"
+						+ "softwriteerrors varchar(100) default null,"
+						+ "kbytesread varchar(100) default null,"
+						+ "kbyteswritten varchar(100) default null,"
+						+ "idleticks varchar(100) default null,"
+						+ "busyticks varchar(100) default null,"
+						+ "hardreaderrors varchar(100) default null,"
+						+ "hardwritererrors varchar(100) default null,"
+						+ "collecttime timestamp NULL default NULL,"
+						+ "primary key(id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
 
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"totalharderrors varchar(100) default null," +
-					    		"totalsofterrors varchar(100) default null," +
-					    		"totalqueuelength  varchar(100) default null," +
-					    		"collecttime timestamp NULL default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
+			} else if (SystemConstant.getDBType().equals("oracle")) {
 
 				sql = "create table "
 						+ tablename
 						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						 "name varchar(100) default null," +
-				    		"totalharderrors varchar(100) default null," +
-				    		"totalsofterrors varchar(100) default null," +
-				    		"totalqueuelength  varchar(100) default null," +
-				    		 "collecttime date default sysdate-1 NULL DEFAULT NULL," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("emcenvpower")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					            "name varchar(100) default null," +
-					    		"state varchar(100) default null," +
-					    		"presentwatts varchar(100) default null," +
-					    		"averagewatts varchar(100) default null," +
-					    		"collecttime timestamp NULL default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						 "name varchar2(100) default null," +
-						 "state varchar2(100) default null," +
-				    		"presentwatts varchar2(100) default null," +
-				    		"averagewatts varchar2(100) default null," +
-				    		 "collecttime date default sysdate-1 NULL DEFAULT NULL," +
-					"PRIMARY KEY  (id)) " ;
-		}
-	  }else if(tablename.equalsIgnoreCase("emcenvstore")){
-		  if(SystemConstant.getDBType().equals("mysql")){
-
-				sql = "create table "
-					    + tablename
-					    + ipstr
-					    + " (id bigint(11) not null auto_increment ," +
-					    		"name varchar(100) default null," +
-					    		"AirStatus varchar(100) default null," +
-					    		"PresentDegree varchar(100) default null," +
-					    		"AverageDegree varchar(100) default null," +
-					    		"PowerStatus varchar(100) default null," +
-					    		"PresentWatts varchar(100) default null," +
-					    		"AverageWatts varchar(100) default null," +
-					    		"collecttime timestamp NULL default NULL," +
-						"PRIMARY KEY  (id)) " +
-						"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-			
-		}else if(SystemConstant.getDBType().equals("oracle")){
-
-				sql = "create table "
-						+ tablename
-						+ ipstr
-						 + " (id number(11) not null auto_increment ," +
-						 "name varchar(100) default null," +
-				    		"AirStatus varchar(100) default null," +
-				    		"PresentDegree varchar(100) default null," +
-				    		"AverageDegree varchar(100) default null," +
-				    		"PowerStatus varchar(100) default null," +
-				    		"PresentWatts varchar(100) default null," +
-				    		"AverageWatts varchar(100) default null," +
-				    		 "collecttime date default sysdate-1 NULL DEFAULT NULL," +
-					"PRIMARY KEY  (id)) " ;
-		}
-		}else if(tablename.equalsIgnoreCase("emcbakpower")){
-			  if(SystemConstant.getDBType().equals("mysql")){
-
-					sql = "create table "
-						    + tablename
-						    + ipstr
-						    + " (id bigint(11) not null auto_increment ," +
-						    		"name varchar(100) default null," +
-						    		"PowerStatus varchar(100) default null," +
-						    		"PresentWatts varchar(100) default null," +
-						    		"AverageWatts varchar(100) default null," +
-						    		"collecttime timestamp NULL default NULL," +
-							"PRIMARY KEY  (id)) " +
-							"ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
-				
-			}else if(SystemConstant.getDBType().equals("oracle")){
-
-					sql = "create table "
-							+ tablename
-							+ ipstr
-							 + " (id number(11) not null auto_increment ," +
-							    "name varchar(100) default null," +
-					    		"PowerStatus varchar(100) default null," +
-					    		"PresentWatts varchar(100) default null," +
-					    		"AverageWatts varchar(100) default null," +
-					    		 "collecttime date default sysdate-1 NULL DEFAULT NULL," +
-						"PRIMARY KEY  (id)) " ;
+						+ " (id bigint(11) not null auto_increment,"
+						+ "serialnumber varchar(100) default null,"
+						+ "numberofreads varchar(100) default null,"
+						+ "numberofwrites varchar(100) default null,"
+						+ "softreaderrors varchar(100) default null,"
+						+ "softwriteerrors varchar(100) default null,"
+						+ "kbytesread varchar(100) default null,"
+						+ "kbyteswritten varchar(100) default null,"
+						+ "idleticks varchar(100) default null,"
+						+ "busyticks varchar(100) default null,"
+						+ "hardreaderrors varchar(100) default null,"
+						+ "hardwritererrors varchar(100) default null,"
+						+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+						+ "PRIMARY KEY  (id)) ";
 			}
-	 
+		} else if (tablename.equalsIgnoreCase("emcLunPer")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "totalharderrors varchar(100) default null,"
+						+ "totalsofterrors varchar(100) default null,"
+						+ "totalqueuelength  varchar(100) default null,"
+						+ "collecttime timestamp NULL default NULL,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "totalharderrors varchar(100) default null,"
+						+ "totalsofterrors varchar(100) default null,"
+						+ "totalqueuelength  varchar(100) default null,"
+						+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("emcenvpower")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "state varchar(100) default null,"
+						+ "presentwatts varchar(100) default null,"
+						+ "averagewatts varchar(100) default null,"
+						+ "collecttime timestamp NULL default NULL,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar2(100) default null,"
+						+ "state varchar2(100) default null,"
+						+ "presentwatts varchar2(100) default null,"
+						+ "averagewatts varchar2(100) default null,"
+						+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("emcenvstore")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "AirStatus varchar(100) default null,"
+						+ "PresentDegree varchar(100) default null,"
+						+ "AverageDegree varchar(100) default null,"
+						+ "PowerStatus varchar(100) default null,"
+						+ "PresentWatts varchar(100) default null,"
+						+ "AverageWatts varchar(100) default null,"
+						+ "collecttime timestamp NULL default NULL,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "AirStatus varchar(100) default null,"
+						+ "PresentDegree varchar(100) default null,"
+						+ "AverageDegree varchar(100) default null,"
+						+ "PowerStatus varchar(100) default null,"
+						+ "PresentWatts varchar(100) default null,"
+						+ "AverageWatts varchar(100) default null,"
+						+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+		} else if (tablename.equalsIgnoreCase("emcbakpower")) {
+			if (SystemConstant.getDBType().equals("mysql")) {
+
+				sql = "create table " + tablename + ipstr
+						+ " (id bigint(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "PowerStatus varchar(100) default null,"
+						+ "PresentWatts varchar(100) default null,"
+						+ "AverageWatts varchar(100) default null,"
+						+ "collecttime timestamp NULL default NULL,"
+						+ "PRIMARY KEY  (id)) "
+						+ "ENGINE=InnoDB DEFAULT CHARSET=gb2312;";
+
+			} else if (SystemConstant.getDBType().equals("oracle")) {
+
+				sql = "create table "
+						+ tablename
+						+ ipstr
+						+ " (id number(11) not null auto_increment ,"
+						+ "name varchar(100) default null,"
+						+ "PowerStatus varchar(100) default null,"
+						+ "PresentWatts varchar(100) default null,"
+						+ "AverageWatts varchar(100) default null,"
+						+ "collecttime date default sysdate-1 NULL DEFAULT NULL,"
+						+ "PRIMARY KEY  (id)) ";
+			}
+
 		}
-	    SysLogger.info(sql);
+		SysLogger.info(sql);
 		try {
 			conn.executeUpdate(sql);
-			if(SystemConstant.DBType.equals("oracle")){
+			if (SystemConstant.DBType.equals("oracle")) {
 				CreateTableManager.createSeqOrcl(conn, tablename, ipstr);
-				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr, tablename);
+				CreateTableManager.createTrigerOrcl(conn, tablename, ipstr,
+						tablename);
 			}
 		} catch (Exception e) {
 			try {
@@ -1754,10 +1749,5 @@ public class CreateTableManager {
 		} finally {
 		}
 	}
-	
-	
-	
-	
-	
-	
+
 }

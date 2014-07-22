@@ -1,6 +1,6 @@
+<!-- 功能：增加Tomcat页面 -->
 <%@page language="java" contentType="text/html;charset=gbk"%>
 <%@ include file="/include/globe.inc"%>
-
 <%@page import="java.util.List"%>
 <%@page import="com.afunms.system.util.UserView"%>
 <%@page import="com.afunms.system.model.TimeShareConfig"%>
