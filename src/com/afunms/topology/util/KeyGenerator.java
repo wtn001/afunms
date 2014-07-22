@@ -11,7 +11,11 @@ package com.afunms.topology.util;
 import java.sql.ResultSet;
 
 import com.afunms.common.util.DBManager;
-
+/**
+ * 功能：增加设备或应用等时，生成int型键值
+ * @author Administrator
+ *
+ */
 public class KeyGenerator
 {
    private static KeyGenerator keygen = new KeyGenerator();  

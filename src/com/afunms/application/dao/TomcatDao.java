@@ -432,7 +432,6 @@ public class TomcatDao extends BaseDao implements DaoInterface {
 				id = rSet.getInt(1);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			if (rSet != null) {
@@ -507,7 +506,6 @@ public class TomcatDao extends BaseDao implements DaoInterface {
 				list.add(_tomcat);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {

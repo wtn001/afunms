@@ -6,7 +6,7 @@ public class User extends BaseVo
 {
     private int id;  //主键ID
     private String userid;  //用户账号
-    private String name;
+    private String name;  //姓名
     private String password;
     private int sex;
     private int role;
