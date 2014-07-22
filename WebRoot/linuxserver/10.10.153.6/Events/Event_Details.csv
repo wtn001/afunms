@@ -1,0 +1,9 @@
+Event Details
+
+Server Name: all
+Server Type: all
+Priority: all
+Category: all
+
+Event Time,Server Name,Server Type,Priority,Category,Message,Note,Annotation
+12/4/08 1:37:15 AM,p570b,Console,2,Database Backup,No backup of the NMC database has been performed,,false

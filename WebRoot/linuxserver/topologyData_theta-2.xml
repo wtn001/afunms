@@ -1,0 +1,46 @@
+<data>
+	<sgsn>
+		<group name="HZSGSN1" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6">
+			<ip>
+				<Item addr="221.145.34.89" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item addr="221.145.34.90" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</ip>
+			<lac>
+				<Item value="25432" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item value="25433" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</lac>
+		</group>
+		<group name="HZSGSN2" flow="10" PDPRate="20" BusinessRate="30" AverageRate="40" PacketLossRate="50" retransmission="60">
+			<ip>
+				<Item addr="221.145.34.91" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item addr="221.145.34.92" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</ip>
+			<lac>
+				<Item value="25434" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item value="25435" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</lac>
+		</group>
+	</sgsn>
+	<ggsn>
+		<group name="HZGGSN1" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6">
+			<ip>
+				<Item addr="221.145.34.89" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item addr="221.145.34.90" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</ip>
+			<lac>
+				<Item value="25432" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item value="25433" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</lac>
+		</group>
+		<group name="HZGGSN2" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6">
+			<ip>
+				<Item addr="221.145.34.91" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item addr="221.145.34.92" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</ip>
+			<lac>
+				<Item value="25434" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+				<Item value="25435" flow="1" PDPRate="2" BusinessRate="3" AverageRate="4" PacketLossRate="5" retransmission="6"/>
+			</lac>
+		</group>
+	</ggsn>
+</data>

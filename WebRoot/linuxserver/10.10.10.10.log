@@ -1,0 +1,1065 @@
+cmdbegin:version
+5300-10-02-0943
+cmdbegin:vmstat
+
+System configuration: lcpu=60 mem=57344MB ent=28.00
+
+kthr    memory              page              faults              cpu          
+----- ----------- ------------------------ ------------ -----------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+ 3  1 3173697 4403379   0   0   0   0    0   0 365 49642 52807  2  0 97  0  0.86   3.1
+cmdbegin:lsps
+Total Paging Space   Percent Used
+      8192MB               1%
+cmdbegin:swap
+allocated  =    2097152 blocks    used  =   6839 blocks      free  =    2090313 blocks
+cmdbegin:process
+USER         PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+daemon    692326  0.0  0.0 1388 1464      - A      Aug 26  0:00 rpc.statd
+daemon    954600  0.0  0.0 1788 2056      - A    07:30:13  0:00 sendmail
+daemon   1601672  0.0  0.0 2032 2300      - A    07:29:08  0:00 sendmail
+lsfadm    434224  0.0  0.0 8948 8864      - A      Aug 26  0:13 eauth
+lsfadm    495640  0.0  0.0 7120 6596      - A      Aug 26 14:18 mbschd
+lsfadm   1515684  0.0  0.0 5488 5096      - A      Oct 22  0:05 fod
+lsfusr    413706  0.0  0.0  624  324      - A    07:27:13  0:00 sh
+lsfusr    618516  0.0  0.0  804  300  pts/2 A    05:43:03  0:00 ksh
+lsfusr    643256  0.0  0.0  336  284      - A      Oct 19  0:00 SynShm3_FY2E
+lsfusr    655478  0.0  0.0  888  828      - A      Sep 06  6:35 DCStrsvIssr_FY2
+lsfusr    671808  0.1  0.0 1660 1268      - A      Oct 21 420:45 MasterCrl_FY2E
+lsfusr    721108  0.0  0.0  800  748      - A      Aug 26  5:55 DCSSenddata
+lsfusr    762044  0.0  0.0 4772 3764      - A      Aug 26 77:43 JSSStatusCollec
+lsfusr    765970  0.0  0.0 2968 2184      - A      Aug 26  2:34 JSSStatusCollsy
+lsfusr    798838  0.0  0.0  888  908      - A      Sep 06 37:53 DCSrCvSVSB_1_FY
+lsfusr    831710  0.1  0.0  844  788      - A      Sep 06 2278:02 DCSTrssvissr_FY
+lsfusr    856106  0.0  0.0  664  584      - A      Aug 26  0:00 DCSRecvdata
+lsfusr    860410  0.0  0.0  920  912      - A      Sep 06 31:17 DCSrcVRAWA_2_FY
+lsfusr    868420  0.0  0.0 1308 1164      - A      Aug 26  2:23 TimerCrl
+lsfusr    893174  0.0  0.0  648  564      - A      Aug 26  0:00 DCSFromocc
+lsfusr    897228  0.0  0.0  776  792      - A    07:30:29  0:00 PMSPrecedingRea
+lsfusr    917748  0.0  0.0 1272 1108      - A      Aug 26  0:00 DMFCroDaemon
+lsfusr    925928  0.1  0.0  848  792      - A      Aug 26 2781:43 FY2E_DCSTrssvis
+lsfusr    999450  0.0  0.0  924  916      - A      Sep 06 33:51 DCSrcVRAWB_1_FY
+lsfusr   1015994  0.0  0.0  884  932      - A      Oct 22  0:00 ksh
+lsfusr   1040548  0.0  0.0  704  752      - A    07:30:34  0:00 sh
+lsfusr   1081560  0.0  0.0 3784 3652      - A    07:27:08  0:00 res
+lsfusr   1085686  0.0  0.0 3620 2692      - A    07:30:29  0:00 nios
+lsfusr   1097842  0.0  0.0 3784 3652      - A    07:27:13  0:00 res
+lsfusr   1155268  0.0  0.0  880  868      - A      Sep 06 35:23 DCSrCvSVSA_2_FY
+lsfusr   1171584  0.0  0.0  956 1028      - A    06:48:43  0:00 sshd
+lsfusr   1229044  0.0  0.0  704  752      - A    07:30:50  0:00 sh
+lsfusr   1241284  0.0  0.0 4716 5760      - A    07:05:02  0:00 topas_nmon
+lsfusr   1274068  0.0  0.0  824  364      - A      Oct 22  0:00 ksh
+lsfusr   1298678  1.3  0.0 116856 116816      - A    07:30:50  0:08 SECGrid.e
+lsfusr   1335520  0.0  0.0 3784 3652      - A    07:30:34  0:00 res
+lsfusr   1355822  0.0  0.0 3620 2692      - A    07:27:08  0:00 nios
+lsfusr   1364018  0.1  0.0  852  796      - A      Oct 18 309:20 FY2E_DCSTrssvis
+lsfusr   1413264  0.0  0.0  336  352  pts/3 A    06:56:31  0:14 more
+lsfusr   1417394  0.0  0.0  688  388      - A    07:27:14  0:00 sh
+lsfusr   1421484  0.0  0.0  704  752      - A    07:30:29  0:00 sh
+lsfusr   1450032  0.0  0.0 3784 3652      - A    07:30:29  0:00 res
+lsfusr   1470536  0.0  0.0  896  944  pts/3 A    06:48:43  0:00 ksh
+lsfusr   1482808  0.0  0.0  780  320      - A      Oct 22  0:00 ksh
+lsfusr   1490946  0.0  0.0  800  848      - A      Oct 23  0:00 sh
+lsfusr   1503476  0.0  0.0  688  736      - A      Oct 21  0:00 ksh
+lsfusr   1556498  0.0  0.0  704  752      - A    07:27:08  0:00 sh
+lsfusr   1564862  1.4  3.0 1117480 1116768      - A    07:27:14  3:16 NOMAdvance_RD.e
+lsfusr   1568786  0.0  0.0 3784 3652      - A    07:30:50  0:00 res
+lsfusr   1577116  0.0  0.0  148  152  pts/2 A    07:30:59  0:00 sleep
+lsfusr   1593394  0.0  0.0 2508  960      - A    07:30:34  0:00 PMSsVissrtoCSV_
+lsfusr   1597650  0.0  0.0  688  736      - A      Oct 24  0:00 ksh
+lsfusr   1626238  0.0  0.0  776  792      - A    07:27:08  0:00 PMSPrecedingRea
+lsfusr   1634336  0.0  0.0  920  416  pts/2 A    05:43:40  0:00 ksh
+root           0  0.0  0.0  384  384      - A      Aug 26 58:44 swapper
+root           1  0.0  0.0  660  676      - A      Aug 26  6:21 init
+root        8196  0.0  0.0  384  384      - A      Aug 26 960:04 wait
+root       12294  0.0  0.0  448  448      - A      Aug 26  1:40 sched
+root       16392  0.0  0.0 1216 1216      - A      Aug 26  0:00 lrud
+root       20490  0.0  0.0  448  448      - A      Aug 26  0:00 vmptacrt
+root       24588  0.0  0.0 1216 1216      - A      Aug 26  0:02 psmd
+root       28686  0.0  0.0  512  512      - A      Aug 26  0:00 xmfreed
+root       32784  0.0  0.0  448  448      - A      Aug 26  0:00 memp_rbd
+root       36882  0.0  0.0  448  448      - A      Aug 26  0:00 memgrdd
+root       40980  0.0  0.0  448  448      - A      Aug 26  0:00 psgc
+root       45078  0.0  0.0 1472 1472      - A      Aug 26  0:24 pilegc
+root       49176  0.0  0.0  448  448      - A      Aug 26  6:00 xmgc
+root       53274  0.0  0.0  384  384      - A      Aug 26 1840:35 wait
+root       57372  0.0  0.0  384  384      - A      Aug 26 688:49 wait
+root       61470  0.0  0.0  384  384      - A      Aug 26 1851:34 wait
+root       65568  0.0  0.0  384  384      - A      Aug 26 499:24 wait
+root       69666  0.0  0.0  384  384      - A      Aug 26 1883:25 wait
+root       73764  0.0  0.0  384  384      - A      Aug 26 710:50 wait
+root       77862  0.0  0.0  384  384      - A      Aug 26 1541:57 wait
+root       81960  0.0  0.0  384  384      - A      Aug 26 413:13 wait
+root       86058  0.0  0.0  384  384      - A      Aug 26 1888:44 wait
+root       90156  0.0  0.0  384  384      - A      Aug 26 375:53 wait
+root       94254  0.0  0.0  384  384      - A      Aug 26 1694:55 wait
+root       98352  0.0  0.0  384  384      - A      Aug 26 357:31 wait
+root      102450  0.0  0.0  384  384      - A      Aug 26 1634:52 wait
+root      106548  0.0  0.0  384  384      - A      Aug 26 319:19 wait
+root      110646  0.0  0.0  384  384      - A      Aug 26 1612:51 wait
+root      114744  0.0  0.0  384  384      - A      Aug 26 299:39 wait
+root      118842  0.0  0.0  384  384      - A      Aug 26 1519:22 wait
+root      122940  0.0  0.0  384  384      - A      Aug 26 267:31 wait
+root      127038  0.0  0.0  384  384      - A      Aug 26 1388:48 wait
+root      131136  0.0  0.0  384  384      - A      Aug 26 260:20 wait
+root      135234  0.0  0.0  384  384      - A      Aug 26 1169:25 wait
+root      139332  0.0  0.0  384  384      - A      Aug 26 234:30 wait
+root      143430  0.0  0.0  384  384      - A      Aug 26 936:28 wait
+root      147528  0.0  0.0  384  384      - A      Aug 26 223:22 wait
+root      151626  0.0  0.0  384  384      - A      Aug 26 823:58 wait
+root      155724  0.0  0.0  384  384      - A      Aug 26 199:20 wait
+root      159822  0.0  0.0  384  384      - A      Aug 26 687:43 wait
+root      163920  0.0  0.0  384  384      - A      Aug 26 191:09 wait
+root      168018  0.0  0.0  384  384      - A      Aug 26 618:25 wait
+root      172116  0.0  0.0  384  384      - A      Aug 26 166:26 wait
+root      176214  0.0  0.0  384  384      - A      Aug 26 497:58 wait
+root      180312  0.0  0.0  384  384      - A      Aug 26 156:08 wait
+root      184410  0.0  0.0  384  384      - A      Aug 26 448:07 wait
+root      188508  0.0  0.0  384  384      - A      Aug 26 132:14 wait
+root      192606  0.0  0.0  384  384      - A      Aug 26 347:07 wait
+root      196704  0.0  0.0  384  384      - A      Aug 26 127:11 wait
+root      200802  0.0  0.0  384  384      - A      Aug 26 325:54 wait
+root      204900  0.0  0.0  384  384      - A      Aug 26 104:51 wait
+root      208998  0.0  0.0  384  384      - A      Aug 26 252:32 wait
+root      213096  0.0  0.0  384  384      - A      Aug 26 97:00 wait
+root      217194  0.0  0.0  384  384      - A      Aug 26 233:36 wait
+root      221292  0.0  0.0  384  384      - A      Aug 26 78:03 wait
+root      225390  0.0  0.0  384  384      - A      Aug 26 179:31 wait
+root      229488  0.0  0.0  384  384      - A      Aug 26 69:51 wait
+root      233586  0.0  0.0  384  384      - A      Aug 26 156:52 wait
+root      237684  0.0  0.0  384  384      - A      Aug 26 52:41 wait
+root      241782  0.0  0.0  384  384      - A      Aug 26 112:49 wait
+root      245880  0.0  0.0  384  384      - A      Aug 26 43:20 wait
+root      249978  0.0  0.0  384  384      - A      Aug 26 92:06 wait
+root      254076  0.0  0.0  384  384      - A      Aug 26 30:28 wait
+root      258174  0.0  0.0  384  384      - A      Aug 26 59:45 wait
+root      262272  0.0  0.0  384  384      - A      Aug 26 23:39 wait
+root      266370  0.0  0.0  384  384      - A      Aug 26 43:25 wait
+root      270468  0.0  0.0  384  384      - A      Aug 26 13:48 wait
+root      274566  0.0  0.0  384  384      - A      Aug 26 21:35 wait
+root      278664  0.0  0.0  384  384      - A      Aug 26  8:14 wait
+root      282762  0.0  0.0  384  384      - A      Aug 26  6:41 wait
+root      286860  0.0  0.0  384  384      - A      Aug 26  8:12 wait
+root      290958  0.0  0.0  384  384      - A      Aug 26  6:36 wait
+root      295056  0.0  0.0  448  448      - A      Aug 26  1:20 netm
+root      299154  0.0  0.0  960  960      - A      Aug 26 100:07 gil
+root      303252  0.0  0.0  512  512      - A      Aug 26  0:00 wlmsched
+root      307350  0.0  0.0  448  448      - A      Aug 26  0:00 armtrace_kproc
+root      315522  0.0  0.0  448  448      - A      Aug 26  0:00 random
+root      319688  0.0  0.0 8128 8128      - A      Aug 26  0:00 dog
+root      323594  0.0  0.0  448  448      - A      Aug 26  0:00 rtcmd
+root      327926  0.0  0.0  708  768      - A      Aug 26  0:00 dtlogin
+root      331980  0.0  0.0  448  448      - A      Aug 26  2:55 mmkproc
+root      336080  0.0  0.0  428  448      - A      Aug 26  0:00 shlap64
+root      340116  0.0  0.0 4048 3916      - A      Aug 26  0:09 res
+root      344276  0.0  0.0   84   92      - A      Aug 26  0:00 uprintfd
+root      352438  0.0  0.0  828 1208      - A      Aug 26  0:00 sshd
+root      356366  0.0  0.0  448  448      - A      Aug 26  0:03 rdpgc
+root      364638  0.0  0.0  996 1012      - A      Aug 26  0:04 portmap
+root      372768  0.0  0.0  448  448      - A      Aug 26  0:08 rgsr
+root      376934  0.0  0.0  832  864      - A      Aug 26  0:00 errdemon
+root      385034  0.0  0.0  556  564      - A      Aug 26 102:30 syncd
+root      389330  0.0  0.0  448  448      - A      Aug 26  0:00 lvmbb
+root      393216  0.0  0.0  448  448      - A      Aug 26  0:05 n4bg
+root      397332  0.0  0.0  332  344      - A      Aug 26  0:38 syslogd
+root      409672  0.0  0.0  396  416      - A      Aug 26  0:10 cron
+root      417858  0.0  0.0  868  884      - A      Aug 26  0:01 srcmstr
+root      426216  0.0  0.0 23552 23552      - A      Aug 26  0:51 j2pg
+root      438512  0.0  0.0  512  512      - A      Aug 26  0:00 nfsSM
+root      442612  0.0  0.0 1232 1368      - A      Aug 26  0:00 perl
+root      446668  0.0  0.0 6460 5724      - A      Aug 26 111:00 lim
+root      450812  0.0  0.0 1528 1568      - A      Aug 26  0:00 IBM.DRMd
+root      454882  0.0  0.0  460  504      - A      Aug 26  0:20 inetd
+root      458752  0.0  0.0  480  504      - A      Sep 17 14:11 getty
+root      463102  0.0  0.0  512  512      - A      Aug 26  0:00 kbiod
+root      467078  0.0  0.0 8964 8840      - A      Aug 26 17:46 pim
+root      475328  0.0  0.0  688  716      - A    05:42:51  0:00 telnetd
+root      479476  0.0  0.0 1136 1296      - A      Aug 26  7:46 snmpdv3ne
+root      483462  0.0  0.0 5348 4460      - A      Aug 26 57:59 sbatchd
+root      499946  0.0  0.0  688  716      - A      Aug 26  0:00 telnetd
+root      507978  0.0  0.0 2968 2772      - A      Aug 26  1:03 melim
+root      516348  0.0  0.0  228  264      - A      Aug 26  0:08 hntr2mon
+root      524294  0.0  0.0 2524 4636      - A      Aug 26  6:34 dlmmgr
+root      532490  0.0  0.0  692  756      - A      Aug 26  0:21 hbsa_service
+root      536778  0.0  0.0  856  968  pts/1 A      Aug 26  0:00 tn
+root      544790  0.0  0.0 1752 1828      - A      Aug 26  0:00 IBM.ServiceRMd
+root      548880  0.0  0.0 7144 7648      - A      Aug 26 13:29 rmcd
+root      577642  0.0  0.0  716  764      - A      Aug 26 34:27 sh
+root      585766  0.0  0.0  512  512      - A      Aug 26  0:08 aump
+root      594164  0.0  0.0  880  928  pts/1 A      Aug 26  0:00 ksh
+root      610438  0.0  0.0 2148 2876      - A      Aug 26 21:40 hats_rs232_nim
+root      622644  0.0  0.0 9084 11320      - A      Aug 26  3:10 IBM.CSMAgentRMd
+root      626692  0.0  0.0 8496 6592      - A      Aug 26 145:12 mbatchd
+root      630900  0.0  0.0  448  448      - A      Aug 26  2:58 mmkproc
+root      651422  0.0  0.0  268  280      - A      Aug 26  0:00 writesrv
+root      659638  0.0  0.0  276  284      - A      Aug 26  0:00 rpc.lockd
+root      663622  0.0  0.0 5368 5896      - A      Aug 26 25:38 clcomd
+root      667864  0.0  0.0 2192 2900      - A      Aug 26 13:04 hats_nim
+root      680166  0.0  0.0  816  864      - A      Aug 26 71:59 sh
+root      688212  0.0  0.0 1644 1816      - A      Aug 26  0:51 automountd
+root      708704  0.0  0.0 26396 30648      - A      Aug 26 154:42 clstrmgr
+root      717042  0.0  0.0  272  292      - A      Aug 26  0:00 qdaemon
+root      725038  0.0  0.0  636 1048      - A      Aug 26  0:00 hacmprd_run_rco
+root      729198  0.0  0.0  448  448      - A      Aug 26  3:00 mmkproc
+root      733352  0.0  0.0  448  448      - A      Aug 26  0:00 pofCmdProc
+root      741574  0.0  0.0  652  676      - A      Aug 26  0:00 muxatmd
+root      757924  0.0  0.0 20668 23804      - A      Aug 26 725:35 mmfsd64
+root      782464  0.0  0.0 2116 2164      - A      Aug 26  0:00 ksh
+root      794758  0.0  0.0  448  448      - A      Aug 26  0:16 nfsWatchKproc
+root      811072  0.0  0.0 1664 1896      - A      Aug 26  0:03 haemd
+root      827620  0.0  0.0 2044 2312      - A      Aug 26  1:11 sendmail
+root      843958  0.0  0.0 1856 1856      - A      Aug 26  4:54 nfsd
+root      847898  0.0  0.0 1216 1216      - A      Aug 26  3:07 rpc.lockd
+root      852152  0.0  0.0  184  192      - A      Aug 26  0:00 nfsd
+root      864490  0.0  0.0 1904 1960      - A      Aug 26  0:00 rpc.mountd
+root      889030  0.0  0.0 15748 45736      - A      Aug 26  2:40 hagsd
+root      901368  0.0  0.0  148  152      - A      Aug 26  0:00 biod
+root      905266  0.0  0.0 9384 11504      - A      Aug 26 10:53 hatsd
+root      909556  0.0  0.0 2204 2540      - A      Aug 26  6:36 IBM.HostRMd
+root      913622  0.0  0.0 3708 4452      - A      Aug 26 67:49 clinfo
+root      921796  0.0  0.0 2192 2900      - A      Aug 26 12:50 hats_nim
+root      934130  0.0  0.0  564  636      - A      Aug 26  2:43 xntpd
+root      983110  0.0  0.0  196  208  pts/4 A    07:31:00  0:00 sort
+root     1089768  0.0  0.0  692  740  pts/4 A    07:30:58  0:00 sh
+root     1110214  0.1  0.0 101448 93792      - A      Oct 24 70:17 jfd
+root     1130708                            Z              0:00 <defunct>
+root     1306670  0.0  0.0 5800 5604      - A      Oct 24  0:02 eauth
+root     1368160  0.0  0.0  144  148      - A    07:30:59  0:00 sleep
+root     1372262                            Z              0:00 <defunct>
+root     1376278  0.0  0.0  884  932  pts/0 A    05:42:51  0:00 ksh
+root     1404974  0.0  0.0  144  148      - A    07:30:53  0:00 sleep
+root     1441908  0.0  0.0  688  716      - A    05:43:03  0:00 telnetd
+root     1462408  0.0  0.0  224  236  pts/4 A    07:31:00  0:00 egrep
+root     1523868  0.0  0.0 1404 1432  pts/4 A    07:31:00  0:00 ps
+root     1536036  0.0  0.0 1020 1092      - A    06:48:34  0:00 sshd
+root     1609936  0.0  0.0  688  716      - A    07:25:46  0:00 telnetd
+root     1622134  0.0  0.0  884  932  pts/4 A    07:25:46  0:00 ksh
+cmdbegin:cpu
+
+AIX dpc2e1 3 5 00C7F4424C00    10/25/10
+
+System configuration: lcpu=60 ent=28.00 mode=Uncapped 
+
+07:31:00    %usr    %sys    %wio   %idle   physc   %entc
+07:31:01       9       1       0      90    3.45    12.3
+07:31:02      10       1       0      89    3.44    12.3
+07:31:03      10       1       0      89    3.47    12.4
+
+Average       10       1       0      89    3.45    12.3
+cmdbegin:allconfig
+System Model: IBM,9119-595
+Machine Serial Number: 837F442
+Processor Type: PowerPC_POWER5
+Processor Implementation Mode: POWER 5
+Processor Version: PV_5_3
+Number Of Processors: 30
+Processor Clock Speed: 2102 MHz
+CPU Type: 64-bit
+Kernel Type: 64-bit
+LPAR Info: 3 DPC2E1
+Memory Size: 57344 MB
+Good Memory Size: 57344 MB
+Platform Firmware level: SF240_382
+Firmware Version: IBM,SF240_382
+Console Login: enable
+Auto Restart: true
+Full Core: false
+ 
+Network Information
+	Host Name: dpc2e1
+	IP Address: 192.168.247.1
+	Sub Netmask: 255.255.255.128
+	Gateway: 10.24.248.250
+	Name Server: 
+	Domain Name: 
+ 
+Paging Space Information
+	Total Paging Space: 8192MB
+	Percent Used: 1%
+ 
+Volume Groups Information
+============================================================================== 
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk0            active            546         376         109..49..00..109..109
+hdisk2            active            546         299         17..64..00..109..109
+============================================================================== 
+ 
+softvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk1            active            1093        692         219..00..36..218..219
+============================================================================== 
+ 
+INSTALLED RESOURCE LIST
+
+The following resources are installed on the machine.
++/- = Added or deleted from Resource List.
+*   = Diagnostic support not available.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+	
++ sys0                                                                            System Object
++ sysplanar0                                                                      System Planar
+* vio0                                                                            Virtual I/O Bus
+* vsa0             U9119.595.837F442-V3-C0                                        LPAR Virtual Serial Adapter
+* vty0             U9119.595.837F442-V3-C0-L0                                     Asynchronous Terminal
+* pci11            U5791.001.99B15AZ-P1                                           PCI Bus
+* pci33            U5791.001.99B15AZ-P1                                           PCI Bus
++ ent7             U5791.001.99B15AZ-P1-C06-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci10            U5791.001.99B15AZ-P1                                           PCI Bus
+* pci32            U5791.001.99B15AZ-P1                                           PCI Bus
+* pci9             U5791.001.99B15AZ-P1                                           PCI Bus
+* pci29            U5791.001.99B15AZ-P1                                           PCI Bus
++ fcs5             U5791.001.99B15AZ-P1-C08-T1                                    FC Adapter
+* fcnet5           U5791.001.99B15AZ-P1-C08-T1                                    Fibre Channel Network Protocol Device
++ fscsi5           U5791.001.99B15AZ-P1-C08-T1                                    FC SCSI I/O Controller Protocol Device
+* pci30            U5791.001.99B15AZ-P1                                           PCI Bus
++ ent6             U5791.001.99B15AZ-P1-C09-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci31            U5791.001.99B15AZ-P1                                           PCI Bus
++ sa0              U5791.001.99B15AZ-P1-C10-T1                                    2-Port Asynchronous EIA-232 PCI Adapter
++ tty0             U5791.001.99B15AZ-P1-C10-T1-L0                                 Asynchronous Terminal
+* pci8             U5791.001.99B15AZ-P2                                           PCI Bus
+* pci28            U5791.001.99B15AZ-P2                                           PCI Bus
++ ent5             U5791.001.99B15AZ-P2-C06-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci7             U5791.001.99B15AZ-P2                                           PCI Bus
+* pci27            U5791.001.99B15AZ-P2                                           PCI Bus
+* pci6             U5791.001.99B15AZ-P2                                           PCI Bus
+* pci25            U5791.001.99B15AZ-P2                                           PCI Bus
++ fcs4             U5791.001.99B15AZ-P2-C08-T1                                    FC Adapter
+* fcnet4           U5791.001.99B15AZ-P2-C08-T1                                    Fibre Channel Network Protocol Device
++ fscsi4           U5791.001.99B15AZ-P2-C08-T1                                    FC SCSI I/O Controller Protocol Device
+* pci26            U5791.001.99B15AZ-P2                                           PCI Bus
++ ent4             U5791.001.99B15AZ-P2-C09-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci24            U5791.001.99B15AZ-P2                                           PCI Bus
++ scsi1            U5791.001.99B15AZ-P2-T6                                        Wide/Ultra-3 SCSI I/O Controller
++ hdisk2           U5791.001.99B15AZ-P2-T6-L8-L0                                  16 Bit LVD SCSI Disk Drive (146800 MB)
++ hdisk3           U5791.001.99B15AZ-P2-T6-L9-L0                                  16 Bit LVD SCSI Disk Drive (146800 MB)
++ ses1             U5791.001.99B15AZ-P2-T6-L15-L0                                 SCSI Enclosure Services Device
+* pci5             U5791.001.99B159R-P2                                           PCI Bus
+* pci22            U5791.001.99B159R-P2                                           PCI Bus
++ fcs3             U5791.001.99B159R-P2-C05-T1                                    FC Adapter
+* fcnet3           U5791.001.99B159R-P2-C05-T1                                    Fibre Channel Network Protocol Device
++ fscsi3           U5791.001.99B159R-P2-C05-T1                                    FC SCSI I/O Controller Protocol Device
+* hdisk4           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L0               Hitachi Disk Array (Fibre)
+* hdisk5           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L1000000000000   Hitachi Disk Array (Fibre)
+* hdisk6           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L2000000000000   Hitachi Disk Array (Fibre)
+* hdisk7           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L3000000000000   Hitachi Disk Array (Fibre)
+* hdisk8           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L4000000000000   Hitachi Disk Array (Fibre)
+* hdisk9           U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L5000000000000   Hitachi Disk Array (Fibre)
+* hdisk10          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L6000000000000   Hitachi Disk Array (Fibre)
+* hdisk11          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L7000000000000   Hitachi Disk Array (Fibre)
+* hdisk12          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L8000000000000   Hitachi Disk Array (Fibre)
+* hdisk13          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L9000000000000   Hitachi Disk Array (Fibre)
+* hdisk14          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-LA000000000000   Hitachi Disk Array (Fibre)
+* hdisk15          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-LB000000000000   Hitachi Disk Array (Fibre)
+* hdisk16          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-LC000000000000   Hitachi Disk Array (Fibre)
+* hdisk57          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L35000000000000  Hitachi Disk Array (Fibre)
+* hdisk58          U5791.001.99B159R-P2-C05-T1-W50060E8000C3B4A6-L36000000000000  Hitachi Disk Array (Fibre)
+* pci23            U5791.001.99B159R-P2                                           PCI Bus
++ ent3             U5791.001.99B159R-P2-C06-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci4             U5791.001.99B159R-P2                                           PCI Bus
+* pci21            U5791.001.99B159R-P2                                           PCI Bus
+* pci3             U5791.001.99B159R-P2                                           PCI Bus
+* pci19            U5791.001.99B159R-P2                                           PCI Bus
++ fcs2             U5791.001.99B159R-P2-C08-T1                                    FC Adapter
+* fcnet2           U5791.001.99B159R-P2-C08-T1                                    Fibre Channel Network Protocol Device
++ fscsi2           U5791.001.99B159R-P2-C08-T1                                    FC SCSI I/O Controller Protocol Device
+* hdisk17          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-LD000000000000   Hitachi Disk Array (Fibre)
+* hdisk18          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-LE000000000000   Hitachi Disk Array (Fibre)
+* hdisk19          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-LF000000000000   Hitachi Disk Array (Fibre)
+* hdisk20          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L10000000000000  Hitachi Disk Array (Fibre)
+* hdisk21          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L11000000000000  Hitachi Disk Array (Fibre)
+* hdisk26          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L16000000000000  Hitachi Disk Array (Fibre)
+* hdisk27          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L17000000000000  Hitachi Disk Array (Fibre)
+* hdisk28          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L18000000000000  Hitachi Disk Array (Fibre)
+* hdisk29          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L19000000000000  Hitachi Disk Array (Fibre)
+* hdisk32          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L1C000000000000  Hitachi Disk Array (Fibre)
+* hdisk33          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L1D000000000000  Hitachi Disk Array (Fibre)
+* hdisk34          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L1E000000000000  Hitachi Disk Array (Fibre)
+* hdisk35          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L1F000000000000  Hitachi Disk Array (Fibre)
+* hdisk36          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L20000000000000  Hitachi Disk Array (Fibre)
+* hdisk37          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L21000000000000  Hitachi Disk Array (Fibre)
+* hdisk38          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L22000000000000  Hitachi Disk Array (Fibre)
+* hdisk39          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L23000000000000  Hitachi Disk Array (Fibre)
+* hdisk40          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L24000000000000  Hitachi Disk Array (Fibre)
+* hdisk41          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L25000000000000  Hitachi Disk Array (Fibre)
+* hdisk42          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L26000000000000  Hitachi Disk Array (Fibre)
+* hdisk43          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L27000000000000  Hitachi Disk Array (Fibre)
+* hdisk44          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L28000000000000  Hitachi Disk Array (Fibre)
+* hdisk45          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L29000000000000  Hitachi Disk Array (Fibre)
+* hdisk46          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2A000000000000  Hitachi Disk Array (Fibre)
+* hdisk47          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2B000000000000  Hitachi Disk Array (Fibre)
+* hdisk48          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2C000000000000  Hitachi Disk Array (Fibre)
+* hdisk49          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2D000000000000  Hitachi Disk Array (Fibre)
+* hdisk50          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2E000000000000  Hitachi Disk Array (Fibre)
+* hdisk51          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L2F000000000000  Hitachi Disk Array (Fibre)
+* hdisk52          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L30000000000000  Hitachi Disk Array (Fibre)
+* hdisk53          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L31000000000000  Hitachi Disk Array (Fibre)
+* hdisk54          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L32000000000000  Hitachi Disk Array (Fibre)
+* hdisk55          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L33000000000000  Hitachi Disk Array (Fibre)
+* hdisk56          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L34000000000000  Hitachi Disk Array (Fibre)
+* hdisk59          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L37000000000000  Hitachi Disk Array (Fibre)
+* hdisk60          U5791.001.99B159R-P2-C08-T1-W50060E8000C3B4A2-L38000000000000  Hitachi Disk Array (Fibre)
+* pci20            U5791.001.99B159R-P2                                           PCI Bus
++ ent2             U5791.001.99B159R-P2-C09-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci18            U5791.001.99B159R-P2                                           PCI Bus
++ scsi0            U5791.001.99B159R-P2-T6                                        Wide/Ultra-3 SCSI I/O Controller
++ hdisk0           U5791.001.99B159R-P2-T6-L8-L0                                  16 Bit LVD SCSI Disk Drive (146800 MB)
++ hdisk1           U5791.001.99B159R-P2-T6-L9-L0                                  16 Bit LVD SCSI Disk Drive (146800 MB)
++ ses0             U5791.001.99B159R-P2-T6-L15-L0                                 SCSI Enclosure Services Device
+* pci2             U5791.001.99B159R-P1                                           PCI Bus
+* pci16            U5791.001.99B159R-P1                                           PCI Bus
++ fcs1             U5791.001.99B159R-P1-C05-T1                                    FC Adapter
+* fcnet1           U5791.001.99B159R-P1-C05-T1                                    Fibre Channel Network Protocol Device
++ fscsi1           U5791.001.99B159R-P1-C05-T1                                    FC SCSI I/O Controller Protocol Device
+* pci17            U5791.001.99B159R-P1                                           PCI Bus
++ ent1             U5791.001.99B159R-P1-C06-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci1             U5791.001.99B159R-P1                                           PCI Bus
+* pci15            U5791.001.99B159R-P1                                           PCI Bus
+* pci0             U5791.001.99B159R-P1                                           PCI Bus
+* pci12            U5791.001.99B159R-P1                                           PCI Bus
++ fcs0             U5791.001.99B159R-P1-C08-T1                                    FC Adapter
+* fcnet0           U5791.001.99B159R-P1-C08-T1                                    Fibre Channel Network Protocol Device
++ fscsi0           U5791.001.99B159R-P1-C08-T1                                    FC SCSI I/O Controller Protocol Device
+* pci13            U5791.001.99B159R-P1                                           PCI Bus
++ ent0             U5791.001.99B159R-P1-C09-T1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci14            U5791.001.99B159R-P1                                           PCI Bus
++ sisscsia0        U5791.001.99B159R-P1-C10                                       PCI-XDDR Dual Channel Ultra320 SCSI Adapter
++ scsi2            U5791.001.99B159R-P1-C10-T1                                    PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ cd0              U5791.001.99B159R-P1-C10-T1-L5-L0                              16 Bit LVD SCSI DVD-RAM Drive (4700 MB)
++ rmt0             U5791.001.99B159R-P1-C10-T1-L6-L0                              LVD SCSI 4mm Tape Drive (36000 MB)
++ scsi3            U5791.001.99B159R-P1-C10-T2                                    PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ L2cache0                                                                        L2 Cache
++ mem0                                                                            Memory
++ proc0                                                                           Processor
++ proc2                                                                           Processor
++ proc4                                                                           Processor
++ proc6                                                                           Processor
++ proc8                                                                           Processor
++ proc10                                                                          Processor
++ proc12                                                                          Processor
++ proc14                                                                          Processor
++ proc16                                                                          Processor
++ proc18                                                                          Processor
++ proc20                                                                          Processor
++ proc22                                                                          Processor
++ proc24                                                                          Processor
++ proc26                                                                          Processor
++ proc28                                                                          Processor
++ proc30                                                                          Processor
++ proc32                                                                          Processor
++ proc34                                                                          Processor
++ proc36                                                                          Processor
++ proc38                                                                          Processor
++ proc40                                                                          Processor
++ proc42                                                                          Processor
++ proc44                                                                          Processor
++ proc46                                                                          Processor
++ proc48                                                                          Processor
++ proc50                                                                          Processor
++ proc52                                                                          Processor
++ proc54                                                                          Processor
++ proc56                                                                          Processor
++ proc58                                                                          Processor
+cmdbegin:disk
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        2048.00   1027.64   50%     5722     3% /
+/dev/hd2        5120.00    618.98   88%    69902    33% /usr
+/dev/hd9var     5120.00    557.50   90%     4888     4% /var
+/dev/hd3        4096.00   2995.71   27%      511     1% /tmp
+/dev/hd1       10240.00   8140.89   21%     6002     1% /home
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt    2048.00   1894.54    8%     5111     2% /opt
+/dev/fslv00    51200.00  39500.48   23%     6512     1% /soft
+/dev/lvsybase   2048.00   1728.39   16%     2608     1% /sybase
+/dev/fslv01      256.00    255.64    1%        9     1% /LSFFLAG
+/dev/dpcauxi   52800.00  48334.00    9%      124     1% /DPCAUXI
+/dev/dpccomp  614412.00 418833.00   32%    14835     3% /DPCCOMP
+/dev/dpcdata  5120016.00 2381738.50   54%   377122     8% /DPCDATA
+/dev/dpcfy2e_rd 204804.00 125335.00   39%      793     1% /DPCFY2E_RD
+/dev/dpcfymv  102402.00  75032.00   27%     8408     9% /DPCFYMV
+/dev/dpclsfa   52800.00  41899.00   21%    18830    36% /DPCLSFA
+/dev/dpcwork   52800.00  38270.50   28%    15532    30% /DPCWORK
+/dev/etswork  204804.00 162665.00   21%    32928    16% /ETSWORK
+/dev/pdspushnew 409602.00 409323.50    1%       98     1% /PDSPUSH_N
+/dev/ftpreal  4915224.00 843711.00   83%  1637821    34% /FTPREAL
+/dev/pdspull  204804.00  58342.50   72%   128750    22% /PDSPULL
+/dev/pdspush  307206.00 127850.50   59%    35150    12% /PDSPUSH
+/dev/dpctemp  102402.00  99092.50    4%    12501    13% /DPCTEMP
+/dev/fslv02    23552.00   9505.93   60%    15001     1% /BACKUP
+cmdbegin:diskperf
+
+AIX dpc2e1 3 5 00C7F4424C00    10/25/10
+
+System configuration: lcpu=60 drives=56 ent=28.00 mode=Uncapped 
+
+07:31:09     device    %busy    avque    r+w/s    Kbs/s   avwait   avserv
+
+07:31:10     hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        0        0      0.0      0.0
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+
+
+07:31:11     hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        1      511      0.1      3.0
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+
+
+Average      hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        0      255      0.0      1.5
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+cmdbegin:diskiostat
+
+System configuration: lcpu=60 drives=56 ent=28.00 paths=208 vdisks=0
+
+tty:      tin         tout    avg-cpu: % user % sys % idle % iowait physc % entc
+          0.1         29.0                2.4   0.2   97.3      0.0   0.9    3.1
+
+Disks:        % tm_act     Kbps      tps    Kb_read   Kb_wrtn
+hdisk1           0.0       0.3       0.0    1291153    353376
+hdisk0           1.2      26.7       3.4   10186921  128264297
+hdisk3           0.0       0.0       0.0          0         0
+hdisk2           1.2      29.9       3.4   19121696  135878345
+hdisk13          0.0      43.4       0.2   224345510    560340
+hdisk7           0.8     347.8       1.8   1042350573  761297059
+hdisk12          0.0      41.5       0.2   215294124     50938
+hdisk10          0.8     348.8       1.9   1045678658  762653619
+hdisk17          0.2     157.6       0.8   812644127   4711770
+hdisk14          0.2      34.7       1.7   148707100  31259560
+hdisk8           0.8     348.1       1.8   1042568393  762196014
+hdisk16          0.2     157.9       0.7   814400961   4348181
+hdisk15          0.2      38.2       1.4   159974415  38293646
+hdisk19          0.0       0.0       0.0          0         0
+hdisk20          0.0       0.0       0.0          0         0
+hdisk21          0.0       0.0       0.0          0         0
+hdisk26          0.0       0.1       0.0     362332    133911
+hdisk28          0.0       0.1       0.0     342425    133719
+hdisk29          0.0       0.1       0.0     290434    176493
+hdisk9           0.8     348.2       1.8   1043778696  761669442
+hdisk32          0.0       0.0       0.0         34         3
+hdisk35          0.0       0.0       0.0          0         0
+hdisk36          0.0       0.0       0.0          0         0
+hdisk38          0.0       0.0       0.0          0         0
+hdisk39          0.0       0.0       0.0          0         0
+hdisk18          0.0       0.0       0.0          0         0
+hdisk11          0.8     348.6       1.8   1045249996  762230264
+hdisk33          0.0       0.0       0.0         34         3
+hdisk41          0.0       0.0       0.0          0         0
+hdisk45          0.0       0.0       0.0          0         0
+hdisk44          0.0       0.0       0.0          0         0
+hdisk27          0.0       0.2       0.0     294445    718266
+hdisk49          0.0      14.2       0.1   26696161  46771953
+hdisk34          0.0       0.0       0.0         26         3
+hdisk37          0.0       0.0       0.0          0         0
+hdisk40          0.0       0.0       0.0          0         0
+hdisk50          0.0      14.0       0.1   26594806  46140586
+hdisk52          0.0      14.1       0.1   26843418  46361055
+hdisk51          0.0      14.1       0.1   26650248  46225870
+hdisk6           0.8     348.1       1.9   1043585744  761449844
+hdisk43          0.0       0.0       0.0          0         0
+hdisk4           0.8     349.1       1.9   1044031333  766277631
+hdisk56          0.0       0.1       0.0      22399    616255
+hdisk58          0.0      13.0       0.2   16335146  51226351
+hdisk55          0.0       0.0       0.0       3862         4
+hdisk60          0.1      41.6       0.2     179287  215472589
+hdisk54          0.0      14.1       0.2   26941694  46225431
+hdisk47          0.0       0.0       0.0          0         0
+hdisk46          0.0       0.0       0.0          0         0
+hdisk53          0.0      14.1       0.1   26737677  46241216
+hdisk48          0.0       0.0       0.0          0         0
+hdisk42          0.0       0.0       0.0          0         0
+hdisk57          0.1      12.8       0.3   16290261  50330454
+hdisk5           0.8     348.4       1.8   1044389383  761981693
+hdisk59          0.0      41.7       0.2     238205  215833663
+cd0              0.0       0.0       0.0          0         0
+cmdbegin:netperf
+Name  Mtu   Network     Address            Ipkts Ierrs    Opkts Oerrs  Coll
+en2   1500  link#2      0.14.5e.b8.d1.14  606392267     0 412310579     4     0
+                        01:00:5e:00:00:01
+en2   1500  192.168.247 192.168.247.1     606392267     0 412310579     4     0
+                        224.0.0.1          
+en2   1500  10.24.248.1 10.24.248.131     606392267     0 412310579     4     0
+                        224.0.0.1          
+en2   1500  10.24.248.1 10.24.248.134     606392267     0 412310579     4     0
+                        224.0.0.1          
+en3   1500  link#3      0.14.5e.b8.d0.16  1683263562     0 260587319     2     0
+                        01:00:5e:00:00:01
+en3   1500  192.168.248 192.168.248.1     1683263562     0 260587319     2     0
+                        224.0.0.1          
+en3   1500  10.24.248.1 10.24.248.133     1683263562     0 260587319     2     0
+                        224.0.0.1          
+en8   1500  link#4      0.14.5e.b8.d1.8   834630434     0 258552109     2     0
+                        01:00:5e:00:00:01
+en8   1500  192.168.200 192.168.200.43    834630434     0 258552109     2     0
+                        224.0.0.1          
+lo0   16896 link#1                        118221385     0 118237368     0     0
+lo0   16896 127         127.0.0.1         118221385     0 118237368     0     0
+                        224.0.0.1          
+lo0   16896 ::1                           118221385     0 118237368     0     0
+                        ff01::1          
+                        ff02::1:ff00:1   
+                        ff02::1          
+cmdbegin:netallperf
+start-en0
+end-en0
+start-en1
+end-en1
+start-en2
+Hardware Address: 00:14:5e:b8:d1:14
+Packets: 412315300                            Packets: 607629739
+Bytes: 2618648428507                          Bytes: 52898444032
+Interrupts: 0                                 Interrupts: 334474123
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 42        
+Broadcast Packets: 6817                       Broadcast Packets: 514382
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 66391083
+end-en2
+start-en3
+Hardware Address: 00:14:5e:b8:d0:16
+Packets: 260587431                            Packets: 1683263848
+Bytes: 682875172451                           Bytes: 1513434189307
+Interrupts: 0                                 Interrupts: 932996023
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 29        
+Broadcast Packets: 2458                       Broadcast Packets: 518741
+Multicast Packets: 1                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 19363263
+end-en3
+start-en4
+Hardware Address: 00:14:5e:b8:71:11
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 1         
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : UNKNOWN
+Media Speed Running: Unknown
+TCP Segmentation Offload Packets Transmitted: 0
+end-en4
+start-en5
+Hardware Address: 00:14:5e:b8:6f:02
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 1         
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : UNKNOWN
+Media Speed Running: Unknown
+TCP Segmentation Offload Packets Transmitted: 0
+end-en5
+start-en6
+Hardware Address: 00:14:5e:b8:77:14
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 1         
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : UNKNOWN
+Media Speed Running: Unknown
+TCP Segmentation Offload Packets Transmitted: 0
+end-en6
+start-en7
+Hardware Address: 00:14:5e:b8:87:6c
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 1         
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : UNKNOWN
+Media Speed Running: Unknown
+TCP Segmentation Offload Packets Transmitted: 0
+end-en7
+start-en8
+Hardware Address: 00:14:5e:b8:d1:08
+Packets: 258553840                            Packets: 843226696
+Bytes: 5768008784319                          Bytes: 290389807041
+Interrupts: 0                                 Interrupts: 471607266
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 75        
+Broadcast Packets: 8567                       Broadcast Packets: 426665
+Multicast Packets: 1                          Multicast Packets: 3
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Hardware Address: 00:14:5e:b8:d1:08
+Packets: 110481333                            Packets: 801282879
+Bytes: 2548162048240                          Bytes: 283736857286
+Interrupts: 0                                 Interrupts: 439094544
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 29        
+Broadcast Packets: 0                          Broadcast Packets: 299189
+Multicast Packets: 0                          Multicast Packets: 1
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 67803483
+Hardware Address: 00:14:5e:b8:d1:08
+Packets: 148072507                            Packets: 41943817
+Bytes: 3219846736079                          Bytes: 6652949755
+Interrupts: 0                                 Interrupts: 32512722
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 46        
+Broadcast Packets: 8567                       Broadcast Packets: 127476
+Multicast Packets: 1                          Multicast Packets: 2
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 87292217
+end-en8
+start-en9
+end-en9
+start-en10
+end-en10
+start-en11
+end-en11
+start-en12
+end-en12
+start-en13
+end-en13
+start-en14
+end-en14
+start-en15
+end-en15
+start-en16
+end-en16
+cmdbegin:uname
+AIX dpc2e1
+cmdbegin:service
+Subsystem         Group            PID          Status 
+ syslogd          ras              397332       active
+ portmap          portmap          364638       active
+ inetd            tcpip            454882       active
+ sshd             ssh              352438       active
+ ctrmc            rsct             548880       active
+ DLMManager                        524294       active
+ snmpd            tcpip            479476       active
+ IBM.CSMAgentRM   rsct_rm          622644       active
+ IBM.ServiceRM    rsct_rm          544790       active
+ clcomdES         clcomdES         663622       active
+ automountd       autofs           688212       active
+ clstrmgrES       cluster          708704       active
+ IBM.DRM          rsct_rm          450812       active
+ topsvcs          topsvcs          905266       active
+ grpsvcs          grpsvcs          889030       active
+ emsvcs           emsvcs           811072       active
+ clinfoES         cluster          913622       active
+ sendmail         mail             827620       active
+ xntpd            tcpip            934130       active
+ muxatmd          tcpip            741574       active
+ biod             nfs              901368       active
+ nfsd             nfs              852152       active
+ rpc.mountd       nfs              864490       active
+ rpc.statd        nfs              692326       active
+ rpc.lockd        nfs              659638       active
+ qdaemon          spooler          717042       active
+ writesrv         spooler          651422       active
+ IBM.HostRM       rsct_rm          909556       active
+ lpd              spooler                       inoperative
+ rwhod            tcpip                         inoperative
+ aixmibd          tcpip                         inoperative
+ hostmibd         tcpip                         inoperative
+ snmpmibd         tcpip                         inoperative
+ dpid2            tcpip                         inoperative
+ dhcpcd           tcpip                         inoperative
+ dhcpcd6          tcpip                         inoperative
+ ndpd-host        tcpip                         inoperative
+ ndpd-router      tcpip                         inoperative
+ tftpd            tcpip                         inoperative
+ gated            tcpip                         inoperative
+ named            tcpip                         inoperative
+ routed           tcpip                         inoperative
+ iptrace          tcpip                         inoperative
+ timed            tcpip                         inoperative
+ dhcpsd           tcpip                         inoperative
+ dhcpsdv6         tcpip                         inoperative
+ dhcprd           tcpip                         inoperative
+ mrouted          tcpip                         inoperative
+ rsvpd            qos                           inoperative
+ policyd          qos                           inoperative
+ pxed             tcpip                         inoperative
+ binld            tcpip                         inoperative
+ dfpd             tcpip                         inoperative
+ keyserv          keyserv                       inoperative
+ ypbind           yp                            inoperative
+ nfsrgyd          nfs                           inoperative
+ gssd             nfs                           inoperative
+ llbd             iforncs                       inoperative
+ glbd             iforncs                       inoperative
+ cdromd                                         inoperative
+ wsmrefserver                                   inoperative
+ LUMlmd           lumls                         inoperative
+ LUMgdb           lumls                         inoperative
+ i4lmd            iforls                        inoperative
+ i4glbcd          iforncs                       inoperative
+ i4gdb            iforls                        inoperative
+ i4llmd           iforls                        inoperative
+ nimsh            nimclient                     inoperative
+ cpsd             ike                           inoperative
+ tmd              ike                           inoperative
+ isakmpd          ike                           inoperative
+ ctcas            rsct                          inoperative
+ vert_serv        nrd                           inoperative
+ IBM.ERRM         rsct_rm                       inoperative
+ IBM.AuditRM      rsct_rm                       inoperative
+ dtsrc                                          inoperative
+ ypserv           yp                            inoperative
+ ypupdated        yp                            inoperative
+ yppasswdd        yp                            inoperative
+ IBM.LPRM         rsct_rm                       inoperative
+ grpglsm          grpsvcs                       inoperative
+ emaixos          emsvcs                        inoperative
+ mmfs             aixmm                         inoperative
+ ssmagent         tcpip                         inoperative
+ http4websm       websm                         inoperative
+cmdbegin:usergroup
+system:!:0:root,esaadmin
+staff:!:1:ipsec,esaadmin,lsfusr,lsfadm,commdeve,SCMer,sybase,sshd,ftpsocc,FTPCLT,tuxedo,operator
+bin:!:2:root,bin
+sys:!:3:root,bin,sys
+adm:!:4:bin,adm
+uucp:!:5:uucp,nuucp
+mail:!:6:
+security:!:7:root
+cron:!:8:root
+printq:!:9:lp
+audit:!:10:root
+ecs:!:28:
+nobody:!:4294967294:nobody,lpd
+usr:!:100:guest,zhaolei,weilan,linmy,ftpsocc,hanqi,FTPCLT,tuxedo
+perf:!:20:
+shutdown:!:21:
+lp:!:11:root,lp
+invscout:!:12:invscout
+snapp:!:13:snapp
+ipsec:!:200:
+hacmp:!:201:
+haemrm:!:202:
+DPC:!:102:lsfusr,operator
+sybase:!:101:sybase
+CROSS:!:103:commdeve,SCMer
+sshd:!:208:sshd
+kaifa:!:209:xiandi
+ftp:!:203:FY2check
+cmdbegin:user
+root id=0 pgrp=system groups=system,bin,sys,security,cron,audit,lp home=/ shell=/usr/bin/ksh auditclasses=general login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=-1 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287991550 time_last_unsuccessful_login=1287778070 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=/dev/pts/5 host_last_login=10.24.233.100 host_last_unsuccessful_login=10.24.189.51 unsuccessful_login_count=0 roles=
+daemon id=1 pgrp=staff groups=staff home=/etc login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+bin id=2 pgrp=bin groups=bin,sys,adm home=/bin login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1283209207 tty_last_unsuccessful_login=ftp host_last_unsuccessful_login=dpc2e1 unsuccessful_login_count=11 roles=
+sys id=3 pgrp=sys groups=sys home=/usr/sys login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+adm id=4 pgrp=adm groups=adm home=/var/adm login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+uucp id=5 pgrp=uucp groups=uucp home=/usr/lib/uucp login=false su=true rlogin=false daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+guest id=100 pgrp=usr groups=usr home=/home/guest login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+nobody id=4294967294 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+lpd id=9 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+lp id=11 pgrp=lp groups=lp,printq home=/var/spool/lp shell=/bin/false login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+invscout id=6 pgrp=invscout groups=invscout home=/var/adm/invscout shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+snapp id=200 pgrp=snapp groups=snapp home=/usr/sbin/snapp shell=/usr/sbin/snappd gecos=snapp login user login=true su=false rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=/dev/tty0 expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=NONE logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= dce_export=false fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+nuucp id=7 pgrp=uucp groups=uucp home=/var/spool/uucppublic shell=/usr/sbin/uucp/uucico gecos=uucp login user login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+ipsec id=201 pgrp=staff groups=staff home=/etc/ipsec shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+esaadmin id=8 pgrp=system groups=system,staff home=/var/esa shell=/usr/bin/ksh login=false su=true rlogin=false daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=393216 core=2097151 rss=65536 nofiles=2000 stack_hard=393216 roles=
+lsfusr id=9001 pgrp=DPC groups=DPC,staff home=/home/lsfusr shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=-1 stack=655360 core=2097151 rss=819200 nofiles=4000 rss_hard=819200 time_last_login=1287991657 time_last_unsuccessful_login=1287939004 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/7 host_last_login=dpc2e1 host_last_unsuccessful_login=10.24.16.4 unsuccessful_login_count=0 roles=
+lsfadm id=6001 pgrp=staff groups=staff home=/home/lsfadm shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287725117 time_last_unsuccessful_login=1227781487 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=10_24_189_16_0 host_last_login=10.24.189.51 host_last_unsuccessful_login=10.24.189.16:0 unsuccessful_login_count=1 roles=
+commdeve id=7001 pgrp=CROSS groups=CROSS,staff home=/home/commdeve shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=-1 stack=655360 core=2097151 rss=819200 nofiles=4000 rss_hard=819200 time_last_login=1287387702 time_last_unsuccessful_login=1287067458 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/0 host_last_login=::ffff:10.24.189.58 host_last_unsuccessful_login=10.24.2.56 unsuccessful_login_count=0 roles=
+SCMer id=7002 pgrp=CROSS groups=CROSS,staff home=/home/SCMer shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1253174735 time_last_unsuccessful_login=1247560736 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:10.24.189.25 host_last_unsuccessful_login=::ffff:10.24.189.25 unsuccessful_login_count=6 roles=
+sybase id=8000 pgrp=sybase groups=sybase,staff home=/sybase shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1280731902 time_last_unsuccessful_login=1228704687 tty_last_login=/dev/pts/1 tty_last_unsuccessful_login=/dev/pts/2 host_last_login=ets1 host_last_unsuccessful_login=10.24.189.15 unsuccessful_login_count=0 roles=
+sshd id=202 pgrp=sshd groups=sshd,staff home=/var/empty shell=/usr/bin/ksh login=false su=true rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=true minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+zhaolei id=203 pgrp=usr groups=usr home=/home/zhaolei shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287106334 time_last_unsuccessful_login=1285375112 tty_last_login=/dev/pts/0 tty_last_unsuccessful_login=/dev/pts/0 host_last_login=socc2e1_perm host_last_unsuccessful_login=socc2e2_perm unsuccessful_login_count=0 roles=
+weilan id=205 pgrp=usr groups=usr home=/home/weilan shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+linmy id=204 pgrp=usr groups=usr home=/home/linmy shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1249648783 time_last_unsuccessful_login=1249648780 tty_last_login=/dev/pts/0 tty_last_unsuccessful_login=/dev/pts/0 host_last_login=10.24.11.17 host_last_unsuccessful_login=10.24.11.17 unsuccessful_login_count=0 roles=
+ftpsocc id=704 pgrp=usr groups=usr,staff home=/DPCWORK/FTP/SOCC shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287989774 tty_last_login=ftp host_last_login=socc2e1_perm unsuccessful_login_count=0 roles=
+hanqi id=207 pgrp=usr groups=usr home=/home/hanqi shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1261963201 time_last_unsuccessful_login=1260752593 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:10.24.249.153 host_last_unsuccessful_login=::ffff:10.24.249.153 unsuccessful_login_count=0 roles=
+xiandi id=206 pgrp=kaifa groups=kaifa home=/home/xiandi shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1278553672 time_last_unsuccessful_login=1244709288 tty_last_login=/dev/pts/1 tty_last_unsuccessful_login=/dev/pts/0 host_last_login=10.24.2.56 host_last_unsuccessful_login=10.24.184.32 unsuccessful_login_count=0 roles=
+FTPCLT id=209 pgrp=usr groups=usr,staff home=/DPCWORK/FTP/CLIENT shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287987717 tty_last_login=ftp host_last_login=::ffff:10.24.249.152 unsuccessful_login_count=0 roles=
+FY2check id=208 pgrp=ftp groups=ftp home=/home/FY2check shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1261468073 time_last_unsuccessful_login=1230607949 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:10.24.189.229 host_last_unsuccessful_login=::ffff:10.24.189.229 unsuccessful_login_count=0 roles=
+tuxedo id=3333 pgrp=usr groups=usr,staff home=/home/tuxedo shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1255936912 tty_last_login=ftp host_last_login=dpc2e2 unsuccessful_login_count=0 roles=
+operator id=210 pgrp=staff groups=staff,DPC home=/home/operator shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287504030 time_last_unsuccessful_login=1287504020 tty_last_login=/dev/pts/0 tty_last_unsuccessful_login=/dev/pts/0 host_last_login=10.24.248.150 host_last_unsuccessful_login=10.24.248.150 unsuccessful_login_count=0 roles=
+cmdbegin:date
+Mon Oct 25 07:31:11 CUT 2010
+cmdbegin:uptime
+  07:31AM   up 60 days, 12 mins,  5 users,  load average: 3.21, 3.13, 3.56
+cmdbegin:end

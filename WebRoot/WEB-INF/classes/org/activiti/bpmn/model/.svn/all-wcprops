@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model
+END
+MessageEventDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/MessageEventDefinition.java
+END
+FormValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FormValue.java
+END
+ManualTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ManualTask.java
+END
+Gateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Gateway.java
+END
+EventGateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/EventGateway.java
+END
+ComplexDataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ComplexDataType.java
+END
+ErrorEventDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ErrorEventDefinition.java
+END
+MailTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/MailTask.java
+END
+MultiInstanceLoopCharacteristics.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/MultiInstanceLoopCharacteristics.java
+END
+ReceiveTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ReceiveTask.java
+END
+ThrowEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ThrowEvent.java
+END
+BusinessRuleTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/BusinessRuleTask.java
+END
+FlowElementsContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FlowElementsContainer.java
+END
+IOParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/IOParameter.java
+END
+Pool.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Pool.java
+END
+SendTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/SendTask.java
+END
+FlowNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FlowNode.java
+END
+BpmnModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/BpmnModel.java
+END
+Signal.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Signal.java
+END
+ParallelGateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ParallelGateway.java
+END
+Process.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Process.java
+END
+CustomProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/CustomProperty.java
+END
+DataGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/DataGrid.java
+END
+IntermediateCatchEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/IntermediateCatchEvent.java
+END
+Lane.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Lane.java
+END
+TextAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/TextAnnotation.java
+END
+FieldExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FieldExtension.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Event.java
+END
+DataGridField.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/DataGridField.java
+END
+InclusiveGateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/InclusiveGateway.java
+END
+ServiceTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ServiceTask.java
+END
+BaseElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/BaseElement.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Message.java
+END
+ScriptTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ScriptTask.java
+END
+SignalEventDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/SignalEventDefinition.java
+END
+SubProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/SubProcess.java
+END
+GraphicInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/GraphicInfo.java
+END
+ExclusiveGateway.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ExclusiveGateway.java
+END
+EventSubProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/EventSubProcess.java
+END
+EventDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/EventDefinition.java
+END
+TimerEventDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/TimerEventDefinition.java
+END
+Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Activity.java
+END
+AssociationModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/AssociationModel.java
+END
+StartEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/StartEvent.java
+END
+SequenceFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/SequenceFlow.java
+END
+UserTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/UserTask.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Task.java
+END
+DataGridRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/DataGridRow.java
+END
+FormProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FormProperty.java
+END
+EndEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/EndEvent.java
+END
+Association.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Association.java
+END
+AssociationDirection.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/AssociationDirection.java
+END
+FlowElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/FlowElement.java
+END
+ActivitiListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ActivitiListener.java
+END
+BoundaryEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/BoundaryEvent.java
+END
+ImplementationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/ImplementationType.java
+END
+CallActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/CallActivity.java
+END
+Artifact.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/model/Artifact.java
+END

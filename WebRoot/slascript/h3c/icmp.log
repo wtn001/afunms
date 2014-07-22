@@ -1,0 +1,11 @@
+sys
+nqa entry <admin> <test>
+type icmp-echo
+destination ip <ipaddress>
+probe count 10
+history-records 10
+quit
+nqa schedule <admin> <test> start-time now lifetime forever
+save
+quit
+

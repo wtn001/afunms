@@ -1,0 +1,172 @@
+cmdbegin:version
+architecture=IA32
+bus_types=PCI2.10,ISA,PnP1.0
+hostname=vm711.vm711
+hw_provider=Generic AT
+hw_serial=3JF000261
+kernel_stamp=03/12/04
+machine=486
+num_cg=1
+num_cpu=1
+os_base=UNIX_SVR5
+os_provider=SCO
+release=5
+srpc_domain=
+sysname=UnixWare
+user_limit=5
+version=7.1.1
+cmdbegin:swap
+
+total: 0 allocated + 348104 reserved = 348104 blocks used, 4008600 blocks available
+cmdbegin:process
+    root 19844 19699   TS  70  0 17:09:38 pts/7    0:00 ./collection.sh 
+    root 19849 19844   TS  85  0 17:09:38 pts/7    0:00 sort +6b -7 -n -r 
+    root 19850 19849   TS  59  0 17:09:38 pts/7    0:00 ps -ef 
+    root 19851 19849   TS  59  0 17:09:38 pts/7    0:00 ./collection.sh 
+    mbfe 19656 19628   TS  80  0 16:55:12 pts/6    0:00 -ksh 
+    root 19697  1087   TS  80  0 16:59:01 ?        0:01 in.telnetd 
+    root 19699 19697   TS  70  0 16:59:02 pts/7    0:01 -ksh 
+   cnaps 19628 18878   TS  70  0 16:55:01 pts/6    0:00 -ksh 
+bepsmbfe 18878  1223   TS  70  0 16:50:43 pts/6    0:00 -ksh 
+    root     0     0  SYS  79  0 15:01:00 ?        1:41 sysproc
+    root     1     0   TS  70  0 15:01:00 ?        0:27 /sbin/init 
+    root   719     1   TS  80  0 15:01:35 ?        0:00 /etc/conf/bin/idmknodd -r /etc/conf 
+    root   745     1   TS  70  0 15:01:38 ?        0:00 /etc/ifor_pmd 
+    root   746   745   TS  80  0 15:01:38 ?        0:01 /etc/ifor_pmd 
+    root   747   746   TS  80  0 15:01:38 ?        0:00 /etc/sco_cpd 
+    root   748   746   TS  80  0 15:01:38 ?        0:00 /etc/ifor_sld 
+    root   773     1   TS  88  0 15:01:40 ?        0:00 /usr/lib/mousemgr 
+    root   788     1   TS  80  0 15:01:41 ?        1:00 /usr/sbin/dlpid /etc/inst/nd/dlpidPIPE 
+    root   824     1   TS  80  0 15:01:47 ?        0:00 /usr/sbin/in.routed 
+    root   830     1   TS  80  0 15:01:47 ?        0:01 /usr/sbin/syslogd 
+    root   887     1   TS  70  0 15:01:50 pts/0    0:03 /usr/sbin/pppd 
+    root   893     1   TS  80  0 15:01:51 ?        0:00 in.snmpd 
+    root   897     1   TS  80  0 15:01:52 ?        0:00 /usr/sbin/rpcbind 
+    root   899     1   TS  80  0 15:01:52 ?        0:00 /usr/lib/netsvc/rwall/rpc.rwalld 
+    root   901     1   TS  80  0 15:01:52 ?        0:00 /usr/lib/netsvc/rusers/rpc.rusersd 
+    root   903     1   TS  80  0 15:01:52 ?        0:00 /usr/lib/netsvc/spray/rpc.sprayd 
+    root   917     1   TS  80  0 15:01:57 ?        0:01 hostmibd 
+    root   959     1   TS  80  0 15:02:01 ?        0:05 /usr/lib/sendmail -q1m -bd 
+    root  1034     1   TS  80  0 15:02:18 ?        0:02 /usr/dt/bin/dtlogin -daemon 
+    root  1042     1   TS  80  0 15:02:18 ?        0:00 cat /dev/osm 
+    root  1060     1   TS  80  0 15:02:19 ?        0:02 /usr/lib/nfs/biod 
+    root  1066     1   TS  80  0 15:02:19 ?        0:01 /usr/lib/nfs/nfsd -a 
+    root  1067     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/nfsd -a 
+    root  1069     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/bootparamd 
+    root  1070     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/lockd 
+    root  1071     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/pcnfsd 
+    root  1072     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/statd 
+    root  1073     1   TS  80  0 15:02:19 ?        0:00 /usr/lib/nfs/mountd -n 
+    root  1079     1   TS  85  0 15:02:20 ?        0:00 /usr/lib/saf/sac -t 300 
+    root  1080     1   TS  80  0 15:02:20 console  0:00 /usr/lib/saf/ttymon -g -p Console Login:  -d /dev/syscon -l console 
+    root  1085  1079   TS  80  0 15:02:20 ?        0:00 /usr/lib/saf/ttymon 
+    root  1087  1079   TS  80  0 15:02:21 ?        0:00 /usr/sbin/inetd 
+    root  1088  1079   TS  80  0 15:02:21 ?        0:00 /usr/lib/saf/listen nbcots 
+    root  1089  1079   TS  80  0 15:02:21 ?        0:00 /usr/lib/saf/listen -m inet/tcp0 tcp 2>/dev/null 
+    root  1092  1034   TS  80  0 15:02:22 vt01     0:01 /usr/bin/X11/X :0 -noexit -auth /var/dt/Avm711:0-h000GA 
+    root  1098  1034   TS  85  0 15:02:23 ?        0:00 /usr/dt/bin/dtlogin -daemon 
+    root  1132     1   TS  80  0 15:02:27 ?        0:00 /usr/sbin/keymaster -n 
+    root  1134     1   TS  80  0 15:02:27 ?        0:00 /usr/sbin/cron 
+    root  1137     1   TS  80  0 15:02:27 ?        0:00 /usr/sbin/cs 
+    root  1147     1   TS  80  0 15:02:29 ?        0:00 /usr/lib/lpsched 
+    root  1154  1147   TS  80  0 15:02:29 ?        0:00 lpNet 
+    root  1178  1098   TS  80  0 15:02:31 ?        0:00 dtgreet -display vm711:0 
+    root  1182  1087   TS  80  0 15:04:04 ?        0:03 in.telnetd 
+    vbpi  1223  1198   TS  70  0 15:07:09 pts/6    0:01 -ksh 
+  nobody  1025     1   TS  70  0 15:02:15 ?        0:00 ./ns.httpd -d /usr/ns-home/httpd-scohelphttp/config 
+  nobody  1028  1025   TS  80  0 15:02:15 ?        0:00 ./ns.httpd -d /usr/ns-home/httpd-scohelphttp/config 
+  sybase  1198  1184   TS  70  0 15:04:43 pts/6    0:00 -ksh 
+  sybase  1216     1   TS  70  0 15:05:18 pts/6    0:00 RUN_SYB_BACKUP 
+  sybase  1217  1216   TS  80  0 15:05:18 pts/6    0:00 /home/sybase/bin/backupserver -e/home/sybase/install/SYB_BACKUP.log -N25 -C20 -
+  sybase  1220     1   TS  70  0 15:06:23 pts/6    0:00 RUN_SYBASE 
+  sybase  1222  1220   TS  80  0 15:06:23 pts/6   27:40 /home/sybase/bin/dataserver -d/home/sybase/data/master -e/home/sybase/install/S
+bepsmbfe  1184  1182   TS  70  0 15:04:05 pts/6    0:00 -ksh 
+     UID   PID  PPID  CLS PRI  C    STIME TTY      TIME COMD
+cmdbegin:cpu
+
+UnixWare vm711 5 7.1.1 i386    01/18/11
+
+17:09:38    %usr   %sys   %wio  %idle  %intr
+17:09:39       0     30      0     56     14
+17:09:40       0     14      0     85      1
+17:09:41       0     14      0     82      4
+Average        0     19      0     74      6
+cmdbegin:allconfig
+
+    SYSTEM CONFIGURATION:
+
+    Memory Size: 500 Megabytes
+    System Peripherals:
+
+        Floppy Drive 1 - 1.44 MB 3.5
+        SCSI CD-Rom Drive 1 - VMware,  -   Virtual CD-ROM
+        SCSI CD-Rom Drive 2 - VMware,  -   Virtual CD-ROM
+        SCSI CD-Rom Drive 3 - VMware,  -   Virtual CD-ROM
+        SCSI CD-Rom Drive 4 - VMware,  -   Virtual CD-ROM
+        Disk Drive 1 - Generic  - IDE/ESDI         - 8024 MB
+        Disk Drive 2 - VMware,  - VMware Virtual S - 30719 MB
+        Disk Drive 3 - VMware,  - VMware Virtual S
+        Disk Drive 4 - VMware,  - VMware Virtual S
+        Disk Drive 5 - VMware,  - VMware Virtual S
+	80387 Math Processor
+
+
+cmdbegin:disk
+filesystem          kbytes   used     avail    capacity  mounted on
+/dev/root           2048287  553006   1495281  27%       /
+/dev/stand          24097    5323     18774    23%       /stand
+/proc               0        0        0         0%       /proc
+/dev/fd             0        0        0         0%       /dev/fd
+/dev/_tcp           0        0        0         0%       /dev/_tcp
+/dev/dsk/c0b0t0d0s4 4096575  1956322  2140253  48%       /home
+/processorfs        0        0        0         0%       /system/processor
+/tmp                1024000  16       1023984   1%       /tmp
+/var/tmp            512000   0        512000    0%       /var/tmp
+/dev/dsk/c1b0t1d0s1 31452340 25727251 5725089  82%       /rawdata
+cmdbegin:diskperf
+
+UnixWare vm711 5 7.1.1 i386    01/18/11
+
+17:09:41 device         MB       %busy   avque   r+w/s  blks/s  avwait  avserv
+
+17:09:43 c0b0t0d0s1     2000         0     0.0       2      32     0.0     0.0
+17:09:43 c0b0t0d0       8024         0     0.0       2      32     0.0     0.0
+
+Average  c0b0t0d0s1     2000         0     0.0       1      16     0.0     0.0
+Average  c0b0t0d0       8024         0     0.0       1      16     0.0     0.0
+
+cmdbegin:netperf
+Name  Mtu   Network     Address         Ipkts    Ierrs Opkts    Oerrs  Coll 
+lo0   16384 127         127.0.0.1       438568   0     438568   0      0
+                        224.0.0.1          
+net0  1500  192.168.9   192.168.9.45    162231   0     68271    0      0
+                        224.0.0.9          
+                        224.0.0.1          
+cmdbegin:netallperf
+cmdbegin:uname
+UnixWare vm711
+cmdbegin:usergroup
+root::0:root
+other::1:root
+bin::2:bin,daemon,root
+sys::3:bin,sys,adm
+adm::4:adm,daemon,root
+uucp::5:uucp,root
+mail::6:root
+tty::7:adm,root
+audit::8:root
+nuucp::10:nuucp,root
+daemon::12:daemon,root
+cron::23:root
+dtadmin::25:root
+priv::47:root
+nobody::60001:
+noaccess::60002:
+lp::9:lp,root
+dos::100:
+sybase::101:
+cmdbegin:date
+Tue Jan 18 17:09:43 EST 2011
+cmdbegin:uptime
+   5:09pm  up  2:08,  2 users
+cmdbegin:end

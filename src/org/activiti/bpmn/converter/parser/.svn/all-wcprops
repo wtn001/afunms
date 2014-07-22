@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/parser
+END
+SubProcessParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/parser/SubProcessParser.java
+END
+BpmnShapeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/parser/BpmnShapeParser.java
+END
+BpmnEdgeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/parser/BpmnEdgeParser.java
+END

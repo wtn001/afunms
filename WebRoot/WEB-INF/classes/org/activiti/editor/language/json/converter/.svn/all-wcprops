@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter
+END
+ParallelGatewayJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ParallelGatewayJsonConverter.java
+END
+InclusiveGatewayJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/InclusiveGatewayJsonConverter.java
+END
+ServiceTaskJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ServiceTaskJsonConverter.java
+END
+CatchEventJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/CatchEventJsonConverter.java
+END
+BoundaryEventJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/BoundaryEventJsonConverter.java
+END
+ScriptTaskJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ScriptTaskJsonConverter.java
+END
+BaseBpmnJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/BaseBpmnJsonConverter.java
+END
+CallActivityJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/CallActivityJsonConverter.java
+END
+SubProcessJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/SubProcessJsonConverter.java
+END
+ExclusiveGatewayJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ExclusiveGatewayJsonConverter.java
+END
+BpmnJsonConverterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/BpmnJsonConverterUtil.java
+END
+BpmnJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/BpmnJsonConverter.java
+END
+StartEventJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/StartEventJsonConverter.java
+END
+SequenceFlowJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/SequenceFlowJsonConverter.java
+END
+ManualTaskJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ManualTaskJsonConverter.java
+END
+UserTaskJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/UserTaskJsonConverter.java
+END
+EventGatewayJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/EventGatewayJsonConverter.java
+END
+ReceiveTaskJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ReceiveTaskJsonConverter.java
+END
+ThrowEventJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ThrowEventJsonConverter.java
+END
+EndEventJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/EndEventJsonConverter.java
+END
+ActivityProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/language/json/converter/ActivityProcessor.java
+END

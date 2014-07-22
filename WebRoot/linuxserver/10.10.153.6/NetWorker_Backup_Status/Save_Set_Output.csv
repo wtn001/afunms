@@ -1,0 +1,1092 @@
+Save Set Output
+
+Server Name: all
+Group Name: all
+Client Name: all
+Save Set Name: all
+Group Start Time: from earliest available to 12/4/08 4:54:57 PM
+
+Message
+"* p570a:/dev/rxz_data10g_82 (pid 610858): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_82        level=full,     10 GB 00:06:57     16 files
+"
+"* p570a:/dev/rxz_data10g_80 (pid 684894): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_80        level=full,     10 GB 00:03:33     16 files
+"
+"* p570a:/dev/rxz_data10g_78 (pid 553892): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_78        level=full,     10 GB 00:09:47     16 files
+"
+"* p570a:/dev/rxz_data10g_76 (pid 667668): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_76        level=full,     10 GB 00:09:47     16 files
+"
+"* p570a:/dev/rxz_data10g_74 (pid 451126): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_74        level=full,     10 GB 00:09:02     16 files
+"
+"* p570a:/dev/rxz_data10g_72 (pid 688694): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_72        level=full,     10 GB 00:11:53     16 files
+"
+"* p570a:/dev/rxz_data10g_70 (pid 549774): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_70        level=full,     10 GB 00:09:04     16 files
+"
+"* p570a:/dev/rxz_data10g_68 (pid 386174): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_68        level=full,     10 GB 00:11:44     16 files
+"
+"* p570a:/dev/rxz_data10g_66 (pid 639348): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_66        level=full,     10 GB 00:04:52     16 files
+"
+"* p570a:/dev/rxz_data10g_64 (pid 619272): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_64        level=full,     10 GB 00:07:44     16 files
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:50    653 files
+"
+"  jfa06: /home/fee/databk           level=full,   2460 MB 00:02:29    350 files
+"
+"* p570a:/dev/rxz_data10g_62 (pid 459868): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_62        level=full,     10 GB 00:06:38     16 files
+"
+"* p570a:/dev/rxz_data10g_60 (pid 627174): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_60        level=full,     10 GB 00:09:07     16 files
+"
+"* p570a:/dev/rxz_data10g_58 (pid 435320): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_58        level=full,     10 GB 00:08:38     16 files
+"
+"* p570a:/dev/rxz_data10g_56 (pid 577872): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_56        level=full,     10 GB 00:13:02     16 files
+"
+"* p570a:/dev/rxz_data10g_54 (pid 451120): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_54        level=full,     10 GB 00:06:57     16 files
+"
+"* p570a:/dev/rxz_data10g_52 (pid 549756): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_52        level=full,     10 GB 00:10:21     16 files
+"
+"* p570a:/dev/rxz_data10g_50 (pid 721008): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_50        level=full,     10 GB 00:12:38     16 files
+"
+"  jfa06: /home/fee/databk           level=full,   2448 MB 00:02:22    347 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:02    653 files
+"
+"* p570a:/dev/rxz_data10g_48 (pid 725726): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_48        level=full,     10 GB 00:04:32     16 files
+"
+"* p570a:/dev/rxz_data10g_46 (pid 578492): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_46        level=full,     10 GB 00:06:56     16 files
+"
+"* p570a:/dev/rxz_data10g_44 (pid 553890): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_44        level=full,     10 GB 00:14:59     16 files
+"
+"* p570a:/dev/rxz_data10g_42 (pid 684778): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_42        level=full,     10 GB 00:08:02     16 files
+"
+"* p570a:/dev/rxz_data10g_40 (pid 725194): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_40        level=full,     10 GB 00:06:40     16 files
+"
+"* p570a:/dev/rxz_data10g_38 (pid 435318): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_38        level=full,     10 GB 00:10:16     16 files
+"
+"* p570a:/dev/rxz_data10g_37 (pid 533712): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_37        level=full,     10 GB 00:08:45     16 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"* p570a:/dev/rxz_users01 (pid 549802): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_users01           level=full,    524 MB 00:00:12     16 files
+"
+"  p570b: index:jfa05                level=full,   1516 MB 00:00:19  13192 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:17   1341 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 28 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1442 KB 00:00:03     68 files
+"
+"  p570b: index:jfa05                level=full,   1560 MB 00:00:19  13383 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:36   1367 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 29 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1450 KB 00:00:03     69 files
+"
+"  p570b: index:jfa05                level=full,   1510 MB 00:00:18  13165 files
+"
+"  p570b: bootstrap                  level=full,     13 MB 00:01:16   1692 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 21 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/18/08 03:00:00   full 1106829547   174       0   000023
+* p570b:bootstrap        10/19/08 03:00:02   full 318386846      6       0   000024
+* p570b:bootstrap        10/20/08 03:00:00   full 3808134199    14       0   000024
+* p570b:bootstrap        10/21/08 03:00:00   full 3170686374    22       0   000024
+* p570b:bootstrap        10/22/08 03:00:00   full 2650679045    30       0   000024
+* p570b:bootstrap        10/23/08 03:00:00   full 2197780579    38       0   000024
+* p570b:bootstrap        10/24/08 03:00:00   full 1711327746    46       0   000024
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"* p570a:/dev/rxz_undo03 (pid 680644): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_undo03            level=full,     10 GB 00:07:31     16 files
+"
+"* p570a:/dev/rxz_undo01 (pid 688708): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_undo01            level=full,     10 GB 00:04:04     16 files
+"
+"* p570a:/dev/rxz_tools01 (pid 725082): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_tools01           level=full,    524 MB 00:00:14     16 files
+"
+"* p570a:/dev/rxz_temp03 (pid 721032): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_temp03            level=full,     10 GB 00:05:17     16 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:31   1331 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 26 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/23/08 03:00:00   full 2197780579    38       0   000024
+* p570b:bootstrap        10/24/08 03:00:00   full 1711327746    46       0   000024
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2465 MB 00:02:10    351 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:04    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1438 KB 00:00:02     68 files
+"
+"  p570b: index:jfa05                level=full,   1552 MB 00:00:19  13348 files
+"
+"  jfa06: /home/fee/databk           level=full,   2435 MB 00:01:36    345 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:05:43    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:p570a                level=full,     21 MB 00:00:14    626 files
+"
+"* p570a:/dev/rxz_undo04 (pid 684618): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_undo04            level=full,     10 GB 00:07:11     16 files
+"
+"* p570a:/dev/rxz_undo02 (pid 513120): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_undo02            level=full,     10 GB 00:05:04     16 files
+"
+"* p570a:/dev/rxz_tools02 (pid 688706): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_tools02           level=full,    524 MB 00:00:16     16 files
+"
+"* p570a:/dev/rxz_temp04 (pid 700958): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_temp04            level=full,     10 GB 00:04:16     16 files
+"
+"  p570b: index:jfa06                level=full,   1458 KB 00:00:03     69 files
+"
+"  p570b: index:jfa05                level=full,   1522 MB 00:00:19  13218 files
+"
+"* p570a:/dev/rxz_temp01 (pid 639424): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_temp01            level=full,     10 GB 00:04:01     16 files
+"
+"* p570a:/dev/rxz_redo05 (pid 700954): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_redo05            level=full,    524 MB 00:00:14     16 files
+"
+"* p570a:/dev/rxz_redo03 (pid 635826): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_redo03            level=full,    524 MB 00:00:21     16 files
+"
+"* p570a:/dev/rxz_redo01 (pid 721020): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_redo01            level=full,    524 MB 00:00:18     16 files
+"
+"* p570a:/dev/rxz_data10g_102 (pid 480274): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_102       level=full,     10 GB 00:11:47     16 files
+"
+"* p570a:/dev/rxz_data10g_100 (pid 459936): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_100       level=full,     10 GB 00:12:19     16 files
+"
+"* p570a:/dev/rxz_data10g_98 (pid 610868): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_98        level=full,     10 GB 00:11:01     16 files
+"
+"* p570a:/dev/rxz_data10g_96 (pid 386176): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_96        level=full,     10 GB 00:13:10     16 files
+"
+"* p570a:/dev/rxz_data10g_94 (pid 533518): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_94        level=full,     10 GB 00:11:25     16 files
+"
+"* p570a:/dev/rxz_data10g_92 (pid 700952): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_92        level=full,     10 GB 00:04:09     16 files
+"
+"* p570a:/dev/rxz_data10g_90 (pid 513118): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_90        level=full,     10 GB 00:06:58     16 files
+"
+"* p570a:/dev/rxz_data10g_88 (pid 647618): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_88        level=full,     10 GB 00:06:41     16 files
+"
+"* p570a:/dev/rxz_data10g_86 (pid 700950): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_86        level=full,     10 GB 00:04:01     16 files
+"
+"* p570a:/dev/rxz_data10g_84 (pid 619274): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_84        level=full,     10 GB 00:07:00     16 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:02:11   1545 files
+"
+"  p570b: index:jfa06                level=full,   1462 KB 00:00:03     69 files
+"
+"* p570a:/dev/rxz_data10g_97 (pid 553894): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_97        level=full,     10 GB 00:13:07     16 files
+"
+"* p570a:/dev/rxz_data10g_95 (pid 496860): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_95        level=full,     10 GB 00:12:34     16 files
+"
+"* p570a:/dev/rxz_data10g_93 (pid 549790): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_93        level=full,     10 GB 00:07:52     16 files
+"
+"* p570a:/dev/rxz_data10g_91 (pid 684898): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_91        level=full,     10 GB 00:03:47     16 files
+"
+"* p570a:/dev/rxz_data10g_89 (pid 680628): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_89        level=full,     10 GB 00:06:17     16 files
+"
+"* p570a:/dev/rxz_data10g_87 (pid 528692): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_87        level=full,     10 GB 00:09:33     16 files
+"
+"  p570b: index:jfa06                level=full,   1454 KB 00:00:03     69 files
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2475 MB 00:01:55    353 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:05:43    655 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1446 KB 00:00:03     68 files
+"
+"  p570b: index:jfa05                level=full,   1566 MB 00:00:19  13406 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:02:05   1089 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 30 03:02 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+* p570b:bootstrap        11/30/08 03:00:01   full 288461225    151       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2481 MB 00:02:49    355 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:23    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1412 KB 00:00:03     66 files
+"
+"  p570b: index:jfa05                level=full,   1577 MB 00:00:20  13455 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:02:03   1121 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap December 02 03:02 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+* p570b:bootstrap        11/30/08 03:00:01   full 288461225    151       0   000027
+* p570b:bootstrap        12/01/08 03:00:00   full 4147307327   159       0   000027
+* p570b:bootstrap        12/02/08 03:00:00   full 3627300004   167       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:02:17   1428 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 24 03:02 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/21/08 03:00:00   full 3170686374    22       0   000024
+* p570b:bootstrap        10/22/08 03:00:00   full 2650679045    30       0   000024
+* p570b:bootstrap        10/23/08 03:00:00   full 2197780579    38       0   000024
+* p570b:bootstrap        10/24/08 03:00:00   full 1711327746    46       0   000024
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+"
+"  jfa06: /home/fee/databk           level=full,   2456 MB 00:03:01    351 files
+"
+"  jfa06: /home/fee/databk           level=full,   2479 MB 00:02:17    354 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:00    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1450 KB 00:00:03     68 files
+"
+"  p570b: index:jfa05                level=full,   1570 MB 00:00:29  13426 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:02:28   1097 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap December 01 03:02 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+* p570b:bootstrap        11/30/08 03:00:01   full 288461225    151       0   000027
+* p570b:bootstrap        12/01/08 03:00:00   full 4147307327   159       0   000027
+"
+"* p570a:/dev/rxz_data10g_85 (pid 684896): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_85        level=full,     10 GB 00:04:02     16 files
+"
+"* p570a:/dev/rxz_data10g_83 (pid 639366): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_83        level=full,     10 GB 00:09:50     16 files
+"
+"* p570a:/dev/rxz_data10g_81 (pid 566008): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_81        level=full,     10 GB 00:10:06     16 files
+"
+"* p570a:/dev/rxz_data10g_79 (pid 700948): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_79        level=full,     10 GB 00:04:20     16 files
+"
+"* p570a:/dev/rxz_data10g_77 (pid 680570): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_77        level=full,     10 GB 00:07:29     16 files
+"
+"* p570a:/dev/rxz_data10g_75 (pid 533516): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_75        level=full,     10 GB 00:09:42     16 files
+"
+"* p570a:/dev/rxz_data10g_73 (pid 704746): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_73        level=full,     10 GB 00:12:00     16 files
+"
+"* p570a:/dev/rxz_data10g_71 (pid 721010): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_71        level=full,     10 GB 00:11:54     16 files
+"
+"* p570a:/dev/rxz_data10g_69 (pid 525300): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_69        level=full,     10 GB 00:12:21     16 files
+"
+"* p570a:/dev/rxz_data10g_67 (pid 684576): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_67        level=full,     10 GB 00:09:20     16 files
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2483 MB 00:03:07    356 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:46    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1416 KB 00:00:03     66 files
+"
+"  p570b: index:jfa05                level=full,   1586 MB 00:00:29  13491 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:41   1155 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap December 03 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+* p570b:bootstrap        11/30/08 03:00:01   full 288461225    151       0   000027
+* p570b:bootstrap        12/01/08 03:00:00   full 4147307327   159       0   000027
+* p570b:bootstrap        12/02/08 03:00:00   full 3627300004   167       0   000027
+* p570b:bootstrap        12/03/08 03:00:00   full 2939520528   175       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2453 MB 00:02:50    348 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:20    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:55   1360 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 25 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/22/08 03:00:00   full 2650679045    30       0   000024
+* p570b:bootstrap        10/23/08 03:00:00   full 2197780579    38       0   000024
+* p570b:bootstrap        10/24/08 03:00:00   full 1711327746    46       0   000024
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2484 MB 00:02:18    358 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:42    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"* p570a:/dev/rxz_data10g_65 (pid 578506): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_65        level=full,     10 GB 00:06:26     16 files
+"
+"* p570a:/dev/rxz_data10g_63 (pid 635750): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_63        level=full,     10 GB 00:09:12     16 files
+"
+"* p570a:/dev/rxz_data10g_61 (pid 479234): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_61        level=full,     10 GB 00:07:58     16 files
+"
+"* p570a:/dev/rxz_data10g_59 (pid 386132): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_59        level=full,     10 GB 00:05:33     16 files
+"
+"* p570a:/dev/rxz_data10g_57 (pid 667662): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_57        level=full,     10 GB 00:09:09     16 files
+"
+"* p570a:/dev/rxz_data10g_55 (pid 656266): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_55        level=full,     10 GB 00:09:31     16 files
+"
+"* p570a:/dev/rxz_data10g_53 (pid 680568): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_53        level=full,     10 GB 00:11:32     16 files
+"
+"* p570a:/dev/rxz_data10g_51 (pid 521468): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_51        level=full,     10 GB 00:11:36     16 files
+"
+"* p570a:/dev/rxz_data10g_49 (pid 585756): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_49        level=full,     10 GB 00:08:43     16 files
+"
+"* p570a:/dev/rxz_data10g_47 (pid 480410): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_47        level=full,     10 GB 00:05:05     16 files
+"
+"* p570a:/dev/rxz_data10g_45 (pid 496770): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_45        level=full,     10 GB 00:12:41     16 files
+"
+"* p570a:/dev/rxz_data10g_43 (pid 688692): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_43        level=full,     10 GB 00:14:17     16 files
+"
+"* p570a:/dev/rxz_data10g_41 (pid 459842): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_41        level=full,     10 GB 00:09:00     16 files
+"
+"* p570a:/dev/rxz_data10g_39 (pid 717540): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_39        level=full,     10 GB 00:03:05     16 files
+"
+"  jfa06: /home/fee/databk           level=full,   2442 MB 00:01:58    346 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:05:34    653 files
+"
+"  p570b: index:jfa05                level=full,   1527 MB 00:00:20  13237 files
+"
+"  p570b: index:jfa06                level=full,   1466 KB 00:00:03     69 files
+"
+"  p570b: index:jfa05                level=full,   1533 MB 00:00:19  13263 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1429 KB 00:00:02     68 files
+"
+"  p570b: index:jfa05                level=full,   1539 MB 00:00:20  13292 files
+"
+"  p570b: index:jfa06                level=full,   1434 KB 00:00:03     68 files
+"
+"  p570b: index:jfa05                level=full,   1545 MB 00:00:24  13318 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2484 MB 00:02:40    357 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:36    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"
+"  p570b: index:jfa06                level=full,   1420 KB 00:00:03     66 files
+"
+"  p570b: index:jfa05                level=full,   1596 MB 00:02:24  13534 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:26   1225 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap December 04 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+* p570b:bootstrap        11/23/08 03:00:00   full 3844626221    95       0   000027
+* p570b:bootstrap        11/24/08 03:00:00   full 3475613875   103       0   000027
+* p570b:bootstrap        11/25/08 03:00:00   full 2955606555   111       0   000027
+* p570b:bootstrap        11/26/08 03:00:00   full 2452376454   119       0   000027
+* p570b:bootstrap        11/27/08 03:00:00   full 1949146347   127       0   000027
+* p570b:bootstrap        11/28/08 03:00:00   full 1362030200   135       0   000027
+* p570b:bootstrap        11/29/08 03:00:00   full 741359627    143       0   000027
+* p570b:bootstrap        11/30/08 03:00:01   full 288461225    151       0   000027
+* p570b:bootstrap        12/01/08 03:00:00   full 4147307327   159       0   000027
+* p570b:bootstrap        12/02/08 03:00:00   full 3627300004   167       0   000027
+* p570b:bootstrap        12/03/08 03:00:00   full 2939520528   175       0   000027
+* p570b:bootstrap        12/04/08 03:00:01   full 2167854963   183       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"* p570a:/dev/rxz_temp02 (pid 623152): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_temp02            level=full,     10 GB 00:04:06     16 files
+"
+"* p570a:/dev/rxz_system01 (pid 700956): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_system01          level=full,    524 MB 00:00:16     16 files
+"
+"* p570a:/dev/rxz_redo04 (pid 623150): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_redo04            level=full,    524 MB 00:00:14     16 files
+"
+"* p570a:/dev/rxz_redo02 (pid 684598): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_redo02            level=full,    524 MB 00:00:19     16 files
+"
+"* p570a:/dev/rxz_data10g_103 (pid 566010): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_103       level=full,     10 GB 00:10:54     16 files
+"
+"* p570a:/dev/rxz_data10g_101 (pid 717440): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_101       level=full,     10 GB 00:13:16     16 files
+"
+"* p570a:/dev/rxz_data10g_99 (pid 451146): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_99        level=full,     10 GB 00:13:34     16 files
+"
+"* p570a:/dev/rxz_data10g_36 (pid 701110): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_36        level=full,     10 GB 00:10:32     16 files
+"
+"* p570a:/dev/rxz_data10g_35 (pid 627172): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_35        level=full,     10 GB 00:11:16     16 files
+"
+"* p570a:/dev/rxz_data10g_34 (pid 513052): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_34        level=full,     10 GB 00:09:44     16 files
+"
+"* p570a:/dev/rxz_data10g_33 (pid 525256): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_33        level=full,     10 GB 00:08:01     16 files
+"
+"* p570a:/dev/rxz_data10g_32 (pid 619490): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_32        level=full,     10 GB 00:12:45     16 files
+"
+"* p570a:/dev/rxz_data10g_31 (pid 684776): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_31        level=full,     10 GB 00:08:21     16 files
+"
+"* p570a:/dev/rxz_data10g_30 (pid 725724): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_30        level=full,     10 GB 00:10:29     16 files
+"
+"* p570a:/dev/rxz_data10g_29 (pid 656206): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_29        level=full,     10 GB 00:11:38     16 files
+"
+"* p570a:/dev/rxz_data10g_28 (pid 627690): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_28        level=full,     10 GB 00:11:40     16 files
+"
+"* p570a:/dev/rxz_data10g_27 (pid 521466): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_27        level=full,     10 GB 00:12:03     16 files
+"
+"* p570a:/dev/rxz_data10g_26 (pid 496768): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_26        level=full,     10 GB 00:11:20     16 files
+"
+"* p570a:/dev/rxz_data10g_25 (pid 480378): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_25        level=full,     10 GB 00:08:00     16 files
+"
+"* p570a:/dev/rxz_data10g_24 (pid 451098): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_24        level=full,     10 GB 00:13:11     16 files
+"
+"* p570a:/dev/rxz_data10g_23 (pid 549728): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_23        level=full,     10 GB 00:09:21     16 files
+"
+"* p570a:/dev/rxz_data10g_22 (pid 578488): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_22        level=full,     10 GB 00:12:35     16 files
+"
+"* p570a:/dev/rxz_data10g_21 (pid 623176): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_21        level=full,     10 GB 00:06:36     16 files
+"
+"* p570a:/dev/rxz_data10g_20 (pid 720910): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_20        level=full,     10 GB 00:04:53     16 files
+"
+"* p570a:/dev/rxz_data10g_19 (pid 680660): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_19        level=full,     10 GB 00:10:25     16 files
+"
+"* p570a:/dev/rxz_data10g_18 (pid 283514): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_18        level=full,     10 GB 00:10:28     16 files
+"
+"* p570a:/dev/rxz_data10g_17 (pid 701108): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_17        level=full,     10 GB 00:15:47     16 files
+"
+"* p570a:/dev/rxz_data10g_16 (pid 585966): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_16        level=full,     10 GB 00:16:08     16 files
+"
+"* p570a:/dev/rxz_data10g_15 (pid 533634): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_15        level=full,     10 GB 00:15:51     16 files
+"
+"* p570a:/dev/rxz_data10g_14 (pid 656204): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_14        level=full,     10 GB 00:14:18     16 files
+"
+"* p570a:/dev/rxz_data10g_13 (pid 578038): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_13        level=full,     10 GB 00:12:35     16 files
+"
+"* p570a:/dev/rxz_data10g_12 (pid 422014): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_12        level=full,     10 GB 00:12:43     16 files
+"
+"* p570a:/dev/rxz_data10g_11 (pid 660280): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_11        level=full,     10 GB 00:15:09     16 files
+"
+"* p570a:/dev/rxz_data10g_10 (pid 717362): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_10        level=full,     10 GB 00:11:56     16 files
+"
+"* p570a:/dev/rxz_data10g_09 (pid 619488): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_09        level=full,     10 GB 00:16:44     16 files
+"
+"* p570a:/dev/rxz_data10g_08 (pid 590152): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_08        level=full,     10 GB 00:12:59     16 files
+"
+"* p570a:/dev/rxz_data10g_07 (pid 684828): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_07        level=full,     10 GB 00:10:54     16 files
+"
+"* p570a:/dev/rxz_data10g_06 (pid 627688): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_06        level=full,     10 GB 00:14:01     16 files
+"
+"* p570a:/dev/rxz_data10g_05 (pid 451096): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_05        level=full,     10 GB 00:12:40     16 files
+"
+"* p570a:/dev/rxz_data10g_04 (pid 565876): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_04        level=full,     10 GB 00:13:51     16 files
+"
+"* p570a:/dev/rxz_data10g_03 (pid 635672): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_03        level=full,     10 GB 00:17:56     16 files
+"
+"* p570a:/dev/rxz_data10g_02 (pid 525254): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_02        level=full,     10 GB 00:16:39     16 files
+"
+"* p570a:/dev/rxz_data10g_01 (pid 627106): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_data10g_01        level=full,     10 GB 00:12:35     16 files
+"
+"* p570a:/dev/rxz_control03 (pid 585964): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_control03         level=full,    524 MB 00:02:34     16 files
+"
+"* p570a:/dev/rxz_control02 (pid 209854): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_control02         level=full,    524 MB 00:02:35     16 files
+"
+"* p570a:/dev/rxz_control01 (pid 725652): Reverse DNS lookup failed for address 10.0.0.1
+  p570a: /dev/rxz_control01         level=full,    524 MB 00:02:48     16 files
+"
+"  p570b: bootstrap                  level=full,     13 MB 00:01:45   1884 files
+* p570b:bootstrap enq: (FATAL ERROR): 0781-372 There are no queues defined in the /etc/qconfig file.
+* p570b:bootstrap printing bootstrap information failed (reproduced below).
+* p570b:bootstrap 
+* p570b:bootstrap 
+* p570b:bootstrap November 22 03:01 2008  p570b's bootstrap information Page 1
+* p570b:bootstrap 
+* p570b:bootstrap       date     time       level ssid        file  record   volume
+* p570b:bootstrap        10/19/08 03:00:02   full 318386846      6       0   000024
+* p570b:bootstrap        10/20/08 03:00:00   full 3808134199    14       0   000024
+* p570b:bootstrap        10/21/08 03:00:00   full 3170686374    22       0   000024
+* p570b:bootstrap        10/22/08 03:00:00   full 2650679045    30       0   000024
+* p570b:bootstrap        10/23/08 03:00:00   full 2197780579    38       0   000024
+* p570b:bootstrap        10/24/08 03:00:00   full 1711327746    46       0   000024
+* p570b:bootstrap        10/25/08 03:00:00   full 1879186328    56       0   000024
+* p570b:bootstrap        10/26/08 03:00:00   full 1443065139    64       0   000024
+* p570b:bootstrap        10/27/08 03:00:00   full 1057275553    72       0   000024
+* p570b:bootstrap        10/28/08 03:00:00   full 554045447     80       0   000024
+* p570b:bootstrap        10/29/08 03:00:00   full 34038126      89       0   000024
+* p570b:bootstrap        10/30/08 03:00:00   full 3876107002    97       0   000024
+* p570b:bootstrap        10/31/08 03:01:53   full 3389654177   107       0   000024
+* p570b:bootstrap        11/01/08 03:00:00   full 789272116    115       0   000024
+* p570b:bootstrap        11/02/08 03:00:00   full 369928102    123       0   000024
+* p570b:bootstrap        11/03/08 03:00:01   full 51247371     131       0   000024
+* p570b:bootstrap        11/04/08 03:00:02   full 3641657963   139       0   000024
+* p570b:bootstrap        11/05/08 03:00:01   full 3054541815   147       0   000024
+* p570b:bootstrap        11/06/08 03:00:01   full 2517757337   155       0   000024
+* p570b:bootstrap        11/07/08 03:00:00   full 1662205743   163       0   000024
+* p570b:bootstrap        11/08/08 03:00:00   full 3256127675   171       0   000024
+* p570b:bootstrap        11/08/08 22:24:56   full 4111835448   231       0   000034
+* p570b:bootstrap        11/09/08 03:00:00   full 3927302692   179       0   000024
+* p570b:bootstrap        11/10/08 03:00:00   full 3424072589   187       0   000024
+* p570b:bootstrap        11/11/08 03:00:00   full 2870510838   195       0   000024
+* p570b:bootstrap        11/12/08 03:00:01   full 2316949101     4       0   000027
+* p570b:bootstrap        11/13/08 03:00:00   full 1796941798    12       0   000027
+* p570b:bootstrap        11/14/08 03:00:00   full 1042053499    21       0   000027
+* p570b:bootstrap        11/15/08 03:00:00   full 2434648847    29       0   000027
+* p570b:bootstrap        11/16/08 03:02:16   full 1579097272    39       0   000027
+* p570b:bootstrap        11/17/08 03:00:00   full 773877306     47       0   000027
+* p570b:bootstrap        11/18/08 03:00:00   full 4263624607    55       0   000027
+* p570b:bootstrap        11/19/08 03:00:00   full 3710062846    63       0   000027
+* p570b:bootstrap        11/20/08 03:00:00   full 3223609960    71       0   000027
+* p570b:bootstrap        11/21/08 03:00:00   full 2703602679    79       0   000027
+* p570b:bootstrap        11/22/08 03:00:01   full 36111765      87       0   000027
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:06:35    653 files
+"
+"  p570b: bootstrap                  level=full,     12 MB 00:01:05   1323 files
+"
+"  p570b: /home/gwjf/gwjf_part_bk    level=skip,      0 KB 00:00:00      0 files
+"
+"  jfa06: /home/fee/databk           level=full,   2471 MB 00:01:41    352 files
+"
+"  jfa05: /home/fee/databk           level=full,     14 GB 00:05:39    653 files
+"
+"  p570b: index:p570b                level=skip,      0 KB 00:00:00      0 files
+"

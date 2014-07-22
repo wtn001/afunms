@@ -1,0 +1,6 @@
+config
+rtr <entrynumber>
+type http operation get url <urlstr>
+rtr sch <entrynumber> start-time now
+exit
+write

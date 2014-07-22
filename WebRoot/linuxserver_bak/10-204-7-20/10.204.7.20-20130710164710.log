@@ -1,0 +1,2243 @@
+cmdbegin:collecttime
+2010-10-26 12:59:07
+cmdbegin:version
+5300-06-12-0920
+cmdbegin:vmstat
+
+System configuration: lcpu=4 mem=4480MB
+
+kthr    memory              page              faults        cpu    
+----- ----------- ------------------------ ------------ -----------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa
+ 1  1 1079322  9692   0   0   0   1    8   0  32 399004 328  6 17 77  0
+cmdbegin:lsps
+Total Paging Space   Percent Used
+      8192MB              17%
+cmdbegin:swap
+allocated  =    2097152 blocks    used  =   336670 blocks      free  =    1760482 blocks
+cmdbegin:process
+USER         PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+cspdev   1118462  0.0  0.0  704  248      - A      Sep 07  0:00 sh
+cspdev   1179734  0.0  0.0 4280 2056      - A      Oct 12  0:00 bpykttranp
+cspdev   1187904  0.0  0.0 4704 7648      - A      Oct 18  0:00 cmsxytranp
+cspdev   1204326  0.0  0.0 3092  976      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   1314858  0.0  0.0 3120  220      - A      Oct 12  0:00 cspcomclientfor
+cspdev   1368292  0.0  0.0 3092 1004      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   1392718  0.0  0.0 3092 1008      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   1679490  0.0  0.0  744  788 pts/10 A    15:37:03  0:00 vi
+cspdev   1708224  0.0  0.0  784  660 pts/10 A      Oct 19  0:00 ksh
+cspdev   1826924  0.0  0.0  144  148      - A    09:44:56  0:00 sleep
+cspdev   1855652  0.0  0.0 3124 1640      - A      Oct 18  0:00 cspcomtmpsynccl
+cspdev   1859826  0.0  0.0 3120  180      - A      Oct 12  0:00 cspcomclientfor
+cspdev   1896542  0.0  0.0 3092  984      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2015394  0.0  0.0  704  248      - A      Sep 09  0:00 sh
+cspdev   2019540  0.0  0.0 4392 11172      - A    11:32:23  0:00 cmssettlement
+cspdev   2023630  0.0  0.0 5044 3068      - A      Oct 12  0:46 chlPubTrnP
+cspdev   2031830  0.0  0.0  512   84      - A      Sep 28  0:00 snd
+cspdev   2048210  0.0  0.0 3092  968      - A      Oct 13  0:00 cspcomtmpsynccl
+cspdev   2052096  0.0  0.0 3092 1004      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2056236  0.0  0.0 3136  380      - A      Oct 12  0:00 cspcomtmpcliECH
+cspdev   2064414  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2068544  0.0  0.0 3092  972      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2076728  0.0  0.0 3092  980      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2080934  0.0  0.0 5892 3216      - A      Oct 12  0:29 cmsdevicetp
+cspdev   2085032  0.0  0.0 3092 1000      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2089038  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2093076  0.0  0.0 3092  984      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2101354  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2109500  0.0  0.0 3092 1924      - A      Oct 14  0:00 cspcomtmpsynccl
+cspdev   2113636  0.0  0.0 3096   40      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2117856  0.0  0.0 3092 1000      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2121836  0.0  0.0 3404   52      - A      Oct 12  0:00 bpNaTipscTrnP
+cspdev   2138350  0.0  0.0 3008  356      - A      Oct 12  0:00 sysmsgauthp022
+cspdev   2142268  0.0  0.0 3092 1056      - A      Oct 14  0:00 cspcomtmpsynccl
+cspdev   2150508  0.0  0.0 5908 3280      - A      Oct 12  0:27 cmsdevicetp
+cspdev   2154662  0.0  0.0 3096   40      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2158710  0.0  0.0 3012  316      - A      Oct 12  0:00 sysmsgauthp008
+cspdev   2162704  0.0  0.0  168  156      - A      Oct 18  0:00 telsvr
+cspdev   2166914  0.0  0.0 3444   84      - A      Oct 12  0:00 cmsxydayoffp
+cspdev   2170882  0.0  0.0 3096   40      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2175026  0.0  0.0 3392   68      - A      Oct 12  0:00 bpConTrnP
+cspdev   2179170  0.0  1.0 35312 33144      - A      Oct 12  0:44 sysmsgconvp
+cspdev   2183238  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2203792  0.0  0.0 5860 3240      - A      Oct 12  0:25 cmsdevicetp
+cspdev   2207812  0.0  0.0 3096   76      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2215986  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2224224  0.0  0.0 3096   48      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2236556  0.0  0.0 3060  580      - A      Oct 12  0:05 cspcomtmpsrv
+cspdev   2248872  0.0  0.0 3508  104      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2252940  0.0  0.0 3544   56      - A      Oct 12  0:00 bpBondTrnP
+cspdev   2257032  0.0  0.0 2972  512      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2261052  0.0  0.0 3012  312      - A      Oct 12  0:00 sysmsgauthp008
+cspdev   2273478  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2277520  0.0  0.0 2972  532      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2281558  0.0  0.0 2972  456      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2285702  0.0  0.0 3060  612      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2293976  0.0  0.0 3508  132      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2298012  0.0  0.0 3060  640      - A      Oct 12  0:07 cspcomtmpsrv
+cspdev   2310304  0.0  0.0  760  200      - A      Sep 08  0:00 ftp
+cspdev   2318438  0.0  0.0  704  248      - A      Sep 09  0:00 sh
+cspdev   2330696  0.0  0.0 3092  996      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2334898  0.0  0.0 3120  176      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2338972  0.0  0.0  168  144      - A      Oct 18  0:00 mobsvr
+cspdev   2347244  0.0  0.0 3508  104      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2351142  0.0  0.0 3124 1032      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2355438  0.0  0.0  772  812 pts/28 A    16:25:44  0:00 ksh
+cspdev   2359338  0.0  0.0 3092  980      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2363624  0.0  0.0 3092  980      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2367606  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2375858  0.0  0.0 3060  532      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2384114  0.0  1.0 35304 33168      - A      Oct 12  0:45 sysmsgconvp
+cspdev   2388080  0.0  0.0 3016   52      - A      Oct 12  0:00 sysmsgauthp888
+cspdev   2400336  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2412612  0.0  0.0 5500 9360      - A    20:14:17  0:00 bpIbpsTrnP
+cspdev   2416860  0.0  0.0 3092  972      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2420962  0.0  0.0 3012  312      - A      Oct 12  0:00 sysmsgauthp008
+cspdev   2424860  0.0  0.0 3092 1240      - A      Oct 14  0:00 cspcomtmpsynccl
+cspdev   2433174  0.0  0.0  788  508  pts/6 A      Oct 13  0:00 ksh
+cspdev   2437132  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2445356  0.0  0.0  164  132      - A      Oct 18  0:00 watcustsvr
+cspdev   2461774  0.0  0.0 3020   64      - A      Oct 12  0:00 sysmsgauthp888
+cspdev   2478196  0.0  0.0 3680  436      - A      Oct 12  0:38 cspstart
+cspdev   2482414  0.0  0.0 3016  420      - A      Oct 12  0:00 sysmsgauthp030
+cspdev   2486492  0.0  0.0 3092 1064      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2490622  0.0  0.0 5240 4388      - A      Oct 19  0:02 epspubtran
+cspdev   2494606  0.0  0.0 3092  972      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2498732  0.0  0.0 2972  464      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2502908  0.0  0.0 2972  460      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2506954  0.0  0.0 4308 2640      - A      Oct 15  0:00 bpThirdPubTrnP
+cspdev   2514964  0.0  0.0 3012  308      - A      Oct 12  0:00 sysmsgauthp008
+cspdev   2519062  0.0  0.0 3016  408      - A      Oct 12  0:00 sysmsgauthp030
+cspdev   2531438  0.0  0.0 2972  504      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2535620  0.0  0.0  760  200      - A      Sep 09  0:00 ftp
+cspdev   2539688  0.0  0.0 3092 1008      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2543726  0.0  0.0 2972  488      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2547788  0.0  0.0 3124 2736      - A      Oct 21  0:00 cspcomtmpsynccl
+cspdev   2551826  0.0  0.0 3092 1024      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2556140  0.0  0.0 2972  536      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2560026  0.0  0.0 3020  380      - A      Oct 12  0:00 sysmsgauthp030
+cspdev   2564304  0.0  0.0 4424 6036      - A    17:13:51  0:00 bpHsfssTrnP
+cspdev   2568342  0.0  0.0 3092 1012      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2572362  0.0  0.0 3388  132      - A      Oct 12  0:00 bpConTrnP
+cspdev   2576480  0.0  0.0 3060  580      - A      Oct 12  0:07 cspcomtmpsrv
+cspdev   2580514  0.0  0.0 5024 3012      - A      Oct 12  0:43 chlPubTrnP
+cspdev   2584612  0.0  0.0 3100   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2588708  0.0  0.0 3508   76      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2597044  0.0  0.0 3064  356      - A      Oct 12  0:05 cspcomsrvvf
+cspdev   2601028  0.0  0.0 3388   76      - A      Oct 12  0:00 bpConTrnP
+cspdev   2605208  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2609204  0.0  0.0 3512   64      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2613298  0.0  0.0 3020  768      - A      Oct 12  0:01 sysautotaskp
+cspdev   2617412  0.0  0.0 3388   76      - A      Oct 12  0:00 bpConTrnP
+cspdev   2621528  0.0  1.0 35304 33172      - A      Oct 12  0:42 sysmsgconvp
+cspdev   2625750  0.0  0.0  760  200      - A      Sep 09  0:00 ftp
+cspdev   2629688  0.0  1.0 35308 33144      - A      Oct 12  0:44 sysmsgconvp
+cspdev   2633916  0.0  0.0 3060  500      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2637962  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2641984  0.0  0.0 5016 3028      - A      Oct 12  0:46 chlPubTrnP
+cspdev   2646196  0.0  0.0 3092  984      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2650228  0.0  0.0 4732 3480      - A      Oct 14  0:01 bpBatchTrnP
+cspdev   2654256  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2658494  0.0  0.0 3092 1048      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2666668  0.0  0.0 3100   76      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2670668  0.0  1.0 35312 33168      - A      Oct 12  0:42 sysmsgconvp
+cspdev   2674756  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2678944  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2683072  0.0  0.0 3100   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2691158  0.0  0.0 3100   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2699372  0.0  0.0 3016  416      - A      Oct 12  0:00 sysmsgauthp030
+cspdev   2703456  0.0  0.0 3104  404      - A      Oct 14  0:00 cspcomtmpcliECH
+cspdev   2715750  0.0  0.0 3420   88      - A      Oct 12  0:00 bpMobTrnP
+cspdev   2719918  0.0  0.0 3132  128      - A      Oct 12  0:00 cspcomCUPSclien
+cspdev   2728144  0.0  0.0 3020  400      - A      Oct 12  0:00 sysmsgauthp030
+cspdev   2744338  0.0  0.0 3092 1020      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2748534  0.0  0.0 3064  212      - A      Oct 12  0:04 cspcomsrv
+cspdev   2752644  0.0  0.0 3508  112      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2756662  0.0  0.0 3092 2844      - A    16:58:53  0:00 cspcomtmpsynccl
+cspdev   2760834  0.0  0.0 4728 3472      - A      Oct 14  0:02 bpBatchTrnP
+cspdev   2764924  0.0  0.0 3012  916      - A      Oct 12  3:05 sysreversalp
+cspdev   2769044  0.0  0.0 3512   60      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2797730  0.0  0.0 3124 2860      - A      Oct 21  0:01 cspcomtmpsynccl
+cspdev   2801706  0.0  0.0 3140  336      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2805982  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2810006  0.0  1.0 35324 33208      - A      Oct 12  0:41 sysmsgconvp
+cspdev   2813960  0.0  0.0 3140  308      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2818278  0.0  0.0 3140  384      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2822190  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2826394  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2834446  0.0  0.0 3092  996      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2842786  0.0  0.0 3140  388      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2846944  0.0  0.0 3092  972      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2850910  0.0  0.0 3144  384      - A      Oct 12  0:00 cspcomclientfor
+cspdev   2855152  0.0  0.0 3392  128      - A      Oct 12  0:00 bpConTrnP
+cspdev   2859218  0.0  0.0 4780 2540      - A      Oct 13  0:00 bpTipscTrnP
+cspdev   2867356  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2871528  0.0  0.0 3096  100      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2875446  0.0  0.0 3060  544      - A      Oct 12  0:05 cspcomtmpsrv
+cspdev   2883826  0.0  0.0 3124 1172      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2891922  0.0  0.0 4780 2640      - A      Oct 13  0:00 bpTipscTrnP
+cspdev   2896052  0.0  0.0 2972  496      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2904090  0.0  0.0 3060  612      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2912398  0.0  0.0 3096   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2916384  0.0  0.0 3016 1748      - A      Oct 18  1:33 systimerp
+cspdev   2920454  0.0  0.0 3096   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2924706  0.0  0.0 5232 4436      - A      Oct 19  0:03 epspubtran
+cspdev   2928866  0.0  0.0 3100   68      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2937010  0.0  0.0 3092  972      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2941078  0.0  0.0 3408   40      - A      Oct 12  0:00 bpNaTipscTrnP
+cspdev   2949166  0.0  0.0 3100   72      - A      Oct 12  0:00 cspcomasyncclie
+cspdev   2953320  0.0  0.0 3060  552      - A      Oct 12  0:08 cspcomtmpsrv
+cspdev   2957520  0.0  0.0 3508   80      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   2961520  0.0  0.0 2972  472      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   2965616  0.0  0.0 3336  884      - A      Oct 12  0:02 sysrouterinp
+cspdev   2969662  0.0  0.0 3096   40      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2973944  0.0  0.0 3092  992      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   2978042  0.0  0.0 3100   68      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   2981972  0.0  0.0 3008  320      - A      Oct 12  0:00 sysmsgauthp022
+cspdev   2986030  0.0  0.0  168  144      - A      Oct 18  0:00 watsvr
+cspdev   3002610  0.0  0.0 4344  260      - A      Oct 12  0:00 bpCorpInfMgnP
+cspdev   3018892  0.0  0.0 3092 1024      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3022982  0.0  0.0 3360  920      - A      Oct 12  0:02 sysrouterinp
+cspdev   3043558  0.0  0.0 3008  320      - A      Oct 12  0:00 sysmsgauthp022
+cspdev   3047488  0.0  0.0  704  248      - A      Sep 08  0:00 sh
+cspdev   3051592  0.0  0.0 4560  856      - A      Oct 12  0:01 bpElecTrnP
+cspdev   3055712  0.0  0.0 3092  976      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3067992  0.0  0.0  756  200      - A      Sep 07  0:00 ftp
+cspdev   3072020  0.0  0.0 3396  120      - A      Oct 12  0:00 bpTelTrnP
+cspdev   3096676  0.0  0.0 3508  124      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   3104816  0.0  0.0 2976  204      - A      Oct 12  0:04 cspcomsrv
+cspdev   3121274  0.0  0.0 3576  804      - A      Oct 12  5:48 cspcomdetecttp
+cspdev   3129344  0.0  0.0 2976  208      - A      Oct 12  0:04 cspcomsrv
+cspdev   3133464  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3137720  0.0  0.0 1636  684      - A      Sep 06  0:00 bpodbcsvr
+cspdev   3141798  0.0  0.0 3092 1000      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3149826  0.0  0.0  460  176      - A      Oct 12  0:06 sysstatp
+cspdev   3158098  0.0  0.0 3092 2844      - A    15:23:46  0:00 cspcomtmpsynccl
+cspdev   3162180  0.0  0.0 3508   80      - A      Oct 12  0:00 bpNaTipssTrnP
+cspdev   3170466  0.0  0.0 2976  196      - A      Oct 12  0:04 cspcomsrv
+cspdev   3174482  0.0  0.0 3092 1340      - A      Oct 14  0:00 cspcomtmpsynccl
+cspdev   3178600  0.0  0.0 3124 1004      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3182770  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3186908  0.0  0.0 2980  196      - A      Oct 12  0:04 cspcomsrv
+cspdev   3190994  0.0  0.0 2972  472      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   3195046  0.0  0.0  760  200      - A      Sep 09  0:00 ftp
+cspdev   3199112  0.0  0.0 2972  484      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   3203202  0.0  0.0 3540   48      - A      Oct 12  0:00 bpBondTrnP
+cspdev   3211314  0.0  0.0 3092 1012      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3215546  0.0  0.0 3092 2016      - A      Oct 20  0:00 cspcomtmpsynccl
+cspdev   3219484  0.0  0.0 3008  316      - A      Oct 12  0:00 sysmsgauthp022
+cspdev   3227802  0.0  0.0 4084   72      - A      Oct 12  0:00 cmsdevdayofftp
+cspdev   3231816  0.0  0.0 4864 2404      - A      Oct 12  0:14 bppubtranp
+cspdev   3236084  0.0  0.0 4084   88      - A      Oct 12  0:00 cmsdevdayofftp
+cspdev   3240082  0.0  0.0 3008  308      - A      Oct 12  0:00 sysmsgauthp022
+cspdev   3244136  0.0  0.0 5260 4252      - A      Oct 19  0:03 epspubtran
+cspdev   3248150  0.0  0.0 3092 1040      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3256434  0.0  1.0 35308 33160      - A      Oct 12  0:43 sysmsgconvp
+cspdev   3260630  0.0  0.0 4832 2376      - A      Oct 12  0:13 bppubtranp
+cspdev   3264684  0.0  0.0 2972  524      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   3272932  0.0  0.0  704  248      - A      Sep 09  0:00 sh
+cspdev   3281024  0.0  0.0 3092 1060      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3293244  0.0  0.0 3124 1232      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3313682  0.0  0.0  596   20      - A      Sep 07  0:00 sndtotux_test
+cspdev   3317814  0.0  0.0 3124 1100      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3321886  0.0  0.0  992  244      - A      Sep 07  0:00 ksh
+cspdev   3325988  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3334216  0.0  0.0 4356  912      - A      Oct 12  0:00 bpWaterTrnP
+cspdev   3338442  0.0  0.0 3092  992      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3346588  0.0  0.0 3540   36      - A      Oct 12  0:00 bpBondTrnP
+cspdev   3350776  0.0  0.0 3092  984      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3354776  0.0  0.0 3124 1148      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3358750  0.0  0.0 3356  900      - A      Oct 12  0:02 sysrouterinp
+cspdev   3367128  0.0  0.0 3356  920      - A      Oct 12  0:02 sysrouterinp
+cspdev   3371150  0.0  0.0  888  520      - A      Sep 07  0:29 rcvfrmtux_test
+cspdev   3375242  0.0  0.0 5844 3308      - A      Oct 12  0:24 cmsdevicetp
+cspdev   3387544  0.0  0.0 3120  228      - A      Oct 12  0:00 cspcomclientfor
+cspdev   3399792  0.0  0.0  992  244      - A      Sep 07  0:00 ksh
+cspdev   3403990  0.0  0.0 3092  524      - A      Oct 12  0:00 cspcommonp
+cspdev   3408024  0.0  0.0 3360  944      - A      Oct 12  0:02 sysrouterinp
+cspdev   3412036  0.0  1.0 35316 33172      - A      Oct 12  0:43 sysmsgconvp
+cspdev   3416068  0.0  0.0 3092  964      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3424448  0.0  0.0 3124 1236      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3432524  0.0  1.0 35316 33164      - A      Oct 12  0:43 sysmsgconvp
+cspdev   3436740  0.0  0.0 3124 1260      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3440658  0.0  0.0 3060  548      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   3448890  0.0  0.0 5908 3324      - A      Oct 12  0:29 cmsdevicetp
+cspdev   3453062  0.0  0.0 3092  980      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3461268  0.0  0.0 2976  472      - A      Oct 12  0:04 cspcomtmpsrv
+cspdev   3465288  0.0  0.0 3096   76      - A      Oct 12  0:00 cspcomtmpasyncc
+cspdev   3469506  0.0  0.0 3092  968      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3477700  0.0  0.0 3092  980      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3485764  0.0  0.0  784  632 pts/36 A      Oct 19  0:00 ksh
+cspdev   3489794  0.0  0.0 3468  280      - A      Oct 12  0:00 bpFinaTrnP
+cspdev   3498018  0.0  0.0 3012  312      - A      Oct 12  0:00 sysmsgauthp008
+cspdev   3506256  0.0  0.0 4276 2012      - A      Oct 12  0:00 bpykttranp
+cspdev   3514532  0.0  1.0 35304 33160      - A      Oct 12  0:43 sysmsgconvp
+cspdev   3518488  0.0  0.0  788  484  pts/3 A      Oct 09  0:00 ksh
+cspdev   3526790  0.0  0.0 3464  256      - A      Oct 12  0:00 bpFinaTrnP
+cspdev   3534960  0.0  0.0 3092  960      - A      Oct 12  0:00 cspcomtmpsynccl
+cspdev   3576056  0.0  0.0  800  512  pts/4 A      Oct 11  0:00 ksh
+cspdev   3580000  0.0  0.0 3388 1636      - A      Oct 15  0:00 bpThirdPubTrnP
+cspdev   3686588  0.0  0.0  352  192      - A      Oct 18  0:00 digitalsim
+cspdev   3793056  0.0  0.0 4700 7672      - A      Oct 18  0:00 cmsxytranp
+cspdev   3805234  0.0  0.0  780  516 pts/10 A      Oct 14  0:00 ksh
+cspdev   3833996  0.0  0.0  784  604 pts/40 A      Oct 19  0:00 ksh
+cspdev   3870786  0.0  0.0  788  828 pts/25 A      Oct 21  0:00 ksh
+cspdev   3887336  0.0  0.0 5216 4196      - A      Oct 19  0:02 epspubtran
+cspdev   3977386  0.0  0.0 3404   76      - A      Oct 12  0:00 bpNaTipscTrnP
+cspdev   4026496  0.0  0.0  172  148      - A      Oct 18  0:00 elecsvr
+cspdev   4038852  0.0  0.0  784  824 pts/23 A      Oct 21  0:00 ksh
+cspdev   4079706  0.0  0.0 2972  772      - A      Oct 14  0:02 cspcomtmpsrv
+cspdev   4116570  0.0  0.0  892  552      - A      Oct 21  0:03 bsh
+cspdev   4137120  0.0  0.0 5208 4336      - A      Oct 19  0:02 epspubtran
+cspdev   4145336  0.0  0.0 4424 6036      - A    17:13:51  0:00 bpHsfssTrnP
+cspdev   4186160  0.0  0.0 4604 1860      - A      Oct 12  0:02 bpHscgTrnP
+cspdev   4202606  0.0  0.0 3124 1464      - A      Oct 14  0:00 cspcomtmpsynccl
+cspdev   4210892  0.0  0.0 4936 2740      - A      Oct 13  0:00 bpTipscTrnP
+cspdev   4218930  0.0  0.0 1724  320      - A      Oct 12  0:35 cspcomsrvsub
+cspdev   4231228  0.0  0.0 3440   88      - A      Oct 12  0:00 cmsxydayoffp
+cspdev   4247654  0.0  0.0 4064 3792 pts/28 A    16:25:52  0:00 dbaccess
+cspdev   4272170  0.0  0.0 3388 1400      - A      Oct 15  0:00 bpThirdPubTrnP
+csptest  1175706  0.0  0.0 4396 2796      - A      Oct 14  0:00 bpNaTipscTrnP
+csptest  1228864  0.0  0.0 3092  768      - A      Oct 14  0:00 cspcomasyncclie
+csptest  1335452  0.0  0.0 3088 1548      - A      Oct 14  0:07 cspcommonp
+csptest  1487050  0.0  0.0 3464 1360      - A      Oct 14  0:00 bpFinaTrnP
+csptest  1761354  0.0  0.0 4984 3096      - A      Oct 14  0:00 epspubtran
+csptest  1814626  0.0  0.0 3060 1584      - A      Oct 19  0:00 cspcomtmpsrv
+csptest  1822838  0.0  0.0 3016 1160      - A      Oct 14  0:00 sysmsgauthp008
+csptest  1843430  0.0  0.0 3104  640      - A      Oct 14  0:00 cspcomtmpcliECH
+csptest  1876160  0.0  0.0 3024 1540      - A      Oct 14  0:15 sysautotaskp
+csptest  1880222  0.0  0.0 2972 1256      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  1974510  0.0  0.0 3092 1324      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  1986782  0.0  0.0 3092 1196      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  2003128  0.0  0.0 4600 3168      - A      Oct 14  0:08 bpTipscTrnP
+csptest  2007154  0.0  0.0 3416  732      - A      Oct 14  0:00 bpykttranp
+csptest  2011270  0.0  0.0 3092 1348      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  2035728  0.0  0.0 3100  884      - A      Oct 14  0:00 cspcomtmpasyncc
+csptest  2072808  0.0  0.0 3100  796      - A      Oct 14  0:00 cspcomtmpasyncc
+csptest  2097374  0.0  0.0 3060 1400      - A      Oct 14  0:04 cspcomtmpsrv
+csptest  2105452  0.0  0.0 3488 1032      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2130136  0.0  0.0 3140  832      - A      Oct 14  0:00 cspcomclientfor
+csptest  2134064  0.0  0.0 4984 3148      - A      Oct 14  0:00 epspubtran
+csptest  2146516  0.0  0.0 3416  960      - A      Oct 14  0:00 bpykttranp
+csptest  2187306  0.0  0.0 3140  952      - A      Oct 14  0:00 cspcomclientfor
+csptest  2195476  0.0  0.0 3100  712      - A      Oct 14  0:00 cspcomtmpasyncc
+csptest  2199664  0.0  0.0 5004 3212      - A      Oct 14  0:00 epspubtran
+csptest  2211994  0.0  0.0 3140  904      - A      Oct 14  0:00 cspcomclientfor
+csptest  2220276  0.0  0.0 3100  960      - A      Oct 14  0:00 cspcomtmpasyncc
+csptest  2228282  0.0  0.0 3104 2828      - A    09:44:42  0:00 cspcomCUPSclien
+csptest  2232496  0.0  0.0 3488 1220      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2240558  0.0  0.0 4436 3084      - A      Oct 14  0:10 bpTelTrnP
+csptest  2244758  0.0  0.0 3100  628      - A      Oct 14  0:00 cspcomtmpasyncc
+csptest  2265258  0.0  0.0 3140  876      - A      Oct 14  0:00 cspcomclientfor
+csptest  2269306  0.0  0.0 3140  864      - A      Oct 14  0:00 cspcomclientfor
+csptest  2302086  0.0  0.0 2972 1352      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  2314390  0.0  0.0 3488 1196      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2322584  0.0  0.0 3488 1164      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2342936  0.0  0.0 4304 2212      - A      Oct 14  0:01 bpWaterTrnP
+csptest  2371688  0.0  0.0 3488 1056      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2379948  0.0  0.0 3140  652      - A      Oct 14  0:00 cspcomclientfor
+csptest  2392134  0.0  0.0 3140  840      - A      Oct 14  0:00 cspcomclientfor
+csptest  2404562  0.0  0.0 3092 1324      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  2408456  0.0  0.0 5028 5664      - A      Oct 20  0:01 cmsxytranp
+csptest  2429168  0.0  0.0 3008 1472      - A      Oct 14  2:28 sysreversalp
+csptest  2441226  0.0  0.0 3092 1316      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  2449456  0.0  0.0 3140  696      - A      Oct 14  0:00 cspcomclientfor
+csptest  2453684  0.0  0.0 3488 1156      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2457792  0.0  0.0 3140  964      - A      Oct 14  0:00 cspcomclientfor
+csptest  2465976  0.0  0.0 3140  932      - A      Oct 14  0:00 cspcomclientfor
+csptest  2523182  0.0  0.0 2972 1440      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  2527308  0.0  0.0 3092 1272      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  2592970  0.0  0.0 4604 3132      - A      Oct 14  0:07 bpTipscTrnP
+csptest  2687014  0.0  0.0 3016 1616      - A      Oct 14  2:43 systimerp
+csptest  2724072  0.0  0.0 3120 1440      - A      Oct 19  0:00 cspcomtmpsynccl
+csptest  2777268  0.0  0.0 3488 1096      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2785332  0.0  0.0 3488 1196      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2793516  0.0  0.0 3432 1236      - A      Oct 14  0:00 cmsxydayoffp
+csptest  2838622  0.0  0.0  460  300      - A      Oct 14  0:03 sysstatp
+csptest  2863138  0.0  0.0 3488 1164      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  2887750  0.0  0.0 4232 2536      - A      Oct 14  0:00 bpConTrnP
+csptest  2945160  0.0  0.0 2972 1284      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  2994184  0.0  0.0 3060 1448      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  3006644  0.0  0.0 3120 1588      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3035386  0.0  0.0 3388 1344      - A      Oct 14  0:00 bpThirdPubTrnP
+csptest  3277014  0.0  0.0 4308 2208      - A      Oct 14  0:00 bpCorpInfMgnP
+csptest  3289312  0.0  0.0 3388 1100      - A      Oct 14  0:00 bpThirdPubTrnP
+csptest  3305604  0.0  0.0 3228  980      - A      Oct 14  0:00 cspcomwheltclie
+csptest  3309610  0.0  0.0 3092 1480      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3391728  0.0  1.0 34304 32836      - A      Oct 14  0:03 sysmsgconvp
+csptest  3428384  0.0  0.0 3092 1328      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3444840  0.0  0.0 3388 1156      - A      Oct 14  0:00 bpThirdPubTrnP
+csptest  3473490  0.0  0.0 4396 2572      - A      Oct 14  0:00 bpNaTipscTrnP
+csptest  3481720  0.0  0.0 1712  396      - A      Oct 14  0:00 cspcomsrvsub
+csptest  3494104  0.0  0.0 2972 1284      - A      Oct 14  0:03 cspcomtmpsrv
+csptest  3510502  0.0  0.0 4608 3068      - A      Oct 14  0:15 bppubtranp
+csptest  3522648  0.0  0.0 3092 1284      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3530886  0.0  0.0 4636 3164      - A      Oct 14  0:18 bppubtranp
+csptest  3543156  0.0  0.0 3120 1368      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3547136  0.0  0.0 4984 3160      - A      Oct 14  0:00 epspubtran
+csptest  3551358  0.0  0.0 3320 1712      - A      Oct 14  0:00 sysrouterinp
+csptest  3563538  0.0  0.0 4232 2732      - A      Oct 14  0:00 bpConTrnP
+csptest  3567792  0.0  0.0 3092 1316      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3584182  0.0  0.0 3120 1272      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3592420  0.0  0.0 4600 3164      - A      Oct 14  0:05 bpTipscTrnP
+csptest  3596314  0.0  0.0 3404 1368      - A      Oct 14  0:00 bpNaTipscTrnP
+csptest  3600618  0.0  0.0 4344 1332      - A      Oct 14  0:00 bpElecTrnP
+csptest  3604716  0.0  0.0 3588 1764      - A      Oct 14  5:10 cspcomdetecttp
+csptest  3608812  0.0  0.0 3524 1028      - A      Oct 14  0:00 bpBondTrnP
+csptest  3612926  0.0  0.0 2972 1400      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  3616864  0.0  0.0 3356 1676      - A      Oct 14  0:00 sysrouterinp
+csptest  3621106  0.0  0.0 3128  804      - A      Oct 14  0:00 cspcomclientfor
+csptest  3629306  0.0  0.0 3092 1388      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3641476  0.0  1.0 35208 33316      - A      Oct 14  0:03 sysmsgconvp
+csptest  3645490  0.0  0.0 3464  432      - A      Oct 14  3:57 cspstart
+csptest  3649552  0.0  0.0 4432 1572      - A      Oct 14  0:00 cmsdevicetp
+csptest  3657752  0.0  0.0 3120 1344      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3661920  0.0  0.0 4432 1548      - A      Oct 14  0:00 cmsdevicetp
+csptest  3674278  0.0  0.0 3092 1192      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3678212  0.0  1.0 35224 33700      - A      Oct 14  0:03 sysmsgconvp
+csptest  3690518  0.0  0.0 4232 2604      - A      Oct 14  0:00 bpConTrnP
+csptest  3694622  0.0  0.0 4064 1240      - A      Oct 14  0:00 cmsdevdayofftp
+csptest  3698738  0.0  0.0 3016 1052      - A      Oct 14  0:00 sysmsgauthp888
+csptest  3702812  0.0  0.0 4064 1488      - A      Oct 14  0:00 cmsdevdayofftp
+csptest  3706956  0.0  1.0 35212 33692      - A      Oct 14  0:03 sysmsgconvp
+csptest  3711006  0.0  0.0 3092 1428      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3715122  0.0  0.0 3488  912      - A      Oct 14  0:00 bpNaTipssTrnP
+csptest  3719202  0.0  0.0 3120 1268      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3727398  0.0  0.0 3016 1136      - A      Oct 14  0:00 sysmsgauthp888
+csptest  3731496  0.0  0.0 3092 1348      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3735598  0.0  0.0 3092 1248      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3739692  0.0  0.0 3060 1320      - A      Oct 14  0:04 cspcomtmpsrv
+csptest  3743930  0.0  0.0 3092 1348      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3747902  0.0  1.0 35208 33568      - A      Oct 14  0:03 sysmsgconvp
+csptest  3752182  0.0  0.0 3020 1272      - A      Oct 14  0:00 sysmsgauthp030
+csptest  3756086  0.0  0.0 3524 1116      - A      Oct 14  0:00 bpBondTrnP
+csptest  3760182  0.0  0.0 3092 1232      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3764282  0.0  1.0 34300 32764      - A      Oct 14  0:03 sysmsgconvp
+csptest  3768378  0.0  0.0 3020 1356      - A      Oct 14  0:00 sysmsgauthp030
+csptest  3772476  0.0  0.0 2972 1368      - A      Oct 14  0:02 cspcomtmpsrv
+csptest  3797064  0.0  0.0 2976  864      - A      Oct 14  0:03 cspcomsrv
+csptest  3801328  0.0  0.0 3092 1356      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3813456  0.0  0.0 3064 1164      - A      Oct 14  0:04 cspcomsrvvf
+csptest  3817554  0.0  0.0 3320 1600      - A      Oct 14  0:00 sysrouterinp
+csptest  3821652  0.0  0.0 3092 1336      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3825892  0.0  0.0 5004 3260      - A      Oct 14  0:00 epspubtran
+csptest  3829986  0.0  0.0 3360 1696      - A      Oct 14  0:00 sysrouterinp
+csptest  3838044  0.0  0.0 3020 1196      - A      Oct 14  0:00 sysmsgauthp030
+csptest  3842142  0.0  0.0 4232 2772      - A      Oct 14  0:00 bpConTrnP
+csptest  3850340  0.0  0.0 3092 1312      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3858482  0.0  0.0 3092 1228      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3862688  0.0  1.0 35212 33280      - A      Oct 14  0:03 sysmsgconvp
+csptest  3883106  0.0  0.0 3092  768      - A      Oct 14  0:00 cspcomasyncclie
+csptest  3891318  0.0  0.0 3356 1640      - A      Oct 14  0:00 sysrouterinp
+csptest  3899514  0.0  0.0 3020 1244      - A      Oct 14  0:00 sysmsgauthp030
+csptest  3903612  0.0  0.0 3020 1296      - A      Oct 14  0:00 sysmsgauthp030
+csptest  3907710  0.0  0.0 3004  992      - A      Oct 14  0:00 sysmsgauthp022
+csptest  3911800  0.0  0.0 3092 1280      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3915906  0.0  0.0 3092 1192      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3920004  0.0  0.0 3092 1292      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3924148  0.0  0.0 3004 1152      - A      Oct 14  0:00 sysmsgauthp022
+csptest  3932298  0.0  0.0 3092 1056      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3936396  0.0  0.0 3004 1124      - A      Oct 14  0:00 sysmsgauthp022
+csptest  3940376  0.0  0.0 3004 1224      - A      Oct 14  0:00 sysmsgauthp022
+csptest  3952852  0.0  0.0 3092 1288      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3956886  0.0  0.0 3092 1352      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3961028  0.0  0.0 3004 1308      - A      Oct 14  0:00 sysmsgauthp022
+csptest  3965128  0.0  0.0 3092 1364      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  3969182  0.0  0.0 4232 2532      - A      Oct 14  0:00 bpConTrnP
+csptest  3973292  0.0  0.0 3464 1016      - A      Oct 14  0:00 bpFinaTrnP
+csptest  3989576  0.0  0.0 3432 1308      - A      Oct 14  0:00 cmsxydayoffp
+csptest  3997914  0.0  0.0 4956 5520      - A      Oct 20  0:01 cmsxytranp
+csptest  4014144  0.0  0.0 3064 1072      - A      Oct 14  0:08 cspcomsrv
+csptest  4018194  0.0  0.0 3524 1292      - A      Oct 14  0:00 bpBondTrnP
+csptest  4022356  0.0  0.0 3092 1276      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  4030558  0.0  0.0 3456 1444      - A      Oct 14  0:00 bpHsfssTrnP
+csptest  4034688  0.0  0.0 1636 1004      - A      Oct 18  0:00 bpodbcsvr
+csptest  4046860  0.0  0.0 3456 1160      - A      Oct 14  0:00 bpHsfssTrnP
+csptest  4051074  0.0  0.0 3060 1428      - A      Oct 14  0:04 cspcomtmpsrv
+csptest  4059218  0.0  0.0 3428  396      - A    09:45:00  0:00 cspstart
+csptest  4083856  0.0  0.0 5520 3404      - A      Oct 14  0:03 cmssettlement
+csptest  4096198  0.0  0.0 3020 1112      - A      Oct 14  0:00 sysmsgauthp008
+csptest  4112434  0.0  0.0 3548 1232      - A      Oct 14  0:00 chlPubTrnP
+csptest  4124714  0.0  1.0 34280 32712      - A      Oct 14  0:03 sysmsgconvp
+csptest  4149452  0.0  1.0 34300 32736      - A      Oct 14  0:03 sysmsgconvp
+csptest  4165814  0.0  0.0 3120 1600      - A      Oct 14  0:00 cspcomtmpsynccl
+csptest  4173836  0.0  0.0 3548 1236      - A      Oct 14  0:00 chlPubTrnP
+csptest  4177936  0.0  1.0 35224 33276      - A      Oct 14  0:03 sysmsgconvp
+csptest  4198454  0.0  0.0 3016 1280      - A      Oct 14  0:00 sysmsgauthp008
+csptest  4227296  0.0  0.0 3020 1316      - A      Oct 14  0:00 sysmsgauthp008
+csptest  4235518  0.0  0.0 3092  832      - A      Oct 14  0:00 cspcomasyncclie
+csptest  4239526  0.0  0.0 3548 1252      - A      Oct 14  0:00 chlPubTrnP
+csptest  4243688  0.0  0.0 3096  780      - A      Oct 14  0:00 cspcomasyncclie
+csptest  4251734  0.0  0.0 4480 2580      - A      Oct 14  0:03 bpMobTrnP
+csptest  4259894  0.0  0.0 3020 1276      - A      Oct 14  0:00 sysmsgauthp008
+csptest  4321470  0.0  0.0 3404  392      - A    09:45:00  0:00 cspstart
+cspver   3166332  0.0  0.0  740  784 pts/24 A    10:47:12  0:00 vi
+cspver   4104344  0.0  0.0  776  812 pts/24 A      Oct 21  0:00 ksh
+informix 1032412  0.0  0.0 10512 5036      - A      Sep 04  1:17 oninit
+informix 1093674  0.2  0.0 10552 5044      - A      Sep 04 636:34 oninit
+informix 1114292  0.0  0.0 10388 4840      - A      Sep 04  0:26 oninit
+informix 1126418  0.0  0.0 10324 4840      - A      Sep 04  0:26 oninit
+informix 1192096  0.0  0.0 10552 4912      - A      Sep 04  1:56 oninit
+informix 1884192  0.0  0.0 10388 4840      - A      Sep 04  0:25 oninit
+informix 1888396  0.0  0.0 10256 4828      - A      Sep 04  0:25 oninit
+informix 1892472  0.0  0.0 10328 4852      - A      Sep 04  0:52 oninit
+informix 1900546  0.0  0.0 10328 4840      - A      Sep 04  0:30 oninit
+informix 1908760  0.0  0.0 10260 4844      - A      Sep 04  0:29 oninit
+informix 1912982  0.0  0.0 10324 4840      - A      Sep 04  0:30 oninit
+informix 1917096  0.0  0.0 10452 4844      - A      Sep 04  0:26 oninit
+informix 1921194  0.0  0.0 10460 4840      - A      Sep 04  0:26 oninit
+informix 1925292  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1929390  0.0  0.0 10452 4844      - A      Sep 04  0:25 oninit
+informix 1933488  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1937586  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1941684  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1945782  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1949880  0.0  0.0 10452 4840      - A      Sep 04  0:25 oninit
+informix 1953978  0.0  0.0 10452 4840      - A      Sep 04  0:28 oninit
+informix 1958076  0.0  0.0 10452 4824      - A      Sep 04  0:27 oninit
+informix 1962174  0.0  0.0 10448 4828      - A      Sep 04  0:27 oninit
+informix 1966272  0.0  0.0 10448 4824      - A      Sep 04  0:27 oninit
+informix 1970370  0.0  0.0 10448 4832      - A      Sep 04  0:26 oninit
+root           0  0.0  0.0  384  384      - A      Sep 04 32:25 swapper
+root           1  0.0  0.0  660  288      - A      Sep 04  5:23 init
+root        8196 12.1  0.0  384  384      - A      Sep 04 33924:48 wait
+root       12294  0.0  0.0  448  448      - A      Sep 04  0:14 sched
+root       16392  0.0  0.0  512  512      - A      Sep 04  0:41 lrud
+root       20490  0.0  0.0  448  448      - A      Sep 04  0:00 vmptacrt
+root       24588  0.0  0.0  512  512      - A      Sep 04  0:07 psmd
+root       28686  0.0  0.0  512  512      - A      Sep 04  0:01 xmfreed
+root       32784  0.0  0.0  448  448      - A      Sep 04  0:00 memp_rbd
+root       36882  0.0  0.0  448  448      - A      Sep 04  0:00 memgrdd
+root       40980  0.0  0.0  448  448      - A      Sep 04  0:00 psgc
+root       45078  0.0  0.0 1600 1600      - A      Sep 04  0:07 pilegc
+root       49176  0.0  0.0  448  448      - A      Sep 04  3:46 xmgc
+root       53274 11.3  0.0  384  384      - A      Sep 04 31812:51 wait
+root       57372  7.9  0.0  384  384      - A      Sep 04 22099:14 wait
+root       61470  7.4  0.0  384  384      - A      Sep 04 20668:10 wait
+root       65568  0.0  0.0  448  448      - A      Sep 04  0:15 netm
+root       69666  0.0  0.0  960  960      - A      Sep 04 51:44 gil
+root       73764  0.0  0.0  512  512      - A      Sep 04  0:00 wlmsched
+root       81934  0.0  0.0  448  448      - A      Sep 04  0:08 rgsr
+root       86112  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root       90174  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root       94326  0.0  0.0  448  448      - A      Sep 04  0:00 usbCfgDev
+root       98360  0.0  0.0 2048 2048      - A      Sep 04  0:37 j2pg
+root      106582  0.0  0.0  960  960      - A      Sep 04  0:00 dog
+root      110666  0.0  0.0  868  420      - A      Sep 04  1:44 dtlogin
+root      114754  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      118904  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      122966  0.0  0.0  448  448      - A      Sep 04  0:00 lvmbb
+root      127078  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      131156  0.0  0.0  448  448      - A      Sep 04  0:00 AtapeManager
+root      135246  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      139362  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      143508  0.0  0.0  448  448      - A      Sep 04  0:00 rtcmd
+root      147556  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      151626  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      155724  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      159822  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      163920  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      168018  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      172116  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      176214  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      180312  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      184410  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      188508  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      192606  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      196704  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      200802  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      204900  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      208998  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      213096  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      217194  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      221292  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      225390  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      229488  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      233586  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      237684  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      241782  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      245880  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      249978  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      254076  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      258174  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      262272  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      266370  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      270468  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      274566  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      278664  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      282762  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      286860  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      290958  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      295056  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      299154  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      303252  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      307350  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      311448  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      315546  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      319644  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      323742  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      327840  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      331938  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      336036  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      340134  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      344232  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      348330  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      352428  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      356526  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      360624  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      364722  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      368820  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      372918  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      377016  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      381114  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      385212  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      389310  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      393408  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      397506  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      401604  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      405702  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      409800  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      413898  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      417996  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      422094  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      426192  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      430290  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      434388  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      438486  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      442584  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      446682  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      450780  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      454878  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      458976  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      463074  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      467172  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      471270  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      475368  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      479466  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      483564  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      487662  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      491760  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      495858  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      499956  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      504054  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      508152  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      512250  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      516348  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      520446  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      524288  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      528386  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      532484  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      536582  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      540680  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      544778  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      548876  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      552974  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      557072  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      561170  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      565268  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      569366  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      573464  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      577562  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      581660  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      585758  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      589856  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      593954  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      598052  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      602150  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      606248  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      610346  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      614444  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      618542  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      622640  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      626738  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      630836  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      634934  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      639032  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      643130  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      647228  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      651326  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      655424  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      659522  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      663620  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      667718  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      671816  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      675914  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      680012  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      684110  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      688208  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      692306  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      696404  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      700502  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      704600  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      708698  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      712796  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      716894  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      720992  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      725090  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      729188  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      733286  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      737384  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      741482  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      745580  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      749678  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      753776  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      757874  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      761972  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      766070  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      770168  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      774266  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      778364  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      782462  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      786560  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      790658  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      794756  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      798854  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      802952  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      807050  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      811148  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      815246  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      819344  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      823442  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      827540  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      831638  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      835736  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      839834  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      843932  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      848030  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      852128  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      856226  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      860324  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      864422  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      868520  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      872618  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      876716  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      880814  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      884912  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      889010  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      893108  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      897206  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      901304  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      905402  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      909500  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      913598  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      917696  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      921794  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      925892  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      929990  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      934088  0.0  0.0  448  448      - A      Sep 04  0:00 aioserver
+root      938186  0.0  0.0  448  448      - A      Sep 04  0:00 posix_aioserver
+root      942302  0.0  0.0  516  300      - A      Sep 04 72:12 syncd
+root      946226  0.0  0.0  448  448      - A      Sep 04  0:02 rdpgc
+root      950304  0.0  0.0  448  448      - A      Sep 04  0:04 n4bg
+root      954598  0.0  0.0  512  512      - A      Sep 04  0:00 nfsSM
+root      962794  0.0  0.0  512  512      - A      Sep 04  0:00 kbiod
+root      975068  0.0  0.0  428  388      - A      Sep 04  0:00 shlap64
+root      983072  0.0  0.0  828  572      - A      Sep 04  0:05 srcmstr
+root      987176  0.0  0.0  512  512      - A      Sep 04  0:00 kdmd
+root      991246  0.0  0.0 1604  532      - A      Sep 04  0:12 IBM.HostRMd
+root      995376  0.0  0.0  868  240      - A      Sep 04  0:01 sshd
+root      999464  0.0  0.0  448  448      - A      Sep 04  0:00 random
+root     1007704  0.0  0.0  752  424      - A      Sep 04  1:53 sh
+root     1011966  0.0  0.0  476  236      - A      Sep 04  0:07 inetd
+root     1015832  0.0  0.0  924   96      - A      Sep 04  0:00 portmap
+root     1019996  0.0  0.0  692  404      - A      Sep 04  1:38 sh
+root     1024020  0.0  0.0 6032  148      - A      Sep 04  0:00 dsmrecalld
+root     1028124  0.0  0.0 2116 1300      - A      Sep 04  4:25 clcomd
+root     1036540  0.0  0.0  456  340      - A      Sep 04  0:33 cron
+root     1040638  0.0  0.0   88   16      - A      Sep 04  0:00 uprintfd
+root     1060870  0.0  0.0 4176   16      - A      Sep 04  0:00 dsmrootd
+root     1064968  0.0  0.0 4204  300      - A      Sep 04  0:50 dsmmonitord
+root     1069066  0.0  0.0 4192  644      - A      Sep 04  9:43 dsmscoutd
+root     1073196  0.0  0.0 5328  148      - A      Sep 04  0:00 dsmrecalld
+root     1077310  0.0  0.0 5204  228      - A      Sep 04 10:55 dsmrecalld
+root     1081446  0.0  0.0 3096  540      - A      Sep 04  3:39 clstrmgr
+root     1085462  0.0  0.0  472   96      - A      Sep 04 15:58 getty
+root     1089664  0.0  0.0 1580  508      - A      Sep 04  0:01 IBM.DRMd
+root     1097804  0.0  0.0 3280  616      - A      Sep 04  0:00 i4llmd
+root     1101852  0.0  0.0  696  404      - A      Sep 04  1:39 sh
+root     1110050  0.0  0.0 3516  568      - A      Sep 04 10:20 i4llmd
+root     1122382  0.0  0.0 27876 6176      - A      Sep 04  5:19 IBM.CSMAgentRMd
+root     1134636  0.0  0.0 1116  200      - A      Sep 04  0:00 snmpdv3ne
+root     1142832  0.0  0.0  956  624      - A      Sep 04 21:55 xmwlm
+root     1146944  0.0  0.0 1804  820      - A      Sep 04  0:13 IBM.ServiceRMd
+root     1151030  0.0  0.0 3200 1588      - A      Sep 04  3:17 rmcd
+root     1159318  0.0  0.0 1552  472      - A      Sep 04  0:08 IBM.LPRMd
+root     1163322  0.0  0.0 1644   16      - A      Sep 04  0:00 IBM.AuditRMd
+root     1167446  0.0  0.0 2020   16      - A      Sep 04  0:00 IBM.ERrmd
+root     1183832  0.0  0.0  628  112      - A      Sep 04  1:08 fixttyd
+root     1683544  0.0  0.0  704  712      - A      Oct 21  0:00 telnetd
+root     2039886  0.0  0.0 2692 2720      - A    09:45:01  0:00 ps
+root     2044030  0.0  0.0  704  460      - A      Oct 19  0:00 telnetd
+root     2470124  0.0  0.0  704  172      - A      Oct 11  0:00 telnetd
+root     2474094  0.0  0.0  704  176      - A      Oct 13  0:00 telnetd
+root     2695336  0.0  0.0  148  152      - A    09:44:31  0:00 sleep
+root     2781266  0.0  0.0  704  492      - A      Oct 19  0:00 telnetd
+root     2900094  0.0  0.0  704  176      - A      Oct 09  0:00 telnetd
+root     2908212  0.0  0.0  212  224      - A    09:45:01  0:00 egrep
+root     3297452  0.0  0.0  352  240      - A      Oct 19  0:00 syslogd
+root     3559610  0.0  0.0  148  152      - A    09:44:31  0:00 sleep
+root     3633392  0.0  0.0  740  532 pts/10 A      Oct 18  0:00 ksh
+root     3682468                            Z              0:00 <defunct>
+root     3854528  0.0  0.0  704  720      - A    16:25:44  0:00 telnetd
+root     3879036  0.0  0.0  196  204      - A    09:45:01  0:00 sort
+root     4001812  0.0  0.0  704  720      - A      Oct 21  0:00 telnetd
+root     4042988  0.0  0.0  704  300      - A      Oct 14  0:00 telnetd
+root     4100202                            Z              0:00 <defunct>
+root     4157670  0.0  0.0  680  720      - A    09:45:00  0:00 sh
+root     4280324  0.0  0.0  704  712      - A      Oct 21  0:00 telnetd
+root     4309060  0.0  0.0  148  152      - A    09:44:40  0:00 sleep
+secu     1048706  0.0  0.0  732  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1106052  0.0  0.0  428  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1196208  0.0  0.0  424  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1212506  0.0  0.0  480  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1216606  0.0  0.0  540  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1220702  0.0  0.0  524  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1224796  0.0  0.0  456  184      - A      Oct 19  0:00 shortConnTcpipS
+secu     1233116  0.0  0.0  556  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1237020  0.0  0.0  532  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1241192  0.0  0.0  496  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1245286  0.0  0.0  476  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1249384  0.0  0.0  384  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1253550  0.0  0.0  472  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1257584  0.0  0.0  496  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1261678  0.0  0.0  372  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1265906  0.0  0.0  468  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1269874  0.0  0.0  464  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1273976  0.0  0.0  472  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1278070  0.0  0.0  516  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1282172  0.0  0.0  460  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1286266  0.0  0.0  360  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1290466  0.0  0.0  444  184      - A      Oct 19  0:00 shortConnTcpipS
+secu     1294462  0.0  0.0  516  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1298564  0.0  0.0  456  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1302658  0.0  0.0  512  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1306750  0.0  0.0  512  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1310854  0.0  0.0  468  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1319050  0.0  0.0  432  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1327250  0.0  0.0  452  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1331344  0.0  0.0  348  200      - A      Oct 19  0:00 shortConnTcpipS
+secu     1339540  0.0  0.0  448  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1343638  0.0  0.0  468  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1355932  0.0  0.0  508  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1360034  0.0  0.0  448  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1364128  0.0  0.0  336  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1372324  0.0  0.0  440  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1376386  0.0  0.0  796  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1380520  0.0  0.0  396  324      - A      Oct 19  0:05 keyDBSvr
+secu     1384458  0.0  0.0  564  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1396742  0.0  0.0  708  672      - A      Oct 21  0:00 hsmTask
+secu     1400908  0.0  0.0  536  216      - A      Oct 19  0:00 kmSvr.JK.IC.Rsa
+secu     1405108  0.0  0.0  720  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1409210  0.0  0.0  708  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1413304  0.0  0.0  700  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1417406  0.0  0.0  684  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1421500  0.0  0.0  676  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1425600  0.0  0.0  816  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1429696  0.0  0.0  832  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1433798  0.0  0.0  612  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1437892  0.0  0.0  332  244      - A      Oct 19  0:00 transSpier
+secu     1446088  0.0  0.0  660  212      - A      Oct 19  0:00 shortConnTcpipS
+secu     1454284  0.0  0.0  608  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1458386  0.0  0.0  780  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1462480  0.0  0.0  648  212      - A      Oct 19  0:00 shortConnTcpipS
+secu     1466582  0.0  0.0  592  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1470676  0.0  0.0  408  248      - A      Oct 19  0:00 resSpier
+secu     1474774  0.0  0.0  624  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1482938  0.0  0.0  420  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1491166  0.0  0.0  840  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1495186  0.0  0.0  460  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1499362  0.0  0.0  436  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1503460  0.0  0.0  888  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1507554  0.0  0.0  504  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1515538  0.0  0.0  540  272      - A      Oct 21  0:00 shortConnTcpipS
+secu     1519852  0.0  0.0  804  200      - A      Oct 19  0:00 shortConnTcpipS
+secu     1523964  0.0  0.0  856  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1528048  0.0  0.0  748  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1536244  0.0  0.0  340  228      - A      Oct 19  0:00 tcpipSvr-CmdSvr
+secu     1540348  0.0  0.0  588  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1544440  0.0  0.0  324  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     1548542  0.0  0.0  612  212      - A      Oct 19  0:00 shortConnTcpipS
+secu     1552636  0.0  0.0  508  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1556622  0.0  0.0  416  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1560654  0.0  0.0  544  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1564674  0.0  0.0  432  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1568978  0.0  0.0  868  216      - A      Oct 19  0:00 shortConnTcpipS
+secu     1572870  0.0  0.0  420  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1577186  0.0  0.0  500  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1581066  0.0  0.0  584  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1585168  0.0  0.0  496  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1589262  0.0  0.0  600  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1593364  0.0  0.0  504  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1597458  0.0  0.0  580  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1601556  0.0  0.0  408  184      - A      Oct 19  0:00 shortConnTcpipS
+secu     1609752  0.0  0.0  772  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1613850  0.0  0.0  456  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1617948  0.0  0.0  588  196      - A      Oct 19  0:00 shortConnTcpipS
+secu     1622046  0.0  0.0  428  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1626144  0.0  0.0  492  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1630242  0.0  0.0  576  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1634340  0.0  0.0  488  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1638438  0.0  0.0  876  200      - A      Oct 19  0:00 shortConnTcpipS
+secu     1642536  0.0  0.0  500  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1646634  0.0  0.0  688  252      - A      Oct 19  0:00 mngSvr
+secu     1650732  0.0  0.0  396  188      - A      Oct 19  0:00 shortConnTcpipS
+secu     1654830  0.0  0.0  576  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1658930  0.0  0.0  408  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1663026  0.0  0.0  904  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     1667126  0.0  0.0  440  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1671222  0.0  0.0  572  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1675322  0.0  0.0  440  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1691712  0.0  0.0  564  200      - A      Oct 19  0:00 shortConnTcpipS
+secu     1695812  0.0  0.0  456  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1699912  0.0  0.0  404  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1704082  0.0  0.0  400  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1720402  0.0  0.0  568  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1724500  0.0  0.0  396  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1728628  0.0  0.0  392  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1732832  0.0  0.0  388  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1736794  0.0  0.0  384  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1740890  0.0  0.0  904  212      - A      Oct 19  0:13 shortConnTcpipS
+secu     1744990  0.0  0.0  380  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1749088  0.0  0.0  412  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1753182  0.0  0.0  552  212      - A      Oct 19  0:00 shortConnTcpipS
+secu     1757284  0.0  0.0  376  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1765480  0.0  0.0  564  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1769478  0.0  0.0  408  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1773678  0.0  0.0  404  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1777770  0.0  0.0  560  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1781870  0.0  0.0  444  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1785970  0.0  0.0  404  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1790068  0.0  0.0  396  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1794166  0.0  0.0  392  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1798282  0.0  0.0  388  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1802464  0.0  0.0  540  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     1806508  0.0  0.0  384  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     1831100  0.0  0.0  540  192      - A      Oct 19  0:13 shortConnTcpipS
+secu     1835208  0.0  0.0  380  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     1839342  0.0  0.0  376  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1847332  0.0  0.0  556  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1851576  0.0  0.0  372  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     1863912  0.0  0.0  580  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     1867814  0.0  0.0  708  672      - A      Oct 21  0:00 hsmTask
+secu     1872122  0.0  0.0  756  188      - A      Oct 19  0:00 shortConnTcpipS
+secu     1990796  0.0  0.0  704  668      - A      Oct 21  0:00 hsmTask
+secu     1994814  0.0  0.0  552  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     1998986  0.0  0.0  568  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     2027652  0.0  0.0  528  184      - A      Oct 19  0:00 shortConnTcpipS
+secu     2306254  0.0  0.0  504  192      - A      Oct 19  0:13 shortConnTcpipS
+secu     2510896  0.0  0.0  516  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     2711576  0.0  0.0  552  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     2740248  0.0  0.0  300  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     2789410  0.0  0.0  548  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     2990174  0.0  0.0  420  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     3014682  0.0  0.0  504  188      - A      Oct 19  0:00 shortConnTcpipS
+secu     3027094  0.0  0.0  544  264      - A      Oct 19  0:00 shortConnTcpipS
+secu     3031104  0.0  0.0  308  244      - A      Oct 19  0:18 mngKDBSvr
+secu     3059738  0.0  0.0  448  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     3063854  0.0  0.0  564  272      - A      Oct 21  0:00 shortConnTcpipS
+secu     3076098  0.0  0.0  416  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     3080304  0.0  0.0  312  208      - A      Oct 19  0:00 shortConnTcpipS
+secu     3084308  0.0  0.0  492  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     3088424  0.0  0.0  576  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     3092544  0.0  0.0  296  228      - A      Oct 19  0:21 mngTask
+secu     3109116  0.0  0.0  324  268      - A      Oct 19  0:32 mngMsgBuf
+secu     3113126  0.0  0.0  540  256      - A      Oct 19  0:00 shortConnTcpipS
+secu     3117146  0.0  0.0  488  272      - A      Oct 19  0:00 shortConnTcpipS
+secu     3125314  0.0  0.0  548  268      - A      Oct 21  0:00 shortConnTcpipS
+secu     3145742  0.0  0.0  480  204      - A      Oct 19  0:00 shortConnTcpipS
+secu     3153964  0.0  0.0  356  340      - A      Oct 19  0:04 mngSJL06Grp
+secu     3665984  0.0  0.0  460  424      - A      Oct 21  0:00 hsmTask-CmdSvr
+secu     3670214  0.0  0.0  708  672      - A      Oct 21  0:00 hsmTask
+secu     3944468  0.0  0.0  428  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     3985410  0.0  0.0  536  268      - A      Oct 19  0:00 shortConnTcpipS
+secu     3993814  0.0  0.0  620  516      - A    09:19:52  0:00 kmSvr
+secu     4006140  0.0  0.0  468  192      - A      Oct 19  0:00 shortConnTcpipS
+secu     4087892  0.0  0.0  432  260      - A      Oct 19  0:00 shortConnTcpipS
+secu     4182224  0.0  0.0  292  216      - A      Oct 19  0:52 mngTask
+secu     4190400  0.0  0.0  460  424      - A      Oct 21  0:00 hsmTask-CmdSvr
+secu     4264170  0.0  0.0  416  272      - A      Oct 19  0:00 shortConnTcpipS
+secu     4284472  0.0  0.0  572  268      - A      Oct 21  0:00 shortConnTcpipS
+cmdbegin:cpu
+
+AIX finance 3 5 00CC985C4C00    10/23/10
+
+System configuration: lcpu=4  mode=Capped 
+
+09:45:01    %usr    %sys    %wio   %idle   physc
+09:45:02       6       6       0      88    1.98
+09:45:03       0       1       0      99    2.01
+09:45:04       0       1       0      98    2.00
+
+Average        2       3       0      95    1.99
+cmdbegin:processor
+proc0 Available 00-00 Processor
+proc2 Available 00-02 Processor
+proc4 Available 00-04 Processor
+proc6 Available 00-06 Processor
+cmdbegin:cpuconfig
+cmdbegin:disk
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         512.00    418.13   19%     3399     4% /
+/dev/hd2        3328.00    154.77   96%    60773    56% /usr
+/dev/hd9var      512.00     37.41   93%     1006    10% /var
+/dev/hd3         768.00    507.96   34%     2522     3% /tmp
+/dev/hd1        1408.00     93.91   94%    14459    29% /home
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt    1024.00    829.40   20%     3203     2% /opt
+/dev/fslv00     3456.00    605.23   83%      900     1% /ptf
+/dev/fslv01     4096.00   4091.68    1%        3     1% /oracle10gCRS
+/dev/fslv02     7168.00   1463.29   80%        7     1% /oracle10gRAC
+/dev/informixlv  13184.00    766.12   95%     5120     1% /informix
+/dev/whcspdevlv   5120.00   1432.16   73%    40190     4% /csptest
+/dev/cspprolv   8192.00   2998.48   64%    76394     4% /cspdev
+/dev/seculv     5120.00   2774.29   46%    28943     3% /secu
+/dev/fslv03     2048.00    900.73   57%     1579     1% /tuxedo
+/dev/fslv05     2048.00    545.99   74%      413     1% /C
+cmdbegin:diskperf
+
+AIX finance 3 5 00CC985C4C00    10/23/10
+
+System configuration: lcpu=4 drives=7  mode=Capped 
+
+09:45:09     device    %busy    avque    r+w/s    Kbs/s   avwait   avserv
+
+09:45:10     hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+               dac0      0      0.0        0        0      0.0      0.0
+            dac0utm      0      0.0        0        0      0.0      0.0
+               dac1      0      0.0        0        0      0.0      0.0
+            dac1utm      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+
+
+09:45:11     hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+               dac0      0      0.0        0        0      0.0      0.0
+            dac0utm      0      0.0        0        0      0.0      0.0
+               dac1      0      0.0        0        0      0.0      0.0
+            dac1utm      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+
+
+Average      hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+               dac0      0      0.0        0        0      0.0      0.0
+            dac0utm      0      0.0        0        0      0.0      0.0
+               dac1      0      0.0        0        0      0.0      0.0
+            dac1utm      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+cmdbegin:diskiostat
+
+System configuration: lcpu=4 drives=7 paths=2 vdisks=0
+
+tty:      tin         tout    avg-cpu: % user % sys % idle % iowait
+          0.9         83.8                5.7  16.9   77.2      0.2
+		" Disk history since boot not available. "
+
+cmdbegin:netperf
+Name  Mtu   Network     Address            Ipkts Ierrs    Opkts Oerrs  Coll
+en1   1500  link#2      0.11.25.e7.14.ef  13306190     0  5399569     4     0
+                        01:00:5e:00:00:01
+en1   1500  200.0.1     200.0.1.250       13306190     0  5399569     4     0
+                        224.0.0.1          
+en2   1500  link#3      0.11.25.bf.d7.23  47416005     0    21812     3     0
+                        01:00:5e:00:00:01
+en2   1500  192.168.12  192.168.12.4      47416005     0    21812     3     0
+                        224.0.0.1          
+en3   1500  link#4      0.11.25.bf.d7.1f  60648992     0 13104171     4     0
+                        01:00:5e:00:00:01
+en3   1500  192.168.9   192.168.9.31      60648992     0 13104171     4     0
+                        224.0.0.1          
+lo0   16896 link#1                        167746509     0 167884890     0     0
+lo0   16896 127         127.0.0.1         167746509     0 167884890     0     0
+                        224.0.0.1          
+lo0   16896 ::1                           167746509     0 167884890     0     0
+                        ff01::1          
+                        ff02::1:ff00:1   
+                        ff02::1          
+cmdbegin:netallperf
+start-en0
+Hardware Address: 00:11:25:e7:14:ee
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 1         
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : UNKNOWN
+Media Speed Running: Unknown
+TCP Segmentation Offload Packets Transmitted: 0
+end-en0
+start-en1
+Hardware Address: 00:11:25:e7:14:ef
+Packets: 5399566                              Packets: 13306222
+Bytes: 723415830                              Bytes: 1145604777
+Interrupts: 0                                 Interrupts: 13292568
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 21        
+Broadcast Packets: 3367                       Broadcast Packets: 6448395
+Multicast Packets: 0                          Multicast Packets: 4
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 100 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 8623
+end-en1
+start-en2
+Hardware Address: 00:11:25:bf:d7:23
+Packets: 21809                                Packets: 47933220
+Bytes: 1981292                                Bytes: 4500296450
+Interrupts: 0                                 Interrupts: 45609721
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 12        
+Broadcast Packets: 175                        Broadcast Packets: 47887681
+Multicast Packets: 1                          Multicast Packets: 32552
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 11
+end-en2
+start-en3
+Hardware Address: 00:11:25:bf:d7:1f
+Packets: 13104193                             Packets: 61166207
+Bytes: 6696231600                             Bytes: 5810711163
+Interrupts: 0                                 Interrupts: 58052585
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 22        
+Broadcast Packets: 137843                     Broadcast Packets: 47750032
+Multicast Packets: 1                          Multicast Packets: 32552
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 826699
+end-en3
+cmdbegin:uname
+AIX finance
+cmdbegin:service
+Subsystem         Group            PID          Status 
+ portmap          portmap          1015832      active
+ inetd            tcpip            1011966      active
+ sshd             ssh              995376       active
+ ctrmc            rsct             1151030      active
+ snmpd            tcpip            1134636      active
+ i4llmd           iforls           1110050      active
+ clcomdES         clcomdES         1028124      active
+ IBM.ServiceRM    rsct_rm          1146944      active
+ clstrmgrES       cluster          1081446      active
+ IBM.ERRM         rsct_rm          1167446      active
+ IBM.AuditRM      rsct_rm          1163322      active
+ IBM.CSMAgentRM   rsct_rm          1122382      active
+ IBM.HostRM       rsct_rm          991246       active
+ IBM.DRM          rsct_rm          1089664      active
+ IBM.LPRM         rsct_rm          1159318      active
+ syslogd          ras              3297452      active
+ qdaemon          spooler                       inoperative
+ writesrv         spooler                       inoperative
+ lpd              spooler                       inoperative
+ rwhod            tcpip                         inoperative
+ xntpd            tcpip                         inoperative
+ sendmail         mail                          inoperative
+ aixmibd          tcpip                         inoperative
+ hostmibd         tcpip                         inoperative
+ snmpmibd         tcpip                         inoperative
+ dpid2            tcpip                         inoperative
+ dhcpcd           tcpip                         inoperative
+ dhcpcd6          tcpip                         inoperative
+ ndpd-host        tcpip                         inoperative
+ ndpd-router      tcpip                         inoperative
+ tftpd            tcpip                         inoperative
+ gated            tcpip                         inoperative
+ named            tcpip                         inoperative
+ routed           tcpip                         inoperative
+ iptrace          tcpip                         inoperative
+ timed            tcpip                         inoperative
+ dhcpsd           tcpip                         inoperative
+ dhcpsdv6         tcpip                         inoperative
+ dhcprd           tcpip                         inoperative
+ mrouted          tcpip                         inoperative
+ rsvpd            qos                           inoperative
+ policyd          qos                           inoperative
+ pxed             tcpip                         inoperative
+ binld            tcpip                         inoperative
+ dfpd             tcpip                         inoperative
+ keyserv          keyserv                       inoperative
+ ypbind           yp                            inoperative
+ biod             nfs                           inoperative
+ nfsd             nfs                           inoperative
+ rpc.statd        nfs                           inoperative
+ rpc.lockd        nfs                           inoperative
+ rpc.mountd       nfs                           inoperative
+ automountd       autofs                        inoperative
+ nfsrgyd          nfs                           inoperative
+ gssd             nfs                           inoperative
+ llbd             iforncs                       inoperative
+ glbd             iforncs                       inoperative
+ cpsd             ike                           inoperative
+ tmd              ike                           inoperative
+ isakmpd          ike                           inoperative
+ cdromd                                         inoperative
+ i4lmd            iforls                        inoperative
+ i4glbcd          iforncs                       inoperative
+ i4gdb            iforls                        inoperative
+ muxatmd          tcpip                         inoperative
+ nimsh            nimclient                     inoperative
+ ctcas            rsct                          inoperative
+ wsmrefserver                                   inoperative
+ dtsrc                                          inoperative
+ gsclvmd                                        inoperative
+ topsvcs          topsvcs                       inoperative
+ grpsvcs          grpsvcs                       inoperative
+ grpglsm          grpsvcs                       inoperative
+ emsvcs           emsvcs                        inoperative
+ emaixos          emsvcs                        inoperative
+ vert_serv        nrd                           inoperative
+ IBM.ConfigRM     rsct_rm                       inoperative
+ sshd             ssh                           inoperative
+cmdbegin:usergroup
+system:!:0:root,xyfile
+staff:!:1:ipsec,sshd,oracle,oracle10,sbnet,informix,dsadm,cspdev,csptest,secu,secucskh,cskh,amtest,ftppub,vost,atmftp
+bin:!:2:root,bin
+sys:!:3:root,bin,sys,tuxedo
+adm:!:4:bin,adm
+uucp:!:5:uucp,nuucp
+mail:!:6:
+security:!:7:root
+cron:!:8:root
+printq:!:9:lp
+audit:!:10:root
+ecs:!:28:
+nobody:!:4294967294:nobody,lpd
+usr:!:100:guest
+perf:!:20:
+shutdown:!:21:
+lp:!:11:root,lp,printq
+invscout:!:12:invscout
+snapp:!:13:snapp
+ipsec:!:200:
+sshd:!:201:sshd
+hacmp:!:202:
+haemrm:!:203:
+dba:!:301:oracle,oracle10,orarac
+hagsuser:!:206:oracle,oracle10,root,orarac
+informix:!:204:informix,cspdev,csptest,pmmcp,bmmcp,filesrv,tuxedo,pmtest,bmtest,ftppub,cspver,pmver,bmver,vost,cspftp,atmftp
+dstage:!:205:dsadm
+tuxedo:!:207:
+amtest:!:208:amtest
+cmdbegin:user
+root id=0 pgrp=system groups=system,bin,sys,security,cron,audit,lp,hagsuser home=/ shell=/usr/bin/ksh auditclasses=general login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287477574 time_last_unsuccessful_login=1287477568 tty_last_login=/dev/pts/12 tty_last_unsuccessful_login=/dev/pts/12 host_last_login=192.168.9.118 host_last_unsuccessful_login=192.168.9.118 unsuccessful_login_count=0 roles=
+daemon id=1 pgrp=staff groups=staff home=/etc login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+bin id=2 pgrp=bin groups=bin,sys,adm home=/bin login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1227862198 tty_last_unsuccessful_login=ssh host_last_unsuccessful_login=200.0.1.104 unsuccessful_login_count=1 roles=
+sys id=3 pgrp=sys groups=sys home=/usr/sys login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+adm id=4 pgrp=adm groups=adm home=/var/adm login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+uucp id=5 pgrp=uucp groups=uucp home=/usr/lib/uucp login=false su=true rlogin=false daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+guest id=100 pgrp=usr groups=usr home=/home/guest login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1227862759 tty_last_unsuccessful_login=ftp host_last_unsuccessful_login=::ffff:200.0.1.94 unsuccessful_login_count=110 roles=
+nobody id=4294967294 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1249521169 tty_last_unsuccessful_login=/dev/pts/34 host_last_unsuccessful_login=192.168.5.17 unsuccessful_login_count=15 roles=
+lpd id=9 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+lp id=11 pgrp=lp groups=lp,printq home=/var/spool/lp shell=/bin/false login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1227862277 tty_last_unsuccessful_login=/dev/pts/41 host_last_unsuccessful_login=200.0.1.104 unsuccessful_login_count=1 roles=
+invscout id=6 pgrp=invscout groups=invscout home=/var/adm/invscout shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+snapp id=200 pgrp=snapp groups=snapp home=/usr/sbin/snapp shell=/usr/sbin/snappd gecos=snapp login user login=true su=false rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=/dev/tty0 expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=NONE logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= dce_export=false fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+ipsec id=201 pgrp=staff groups=staff home=/etc/ipsec shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+nuucp id=7 pgrp=uucp groups=uucp home=/var/spool/uucppublic shell=/usr/sbin/uucp/uucico gecos=uucp login user login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+sshd id=202 pgrp=sshd groups=sshd,staff home=/var/empty shell=/usr/bin/ksh login=false su=true rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=true minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+oracle id=301 pgrp=dba groups=dba,staff,hagsuser home=/oracle shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1264056107 time_last_unsuccessful_login=1245485125 tty_last_login=/dev/pts/12 tty_last_unsuccessful_login=/dev/pts/7 host_last_login=192.168.9.140 host_last_unsuccessful_login=192.168.9.165 unsuccessful_login_count=0 roles=
+oracle10 id=302 pgrp=dba groups=dba,staff,hagsuser home=/oracle10g shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1161054860 time_last_unsuccessful_login=1160630010 tty_last_login=/dev/pts/0 tty_last_unsuccessful_login=192_168_5_2_0 host_last_login=finance_ipc host_last_unsuccessful_login=192.168.5.2:0 unsuccessful_login_count=0 roles=
+orarac id=500 pgrp=dba groups=dba,hagsuser home=/home/orarac shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=-1 stack=-1 core=2097151 rss=65536 nofiles=2000 time_last_login=1161174651 time_last_unsuccessful_login=1161174486 tty_last_login=/dev/pts/2 tty_last_unsuccessful_login=/dev/pts/2 host_last_login=loan_boot1 host_last_unsuccessful_login=loan_boot1 unsuccessful_login_count=1 roles=
+sbnet id=22501 pgrp=staff groups=staff home=/usr/lpp/sysback shell=/usr/bin/ksh gecos=Remote Services login=false su=false rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+informix id=203 pgrp=informix groups=informix,staff home=/informix shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=-1 stack=-1 core=2097151 rss=65536 nofiles=2000 time_last_login=1227843482 time_last_unsuccessful_login=1273598515 tty_last_login=/dev/pts/36 tty_last_unsuccessful_login=/dev/pts/8 host_last_login=192.168.102.177 host_last_unsuccessful_login=192.168.9.185 unsuccessful_login_count=113 roles=
+dsadm id=206 pgrp=dstage groups=dstage,staff home=/home/dsadm shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles=
+cspdev id=205 pgrp=informix groups=informix,staff home=/cspdev shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287750911 time_last_unsuccessful_login=1287743529 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/17 host_last_login=::ffff:192.168.9.135 host_last_unsuccessful_login=192.168.9.125 unsuccessful_login_count=0 roles=
+csptest id=204 pgrp=informix groups=informix,staff home=/csptest shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287796903 time_last_unsuccessful_login=1286934933 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:192.168.9.215 host_last_unsuccessful_login=::ffff:200.0.1.218 unsuccessful_login_count=0 roles=
+pmmcp id=207 pgrp=informix groups=informix home=/home/pmmcp shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287731347 time_last_unsuccessful_login=1287363431 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:192.168.9.21 host_last_unsuccessful_login=::ffff:192.168.9.21 unsuccessful_login_count=0 roles=
+bmmcp id=208 pgrp=informix groups=informix home=/home/bmmcp shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287649426 time_last_unsuccessful_login=1286789367 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/21 host_last_login=::ffff:192.168.9.236 host_last_unsuccessful_login=192.168.9.215 unsuccessful_login_count=0 roles=
+filesrv id=209 pgrp=informix groups=informix home=/home/filesrv shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1183448095 tty_last_login=/dev/pts/27 host_last_login=192.168.102.129 unsuccessful_login_count=0 roles=
+secu id=210 pgrp=staff groups=staff home=/secu shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1285778431 time_last_unsuccessful_login=1283344173 tty_last_login=/dev/pts/15 tty_last_unsuccessful_login=ftp host_last_login=192.168.9.230 host_last_unsuccessful_login=::ffff:200.0.1.227 unsuccessful_login_count=0 roles=
+secucskh id=211 pgrp=staff groups=staff home=/home/secucskh shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1177747947 time_last_unsuccessful_login=1177319141 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:192.168.102.169 host_last_unsuccessful_login=::ffff:200.0.1.207 unsuccessful_login_count=0 roles=
+tuxedo id=212 pgrp=tuxedo groups=tuxedo,sys,informix home=/tuxedo shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1177663122 time_last_unsuccessful_login=1177662314 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:200.0.1.224 host_last_unsuccessful_login=::ffff:200.0.1.224 unsuccessful_login_count=0 roles=
+pmtest id=213 pgrp=informix groups=informix home=/home/pmtest shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1261116485 time_last_unsuccessful_login=1258452827 tty_last_login=/dev/pts/25 tty_last_unsuccessful_login=ftp host_last_login=hkbank-b7b58ae0 host_last_unsuccessful_login=::ffff:200.0.1.218 unsuccessful_login_count=0 roles=
+bmtest id=214 pgrp=informix groups=informix home=/home/bmtest shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1261116479 time_last_unsuccessful_login=1247107306 tty_last_login=/dev/pts/24 tty_last_unsuccessful_login=ftp host_last_login=hkbank-b7b58ae0 host_last_unsuccessful_login=::ffff:192.168.9.152 unsuccessful_login_count=1 roles=
+cskh id=215 pgrp=informix groups=informix,staff home=/cspdev/file/baspfiles shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=555 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1283579153 time_last_unsuccessful_login=1282286008 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:17.101.22.200 host_last_unsuccessful_login=finance unsuccessful_login_count=0 roles=
+amtest id=216 pgrp=amtest groups=amtest,staff home=/home/amtest shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1197608020 time_last_unsuccessful_login=1195550777 tty_last_login=/dev/pts/2 tty_last_unsuccessful_login=/dev/pts/64 host_last_login=200.0.1.107 host_last_unsuccessful_login=192.168.102.50 unsuccessful_login_count=0 roles=
+ftppub id=217 pgrp=staff groups=staff,informix home=/csptest/file/settlefile/member shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1242030388 tty_last_login=ftp host_last_login=::ffff:192.168.9.230 unsuccessful_login_count=0 roles=
+cspver id=219 pgrp=informix groups=informix home=/secu/cspver shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1287709895 time_last_unsuccessful_login=1284622799 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:200.0.1.218 host_last_unsuccessful_login=::ffff:200.0.1.218 unsuccessful_login_count=0 roles=
+bmver id=220 pgrp=informix groups=informix home=/secu/bmver shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1246075476 time_last_unsuccessful_login=1237269249 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:192.168.9.162 host_last_unsuccessful_login=::ffff:192.168.9.174 unsuccessful_login_count=2 roles=
+pmver id=221 pgrp=informix groups=informix home=/secu/pmver shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1248920255 tty_last_login=ftp host_last_login=::ffff:192.168.9.118 unsuccessful_login_count=0 roles=
+vost id=223 pgrp=informix groups=informix,staff home=/usr/vost shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1280370899 time_last_unsuccessful_login=1287627596 tty_last_login=/dev/pts/2 tty_last_unsuccessful_login=/dev/pts/32 host_last_login=192.168.9.223 host_last_unsuccessful_login=192.168.9.137 unsuccessful_login_count=8 roles=
+cspftp id=224 pgrp=informix groups=informix home=/cspdev/file shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1280371281 time_last_unsuccessful_login=1278298990 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:192.168.9.86 host_last_unsuccessful_login=::ffff:192.168.9.102 unsuccessful_login_count=0 roles=
+atmftp id=226 pgrp=informix groups=informix,staff home=/cspdev/file/ shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1284708223 time_last_unsuccessful_login=1280886772 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:200.0.100.70 host_last_unsuccessful_login=whcspdev unsuccessful_login_count=0 roles=
+xyfile id=228 pgrp=system groups=system home=/home/xyfile shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1282199342 tty_last_unsuccessful_login=/dev/pts/30 host_last_unsuccessful_login=192.168.9.184 unsuccessful_login_count=2 roles=
+cmdbegin:date
+Sat Oct 23 09:45:11 BEIST 2010
+cmdbegin:uptime
+  09:45AM   up 48 days,  16:38,  10 users,  load average: 0.30, 0.17, 0.14
+cmdbegin:errpt
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:06:02 BEIST 2010
+Sequence Number: 550
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent3            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C2-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............001125127BF8
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 00E6 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0001 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0011 2512 7BF8 
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:03:26 BEIST 2010
+Sequence Number: 549
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 0049 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000F 0000 0000 0000 0420 0000 0000 0000 0000 0000 0000 0000 000F 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB43 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:03:03 BEIST 2010
+Sequence Number: 548
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 0032 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000E 0000 0000 0000 03E4 0000 0000 0000 0000 0000 0000 0000 000E 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	390
+Resource tested:	ent0
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:03:02 BEIST 2010
+Sequence Number: 547
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 0031 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000A 0000 0000 0000 02C0 0000 0000 0000 0000 0000 0000 0000 000A 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:59 BEIST 2010
+Sequence Number: 546
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 002F 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000A 0000 0000 0000 02C0 0000 0000 0000 0000 0000 0000 0000 000A 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:02:58 BEIST 2010
+Sequence Number: 545
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 002D 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000A 0000 0000 0000 02C0 0000 0000 0000 0000 0000 0000 0000 000A 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:43 BEIST 2010
+Sequence Number: 544
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 001F 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000A 0000 0000 0000 02C0 0000 0000 0000 0000 0000 0000 0000 000A 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	386
+Resource tested:	ent0
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:02:42 BEIST 2010
+Sequence Number: 543
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 001E 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 000A 0000 0000 0000 02C0 0000 0000 0000 0000 0000 0000 0000 0008 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0800 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:40 BEIST 2010
+Sequence Number: 542
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 001B 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0009 0000 0000 0000 0284 0000 0000 0000 0000 0000 0000 0000 0008 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:02:39 BEIST 2010
+Sequence Number: 541
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 001A 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0008 0000 0000 0000 0248 0000 0000 0000 0000 0000 0000 0000 0008 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:36 BEIST 2010
+Sequence Number: 540
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 0018 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0007 0000 0000 0000 020C 0000 0000 0000 0000 0000 0000 0000 0008 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	381
+Resource tested:	ent0
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:02:35 BEIST 2010
+Sequence Number: 539
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 0017 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0003 0000 0000 0000 00E8 0000 0000 0000 0000 0000 0000 0000 0003 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:28 BEIST 2010
+Sequence Number: 538
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 000F 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0002 0000 0000 0000 00AC 0000 0000 0000 0000 0000 0000 0000 0003 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0002 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	377
+Resource tested:	ent0
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_RCVRY_EXIT
+IDENTIFIER:     F3931284
+
+Date/Time:       Sun Sep 26 17:02:27 BEIST 2010
+Sequence Number: 537
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            INFO
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET NETWORK RECOVERY MODE
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 304 file: goent_intr.c
+PCI ETHERNET STATISTICS
+0000 000E 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0001 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB83 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:18 BEIST 2010
+Sequence Number: 536
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent3            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C2-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............001125127BF8
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 236 file: goent_limbo.c
+PCI ETHERNET STATISTICS
+0000 0005 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0011 2512 7BF8 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	374
+Resource tested:	ent3
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:02:18 BEIST 2010
+Sequence Number: 535
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent0            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C3-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............00145EB86B16
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 236 file: goent_limbo.c
+PCI ETHERNET STATISTICS
+0000 0005 0063 0853 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0001 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB40 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 C1E1 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+5555 5555 0000 0000 0000 0000 
+SOURCE ADDRESS
+0014 5EB8 6B16 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	372
+Resource tested:	ent0
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+
+---------------------------------------------------------------------------
+LABEL:          GOENT_LINK_DOWN
+IDENTIFIER:     EC0BCCD4
+
+Date/Time:       Sun Sep 26 17:00:29 BEIST 2010
+Sequence Number: 533
+Machine Id:      0006B30FD600
+Node Id:         appserv
+Class:           H
+Type:            TEMP
+Resource Name:   ent3            
+Resource Class:  adapter
+Resource Type:   14106902
+Location:        U787B.001.DNWG9KX-P1-C2-T1
+VPD:             
+      10/100/1000 Base-TX PCI-X Adapter:
+        Part Number.................03N6525
+        FRU Number..................03N6525
+        EC Level....................H14007$
+        Brand.......................H0
+        Manufacture ID..............YL1021
+        Network Address.............001125127BF8
+        ROM Level.(alterable).......GOL021
+
+Description
+ETHERNET DOWN
+
+	Recommended Actions
+	PERFORM PROBLEM DETERMINATION PROCEDURES
+
+Detail Data
+FILE NAME
+line: 248 file: goent_intr.c
+PCI ETHERNET STATISTICS
+00A5 2DB5 0063 081B 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 
+0000 0000 01BD 67D9 0000 0000 D778 E6A8 0000 0000 019D DB39 0000 0000 0023 7949 
+0000 0000 0128 CEED 0000 0000 A50E A44E 0000 0000 0000 0000 0000 0000 0000 4434 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0002 0000 0007 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 BB80 00F0 0068 0C00 0000 0000 01A0 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000 0000 0000 0000 0000 
+DEVICE DRIVER INTERNAL STATE
+2222 2222 0000 0000 0000 0000 
+SOURCE ADDRESS
+0011 2512 7BF8 
+
+Diagnostic Analysis
+Diagnostic Log sequence number:	368
+Resource tested:	ent3
+Menu Number:		25C1902
+Description:
+
+
+No trouble was found with this adapter.  However
+Error Log Analysis indicates that there recently may
+have been a network problem.
+
+If your Ethernet adapter is connected to a network,
+and if you are experiencing problems with network
+communications, check for a loose or defective
+cable or connection.
+
+If a switch or another system is directly attached
+to the Ethernet adapter, verify it is powered up,
+configured, and functioning correctly.
+cmdbegin:volume
+hdisk0          0006ace18d5ba1ff                    rootvg          active
+hdisk1          0006ace128612907                    rootvg          active
+hdisk6          none                                None
+hdisk7          none                                None
+hdisk8          none                                None
+hdisk9          none                                None
+hdisk10         none                                None
+hdisk11         none                                None
+hdisk12         none                                None
+hdisk13         none                                None
+hdiskpower0     0006ace104a87f65                    oraclevg        active
+hdiskpower1     0006ace104a91f97                    oraclevg        active
+hdiskpower2     0006ace104a98cd2                    appvg
+hdiskpower3     0006ace104aaf07f                    oraclevg        active
+cmdbegin:route
+Routing tables
+Destination        Gateway           Flags   Refs     Use  If   Exp  Groups
+
+Route Tree for Protocol Family 2 (Internet):
+default            10.0.9.254        UG       63 115261047 en0      -      -   
+10.0.9.0           10.0.9.21         UHSb      0         0 en0      -      -   =>
+10.0.9/24          10.0.9.21         U         3 1376253122 en0      -      -   
+10.0.9.21          127.0.0.1         UGHS      2   2718730 lo0      -      -   
+10.0.9.255         10.0.9.21         UHSb      0     23229 en0      -      -   
+127/8              127.0.0.1         U        18  70656649 lo0      -      -   
+192.168.9.0        192.168.9.20      UHSb      0         0 en3      -      -   =>
+192.168.9/24       192.168.9.20      U         1  10612904 en3      -      -   
+192.168.9.20       127.0.0.1         UGHS      0   1738969 lo0      -      -   
+192.168.9.255      192.168.9.20      UHSb      0     23375 en3      -      -   
+192.168.10.0       192.168.10.20     UHSb      0         0 en2      -      -   =>
+192.168.10/24      192.168.10.20     U         2  63556950 en2      -      -   
+192.168.10.20      127.0.0.1         UGHS      2  10592559 lo0      -      -   
+192.168.10.255     192.168.10.20     UHSb      0    143091 en2      -      -   
+
+Route Tree for Protocol Family 24 (Internet v6):
+::1                ::1               UH        0        16 lo0      -      -   
+cmdbegin:end

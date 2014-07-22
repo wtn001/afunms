@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/rest/main
+END
+StencilsetRestResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/rest/main/StencilsetRestResource.java
+END
+PluginRestResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/rest/main/PluginRestResource.java
+END
+EditorRestResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/afunms/!svn/ver/1/src/org/activiti/editor/rest/main/EditorRestResource.java
+END

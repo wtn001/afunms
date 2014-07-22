@@ -1,0 +1,13 @@
+Group Summary
+
+Server Name: all
+Group Name: all
+Group Start Time: from earliest available to 12/4/08 4:54:10 PM
+Status: all
+
+Group Name,Total Duration,Total Group Runs,Successful,Failed,Interrupted,Success Ratio
+JF_oracle_backupfull_raw,6056,1,1,0,0,100
+jfa05_backup_dump,12417,30,30,0,0,100
+jfa06_backup_dump,4354,30,30,0,0,100
+JS_backup_dump,3152,30,30,0,0,100
+XZ_oracle_backupfull_raw,11610,3,3,0,0,100

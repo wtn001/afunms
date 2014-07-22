@@ -1,0 +1,631 @@
+cmdbegin:version
+SunOS sxoawf1 5.10 Generic_141414-07 sun4u sparc SUNW,Sun-Fire-880
+cmdbegin:vmstat
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr m0 m1 m3 m1   in   sy   cs us sy id
+ 0 0 0 4973760 8904752 38 116 9 2  2  0  0  2  0  2  2  615 1116  668  2  1 97
+cmdbegin:swapinfo
+total: 9298464k bytes allocated + 2709704k reserved = 12008168k used, 1489552k available
+cmdbegin:process
+  PID     USER %CPU %MEM        TIME  RSS COMMAND
+    0     root  0.0  0.0       00:19    0 sched
+    1     root  0.0  0.0       00:04 1264 /sbin/init
+    2     root  0.0  0.0       00:00    0 pageout
+    3     root  0.2  0.0    01:19:27    0 fsflush
+ 2201   oracle  0.0  8.5       01:09 1398760 ora_cjq0_sxoadb
+    7     root  0.0  0.1       00:15 6776 /lib/svc/bin/svc.startd
+    9     root  0.0  0.1       03:22 9656 /lib/svc/bin/svc.configd
+  615     root  0.0  0.0       00:00  680 /usr/sadm/lib/smc/bin/smcboot
+  480   daemon  0.0  0.0       00:00  920 /usr/sbin/rpcbind
+  852     root  0.0  0.0       00:00 1312 /usr/sbin/rpc.metad
+ 5394      nms  0.0  0.0       00:00 1080 sh
+  504   daemon  0.0  0.0       00:01 1272 /usr/lib/nfs/nfsmapid
+  853     root  0.0  0.0       00:00 1032 /usr/lib/snmp/snmpdx
+  574     root  0.0  0.0       00:02  856 /usr/lib/utmpd
+  456     root  0.0  0.0       00:06 1296 /usr/sbin/cron
+ 2199   oracle  0.0  8.5       00:00 1394392 ora_reco_sxoadb
+  163   daemon  0.0  0.0       00:01 2328 /usr/lib/crypto/kcfd
+  499   daemon  0.0  0.0       00:00  872 /usr/lib/nfs/nfs4cbd
+  172     root  0.0  0.1       01:04 3880 /usr/sbin/nscd
+  176     root  0.0  0.0       00:00 1688 /usr/lib/sysevent/syseventd
+  433     root  0.0  0.0       00:00  480 /usr/lib/efcode/sparcv9/efdaemon
+  190     root  0.0  0.1       06:22 4272 /usr/lib/picl/picld
+  184     root  0.0  0.0       00:00 1632 devfsadmd
+  776     root  0.0  0.0       00:00 1952 /usr/sbin/vold
+  497   daemon  0.0  0.0       00:00 1272 /usr/lib/nfs/statd
+  906     root  0.0  0.0       00:15 2040 /usr/lib/sendmail
+ 2197   oracle  0.0  8.5       00:16 1395104 ora_smon_sxoadb
+  553     root  0.0  0.0       00:00  704 /usr/platform/SUNW,Sun-Fire-880/lib/sf880drd
+  588     root  0.0  0.0       00:00 1032 /usr/lib/saf/ttymon
+  556   daemon  0.0  0.0       00:00  960 /usr/lib/nfs/lockd
+  837     root  0.0  0.0       00:00 1160 /usr/lib/ssh/sshd
+  558     root  0.0  0.0       00:00  928 /usr/lib/saf/sac
+ 1981     root  0.0  0.0       00:00  848 /usr/lib/saf/ttymon
+  855     root  0.0  0.1       00:03 6048 /usr/lib/fm/fmd/fmd
+  618     root  0.0  0.0       00:00  528 /usr/sadm/lib/smc/bin/smcboot
+  889     root  0.0  0.0       00:00  816 /usr/lib/dmi/snmpXdmid
+  777     root  0.0  0.0       00:00  672 /usr/lib/autofs/automountd
+  593     root  0.0  0.1       00:12 3512 /usr/lib/inet/inetd
+  617     root  0.0  0.0       00:00  528 /usr/sadm/lib/smc/bin/smcboot
+  778     root  0.0  0.0       00:02 1520 /usr/lib/autofs/automountd
+ 2209     root  0.0  8.2       00:03 1344704 ora_dism_sxoadb
+  820     root  0.0  0.0       00:00 1432 /usr/sbin/mdmonitord
+  809     root  0.0  0.0       00:03 1912 /usr/sbin/syslogd
+ 2203   oracle  0.0  8.6       05:22 1403768 ora_qmn0_sxoadb
+ 2189   oracle  0.0  8.5       05:19 1395992 ora_pmon_sxoadb
+  907    smmsp  0.0  0.0       00:01 1472 /usr/lib/sendmail
+  884     root  0.0  0.0       00:00  976 /usr/lib/dmi/dmispd
+  876     root  0.0  0.1       00:22 4616 /usr/sfw/sbin/snmpd
+ 2191   oracle  0.0  8.6       01:04 1402480 ora_dbw0_sxoadb
+  568     sxem  0.0  4.4       24:33 710704 /oa/weblogic/bea/jdk142_11/bin/java
+ 2214   oracle  0.0  0.1       00:01 12608 /export/home/oracle/orasoft/product/9.2.0/bin/tnslsnr
+ 2195   oracle  0.0  8.6       04:53 1399976 ora_ckpt_sxoadb
+ 2193   oracle  0.0  8.6       02:28 1404152 ora_lgwr_sxoadb
+ 2207   oracle  0.0  8.6       00:01 1402840 ora_d000_sxoadb
+ 1656     root  0.0  0.0       00:00 1144 /usr/dt/bin/dtlogin
+29608  sxsheet  0.0  0.0       00:00 1000 -sh
+ 2205   oracle  0.0  8.6       00:01 1402416 ora_s000_sxoadb
+29350  sxsheet  0.0  0.0       00:00  864 -sh
+ 5395      nms  0.0  0.0       00:00 1088 /bin/sh
+29683     root  0.0  0.0       00:00 1016 -sh
+29402     root  0.0  0.0       00:00  872 -sh
+28867  sxsheet  0.0  0.0       00:00 1216 /bin/sh
+ 5170  sxsheet  0.0  0.1       00:00 2760 /usr/sbin/in.ftpd
+ 1650     root  0.0  0.0       00:00 1000 -sh
+ 1929  sxsheet  8.3  3.4    04:53:01 549256 /oa/weblogic/bea/jdk142_11/bin/java
+29256  sxsheet  0.1  9.5       23:36 1556992 /oa/weblogic/bea/jdk142_11/bin/java
+ 2963  sxsheet  0.0  0.0       00:00 1088 tail
+ 1881  sxsheet  0.0  0.0       00:00  880 -sh
+ 5400      nms  0.0  0.0       00:00 1272 ps
+28875  sxsheet  0.1  1.2       02:12 185712 /oa/weblogic/bea/jdk142_11/bin/java
+ 1921  sxsheet  0.0  0.0       00:00  792 /bin/sh
+  560     sxem  0.0  0.0       00:00  720 /bin/sh
+11480     root  0.0  0.1       14:13 3528 ./stat_daemon
+11484     root  0.0  0.0       01:28 2192 ./ifstat
+11481     root  0.0  0.0       00:12 2488 ./kux_vmstat
+11477     root  0.0 10.5       08:33 1722808 /cmnm/Tivoli/ITM/sol296/ux/bin/kuxagent
+11485     root  0.0  0.0       00:00  552 sh
+11486     root  0.0  0.0       00:26 2432 ./kuxdstat
+11487     root  0.0  0.0       00:00  664 sh
+11488     root  0.0  0.0       00:12 1240 ./nfs_stat
+11959     root  0.0  0.2       00:14 19168 /cmnm/Tivoli/ITM/sol286/um/bin/kuma610
+ 1712  sxsheet  0.0  0.0       00:00  856 -sh
+11727     root  0.0  0.1       00:07 17624 /cmnm/Tivoli/ITM/sol286/ul/bin/kulagent
+  192     root  0.0  0.0       00:00  880 -sh
+  523  sxsheet  0.0  0.0       00:00  896 -sh
+ 1729  sxsheet  0.0  0.0       00:00 1120 bash
+ 1730     root  0.0  0.0       00:00 1096 -sh
+29248  sxsheet  0.0  0.0       00:00  784 /bin/sh
+cmdbegin:cpu
+
+SunOS sxoawf1 5.10 Generic_141414-07 sun4u    04/22/2010
+
+16:40:00    %usr    %sys    %wio   %idle
+16:40:01       3       0       0      97
+16:40:02       6       1       0      93
+16:40:03       9       0       0      91
+
+Average        6       0       0      94
+cmdbegin:allmemory
+System Configuration:  Sun Microsystems  sun4u
+Memory size: 16384 Megabytes
+cmdbegin:cpuconfig
+cmdbegin:disk
+Filesystem            kbytes    used   avail capacity  Mounted on
+/dev/md/dsk/d0       66350146 18155078 47531567    28%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 1489576    1664 1487912     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/platform/sun4u-us3/lib/libc_psr/libc_psr_hwcap1.so.1 66350146 18155078 47531567    28%    /platform/sun4u-us3/lib/libc_psr.so.1
+/platform/sun4u-us3/lib/sparcv9/libc_psr/libc_psr_hwcap1.so.1 66350146 18155078 47531567    28%    /platform/sun4u-us3/lib/sparcv9/libc_psr.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 1517408   29496 1487912     2%    /tmp
+swap                 1487960      48 1487912     1%    /var/run
+/dev/dsk/c3t4d0s2    70589121 11446190 58437040    17%    /oa
+/dev/md/dsk/d3       70589121 33984667 35898563    49%    /oradata
+cmdbegin:diskperf
+
+SunOS sxoawf1 5.10 Generic_141414-07 sun4u    04/22/2010
+
+16:40:03   device        %busy   avque   r+w/s  blks/s  avwait  avserv
+
+16:40:04   md0               0     0.0       0       0     0.0     0.0
+           md1               0     0.0       0       0     0.0     0.0
+           md3               4     0.1       7     110     0.0    13.7
+           md10              0     0.0       0       0     0.0     0.0
+           md11              0     0.0       0       0     0.0     0.0
+           md13              4     0.1       7     110     0.0    13.7
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md23              4     0.1       7     110     0.0    13.2
+           nfs1              0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           ssd1              4     0.1       7     110     0.0    13.6
+           ssd1,c            4     0.1       7     110     0.0    13.6
+           ssd6              0     0.0       0       0     0.0     0.0
+           ssd6,a            0     0.0       0       0     0.0     0.0
+           ssd6,b            0     0.0       0       0     0.0     0.0
+           ssd6,c            0     0.0       0       0     0.0     0.0
+           ssd6,h            0     0.0       0       0     0.0     0.0
+           ssd7              0     0.0       0       0     0.0     0.0
+           ssd7,a            0     0.0       0       0     0.0     0.0
+           ssd7,b            0     0.0       0       0     0.0     0.0
+           ssd7,c            0     0.0       0       0     0.0     0.0
+           ssd7,h            0     0.0       0       0     0.0     0.0
+           ssd8              0     0.0       0       0     0.0     0.0
+           ssd8,a            0     0.0       0       0     0.0     0.0
+           ssd8,b            0     0.0       0       0     0.0     0.0
+           ssd8,c            0     0.0       0       0     0.0     0.0
+           ssd8,g            0     0.0       0       0     0.0     0.0
+           ssd9              4     0.1       7     110     0.0    13.2
+           ssd9,c            4     0.1       7     110     0.0    13.2
+           ssd10             0     0.0       0       0     0.0     0.0
+           ssd10,c           0     0.0       0       0     0.0     0.0
+           ssd10,f           0     0.0       0       0     0.0     0.0
+           ssd11             0     0.0       0       0     0.0     0.0
+           ssd11,a           0     0.0       0       0     0.0     0.0
+           ssd11,b           0     0.0       0       0     0.0     0.0
+           ssd11,c           0     0.0       0       0     0.0     0.0
+           ssd11,g           0     0.0       0       0     0.0     0.0
+           ssd12             0     0.0       0       0     0.0     0.0
+           ssd12,a           0     0.0       0       0     0.0     0.0
+           ssd12,b           0     0.0       0       0     0.0     0.0
+           ssd12,c           0     0.0       0       0     0.0     0.0
+           ssd12,d           0     0.0       0       0     0.0     0.0
+           ssd12,e           0     0.0       0       0     0.0     0.0
+           ssd12,g           0     0.0       0       0     0.0     0.0
+           ssd13             0     0.0       0       0     0.0     0.0
+           ssd14             0     0.0       0       0     0.0     0.0
+           ssd15             0     0.0       0       0     0.0     0.0
+           ssd15,a           0     0.0       0       0     0.0     0.0
+           ssd15,b           0     0.0       0       0     0.0     0.0
+           ssd15,c           0     0.0       0       0     0.0     0.0
+           ssd15,d           0     0.0       0       0     0.0     0.0
+           ssd15,e           0     0.0       0       0     0.0     0.0
+           ssd15,g           0     0.0       0       0     0.0     0.0
+           ssd17             0     0.0       0       0     0.0     0.0
+           ssd17,a           0     0.0       0       0     0.0     0.0
+           ssd17,b           0     0.0       0       0     0.0     0.0
+           ssd17,c           0     0.0       0       0     0.0     0.0
+           ssd17,g           0     0.0       0       0     0.0     0.0
+           ssd19             0     0.0       0       0     0.0     0.0
+           ssd21             0     0.0       0       0     0.0     0.0
+           ssd22             0     0.0       0       0     0.0     0.0
+           ssd23             0     0.0       0       0     0.0     0.0
+           ssd24             0     0.0       0       0     0.0     0.0
+           ssd25             0     0.0       0       0     0.0     0.0
+           ssd26             0     0.0       0       0     0.0     0.0
+           ssd26,a           0     0.0       0       0     0.0     0.0
+           ssd26,b           0     0.0       0       0     0.0     0.0
+           ssd26,c           0     0.0       0       0     0.0     0.0
+           ssd26,d           0     0.0       0       0     0.0     0.0
+           ssd26,e           0     0.0       0       0     0.0     0.0
+           ssd26,g           0     0.0       0       0     0.0     0.0
+           ssd27             0     0.0       0       0     0.0     0.0
+           ssd28             0     0.0       0       0     0.0     0.0
+           ssd29             0     0.0       0       0     0.0     0.0
+           ssd29,a           0     0.0       0       0     0.0     0.0
+           ssd29,b           0     0.0       0       0     0.0     0.0
+           ssd29,c           0     0.0       0       0     0.0     0.0
+           ssd29,d           0     0.0       0       0     0.0     0.0
+           ssd29,e           0     0.0       0       0     0.0     0.0
+           ssd29,g           0     0.0       0       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+
+16:40:05   md0               0     0.0       0       0     0.0     0.0
+           md1               0     0.0       0       0     0.0     0.0
+           md3               0     0.0       0       0     0.0     0.0
+           md10              0     0.0       0       0     0.0     0.0
+           md11              0     0.0       0       0     0.0     0.0
+           md13              0     0.0       0       0     0.0     0.0
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md23              0     0.0       0       0     0.0     0.0
+           nfs1              0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           ssd1              0     0.0       0       0     0.0     0.0
+           ssd1,c            0     0.0       0       0     0.0     0.0
+           ssd6              0     0.0       0       0     0.0     0.0
+           ssd6,a            0     0.0       0       0     0.0     0.0
+           ssd6,b            0     0.0       0       0     0.0     0.0
+           ssd6,c            0     0.0       0       0     0.0     0.0
+           ssd6,h            0     0.0       0       0     0.0     0.0
+           ssd7              0     0.0       0       0     0.0     0.0
+           ssd7,a            0     0.0       0       0     0.0     0.0
+           ssd7,b            0     0.0       0       0     0.0     0.0
+           ssd7,c            0     0.0       0       0     0.0     0.0
+           ssd7,h            0     0.0       0       0     0.0     0.0
+           ssd8              0     0.0       0       0     0.0     0.0
+           ssd8,a            0     0.0       0       0     0.0     0.0
+           ssd8,b            0     0.0       0       0     0.0     0.0
+           ssd8,c            0     0.0       0       0     0.0     0.0
+           ssd8,g            0     0.0       0       0     0.0     0.0
+           ssd9              0     0.0       0       0     0.0     0.0
+           ssd9,c            0     0.0       0       0     0.0     0.0
+           ssd10             0     0.0       0       0     0.0     0.0
+           ssd10,c           0     0.0       0       0     0.0     0.0
+           ssd10,f           0     0.0       0       0     0.0     0.0
+           ssd11             0     0.0       0       0     0.0     0.0
+           ssd11,a           0     0.0       0       0     0.0     0.0
+           ssd11,b           0     0.0       0       0     0.0     0.0
+           ssd11,c           0     0.0       0       0     0.0     0.0
+           ssd11,g           0     0.0       0       0     0.0     0.0
+           ssd12             0     0.0       0       0     0.0     0.0
+           ssd12,a           0     0.0       0       0     0.0     0.0
+           ssd12,b           0     0.0       0       0     0.0     0.0
+           ssd12,c           0     0.0       0       0     0.0     0.0
+           ssd12,d           0     0.0       0       0     0.0     0.0
+           ssd12,e           0     0.0       0       0     0.0     0.0
+           ssd12,g           0     0.0       0       0     0.0     0.0
+           ssd13             0     0.0       0       0     0.0     0.0
+           ssd14             0     0.0       0       0     0.0     0.0
+           ssd15             0     0.0       0       0     0.0     0.0
+           ssd15,a           0     0.0       0       0     0.0     0.0
+           ssd15,b           0     0.0       0       0     0.0     0.0
+           ssd15,c           0     0.0       0       0     0.0     0.0
+           ssd15,d           0     0.0       0       0     0.0     0.0
+           ssd15,e           0     0.0       0       0     0.0     0.0
+           ssd15,g           0     0.0       0       0     0.0     0.0
+           ssd17             0     0.0       0       0     0.0     0.0
+           ssd17,a           0     0.0       0       0     0.0     0.0
+           ssd17,b           0     0.0       0       0     0.0     0.0
+           ssd17,c           0     0.0       0       0     0.0     0.0
+           ssd17,g           0     0.0       0       0     0.0     0.0
+           ssd19             0     0.0       0       0     0.0     0.0
+           ssd21             0     0.0       0       0     0.0     0.0
+           ssd22             0     0.0       0       0     0.0     0.0
+           ssd23             0     0.0       0       0     0.0     0.0
+           ssd24             0     0.0       0       0     0.0     0.0
+           ssd25             0     0.0       0       0     0.0     0.0
+           ssd26             0     0.0       0       0     0.0     0.0
+           ssd26,a           0     0.0       0       0     0.0     0.0
+           ssd26,b           0     0.0       0       0     0.0     0.0
+           ssd26,c           0     0.0       0       0     0.0     0.0
+           ssd26,d           0     0.0       0       0     0.0     0.0
+           ssd26,e           0     0.0       0       0     0.0     0.0
+           ssd26,g           0     0.0       0       0     0.0     0.0
+           ssd27             0     0.0       0       0     0.0     0.0
+           ssd28             0     0.0       0       0     0.0     0.0
+           ssd29             0     0.0       0       0     0.0     0.0
+           ssd29,a           0     0.0       0       0     0.0     0.0
+           ssd29,b           0     0.0       0       0     0.0     0.0
+           ssd29,c           0     0.0       0       0     0.0     0.0
+           ssd29,d           0     0.0       0       0     0.0     0.0
+           ssd29,e           0     0.0       0       0     0.0     0.0
+           ssd29,g           0     0.0       0       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+
+
+Average    md0               0     0.0       0       0     0.0     0.0
+           md1               0     0.0       0       0     0.0     0.0
+           md3               4     0.1       7     110     0.0    13.7
+           md10              0     0.0       0       0     0.0     0.0
+           md11              0     0.0       0       0     0.0     0.0
+           md13              4     0.1       7     110     0.0    13.7
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md23              4     0.1       7     110     0.0    13.2
+           nfs1              0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           ssd1              4     0.1       7     110     0.0    13.6
+           ssd1,c            4     0.1       7     110     0.0    13.6
+           ssd6              0     0.0       0       0     0.0     0.0
+           ssd6,a            0     0.0       0       0     0.0     0.0
+           ssd6,b            0     0.0       0       0     0.0     0.0
+           ssd6,c            0     0.0       0       0     0.0     0.0
+           ssd6,h            0     0.0       0       0     0.0     0.0
+           ssd7              0     0.0       0       0     0.0     0.0
+           ssd7,a            0     0.0       0       0     0.0     0.0
+           ssd7,b            0     0.0       0       0     0.0     0.0
+           ssd7,c            0     0.0       0       0     0.0     0.0
+           ssd7,h            0     0.0       0       0     0.0     0.0
+           ssd8              0     0.0       0       0     0.0     0.0
+           ssd8,a            0     0.0       0       0     0.0     0.0
+           ssd8,b            0     0.0       0       0     0.0     0.0
+           ssd8,c            0     0.0       0       0     0.0     0.0
+           ssd8,g            0     0.0       0       0     0.0     0.0
+           ssd9              4     0.1       7     110     0.0    13.2
+           ssd9,c            4     0.1       7     110     0.0    13.2
+           ssd10             0     0.0       0       0     0.0     0.0
+           ssd10,c           0     0.0       0       0     0.0     0.0
+           ssd10,f           0     0.0       0       0     0.0     0.0
+           ssd11             0     0.0       0       0     0.0     0.0
+           ssd11,a           0     0.0       0       0     0.0     0.0
+           ssd11,b           0     0.0       0       0     0.0     0.0
+           ssd11,c           0     0.0       0       0     0.0     0.0
+           ssd11,g           0     0.0       0       0     0.0     0.0
+           ssd12             0     0.0       0       0     0.0     0.0
+           ssd12,a           0     0.0       0       0     0.0     0.0
+           ssd12,b           0     0.0       0       0     0.0     0.0
+           ssd12,c           0     0.0       0       0     0.0     0.0
+           ssd12,d           0     0.0       0       0     0.0     0.0
+           ssd12,e           0     0.0       0       0     0.0     0.0
+           ssd12,g           0     0.0       0       0     0.0     0.0
+           ssd13             0     0.0       0       0     0.0     0.0
+           ssd14             0     0.0       0       0     0.0     0.0
+           ssd15             0     0.0       0       0     0.0     0.0
+           ssd15,a           0     0.0       0       0     0.0     0.0
+           ssd15,b           0     0.0       0       0     0.0     0.0
+           ssd15,c           0     0.0       0       0     0.0     0.0
+           ssd15,d           0     0.0       0       0     0.0     0.0
+           ssd15,e           0     0.0       0       0     0.0     0.0
+           ssd15,g           0     0.0       0       0     0.0     0.0
+           ssd17             0     0.0       0       0     0.0     0.0
+           ssd17,a           0     0.0       0       0     0.0     0.0
+           ssd17,b           0     0.0       0       0     0.0     0.0
+           ssd17,c           0     0.0       0       0     0.0     0.0
+           ssd17,g           0     0.0       0       0     0.0     0.0
+           ssd19             0     0.0       0       0     0.0     0.0
+           ssd21             0     0.0       0       0     0.0     0.0
+           ssd22             0     0.0       0       0     0.0     0.0
+           ssd23             0     0.0       0       0     0.0     0.0
+           ssd24             0     0.0       0       0     0.0     0.0
+           ssd25             0     0.0       0       0     0.0     0.0
+           ssd26             0     0.0       0       0     0.0     0.0
+           ssd26,a           0     0.0       0       0     0.0     0.0
+           ssd26,b           0     0.0       0       0     0.0     0.0
+           ssd26,c           0     0.0       0       0     0.0     0.0
+           ssd26,d           0     0.0       0       0     0.0     0.0
+           ssd26,e           0     0.0       0       0     0.0     0.0
+           ssd26,g           0     0.0       0       0     0.0     0.0
+           ssd27             0     0.0       0       0     0.0     0.0
+           ssd28             0     0.0       0       0     0.0     0.0
+           ssd29             0     0.0       0       0     0.0     0.0
+           ssd29,a           0     0.0       0       0     0.0     0.0
+           ssd29,b           0     0.0       0       0     0.0     0.0
+           ssd29,c           0     0.0       0       0     0.0     0.0
+           ssd29,d           0     0.0       0       0     0.0     0.0
+           ssd29,e           0     0.0       0       0     0.0     0.0
+           ssd29,g           0     0.0       0       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+cmdbegin:netconf
+cmdbegin:netperf
+Name  Mtu  Net/Dest      Address        Ipkts  Ierrs Opkts  Oerrs Collis Queue 
+lo0   8232 127.0.0.0     127.0.0.1      1932264 0     1932264 0     0      0     
+lo0   8232 127.0.0.0     127.0.0.1      0      N/A   21788  N/A   N/A    0     
+ge0   1500 10.204.4.0    10.204.4.51    34218286 0     36324987 0     0      0     
+ge0   1500 10.204.4.0    10.204.4.51    33285976 N/A   37015768 N/A   N/A    0     
+qfe3  1500 172.168.0.0   172.168.1.51   896054 0     1681506 0     0      0     
+qfe3  1500 172.168.0.0   172.168.1.51   237    N/A   40464  N/A   N/A    0     
+qfe3:1 1500 172.168.0.0   172.168.2.51   22473  N/A   1632464 N/A   N/A    0     
+qfe3:2 1500 172.168.0.0   172.168.3.51   14824  N/A   579    N/A   N/A    0     
+qfe3:3 1500 172.168.0.0   172.168.4.51   0      N/A   0      N/A   N/A    0     
+qfe3:4 1500 172.168.0.0   172.168.5.51   0      N/A   7350   N/A   N/A    0     
+
+cmdbegin:netaddr
+Net to Media Table: IPv4
+Device   IP Address               Mask      Flags      Phys Addr
+------ -------------------- --------------- -------- ---------------
+ge0    10.204.4.1           255.255.255.255 o        00:10:db:ff:20:70
+ge0    10.204.4.5           255.255.255.255 o        00:03:b2:1d:ec:90
+ge0    10.204.4.10          255.255.255.255 o        00:00:5e:00:01:64
+ge0    10.204.4.25          255.255.255.255          00:00:5e:00:01:64
+ge0    10.204.4.34          255.255.255.255 o        00:00:5e:00:01:64
+ge0    10.204.4.35          255.255.255.255 o        00:11:25:c0:c2:1f
+qfe3   228.8.8.8            255.255.255.255          01:00:5e:08:08:08
+qfe3   172.168.1.52         255.255.255.255 o        00:03:ba:44:bd:72
+qfe3   172.168.2.52         255.255.255.255          00:03:ba:44:bd:72
+qfe3   172.168.3.52         255.255.255.255 o        00:03:ba:44:bd:72
+qfe3   172.168.5.51         255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+qfe3   172.168.4.51         255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+qfe3   172.168.3.51         255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+qfe3   172.168.2.51         255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+qfe3   172.168.1.51         255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+ge0    10.204.4.27          255.255.255.255 o        00:23:7d:59:c0:92
+ge0    10.204.4.24          255.255.255.255 o        00:00:5e:00:01:64
+ge0    10.204.4.51          255.255.255.255 SPLA     00:03:ba:4d:e1:8a
+ge0    10.204.4.48          255.255.255.255 o        00:1a:64:91:cf:62
+ge0    10.204.4.49          255.255.255.255 o        00:1a:64:91:c4:58
+ge0    10.204.4.52          255.255.255.255 o        00:03:ba:44:bd:72
+ge0    224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+qfe3   224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+
+cmdbegin:service
+STATE          STIME    FMRI
+legacy_run     Apr_16   lrc:/etc/rcS_d/S29wrsmcfg
+legacy_run     Apr_16   lrc:/etc/rcS_d/S41powerxcrypt
+legacy_run     Apr_16   lrc:/etc/rc2_d/S10lu
+legacy_run     Apr_16   lrc:/etc/rc2_d/S20sysetup
+legacy_run     Apr_16   lrc:/etc/rc2_d/S40llc2
+legacy_run     Apr_16   lrc:/etc/rc2_d/S42ncakmod
+legacy_run     Apr_16   lrc:/etc/rc2_d/S47pppd
+legacy_run     Apr_16   lrc:/etc/rc2_d/S70uucp
+legacy_run     Apr_16   lrc:/etc/rc2_d/S72autoinstall
+legacy_run     Apr_16   lrc:/etc/rc2_d/S73cachefs_daemon
+legacy_run     Apr_16   lrc:/etc/rc2_d/S81dodatadm_udaplt
+legacy_run     Apr_16   lrc:/etc/rc2_d/S89PRESERVE
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91afbinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91gfbinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91ifbinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91jfbinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91kfbinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S91zuluinit
+legacy_run     Apr_16   lrc:/etc/rc2_d/S94ncalogd
+legacy_run     Apr_16   lrc:/etc/rc2_d/S98deallocate
+legacy_run     Apr_16   lrc:/etc/rc2_d/S99powermig
+legacy_run     Apr_16   lrc:/etc/rc2_d/S99sneep
+legacy_run     Apr_16   lrc:/etc/rc3_d/S16boot_server
+legacy_run     Apr_16   lrc:/etc/rc3_d/S50apache
+legacy_run     Apr_16   lrc:/etc/rc3_d/S52imq
+legacy_run     Apr_16   lrc:/etc/rc3_d/S80mipagent
+legacy_run     Apr_16   lrc:/etc/rc3_d/S84appserv
+legacy_run     Apr_16   lrc:/etc/rc3_d/S99EIS-DVDtag
+online         Apr_16   svc:/system/svc/restarter:default
+online         Apr_16   svc:/network/pfil:default
+online         Apr_16   svc:/network/tnctl:default
+online         Apr_16   svc:/network/loopback:default
+online         Apr_16   svc:/system/installupdates:default
+online         Apr_16   svc:/milestone/name-services:default
+online         Apr_16   svc:/network/physical:default
+online         Apr_16   svc:/system/identity:node
+online         Apr_16   svc:/system/metainit:default
+online         Apr_16   svc:/system/emcpower/powerstartup:default
+online         Apr_16   svc:/system/filesystem/root:default
+online         Apr_16   svc:/system/scheduler:default
+online         Apr_16   svc:/system/boot-archive:default
+online         Apr_16   svc:/system/filesystem/usr:default
+online         Apr_16   svc:/system/keymap:default
+online         Apr_16   svc:/system/device/local:default
+online         Apr_16   svc:/system/filesystem/minimal:default
+online         Apr_16   svc:/system/identity:domain
+online         Apr_16   svc:/system/resource-mgmt:default
+online         Apr_16   svc:/system/rmtmpfiles:default
+online         Apr_16   svc:/system/name-service-cache:default
+online         Apr_16   svc:/system/coreadm:default
+online         Apr_16   svc:/system/cryptosvc:default
+online         Apr_16   svc:/system/power:default
+online         Apr_16   svc:/network/ipsec/ipsecalgs:default
+online         Apr_16   svc:/system/sysevent:default
+online         Apr_16   svc:/system/device/fc-fabric:default
+online         Apr_16   svc:/network/ipsec/policy:default
+online         Apr_16   svc:/system/picl:default
+online         Apr_16   svc:/milestone/network:default
+online         Apr_16   svc:/milestone/devices:default
+online         Apr_16   svc:/application/print/ppd-cache-update:default
+online         Apr_16   svc:/network/initial:default
+online         Apr_16   svc:/network/service:default
+online         Apr_16   svc:/system/manifest-import:default
+online         Apr_16   svc:/network/routing-setup:default
+online         Apr_16   svc:/system/emcpower/powershift:default
+online         Apr_16   svc:/milestone/single-user:default
+online         Apr_16   svc:/system/emcpower/powerconfigcgs:default
+online         Apr_16   svc:/platform/sun4u/efdaemon:default
+online         Apr_16   svc:/system/filesystem/local:default
+online         Apr_16   svc:/network/shares/group:default
+online         Apr_16   svc:/system/cron:default
+online         Apr_16   svc:/system/sysidtool:net
+online         Apr_16   svc:/system/boot-archive-update:default
+online         Apr_16   svc:/network/rpc/bind:default
+online         Apr_16   svc:/system/sysidtool:system
+online         Apr_16   svc:/network/nfs/cbd:default
+online         Apr_16   svc:/network/nfs/mapid:default
+online         Apr_16   svc:/network/nfs/status:default
+online         Apr_16   svc:/milestone/sysconfig:default
+online         Apr_16   svc:/system/utmp:default
+online         Apr_16   svc:/network/nfs/nlockmgr:default
+online         Apr_16   svc:/platform/sun4u/sf880drd:default
+online         Apr_16   svc:/system/sac:default
+online         Apr_16   svc:/system/postrun:default
+online         Apr_16   svc:/network/inetd:default
+online         Apr_16   svc:/application/management/wbem:default
+online         Apr_16   svc:/application/stosreg:default
+online         Apr_16   svc:/application/sthwreg:default
+online         Apr_16   svc:/application/font/fc-cache:default
+online         Apr_16   svc:/network/rpc/gss:default
+online         Apr_16   svc:/network/rpc/meta:default
+online         Apr_16   svc:/application/x11/xfs:default
+online         Apr_16   svc:/application/font/stfsloader:default
+online         Apr_16   svc:/network/nfs/client:default
+online         Apr_16   svc:/network/rpc/rstat:default
+online         Apr_16   svc:/network/rpc/cde-calendar-manager:default
+online         Apr_16   svc:/network/rpc/cde-ttdbserver:tcp
+online         Apr_16   svc:/network/rpc/mdcomm:default
+online         Apr_16   svc:/network/rpc/metamed:default
+online         Apr_16   svc:/network/rpc/metamh:default
+online         Apr_16   svc:/network/rpc/smserver:default
+online         Apr_16   svc:/network/rpc/rusers:default
+online         Apr_16   svc:/network/cde-spc:default
+online         Apr_16   svc:/network/security/ktkt_warn:default
+online         Apr_16   svc:/network/telnet:default
+online         Apr_16   svc:/network/nfs/rquota:default
+online         Apr_16   svc:/system/filesystem/volfs:default
+online         Apr_16   svc:/network/ftp:default
+online         Apr_16   svc:/network/finger:default
+online         Apr_16   svc:/system/filesystem/autofs:default
+online         Apr_16   svc:/network/login:rlogin
+online         Apr_16   svc:/network/shell:default
+online         Apr_16   svc:/network/rpc-100235_1/rpc_ticotsord:default
+online         Apr_16   svc:/network/stdiscover:default
+online         Apr_16   svc:/network/stlisten:default
+online         Apr_16   svc:/system/system-log:default
+online         Apr_16   svc:/network/smtp:sendmail
+online         Apr_16   svc:/system/dumpadm:default
+online         Apr_16   svc:/application/management/seaport:default
+online         Apr_16   svc:/system/mdmonitor:default
+online         Apr_16   svc:/network/ssh:default
+online         Apr_16   svc:/application/management/snmpdx:default
+online         Apr_16   svc:/application/management/sma:default
+online         Apr_16   svc:/application/management/dmi:default
+online         Apr_16   svc:/system/fmd:default
+online         Apr_16   svc:/milestone/multi-user:default
+online         Apr_16   svc:/milestone/multi-user-server:default
+online         Apr_16   svc:/application/graphical-login/cde-login:default
+online         Apr_16   svc:/application/cde-printinfo:default
+online         Apr_16   svc:/system/zones:default
+online         Apr_16   svc:/system/basicreg:default
+online         Apr_16   svc:/application/psncollector:default
+online         Apr_16   svc:/system/console-login:default
+offline        Apr_16   svc:/application/print/ipp-listener:default
+offline        Apr_16   svc:/application/print/rfc1179:default
+cmdbegin:uname
+SunOS sxoawf1
+cmdbegin:usergroup
+root::0:
+other::1:root
+bin::2:root,daemon
+sys::3:root,bin,adm
+adm::4:root,daemon
+uucp::5:root
+mail::6:root
+tty::7:root,adm
+lp::8:root,adm
+nuucp::9:root
+staff::10:
+daemon::12:root
+sysadmin::14:
+smmsp::25:
+gdm::50:
+webservd::80:
+postgres::90:
+nobody::60001:
+noaccess::60002:
+nogroup::65534:
+dba::100:
+bea::101:
+app::901:
+cmdbegin:user
+root:x:0:0:Super-User:/:/sbin/sh
+daemon:x:1:1::/:
+bin:x:2:2::/usr/bin:
+sys:x:3:3::/:
+adm:x:4:4:Admin:/var/adm:
+lp:x:71:8:Line Printer Admin:/usr/spool/lp:
+uucp:x:5:5:uucp Admin:/usr/lib/uucp:
+nuucp:x:9:9:uucp Admin:/var/spool/uucppublic:/usr/lib/uucp/uucico
+smmsp:x:25:25:SendMail Message Submission Program:/:
+listen:x:37:4:Network Admin:/usr/net/nls:
+gdm:x:50:50:GDM Reserved UID:/:
+webservd:x:80:80:WebServer Reserved UID:/:
+postgres:x:90:90:PostgreSQL Reserved UID:/:/usr/bin/pfksh
+svctag:x:95:12:Service Tag UID:/:
+nobody:x:60001:60001:NFS Anonymous Access User:/:
+noaccess:x:60002:60002:No Access User:/:
+nobody4:x:65534:65534:SunOS 4.x NFS Anonymous Access User:/:
+jk:x:100:1::/export/jk:/usr/bin/bash
+oracle:x:101:100::/export/home/oracle:/bin/sh
+weblogic:x:201:101::/oa/weblogic:/bin/sh
+sxqms:x:903:901::/oa/qms:/bin/sh
+sxem:x:802:901::/oa/em:/bin/sh
+sxsheet:x:901:901::/oa/worksheet:/bin/sh
+nms:x:904:1::/export/nms:/usr/bin/bash
+cmdbegin:date
+Thu Apr 22 16:40:06 GMT 2010
+cmdbegin:uptime
+  4:40pm  up 6 day(s),  4:26,  0 users,  load average: 0.70, 0.64, 0.61
+cmdbegin:end

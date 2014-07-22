@@ -1,0 +1,15 @@
+Group Summary by Server
+
+Server Name: all
+Group Name: all
+Backup Type: all
+Level: all
+Save Time: from earliest available to 12/4/08 4:53:30 PM
+
+Server Name,Group Name,Amount of Data,Number of Files,Number of Save Sets
+P570B,,18536198280996,950764,10515
+P570B,JF_oracle_backupfull_raw,23782856590248,67515,2388
+P570B,jfa05_backup_dump,4147050263332,3051922,715
+P570B,jfa06_backup_dump,2737661639924,92185,718
+P570B,JS_backup_dump,3295796800,538797,394
+P570B,XZ_oracle_backupfull_raw,48222451238152,140007,5022

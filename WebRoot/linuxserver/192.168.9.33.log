@@ -1,0 +1,151 @@
+cmdbegin:version
+SCO_SV   
+cmdbegin:swap
+cmdbegin:process
+     UID   PID  PPID  C    STIME     TTY        TIME CMD
+    root     0     0  0   Jun-01       ?    00:00:00 sched
+    root     1     0  1   Jun-01       ?    00:00:11 /etc/init
+    root     2     0  0   Jun-01       ?    00:00:00 vhand
+    root     3     0  0   Jun-01       ?    00:01:06 bdflush
+    root     4     0  0   Jun-01       ?    00:00:03 kmdaemon
+    root     5     1  0   Jun-01       ?    00:00:08 htepi_daemon /
+    root     6     0  0   Jun-01       ?    00:00:00 strd
+    root     7     1  0   Jun-01       ?    00:00:00 udi_alloc
+    root     8     1  0   Jun-01       ?    00:00:00 udi_region
+    root    43     1  0   Jun-01       ?    00:00:00 htepi_daemon /stand
+    root    51     1  0   Jun-01       ?    00:01:05 /etc/syslogd
+    root    55     1  0   Jun-01       ?    00:00:10 /etc/sco_pmd
+    root    76     1  0   Jun-01       ?    00:00:00 strerr
+    root    82   374  0 01:10:02       ?    00:00:00 telnetd
+    root   193     1  0   Jun-01       ?    00:00:00 /tcb/files/no_luid/sdd
+    root   283     1  0   Jun-01       ?    00:00:00 /opt/K/SCO/lli/5.0.7a/bin/dlpid /var/opt/K/SCO/lli/5.0.7a/dlpidPIPE
+    root   298     1  0   Jun-01       ?    00:00:06 /etc/cron
+    root   310     1  0   Jun-01       ?    00:03:10 /usr/lib/lpsched
+    root   323     1  0   Jun-01       ?    00:00:00 portmap
+    root   326     1  0   Jun-01       ?    00:00:00 rwalld
+    root   327     1  0   Jun-01       ?    00:00:00 rusersd
+    root   354     1  0   Jun-01       ?    00:03:00 /etc/in.prngd /etc/egd-pool
+    root   374     1  0   Jun-01       ?    00:00:02 /etc/inetd
+    root   379     1  0   Jun-01       ?    00:00:00 /etc/snmpd
+    root   401     1  0   Jun-01       ?    00:00:00 /etc/sshd
+    root   429     1  0   Jun-01       ?    00:00:04 /usr/mmdf/bin/deliver -b
+    root   453     1  0   Jun-01       ?    00:00:00 biod 4
+    root   454     1  0   Jun-01       ?    00:00:00 biod 4
+    root   455     1  0   Jun-01       ?    00:00:00 biod 4
+    root   456     1  0   Jun-01       ?    00:00:00 biod 4
+    root   458     1  0   Jun-01       ?    00:00:00 statd
+    root   460     1  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   462   460  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   463   462  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   464   462  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   465   462  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   466   462  0   Jun-01       ?    00:00:00 lockd -u 4 -t 16
+    root   482     1  0   Jun-01       ?    00:53:10 /usr/lib/apache/bin/httpd
+    root   523     1  0   Jun-01       ?    00:00:00 /usr/internet/etc/ncsa_httpd -d /usr/internet/admin
+    root   534     1  0   Jun-01       ?    00:00:00 /usr/lib/scosh/calserver
+    root   536   534  0   Jun-01       ?    00:00:01 /usr/lib/scosh/calserver
+    root   538     1  0   Jun-01       ?    00:00:31 /usr/lib/scosh/caldaemon
+    root   573     1  0   Jun-01   tty01    00:00:00 /etc/getty tty01 sc_m
+    root   574     1  0   Jun-01   tty02    00:00:00 /etc/getty tty02 sc_m
+    root   575     1  0   Jun-01   tty03    00:00:00 /etc/getty tty03 sc_m
+    root   576     1  0   Jun-01   tty04    00:00:00 /etc/getty tty04 sc_m
+    root   577     1  0   Jun-01   tty05    00:00:00 /etc/getty tty05 sc_m
+    root   583     1  0   Jun-01   tty06    00:00:00 /etc/getty tty06 sc_m
+    root   585     1  0   Jun-01   tty07    00:00:00 /etc/getty tty07 sc_m
+    root   587     1  0   Jun-01   tty08    00:00:00 /etc/getty tty08 sc_m
+    root   589     1  0   Jun-01   tty09    00:00:00 /etc/getty tty09 sc_m
+    root   591     1  0   Jun-01   tty10    00:00:00 /etc/getty tty10 sc_m
+    root   593     1  0   Jun-01   tty11    00:00:00 /etc/getty tty11 sc_m
+    root   595     1  0   Jun-01   tty12    00:00:00 /etc/getty tty12 sc_m
+    root   608   374  0 06:10:57       ?    00:00:00 telnetd
+    root  1346   374  0 08:10:57       ?    00:00:00 telnetd
+    root  1347  1346  2 08:10:57   ttyp1    00:00:00 -sh
+    root  1362  1347  9 08:12:16   ttyp1    00:00:00 ./collection.sh
+    root  1366  1362  2 08:12:16   ttyp1    00:00:00 ./collection.sh
+    root  1367  1366  1 08:12:16   ttyp1    00:00:00 ps -ef
+    root 29464   374  0 21:47:20       ?    00:00:00 telnetd
+    whsh    83    82  0 01:10:03   ttyp2    00:00:00 -ksh
+    whsh   102    83  0 01:10:11   ttyp2    00:00:00 -ksh
+    whsh   105   102  0 01:10:16   ttyp2    00:00:03 /usr/whsh/bin/vost.use
+    whsh   106   105  0 01:10:16   ttyp2    00:00:02 sqlexec se_ipc sco33
+    whsh   609   608  0 06:10:57   ttyp3    00:00:00 -ksh
+    whsh   669   609  0 06:30:51   ttyp3    00:00:00 -ksh
+    whsh   672   669  0 06:30:57   ttyp3    00:00:16 /usr/whsh/bin/vost.use
+    whsh   673   672  0 06:30:57   ttyp3    00:00:04 sqlexec se_ipc sco33
+    whsh   692     1  0   Jun-01       ?    00:20:54 /usr/whsh/bin/vost_daemon -f /usr/whsh/etc/daemon.conf
+    whsh   693   692  0   Jun-01       ?    00:00:00 /usr/whsh/bin/vost_daemon -f /usr/whsh/etc/daemon.conf
+    whsh   701   692  0   Jun-01       ?    00:00:00 /usr/whsh/bin/vost_daemon -f /usr/whsh/etc/daemon.conf
+    whsh 29466 29464  0 21:47:20   ttyp0    00:00:00 -ksh
+    whsh 29490 29466  0 21:48:03   ttyp0    00:00:00 -ksh
+    whsh 29493 29490  0 21:48:08   ttyp0    00:00:03 /usr/whsh/bin/vost.use
+    whsh 29494 29493  0 21:48:09   ttyp0    00:00:03 sqlexec se_ipc sco33
+  nouser   484   482  0   Jun-01       ?    00:00:00 /usr/lib/apache/bin/httpd
+  nouser   485   482  0   Jun-01       ?    00:00:00 /usr/lib/apache/bin/httpd
+  nouser   486   482  0   Jun-01       ?    00:00:00 /usr/lib/apache/bin/httpd
+  nouser   487   482  0   Jun-01       ?    00:00:00 /usr/lib/apache/bin/httpd
+  nouser   488   482  0   Jun-01       ?    00:00:00 /usr/lib/apache/bin/httpd
+  nouser   525   523  0   Jun-01       ?    00:00:00 /usr/internet/etc/ncsa_httpd -d /usr/internet/admin
+cmdbegin:cpu
+
+SCO_SV sco33 3.2v5.0.7 >PentIII    06/21/2011
+
+08:12:16    %usr    %sys    %wio   %idle (-u)
+08:12:17       0       0       0     100 
+08:12:18       0       0       0     100 
+08:12:20       0       0       0     100 
+
+Average        5       0       0     95
+cmdbegin:allconfig
+cmdbegin:disk
+Mount Dir  Filesystem              blocks      used      free   %used
+/          /dev/root              7291583   3145122   4146461    44%
+/stand     /dev/boot                30720     10637     20083    35%
+cmdbegin:diskperf
+
+SCO_SV sco33 3.2v5.0.7 >PentIII    06/21/2011
+
+08:12:20  device   %busy     avque     r+w/s    blks/s    avwait    avserv (-d)
+08:12:21    /	     5	      5	        5        8	   7		9
+08:12:22    /stand   4        6 	4	 3	   6		19
+
+cmdbegin:netperf
+Name  Mtu   Network     Address         Ipkts    Ierrs Opkts    Oerrs  Coll 
+net0  1500  192.168.9   192.168.9.33    17925800 119   95950    0      0     
+                        224.0.0.1          
+lo0   8232  127         127.0.0.1       6560     0     6560     0      0     
+                        224.0.0.1          
+atl0* 8232  none        none            No Statistics Available
+                        224.0.0.1          
+cmdbegin:netallperf
+cmdbegin:uname
+SCO_SV sco33
+cmdbegin:usergroup
+root::0:root
+other::1:root,daemon
+bin::2:bin,daemon
+sys::3:root,bin,sys,adm
+adm::4:adm,daemon,listen
+uucp::5:uucp,nuucp
+mail::7:
+asg::8:asg
+network::10:network
+sysinfo::11:sysinfo,dos,adm
+daemon::12:daemon
+terminal::15:
+cron::16:cron
+audit::17:audit
+lp::18:lp
+backup::19:backup,adm
+mem::20:
+auth::21:auth
+mmdf::22:mmdf
+sysadmin::23:
+nogroup::28:nouser
+godoctor::42:
+group::50:
+informix::100:whsh,informix,test
+cmdbegin:date
+Tue Jun 21 08:12:22 CST 2011
+cmdbegin:uptime
+  8:12am  up 20 days, 3:21,  4 users,  load average: 0.00, 0.00, 0.00
+cmdbegin:end

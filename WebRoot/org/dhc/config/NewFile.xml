@@ -1,0 +1,250 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+		<jglocalityone>
+			<jgx>-90</jgx>
+			<jgy>-20</jgy>
+			<jgz>30</jgz>
+			
+			<!--服务器数量-->
+			<servernum>2</servernum>
+			
+			<!--服务器数量为1时第1个服务器-->
+			<element>
+				<!--服务器编号-->
+				<serverid>1-1</serverid>
+				<!--服务器类型-->
+				<servertype>2u</servertype>
+				<!--服务器位置-->
+				<serverlocal>32-3</serverlocal>
+			</element>
+			
+			<!--服务器数量为2时第1个服务器-->
+			<element2-1>
+				<serverid>2-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element2-1>
+			
+			<!--服务器数量为2时第2个服务器-->
+			<element2-2>
+				<serverid>2-2</serverid>
+				<servertype>1u</servertype>
+				<serverlocal>24-3</serverlocal>
+			</element2-2>
+
+
+			<!--服务器数量为3时第1个服务器-->
+			<element3-1>
+				<serverid>3-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element3-1>
+			
+			<!--服务器数量为3时第2个服务器-->
+			<element3-2>
+				<serverid>3-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element3-2>	
+			
+			<!--服务器数量为3时第3个服务器-->
+			<element3-3>
+				<serverid>3-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element3-3>
+		
+			<!--服务器数量为4时第1个服务器-->
+			<element4-1>
+				<serverid>4-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element4-1>
+			
+			<!--服务器数量为4时第2个服务器-->
+			<element4-2>
+				<serverid>4-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element4-2>	
+			
+			<!--服务器数量为4时第3个服务器-->
+			<element4-3>
+				<serverid>4-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element4-3>	
+			
+			<!--服务器数量为4时第4个服务器-->
+			<element4-4>
+				<serverid>4-4</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element4-4>
+			
+			<!--服务器数量为5时第1个服务器-->
+			<element5-1>
+				<serverid>5-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element5-1>
+			
+			<!--服务器数量为5时第2个服务器-->
+			<element5-2>
+				<serverid>5-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element5-2>
+			
+			<!--服务器数量为5时第3个服务器-->	
+			<element5-3>
+				<serverid>5-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element5-3>	
+			
+			<!--服务器数量为5时第4个服务器-->
+			<element5-4>
+				<serverid>5-4</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element5-4>	
+			
+			<!--服务器数量为5时第5个服务器-->
+			<element5-5>
+				<serverid>5-5</serverid>
+				<!--服务器类型-->
+				<servertype>2u</servertype>
+				<!--服务器位置-->
+				<serverlocal>32-3</serverlocal>
+			</element5-5>
+			
+			<element6-1>
+				<serverid>6-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-1>	
+			
+			<element6-2>
+				<serverid>6-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-2>	
+			
+			<element6-3>
+				<serverid>6-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-3>	
+			
+			<element6-4>
+				<serverid>6-4</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-4>
+			
+			<element6-5>
+				<serverid>6-5</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-5>	
+			
+			<element6-6>
+				<serverid>6-6</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element6-6>
+			
+			
+			<element7-1>
+				<serverid>7-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-1>
+			
+			<element7-2>
+				<serverid>7-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-2>	
+			
+			<element7-3>
+				<serverid>7-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-3>	
+			
+			<element7-4>
+				<serverid>7-4</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-4>	
+			
+			<element7-5>
+				<serverid>7-5</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-5>	
+			
+			<element7-6>
+				<serverid>7-6</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-6>
+			
+			<element7-7>
+				<serverid>7-7</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element7-7>
+			
+			<element8-1>
+				<serverid>8-1</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-1>
+			
+			<element8-2>
+				<serverid>8-2</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-2>	
+			
+			<element8-3>
+				<serverid>8-3</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-3>	
+			
+			<element8-4>
+				<serverid>8-4</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-4>	
+			
+			<element8-5>
+				<serverid>8-5</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-5>	
+			
+			<element8-6>
+				<serverid>8-6</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-6>
+			
+			<element8-7>
+				<serverid>8-7</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-7>
+			
+			<element8-8>
+				<serverid>8-8</serverid>
+				<servertype>2u</servertype>
+				<serverlocal>32-3</serverlocal>
+			</element8-8>
+		</jglocalityone>
+</item></

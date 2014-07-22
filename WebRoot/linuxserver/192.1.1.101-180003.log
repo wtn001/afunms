@@ -1,0 +1,243 @@
+cmdbegin:disk
+Filesystem                         1024-blocks        Used   Available Capacity  Mounted on
+root_domain#root                       1024000      399112      617752    40%    /
+/proc                                        0           0           0   100%    /proc
+usr_domain#usr                         6144000     1268423     4544440    22%    /usr
+usr_domain#var                         6144000      307194     4544440     7%    /var
+users_fdmn#users_fset                 10850304     6231817     3360432    65%    /users
+sybase_fdmn#sybase_fset              167768048    77312033    90401648    47%    /sybase1
+backup_sybase_domain#backup_sybase    83886080    49325128    34550296    59%    /backup_sybase
+sybase_snap#fdmn                      62914560          16    62909336     1%    /sybase_snapshot_bak
+cmdbegin:cpu
+COMMAND          %CPU
+init              0.0
+ksoftirqd/0       0.0
+events/0          0.0
+khelper           0.0
+kacpid            0.0
+kblockd/0         0.0
+khubd             0.0
+pdflush           0.0
+pdflush           0.0
+kswapd0           0.0
+aio/0             0.0
+kseriod           0.0
+ata/0             0.0
+ata_aux           0.0
+kjournald         0.0
+udevd             0.0
+kauditd           0.0
+kjournald         0.0
+syslogd           0.1
+klogd             0.0
+portmap           0.0
+rpc.statd         0.0
+rpc.idmapd        0.0
+smartd            0.0
+acpid             0.0
+cupsd             0.0
+sshd              0.0
+xinetd            0.0
+mysqld_safe       0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+sendmail          0.0
+sendmail          0.0
+gpm               0.0
+htt               0.0
+htt_server        0.0
+crond             0.0
+xfs               0.0
+atd               0.0
+dbus-daemon-1     0.0
+cups-config-dae   0.0
+hald              0.0
+watchdog          0.0
+mysqld            0.0
+mingetty          0.0
+mingetty          0.0
+mingetty          0.0
+mingetty          0.0
+mingetty          0.0
+mingetty          0.0
+mysqld            0.0
+mysqld            0.2
+mysqld            0.0
+mysqld            0.0
+mysqld            0.0
+mysqld            0.1
+mysqld            0.0
+sshd              0.0
+bash              0.0
+bash              0.0
+flow-insert       0.0
+mysqld            0.0
+sshd              0.0
+bash              0.0
+mysqld            0.2
+sshd              0.0
+sftp-server       0.0
+sshd              0.0
+bash              0.0
+tail              0.0
+mysqld            0.5
+sshd              0.0
+bash              0.0
+lcd              70.1
+flow-start        0.0
+java              0.2
+flow-snmp         0.0
+flow-capture      0.0
+flow-snmp         0.0
+flow-capture      0.0
+flow-snmp         0.0
+flow-capture      9.2
+flow-snmp         0.0
+flow-capture      0.0
+flow-snmp         0.0
+flow-capture      0.0
+ps                0.0
+cmdbegin:memory
+
+Total Physical Memory =  4096.00 M
+                      =   524288 pages
+
+Physical Memory Clusters:
+
+start_pfn     end_pfn        type  size_pages / size_bytes
+         0         256         pal         256 /    2.00M
+       256      130985          os      130729 / 1021.32M
+    130985      131072         pal          87 /  696.00k
+    131072      524282          os      393210 / 3071.95M
+    524282      524288         pal           6 /   48.00k
+
+Physical Memory Use:
+
+ start_pfn     end_pfn        type  size_pages / size_bytes
+       256         521    scavenge         265 /    2.07M
+       521        1396        text         875 /    6.84M
+      1396        1564        data         168 /    1.31M
+      1564        1800         bss         236 /    1.84M
+      1800        2012      kdebug         212 /    1.66M
+      2012        2019     cfgmgmt           7 /   56.00k
+      2019        2021       locks           2 /   16.00k
+      2021        2037        pmap          16 /  128.00k
+      2037        3712   unixtable        1675 /   13.09M
+      3712        3808        logs          96 /  768.00k
+      3808        6975    vmtables        3167 /   24.74M
+      6975      131072     managed      124097 /  969.51M
+    131072      140077    vmtables        9005 /   70.35M
+    140077      524282     managed      384205 / 3001.60M
+                             ============================
+         Total Physical Memory Use:     524026 / 4093.95M
+
+Managed Pages Break Down:
+
+       free pages = 4806
+     active pages = 63249
+   inactive pages = 54269
+      wired pages = 231866
+        ubc pages = 154290
+        ==================
+            Total = 508480
+
+WIRED Pages Break Down:
+
+   vm wired pages = 4694
+  ubc wired pages = 0
+  meta data pages = 15667
+     malloc pages = 207296
+     contig pages = 1432
+    user ptepages = 2246
+  kernel ptepages = 522
+    free ptepages = 9
+        ==================
+            Total = 231866
+
+cmdbegin:dir
+Filesystem            1024-blocks        Used   Available Capacity  Mounted on
+users_fdmn#users_fset    10850304     6231825     3360432    65%    /users
+6175537	/users
+Filesystem            1024-blocks        Used   Available Capacity  Mounted on
+users_fdmn#users_fset    10850304     6231836     3360472    65%    /users
+24	/users/ems/open2000/dnet_tmp
+Filesystem            1024-blocks        Used   Available Capacity  Mounted on
+users_fdmn#users_fset    10850304     6231836     3360472    65%    /users
+13275	/users/ems/open2000/log
+cmdbegin:free
+             total       used       free     shared    buffers     cached
+Mem:       2067828     783804    1284024          0      53892     551732
+-/+ buffers/cache:     178180    1889648
+Swap:      2031608          0    2031608
+cmdbegin:mac
+1: lo: <LOOPBACK,UP> mtu 16436 qdisc noqueue 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 brd 127.255.255.255 scope host lo
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: dev20126: <BROADCAST,MULTICAST> mtu 1500 qdisc noop qlen 1000
+    link/ether 00:a0:c9:00:02:a2 brd ff:ff:ff:ff:ff:ff
+3: eth3: <BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 00:a0:c9:00:02:a3 brd ff:ff:ff:ff:ff:ff
+    inet 10.10.155.30/24 brd 10.10.155.255 scope global eth3
+    inet6 fe80::2a0:c9ff:fe00:2a3/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth0: <BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast qlen 100
+    link/ether 00:a0:c9:00:02:a0 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.30/24 brd 192.168.0.255 scope global eth0
+    inet6 fe80::2a0:c9ff:fe00:2a0/64 scope link 
+       valid_lft forever preferred_lft forever
+5: dev11407: <BROADCAST,MULTICAST> mtu 1500 qdisc noop qlen 1000
+    link/ether 00:a0:c9:00:02:a1 brd ff:ff:ff:ff:ff:ff
+6: sit0: <NOARP> mtu 1480 qdisc noop 
+    link/sit 0.0.0.0 brd 0.0.0.0
+cmdbegin:uname
+Linux FlowServer
+cmdbegin:user
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+htt:x:100:101:IIIMF Htt:/usr/lib/im:/sbin/nologin
+mysql:x:101:102:MySQL server:/var/lib/mysql:/bin/bash
+cmdbegin:date
+Thu Jun 12 14:27:10 CST 2008
+cmdbegin:uptime
+14:29:13 up 21:11,  5 users,  load average: 1.00, 1.00, 1.00
+cmdbegin:end

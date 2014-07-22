@@ -1,0 +1,1715 @@
+cmdbegin:version
+5200-10-07-0902
+cmdbegin:vmstat
+System Configuration: lcpu=16 mem=32768MB
+kthr     memory             page              faults        cpu     
+----- ----------- ------------------------ ------------ -----------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa 
+ 2  1 2287597 2927323   0   0   0   0    0   0 44803 60861 85998 12  2 86  0
+cmdbegin:lsps
+Total Paging Space   Percent Used
+      19712MB               1%
+cmdbegin:swap
+allocated  =    5046272 blocks    used  =   4796 blocks      free  =    5041476 blocks
+cmdbegin:process
+  729268      - A    1896:50 4653 430088 430132 32768    39    44  0.2  2.0 /websph
+  663580      - A     4:49 9082 102684 102764    xx   145    80  0.0  0.0 DMFCroD
+  192632      - A     4:21  795 82384 82448 32768    39    64  0.0  0.0 /opt/IB
+  602366      - A     1:16  751  5364 38828    xx  4581 33464  0.0  0.0 hagsd g
+  426004      - A    1119:22 1377 17280 24732    xx  5006  7908  0.1  0.0 /usr/lp
+  639056      - A    10:32  224  8544 11104 32768   809  2560  0.0  0.0 /usr/sb
+  585936      - A     5:28  334  2012  7404 32768  1379  5392  0.0  0.0 /usr/es
+  466956      - A     0:21    1  6412  6508 32768   151    96  0.0  0.0 /DPCLSF
+  245914      - A     2:19  467  4336  6476    xx  2359  2140  0.0  0.0 /usr/lp
+  680038      - A     0:04   91  4356  4808    xx   223   452  0.0  0.0 haemd H
+  667770      - A     2:48 6664  3808  4160 32768   182   352  0.0  0.0 harmad 
+  536584      - A    12:10 11299  4020  4112 32768   176    92  0.0  0.0 /DPCLSF
+  413852      - A    54:48 133469  1888  3612 32768  3233  1748  0.0  0.0 /DPCLSF
+  237734      - A    10:31  247  1516  2956 32768   277  1456  0.0  0.0 /usr/Dy
+  442612      - A     2:38  335  1364  2904 32768  2282  2332  0.0  0.0 /usr/op
+  454888      - A     0:00    4  1316  2856 32768  2282  2332  0.0  0.0 /usr/op
+  475374      - A     0:00    3  1120  2756 32768  2283  2328  0.0  0.0 /usr/op
+  434400      - A     9:56  295  1108  2744 32768  2283  2328  0.0  0.0 /usr/op
+  831700      - A     3:29 25827  2116  2548    xx   528   432  0.0  0.0 MasterC
+  610400      - A    11:12   20  1876  2524 32768   145   648  0.0  0.0 /usr/sb
+  626772      - A    10:48    1  1876  2524 32768   145   648  0.0  0.0 /usr/sb
+  655538      - A    10:48    1  1876  2524 32768   145   648  0.0  0.0 /usr/sb
+  622692      - A    13:22   25  1844  2516 32768   143   672  0.0  0.0 /usr/sb
+  295108      - A     0:05  413  1528  2436    xx   522   912  0.0  0.0 /usr/sb
+  397516      - A     2:27  237  1932  2376 32768   465   444  0.0  0.0 dtwm 
+  221358      - A     0:00  279  1996  2344    xx   201   348  0.0  0.0 /usr/sb
+  548954      - A    52:04 36660  1808  2316 32768  1107   508  0.0  0.0 /DPCLSF
+  569526      - A    18:11 68741  1672  2280 32768  1036   608  0.0  0.0 /DPCLSF
+  471290      - A     0:00    1  1960  2188    xx   189   228  0.0  0.0 /bin/ks
+  544826      - A     2:53 40399  1732  2104    xx  1159   372  0.0  0.0 JSSStat
+  819424      - A    17320:13 9165  1560  2044    xx   526   484  4.4  0.0 MasterC
+  757980      - A     0:00    4  1932  2012 32768    30    80  0.0  0.0 /usr/sb
+ 2228426      - A     0:00    0   996  2000 32768   817  1004  0.0  0.0 /usr/li
+  745596      - A     1:57 11539  1532  1996    xx   530   464  0.0  0.0 MasterC
+  704684      - A     0:11    1   980  1984 32768   817  1004  0.0  0.0 sendmai
+  389312      - A     0:00   57  1688  1920    xx   116   232  0.0  0.0 /usr/sb
+  209024      - A     1:37   89  1720  1844 32768    95   124  0.0  0.0 /usr/dt
+ 2064478      - A     0:00    0   816  1820 32768   817  1004  0.0  0.0 /usr/li
+ 2498746      - A     0:00    0   816  1820 32768   817  1004  0.0  0.0 /usr/li
+  491612      - A    28:38 14658  1260  1812 32768  1320   552  0.0  0.0 /DPCLSF
+  598170      - A    42:42 45963  1376  1780    xx  1124   404  0.0  0.0 JSSStat
+  393410      - A     0:00   37  1528  1756    xx   261   288  0.0  0.0 /usr/sb
+ 2494596      - A     0:00    0  1112  1700 32768   273   612  0.0  0.0 sshd: r
+  225456      - A     4:46   40  1108  1644 32768   172   552  0.0  0.0 /usr/es
+  618572      - A     2:22  120  1308  1624 32768   198   316  0.0  0.0 /usr/sb
+  422094      - A     0:00   78   816  1536 32768   409   720  0.0  0.0 /etc/nc
+  340214      - A     0:00    0  1412  1532 32768     7   120  0.0  0.0 /usr/bi
+  581774      - A     0:10    5  1192  1488 32768   399   296  0.0  0.0 /DPCLSF
+ 2207922      - A     0:00    0  1176  1472    xx   399   296  0.0  0.0 /DPCLSF
+ 2461920      - A     0:00    0  1176  1472    xx   399   296  0.0  0.0 /DPCLSF
+  671868      - A     3:15   42  1264  1456 32768   137   192  0.0  0.0 /usr/es
+  770192      - A     1:40 3789  1000  1404    xx   430   404  0.0  0.0 TimerCr
+  725134      - A     0:14   66   884  1400 32768   307   516  0.0  0.0 /usr/sb
+  573472      - A     1:59   55   824  1372 32768   152   548  0.0  0.0 /usr/es
+  532502      - A     0:08   41  1132  1368 32768   114   236  0.0  0.0 /usr/sb
+  377032      - A     0:00   73  1108  1360 32768   241   252  0.0  0.0 rpc.ttd
+  360688      - A     0:00   41  1288  1316 32768    22    28  0.0  0.0 /usr/dt
+  401606      - A     0:00   28  1288  1316 32768    22    28  0.0  0.0 /usr/dt
+  409802      - A     0:00   28  1288  1316 32768    22    28  0.0  0.0 /usr/dt
+  319674      - A     0:39   54  1040  1308 32768   227   268  0.0  0.0 /usr/dt
+  254108      - A     0:04  139   652  1264 32768   273   612  0.0  0.0 /usr/sb
+  717052      - A     0:01   42  1016  1200 32768   147   184  0.0  0.0 /usr/sb
+  200810      - A     0:57    0  1100  1100    xx     0     0  0.0  0.0 j2pg
+  798910      - A    48:05 6674  1012  1088    xx    96    76  0.0  0.0 DCSrcVR
+  381128      - A     0:00   52   524  1044 32768   224   520  0.0  0.0 /etc/nc
+  741550      - A     0:04   10   920  1040 32768    49   120  0.0  0.0 /usr/sb
+  180418      - A     0:00   18   984  1036    xx    55    52  0.0  0.0 /usr/li
+ 2330874      - A     0:00    1  1204  1008 32768    56    80  0.0  0.0 telnetd
+ 2351106  pts/3 A     0:00    0   716   944    xx   189   228  0.0  0.0 -ksh 
+  553128      - A    11:13 11464   832   932 32768   497   100  0.0  0.0 /DPCLSF
+  524292      - A    43:09 6642   820   896    xx    94    76  0.0  0.0 DCSrcVR
+  565308      - A    35:51    0   652   880 32768   189   228  0.0  0.0 /bin/sh
+  487618      - A    48:22 8000   824   868    xx    95    44  0.0  0.0 DCSrcVR
+  594082      - A    53:37 7449   816   864    xx    97    48  0.0  0.0 DCSrcVR
+  651474      - A    58:12 7412   772   864    xx   106    92  0.0  0.0 DCSrCvS
+  778394      - A    36:00 6343   776   864    xx   100    88  0.0  0.0 DCSrCvS
+  204920      - A     0:00   29  1032   860    xx   101     0  0.0  0.0 dtlogin
+  606360      - A     9:00 2978   788   856    xx    87    68  0.0  0.0 DCStrsv
+  635102      - A    65:45 7870   776   856    xx   107    80  0.0  0.0 DCSrCvS
+  336002      - A     0:00    0  2752   840 32768   358   304  0.0  0.0 /websph
+  417798      - A     0:00    0  2768   840 32768   358   304  0.0  0.0 /websph
+  790672      - A     0:00    0  2736   840 32768   358   304  0.0  0.0 /websph
+  807072      - A     0:00    0  2792   840 32768   358   304  0.0  0.0 /websph
+  811156      - A     0:00    0  2720   840 32768   358   304  0.0  0.0 /websph
+  684244      - A    60:44 7605   776   824    xx   102    48  0.0  0.0 DCSrCvS
+  737518      - A    10:04 2937   784   816    xx    88    32  0.0  0.0 DCStrsv
+  291050  pts/1 A     0:00    4   584   812 32768   189   228  0.0  0.0 -ksh 
+  344294  pts/0 A     0:00    1   584   812 32768   189   228  0.0  0.0 -ksh 
+  405704  pts/2 A     0:00    1   584   812 32768   189   228  0.0  0.0 -ksh 
+ 2539588  pts/4 A     0:00    0   584   812 32768   189   228  0.0  0.0 -ksh 
+  430098      - A    33:59    0   564   792 32768   189   228  0.0  0.0 /bin/sh
+ 2363414      - A     0:00    0   556   784    xx   189   228  0.0  0.0 /bin/sh
+ 2547714      - A     0:00    0   556   784    xx   189   228  0.0  0.0 /bin/sh
+  688332      - A    383:10  503   748   780    xx    90    32  0.3  0.0 FY2D_DC
+  761936      - A    675:37  659   752   780    xx    88    28  0.2  0.0 DCSTrss
+ 2388152      - A     0:00    0   684   780    xx    90    96  0.0  0.0 FY2C_DC
+       1      - A     0:29  103   744   776 32768    25    32  0.0  0.0 /etc/in
+  676074      - A    2723:08 2775   752   776    xx    89    24  0.3  0.0 FY2D_DC
+ 2236492      - A     0:00    0   688   772    xx    88    84  0.0  0.0 FY2C_DC
+ 2396368  pts/4 A     0:00    0   544   772 32768   189   228  0.0  0.0 /bin/sh
+  721134      - A    2880:44 2771   748   768    xx    89    20  0.3  0.0 DCSTrss
+ 2080830      - A     0:00    0   628   768    xx   143   140  0.0  0.0 /DPCLSF
+ 2502736      - A     0:00    0   536   764 32768   189   228  0.0  0.0 /bin/sh
+ 2506956      - A     0:00    0   628   748    xx   143   120  0.0  0.0 /DPCLSF
+  753716      - A     1:56 3605   704   740    xx    85    36  0.0  0.0 DCSSend
+ 2273404      - A     0:00    0   484   720 32768   193   236  0.0  0.0 ftp -n 
+ 2437322      - A     0:00    0   680   700 32768    12    20  0.0  0.0 /usr/dt
+  708720      - A     0:00   11   624   688 32768    40    64  0.0  0.0 /usr/sb
+  331968      - A    102:51    7   648   656    xx     2     8  0.0  0.0 /usr/sb
+ 2314434      - A     0:00    0   588   648 32768    34    60  0.0  0.0 /usr/dt
+  561224      - A     1:03 8040   584   644 32768   214    60  0.0  0.0 /DPCLSF
+  733370      - A     0:00    3   584   644 32768    23    60  0.0  0.0 /usr/sb
+  196696      - A     0:00    7   588   636 32768    36    48  0.0  0.0 /usr/sb
+  258170      - A     0:00   68   584   620 32768    21    36  0.0  0.0 /usr/lp
+  315514      - A     0:11   25   572   616 32768    32    44  0.0  0.0 /usr/sb
+ 2166850  pts/4 A     0:00    0   536   604 32768    54    68  0.0  0.0 ps gv 
+  614514      - A     0:00  235   572   572    xx    84     0  0.0  0.0 DCSRecv
+  700654      - A     0:00   18   556   556    xx    88     0  0.0  0.0 DCSFrom
+  774380      - A     1:03  685  2496   544 32768   358   304  0.0  0.0 /websph
+  229554      - A     0:07    4   452   520 32768    25    68  0.0  0.0 /usr/sb
+  303188      - A     0:09   11   464   504 32768    29    40  0.0  0.0 /usr/sb
+ 2384040      - A     0:00    0   420   480 32768    41    60  0.0  0.0 /usr/sb
+  364722   lft0 A     0:00    8   408   468 32768    41    60  0.0  0.0 /usr/sb
+  266300      - A     0:19    8   380   416 32768    29    36  0.0  0.0 /usr/sb
+  782472      - A     0:00    1   328   336 32768     4     8  0.0  0.0 /usr/sb
+  462852      - A     0:00    1   308   328 32768    12    20  0.0  0.0 /usr/sb
+  802982      - A     0:00   13   252   328 32768    57    76  0.0  0.0 /usr/sb
+ 2523242  pts/4 A     0:00    0   228   264 32768    29    36  0.0  0.0 sort +6
+  307352      - A     0:00    0   252   252    xx     0     0  0.0  0.0 dog
+ 2400438  pts/4 A     0:00    0   228   252 32768    16    24  0.0  0.0 egrep -
+  696530      - A     0:01 1187   216   248    xx    15    32  0.0  0.0 SynShm3
+  786568      - A     0:00 1091   216   248    xx    15    32  0.0  0.0 SynShm3
+  712902      - A     0:00    1   236   244 32768     4     8  0.0  0.0 /usr/sb
+  184488      - A     0:09    3   168   228 32768    30    60  0.0  0.0 /opt/hi
+  155724      - A     0:13    0   216   216    xx     0     0  0.0  0.0 pilegc
+  749692      - A     0:00    1   188   192 32768     3     4  0.0  0.0 /usr/sb
+  794774      - A     4:20    0   192   192 32768     0     0  0.0  0.0 rpc.lockd
+  815250      - A     4:15    0   192   192 32768     0     0  0.0  0.0 nfsd
+  323756      - A     0:00   16   336   188    xx   101     0  0.0  0.0 /usr/dt
+ 2211940      - A     0:00    0   184   188 32768     2     4  0.0  0.0 sleep 1
+ 2289742      - A     0:00    0   184   188 32768     2     4  0.0  0.0 sleep 8
+  274576      - A     0:00  129   136   152 32768    39    16  0.0  0.0 /usr/cc
+  168018      - A    290:53    0   124   124    xx     0     0  0.0  0.0 gil
+  270374      - A     0:00    1    76    80 32768     4     4  0.0  0.0 /usr/sb
+  540690      - A     0:11    0    76    76 32768     0     0  0.0  0.0 aump
+  143430      - A     0:00    0    72    72    xx     0     0  0.0  0.0 lrud
+  172116      - A     0:00    0    68    68    xx     0     0  0.0  0.0 wlmsched
+  250018      - A     0:00    0    68    68 32768     0     0  0.0  0.0 kbiod
+  528394      - A     0:00    0    68    68 32768     0     0  0.0  0.0 cash
+       0      - A    35:45    7    64    64    xx     0     0  0.0  0.0 swapper
+  262290      - A     0:00    0    64    64    xx     0     0  0.0  0.0 usbCfgDev
+  299106      - A     0:02    0    60    60    xx     0     0  0.0  0.0 hdlm_log_push_process
+  438490      - A     0:52    0    60    60    xx     0     0  0.0  0.0 mmkproc
+  450808      - A     0:41    0    60    60    xx     0     0  0.0  0.0 mmkproc
+  520230      - A     0:41    0    60    60    xx     0     0  0.0  0.0 mmkproc
+  139332      - A     4:21    0    56    56    xx     0     0  0.0  0.0 reaper
+  147528      - A     0:00    0    56    56    xx     0     0  0.0  0.0 xmfreed
+  151626      - A     0:00    0    56    56    xx     0     0  0.0  0.0 vmptacrt
+  159822      - A     3:46    0    56    56    xx     0     0  0.0  0.0 xmgc
+  163920      - A     1:02    0    56    56    xx     0     0  0.0  0.0 netm
+  188522      - A     0:00    0    56    56    xx     0     0  0.0  0.0 lvmbb
+  217138      - A     0:00    0    56    56 32768     0     0  0.0  0.0 random
+  241862      - A     0:00    0    56    56 32768     0     0  0.0  0.0 rtcmd
+  311460      - A     0:00    0    56    56    xx     0     0  0.0  0.0 hdlm_link_proc
+  327848      - A     0:00    0    56    56    xx     0     0  0.0  0.0 aioserver
+  499750      - A     0:12    0    56    56 32768     0     0  0.0  0.0 nfsWatchKproc
+    8196      - A    46148:50    0    48    48    xx     0     0  4.4  0.0 wait
+   12294      - A    62377:36    0    48    48    xx     0     0  5.9  0.0 wait
+   16392      - A    48680:10    0    48    48    xx     0     0  4.6  0.0 wait
+   20490      - A    62346:23    0    48    48    xx     0     0  5.9  0.0 wait
+   24588      - A    54035:32    0    48    48    xx     0     0  5.1  0.0 wait
+   28686      - A    62590:27    0    48    48    xx     0     0  5.9  0.0 wait
+   32784      - A    58006:47    0    48    48    xx     0     0  5.5  0.0 wait
+   36882      - A    62493:42    0    48    48    xx     0     0  5.9  0.0 wait
+   40980      - A    44375:32    0    48    48    xx     0     0  4.2  0.0 wait
+   45078      - A    62574:34    0    48    48    xx     0     0  5.9  0.0 wait
+   49176      - A    46726:27    0    48    48    xx     0     0  4.4  0.0 wait
+   53274      - A    62506:00    0    48    48    xx     0     0  5.9  0.0 wait
+   57372      - A    54037:39    0    48    48    xx     0     0  5.1  0.0 wait
+   61470      - A    62284:33    0    48    48    xx     0     0  5.9  0.0 wait
+   65568      - A    57654:50    0    48    48    xx     0     0  5.5  0.0 wait
+   69666      - A    62801:21    0    48    48    xx     0     0  6.0  0.0 wait
+   73764      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   77862      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   81960      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   86058      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   90156      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   94254      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+   98352      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  102450      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  106548      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  110646      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  114744      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  118842      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  122940      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  127038      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  131136      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+  135234      - A     0:00    0    48    48    xx     0     0  0.0  0.0 wait
+ 2375712        Z     0:00                                              <defunct>
+ 2433246        Z     0:00                                              <defunct>
+cmdbegin:cpu
+
+AIX dpc2 2 5 0037489C4C00    10/11/10
+
+System Configuration: lcpu=16 
+
+01:55:22    %usr    %sys    %wio   %idle
+01:55:23       7       2       0      92
+01:55:24       6       1       0      92
+01:55:25       6       2       0      92
+
+Average        6       2       0      92
+cmdbegin:allconfig
+System Model: IBM,7040-681
+Machine Serial Number: 837489C
+Processor Type: PowerPC_POWER4
+Number Of Processors: 16
+Processor Clock Speed: 1500 MHz
+CPU Type: 64-bit
+Kernel Type: 64-bit
+LPAR Info: 1 NULL
+Memory Size: 32768 MB
+Good Memory Size: 32768 MB
+Firmware Version: IBM,RG080425_d79e22_r
+Console Login: enable
+Auto Restart: true
+Full Core: false
+ 
+Network Information
+	Host Name: dpc2
+	IP Address: 192.168.103.4
+	Sub Netmask: 255.255.255.0
+	Gateway: 10.24.253.250
+	Name Server: 
+	Domain Name: 
+ 
+Paging Space Information
+	Total Paging Space: 19712MB
+	Percent Used: 1%
+ 
+Volume Groups Information
+============================================================================== 
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk3            active            546         0           00..00..00..00..00
+hdisk2            active            546         136         63..00..00..00..73
+============================================================================== 
+ 
+============================================================================== 
+ 
+============================================================================== 
+ 
+wasvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk0            active            546         116         110..00..00..00..06
+hdisk1            active            546         116         110..00..00..00..06
+============================================================================== 
+ 
+INSTALLED RESOURCE LIST
+
+The following resources are installed on the machine.
++/- = Added or deleted from Resource List.
+*   = Diagnostic support not available.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+	
++ sys0                                                              System Object
++ sysplanar0                                                        System Planar
+* pci6             U1.9-P2                                          PCI Bus
+* pci28            U1.9-P2                                          PCI Bus
++ fcs6             U1.9-P2-I8/Q1                                    FC Adapter
+* fscsi6           U1.9-P2-I8/Q1                                    FC SCSI I/O Controller Protocol Device
+* dlmfdrv41        U1.9-P2-I8/Q1-L18                                HDLM Driver
+* dlmfdrv40        U1.9-P2-I8/Q1-L17                                HDLM Driver
+* dlmfdrv39        U1.9-P2-I8/Q1-L16                                HDLM Driver
+* dlmfdrv38        U1.9-P2-I8/Q1-L15                                HDLM Driver
+* dlmfdrv37        U1.9-P2-I8/Q1-L14                                HDLM Driver
+* dlmfdrv36        U1.9-P2-I8/Q1-L13                                HDLM Driver
+* dlmfdrv35        U1.9-P2-I8/Q1-L12                                HDLM Driver
+* dlmfdrv34        U1.9-P2-I8/Q1-L11                                HDLM Driver
+* dlmfdrv33        U1.9-P2-I8/Q1-L10                                HDLM Driver
+* dlmfdrv32        U1.9-P2-I8/Q1-L9                                 HDLM Driver
+* dlmfdrv31        U1.9-P2-I8/Q1-L8                                 HDLM Driver
+* dlmfdrv30        U1.9-P2-I8/Q1-L7                                 HDLM Driver
+* dlmfdrv29        U1.9-P2-I8/Q1-L6                                 HDLM Driver
+* dlmfdrv28        U1.9-P2-I8/Q1-L5                                 HDLM Driver
+* dlmfdrv24        U1.9-P2-I8/Q1-L1                                 HDLM Driver
+* hdisk138         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L65000000000000  Hitachi Disk Array (Fibre)
+* hdisk139         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L66000000000000  Hitachi Disk Array (Fibre)
+* hdisk140         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L67000000000000  Hitachi Disk Array (Fibre)
+* hdisk141         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L68000000000000  Hitachi Disk Array (Fibre)
+* hdisk142         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L69000000000000  Hitachi Disk Array (Fibre)
+* hdisk143         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6A000000000000  Hitachi Disk Array (Fibre)
+* hdisk144         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6B000000000000  Hitachi Disk Array (Fibre)
+* hdisk145         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6C000000000000  Hitachi Disk Array (Fibre)
+* hdisk146         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6D000000000000  Hitachi Disk Array (Fibre)
+* hdisk147         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6E000000000000  Hitachi Disk Array (Fibre)
+* hdisk148         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L6F000000000000  Hitachi Disk Array (Fibre)
+* hdisk149         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L70000000000000  Hitachi Disk Array (Fibre)
+* hdisk150         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L71000000000000  Hitachi Disk Array (Fibre)
+* hdisk151         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L72000000000000  Hitachi Disk Array (Fibre)
+* hdisk152         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L73000000000000  Hitachi Disk Array (Fibre)
+* hdisk153         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L74000000000000  Hitachi Disk Array (Fibre)
+* hdisk154         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L75000000000000  Hitachi Disk Array (Fibre)
+* hdisk155         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L76000000000000  Hitachi Disk Array (Fibre)
+* hdisk156         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L77000000000000  Hitachi Disk Array (Fibre)
+* hdisk200         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L78000000000000  Hitachi Disk Array (Fibre)
+* hdisk201         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L79000000000000  Hitachi Disk Array (Fibre)
+* hdisk202         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L7A000000000000  Hitachi Disk Array (Fibre)
+* hdisk203         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L7B000000000000  Hitachi Disk Array (Fibre)
+* hdisk220         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L7C000000000000  Hitachi Disk Array (Fibre)
+* hdisk221         U1.9-P2-I8/Q1-W50060E8000C3B4A7-L7D000000000000  Hitachi Disk Array (Fibre)
+* fcnet6           U1.9-P2-I8/Q1                                    Fibre Channel Network Protocol Device
+* pci29            U1.9-P2                                          PCI Bus
++ fcs7             U1.9-P2-I9/Q1                                    FC Adapter
+* fscsi7           U1.9-P2-I9/Q1                                    FC SCSI I/O Controller Protocol Device
+* hdisk157         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L65000000000000  Hitachi Disk Array (Fibre)
+* hdisk158         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L66000000000000  Hitachi Disk Array (Fibre)
+* hdisk159         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L67000000000000  Hitachi Disk Array (Fibre)
+* hdisk160         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L68000000000000  Hitachi Disk Array (Fibre)
+* hdisk161         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L69000000000000  Hitachi Disk Array (Fibre)
+* hdisk162         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6A000000000000  Hitachi Disk Array (Fibre)
+* hdisk163         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6B000000000000  Hitachi Disk Array (Fibre)
+* hdisk164         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6C000000000000  Hitachi Disk Array (Fibre)
+* hdisk165         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6D000000000000  Hitachi Disk Array (Fibre)
+* hdisk166         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6E000000000000  Hitachi Disk Array (Fibre)
+* hdisk167         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L6F000000000000  Hitachi Disk Array (Fibre)
+* hdisk168         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L70000000000000  Hitachi Disk Array (Fibre)
+* hdisk169         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L71000000000000  Hitachi Disk Array (Fibre)
+* hdisk170         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L72000000000000  Hitachi Disk Array (Fibre)
+* hdisk171         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L73000000000000  Hitachi Disk Array (Fibre)
+* hdisk172         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L74000000000000  Hitachi Disk Array (Fibre)
+* hdisk173         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L75000000000000  Hitachi Disk Array (Fibre)
+* hdisk174         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L76000000000000  Hitachi Disk Array (Fibre)
+* hdisk175         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L77000000000000  Hitachi Disk Array (Fibre)
+* hdisk204         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L78000000000000  Hitachi Disk Array (Fibre)
+* hdisk205         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L79000000000000  Hitachi Disk Array (Fibre)
+* hdisk206         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L7A000000000000  Hitachi Disk Array (Fibre)
+* hdisk207         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L7B000000000000  Hitachi Disk Array (Fibre)
+* hdisk222         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L7C000000000000  Hitachi Disk Array (Fibre)
+* hdisk223         U1.9-P2-I9/Q1-W50060E8000C3B4A3-L7D000000000000  Hitachi Disk Array (Fibre)
+* fcnet7           U1.9-P2-I9/Q1                                    Fibre Channel Network Protocol Device
+* pci30            U1.9-P2                                          PCI Bus
++ scsi3            U1.9-P2/Z2                                       Wide/Ultra-3 SCSI I/O Controller
++ hdisk3           U1.9-P2/Z2-A8                                    16 Bit LVD SCSI Disk Drive (73400 MB)
++ ses3             U1.9-P2/Z2-AF                                    SCSI Enclosure Services Device
+* pci31            U1.9-P2                                          PCI Bus
++ sa3              U1.9-P2-I10/Q1                                   IBM 8-Port EIA-232/RS-422A (PCI) Adapter
+* pci5             U1.9-P2                                          PCI Bus
+* pci24            U1.9-P2                                          PCI Bus
++ ent4             U1.9-P2-I5/E1                                    Gigabit Ethernet-SX PCI-X Adapter (14106802)
+* pci25            U1.9-P2                                          PCI Bus
++ fcs5             U1.9-P2-I6/Q1                                    FC Adapter
+* fscsi5           U1.9-P2-I6/Q1                                    FC SCSI I/O Controller Protocol Device
+* hdisk119         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L65000000000000  Hitachi Disk Array (Fibre)
+* hdisk120         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L66000000000000  Hitachi Disk Array (Fibre)
+* hdisk121         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L67000000000000  Hitachi Disk Array (Fibre)
+* hdisk122         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L68000000000000  Hitachi Disk Array (Fibre)
+* hdisk123         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L69000000000000  Hitachi Disk Array (Fibre)
+* hdisk124         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6A000000000000  Hitachi Disk Array (Fibre)
+* hdisk125         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6B000000000000  Hitachi Disk Array (Fibre)
+* hdisk126         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6C000000000000  Hitachi Disk Array (Fibre)
+* hdisk127         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6D000000000000  Hitachi Disk Array (Fibre)
+* hdisk128         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6E000000000000  Hitachi Disk Array (Fibre)
+* hdisk129         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L6F000000000000  Hitachi Disk Array (Fibre)
+* hdisk130         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L70000000000000  Hitachi Disk Array (Fibre)
+* hdisk131         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L71000000000000  Hitachi Disk Array (Fibre)
+* hdisk132         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L72000000000000  Hitachi Disk Array (Fibre)
+* hdisk133         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L73000000000000  Hitachi Disk Array (Fibre)
+* hdisk134         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L74000000000000  Hitachi Disk Array (Fibre)
+* hdisk135         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L75000000000000  Hitachi Disk Array (Fibre)
+* hdisk136         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L76000000000000  Hitachi Disk Array (Fibre)
+* hdisk137         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L77000000000000  Hitachi Disk Array (Fibre)
+* hdisk196         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L78000000000000  Hitachi Disk Array (Fibre)
+* hdisk197         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L79000000000000  Hitachi Disk Array (Fibre)
+* hdisk198         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L7A000000000000  Hitachi Disk Array (Fibre)
+* hdisk199         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L7B000000000000  Hitachi Disk Array (Fibre)
+* hdisk218         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L7C000000000000  Hitachi Disk Array (Fibre)
+* hdisk219         U1.9-P2-I6/Q1-W50060E8000C3B4A6-L7D000000000000  Hitachi Disk Array (Fibre)
+* fcnet5           U1.9-P2-I6/Q1                                    Fibre Channel Network Protocol Device
+* pci26            U1.9-P2                                          PCI Bus
++ ent5             U1.9-P2-I7/E1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci27            U1.9-P2                                          PCI Bus
++ scsi2            U1.9-P2/Z1                                       Wide/Ultra-3 SCSI I/O Controller
++ ses2             U1.9-P2/Z1-AF                                    SCSI Enclosure Services Device
+* pci4             U1.9-P2                                          PCI Bus
+* pci20            U1.9-P2                                          PCI Bus
++ fcs4             U1.9-P2-I1/Q1                                    FC Adapter
+* fscsi4           U1.9-P2-I1/Q1                                    FC SCSI I/O Controller Protocol Device
+* dlmfdrv50        U1.9-P2-I1/Q1-L23                                HDLM Driver
+* dlmfdrv49        U1.9-P2-I1/Q1-L22                                HDLM Driver
+* dlmfdrv48        U1.9-P2-I1/Q1-L21                                HDLM Driver
+* dlmfdrv47        U1.9-P2-I1/Q1-L20                                HDLM Driver
+* dlmfdrv42        U1.9-P2-I1/Q1-L19                                HDLM Driver
+* dlmfdrv27        U1.9-P2-I1/Q1-L4                                 HDLM Driver
+* dlmfdrv26        U1.9-P2-I1/Q1-L3                                 HDLM Driver
+* dlmfdrv25        U1.9-P2-I1/Q1-L2                                 HDLM Driver
+* hdisk100         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L65000000000000  Hitachi Disk Array (Fibre)
+* hdisk101         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L66000000000000  Hitachi Disk Array (Fibre)
+* hdisk102         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L67000000000000  Hitachi Disk Array (Fibre)
+* hdisk103         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L68000000000000  Hitachi Disk Array (Fibre)
+* hdisk104         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L69000000000000  Hitachi Disk Array (Fibre)
+* hdisk105         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6A000000000000  Hitachi Disk Array (Fibre)
+* hdisk106         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6B000000000000  Hitachi Disk Array (Fibre)
+* hdisk107         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6C000000000000  Hitachi Disk Array (Fibre)
+* hdisk108         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6D000000000000  Hitachi Disk Array (Fibre)
+* hdisk109         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6E000000000000  Hitachi Disk Array (Fibre)
+* hdisk110         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L6F000000000000  Hitachi Disk Array (Fibre)
+* hdisk111         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L70000000000000  Hitachi Disk Array (Fibre)
+* hdisk112         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L71000000000000  Hitachi Disk Array (Fibre)
+* hdisk113         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L72000000000000  Hitachi Disk Array (Fibre)
+* hdisk114         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L73000000000000  Hitachi Disk Array (Fibre)
+* hdisk115         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L74000000000000  Hitachi Disk Array (Fibre)
+* hdisk116         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L75000000000000  Hitachi Disk Array (Fibre)
+* hdisk117         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L76000000000000  Hitachi Disk Array (Fibre)
+* hdisk118         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L77000000000000  Hitachi Disk Array (Fibre)
+* hdisk192         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L78000000000000  Hitachi Disk Array (Fibre)
+* hdisk193         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L79000000000000  Hitachi Disk Array (Fibre)
+* hdisk194         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L7A000000000000  Hitachi Disk Array (Fibre)
+* hdisk195         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L7B000000000000  Hitachi Disk Array (Fibre)
+* hdisk212         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L7C000000000000  Hitachi Disk Array (Fibre)
+* hdisk213         U1.9-P2-I1/Q1-W50060E8000C3B4A2-L7D000000000000  Hitachi Disk Array (Fibre)
+* fcnet4           U1.9-P2-I1/Q1                                    Fibre Channel Network Protocol Device
+* pci21            U1.9-P2                                          PCI Bus
++ ent2             U1.9-P2-I2/E1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci22            U1.9-P2                                          PCI Bus
++ ent3             U1.9-P2-I3/E1                                    Gigabit Ethernet-SX PCI-X Adapter (14106802)
+* pci23            U1.9-P2                                          PCI Bus
++ sisscsia1        U1.9-P2-I4                                       PCI-X Dual Channel Ultra320 SCSI Adapter
++ scsi6            U1.9-P2-I4/Z1                                    PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ scsi7            U1.9-P2-I4/Z2                                    PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ rmt1             U1.9-P2-I4/Z2-A2                                 SCSI 4mm Tape Drive (20480 MB)
++ cd1              U1.9-P2-I4/Z2-A6                                 16 Bit LVD SCSI DVD-ROM Drive (4700 MB)
+* pci3             U1.9-P1                                          PCI Bus
+* pci16            U1.9-P1                                          PCI Bus
++ fcs3             U1.9-P1-I8/Q1                                    FC Adapter
+* fscsi3           U1.9-P1-I8/Q1                                    FC SCSI I/O Controller Protocol Device
+* hdisk76          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L0               Hitachi Disk Array (Fibre)
+* hdisk77          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L1000000000000   Hitachi Disk Array (Fibre)
+* hdisk78          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L2000000000000   Hitachi Disk Array (Fibre)
+* hdisk79          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L3000000000000   Hitachi Disk Array (Fibre)
+* hdisk80          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L4000000000000   Hitachi Disk Array (Fibre)
+* hdisk81          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L5000000000000   Hitachi Disk Array (Fibre)
+* hdisk82          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L6000000000000   Hitachi Disk Array (Fibre)
+* hdisk83          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L7000000000000   Hitachi Disk Array (Fibre)
+* hdisk84          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L8000000000000   Hitachi Disk Array (Fibre)
+* hdisk85          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L9000000000000   Hitachi Disk Array (Fibre)
+* hdisk86          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LA000000000000   Hitachi Disk Array (Fibre)
+* hdisk87          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LB000000000000   Hitachi Disk Array (Fibre)
+* hdisk88          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LC000000000000   Hitachi Disk Array (Fibre)
+* hdisk89          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LD000000000000   Hitachi Disk Array (Fibre)
+* hdisk90          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LE000000000000   Hitachi Disk Array (Fibre)
+* hdisk91          U1.9-P1-I8/Q1-W50060E8000C3B4A1-LF000000000000   Hitachi Disk Array (Fibre)
+* hdisk92          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L10000000000000  Hitachi Disk Array (Fibre)
+* hdisk93          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L11000000000000  Hitachi Disk Array (Fibre)
+* hdisk94          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L12000000000000  Hitachi Disk Array (Fibre)
+* hdisk95          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L13000000000000  Hitachi Disk Array (Fibre)
+* hdisk96          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L14000000000000  Hitachi Disk Array (Fibre)
+* hdisk97          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L15000000000000  Hitachi Disk Array (Fibre)
+* hdisk98          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L16000000000000  Hitachi Disk Array (Fibre)
+* hdisk99          U1.9-P1-I8/Q1-W50060E8000C3B4A1-L17000000000000  Hitachi Disk Array (Fibre)
+* hdisk185         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L18000000000000  Hitachi Disk Array (Fibre)
+* hdisk186         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L19000000000000  Hitachi Disk Array (Fibre)
+* hdisk187         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L1A000000000000  Hitachi Disk Array (Fibre)
+* hdisk191         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L1B000000000000  Hitachi Disk Array (Fibre)
+* hdisk210         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L1C000000000000  Hitachi Disk Array (Fibre)
+* hdisk211         U1.9-P1-I8/Q1-W50060E8000C3B4A1-L1D000000000000  Hitachi Disk Array (Fibre)
+* fcnet3           U1.9-P1-I8/Q1                                    Fibre Channel Network Protocol Device
+* pci17            U1.9-P1                                          PCI Bus
++ ent1             U1.9-P1-I9/E1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci18            U1.9-P1                                          PCI Bus
++ scsi1            U1.9-P1/Z2                                       Wide/Ultra-3 SCSI I/O Controller
++ hdisk1           U1.9-P1/Z2-A8                                    16 Bit LVD SCSI Disk Drive (73400 MB)
++ hdisk2           U1.9-P1/Z2-A9                                    16 Bit LVD SCSI Disk Drive (73400 MB)
++ ses1             U1.9-P1/Z2-AF                                    SCSI Enclosure Services Device
+* pci19            U1.9-P1                                          PCI Bus
++ sisscsia0        U1.9-P1-I10                                      PCI-X Dual Channel Ultra320 SCSI Adapter
++ scsi4            U1.9-P1-I10/Z1                                   PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ scsi5            U1.9-P1-I10/Z2                                   PCI-X Dual Channel Ultra320 SCSI Adapter bus
++ cd0              U1.9-P1-I10/Z2-A5                                16 Bit LVD SCSI DVD-ROM Drive (4700 MB)
++ rmt0             U1.9-P1-I10/Z2-A6                                SCSI 4mm Tape Drive (20480 MB)
+* pci2             U1.9-P1                                          PCI Bus
+* pci11            U1.9-P1                                          PCI Bus
++ fcs2             U1.9-P1-I5/Q1                                    FC Adapter
+* fscsi2           U1.9-P1-I5/Q1                                    FC SCSI I/O Controller Protocol Device
+* hdisk52          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L0               Hitachi Disk Array (Fibre)
+* hdisk53          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L1000000000000   Hitachi Disk Array (Fibre)
+* hdisk54          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L2000000000000   Hitachi Disk Array (Fibre)
+* hdisk55          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L3000000000000   Hitachi Disk Array (Fibre)
+* hdisk56          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L4000000000000   Hitachi Disk Array (Fibre)
+* hdisk57          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L5000000000000   Hitachi Disk Array (Fibre)
+* hdisk58          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L6000000000000   Hitachi Disk Array (Fibre)
+* hdisk59          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L7000000000000   Hitachi Disk Array (Fibre)
+* hdisk60          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L8000000000000   Hitachi Disk Array (Fibre)
+* hdisk61          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L9000000000000   Hitachi Disk Array (Fibre)
+* hdisk62          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LA000000000000   Hitachi Disk Array (Fibre)
+* hdisk63          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LB000000000000   Hitachi Disk Array (Fibre)
+* hdisk64          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LC000000000000   Hitachi Disk Array (Fibre)
+* hdisk65          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LD000000000000   Hitachi Disk Array (Fibre)
+* hdisk66          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LE000000000000   Hitachi Disk Array (Fibre)
+* hdisk67          U1.9-P1-I5/Q1-W50060E8000C3B4A5-LF000000000000   Hitachi Disk Array (Fibre)
+* hdisk68          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L10000000000000  Hitachi Disk Array (Fibre)
+* hdisk69          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L11000000000000  Hitachi Disk Array (Fibre)
+* hdisk70          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L12000000000000  Hitachi Disk Array (Fibre)
+* hdisk71          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L13000000000000  Hitachi Disk Array (Fibre)
+* hdisk72          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L14000000000000  Hitachi Disk Array (Fibre)
+* hdisk73          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L15000000000000  Hitachi Disk Array (Fibre)
+* hdisk74          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L16000000000000  Hitachi Disk Array (Fibre)
+* hdisk75          U1.9-P1-I5/Q1-W50060E8000C3B4A5-L17000000000000  Hitachi Disk Array (Fibre)
+* hdisk182         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L18000000000000  Hitachi Disk Array (Fibre)
+* hdisk183         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L19000000000000  Hitachi Disk Array (Fibre)
+* hdisk184         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L1A000000000000  Hitachi Disk Array (Fibre)
+* hdisk190         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L1B000000000000  Hitachi Disk Array (Fibre)
+* hdisk216         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L1C000000000000  Hitachi Disk Array (Fibre)
+* hdisk217         U1.9-P1-I5/Q1-W50060E8000C3B4A5-L1D000000000000  Hitachi Disk Array (Fibre)
+* fcnet2           U1.9-P1-I5/Q1                                    Fibre Channel Network Protocol Device
+* pci12            U1.9-P1                                          PCI Bus
+* pci13            U1.9-P1-I6                                       PCI Bus
++ lai0             U1.9-P1-I6/G1                                    GXT135P Graphics Adapter
+* pci14            U1.9-P1                                          PCI Bus
++ ohcd0            U1.9-P1-I7/Q1                                    USB Host Controller (c1110358)
++ ohcd1            U1.9-P1-I7/Q2                                    USB Host Controller (c1110358)
++ ohcd2            U1.9-P1-I7/Q3                                    USB Host Controller (c1110358)
++ ohcd3            U1.9-P1-I7/Q4                                    USB Host Controller (c1110358)
+* pci15            U1.9-P1                                          PCI Bus
++ scsi0            U1.9-P1/Z1                                       Wide/Ultra-3 SCSI I/O Controller
++ hdisk0           U1.9-P1/Z1-AB                                    16 Bit LVD SCSI Disk Drive (73400 MB)
++ ses0             U1.9-P1/Z1-AF                                    SCSI Enclosure Services Device
+* pci1             U1.9-P1                                          PCI Bus
+* pci7             U1.9-P1                                          PCI Bus
++ fcs0             U1.9-P1-I1/Q1                                    FC Adapter
+* fscsi0           U1.9-P1-I1/Q1                                    FC SCSI I/O Controller Protocol Device
+* dlmfdrv52        U1.9-P1-I1/Q1-L30                                HDLM Driver
+* dlmfdrv51        U1.9-P1-I1/Q1-L29                                HDLM Driver
+* dlmfdrv46        U1.9-P1-I1/Q1-L28                                HDLM Driver
+* dlmfdrv45        U1.9-P1-I1/Q1-L27                                HDLM Driver
+* dlmfdrv44        U1.9-P1-I1/Q1-L26                                HDLM Driver
+* dlmfdrv43        U1.9-P1-I1/Q1-L25                                HDLM Driver
+* dlmfdrv23        U1.9-P1-I1/Q1-L24                                HDLM Driver
+* dlmfdrv22        U1.9-P1-I1/Q1-L23                                HDLM Driver
+* dlmfdrv21        U1.9-P1-I1/Q1-L22                                HDLM Driver
+* dlmfdrv20        U1.9-P1-I1/Q1-L21                                HDLM Driver
+* dlmfdrv19        U1.9-P1-I1/Q1-L20                                HDLM Driver
+* dlmfdrv18        U1.9-P1-I1/Q1-L19                                HDLM Driver
+* dlmfdrv17        U1.9-P1-I1/Q1-L18                                HDLM Driver
+* dlmfdrv16        U1.9-P1-I1/Q1-L17                                HDLM Driver
+* dlmfdrv15        U1.9-P1-I1/Q1-L16                                HDLM Driver
+* dlmfdrv14        U1.9-P1-I1/Q1-L15                                HDLM Driver
+* dlmfdrv13        U1.9-P1-I1/Q1-L14                                HDLM Driver
+* dlmfdrv12        U1.9-P1-I1/Q1-L13                                HDLM Driver
+* dlmfdrv11        U1.9-P1-I1/Q1-L12                                HDLM Driver
+* dlmfdrv10        U1.9-P1-I1/Q1-L11                                HDLM Driver
+* dlmfdrv9         U1.9-P1-I1/Q1-L10                                HDLM Driver
+* dlmfdrv8         U1.9-P1-I1/Q1-L9                                 HDLM Driver
+* dlmfdrv7         U1.9-P1-I1/Q1-L8                                 HDLM Driver
+* dlmfdrv6         U1.9-P1-I1/Q1-L7                                 HDLM Driver
+* dlmfdrv5         U1.9-P1-I1/Q1-L6                                 HDLM Driver
+* dlmfdrv4         U1.9-P1-I1/Q1-L5                                 HDLM Driver
+* dlmfdrv3         U1.9-P1-I1/Q1-L4                                 HDLM Driver
+* dlmfdrv2         U1.9-P1-I1/Q1-L3                                 HDLM Driver
+* dlmfdrv1         U1.9-P1-I1/Q1-L2                                 HDLM Driver
+* dlmfdrv0         U1.9-P1-I1/Q1-L1                                 HDLM Driver
+* hdisk4           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L0               Hitachi Disk Array (Fibre)
+* hdisk5           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L1000000000000   Hitachi Disk Array (Fibre)
+* hdisk176         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L18000000000000  Hitachi Disk Array (Fibre)
+* hdisk6           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L2000000000000   Hitachi Disk Array (Fibre)
+* hdisk7           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L3000000000000   Hitachi Disk Array (Fibre)
+* hdisk8           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L4000000000000   Hitachi Disk Array (Fibre)
+* hdisk9           U1.9-P1-I1/Q1-W50060E8000C3B4A0-L5000000000000   Hitachi Disk Array (Fibre)
+* hdisk10          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L6000000000000   Hitachi Disk Array (Fibre)
+* hdisk11          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L7000000000000   Hitachi Disk Array (Fibre)
+* hdisk12          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L8000000000000   Hitachi Disk Array (Fibre)
+* hdisk13          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L9000000000000   Hitachi Disk Array (Fibre)
+* hdisk14          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LA000000000000   Hitachi Disk Array (Fibre)
+* hdisk15          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LB000000000000   Hitachi Disk Array (Fibre)
+* hdisk16          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LC000000000000   Hitachi Disk Array (Fibre)
+* hdisk17          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LD000000000000   Hitachi Disk Array (Fibre)
+* hdisk18          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LE000000000000   Hitachi Disk Array (Fibre)
+* hdisk19          U1.9-P1-I1/Q1-W50060E8000C3B4A0-LF000000000000   Hitachi Disk Array (Fibre)
+* hdisk20          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L10000000000000  Hitachi Disk Array (Fibre)
+* hdisk21          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L11000000000000  Hitachi Disk Array (Fibre)
+* hdisk22          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L12000000000000  Hitachi Disk Array (Fibre)
+* hdisk23          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L13000000000000  Hitachi Disk Array (Fibre)
+* hdisk24          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L14000000000000  Hitachi Disk Array (Fibre)
+* hdisk25          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L15000000000000  Hitachi Disk Array (Fibre)
+* hdisk26          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L16000000000000  Hitachi Disk Array (Fibre)
+* hdisk27          U1.9-P1-I1/Q1-W50060E8000C3B4A0-L17000000000000  Hitachi Disk Array (Fibre)
+* hdisk177         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L19000000000000  Hitachi Disk Array (Fibre)
+* hdisk178         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L1A000000000000  Hitachi Disk Array (Fibre)
+* hdisk188         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L1B000000000000  Hitachi Disk Array (Fibre)
+* hdisk208         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L1C000000000000  Hitachi Disk Array (Fibre)
+* hdisk209         U1.9-P1-I1/Q1-W50060E8000C3B4A0-L1D000000000000  Hitachi Disk Array (Fibre)
+* fcnet0           U1.9-P1-I1/Q1                                    Fibre Channel Network Protocol Device
+* pci8             U1.9-P1                                          PCI Bus
++ ent0             U1.9-P1-I2/E1                                    10/100/1000 Base-TX PCI-X Adapter (14106902)
+* pci9             U1.9-P1                                          PCI Bus
++ fcs1             U1.9-P1-I3/Q1                                    FC Adapter
+* fscsi1           U1.9-P1-I3/Q1                                    FC SCSI I/O Controller Protocol Device
+* hdisk28          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L0               Hitachi Disk Array (Fibre)
+* hdisk29          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L1000000000000   Hitachi Disk Array (Fibre)
+* hdisk30          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L2000000000000   Hitachi Disk Array (Fibre)
+* hdisk31          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L3000000000000   Hitachi Disk Array (Fibre)
+* hdisk32          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L4000000000000   Hitachi Disk Array (Fibre)
+* hdisk33          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L5000000000000   Hitachi Disk Array (Fibre)
+* hdisk34          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L6000000000000   Hitachi Disk Array (Fibre)
+* hdisk35          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L7000000000000   Hitachi Disk Array (Fibre)
+* hdisk36          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L8000000000000   Hitachi Disk Array (Fibre)
+* hdisk37          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L9000000000000   Hitachi Disk Array (Fibre)
+* hdisk38          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LA000000000000   Hitachi Disk Array (Fibre)
+* hdisk39          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LB000000000000   Hitachi Disk Array (Fibre)
+* hdisk40          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LC000000000000   Hitachi Disk Array (Fibre)
+* hdisk41          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LD000000000000   Hitachi Disk Array (Fibre)
+* hdisk42          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LE000000000000   Hitachi Disk Array (Fibre)
+* hdisk43          U1.9-P1-I3/Q1-W50060E8000C3B4A4-LF000000000000   Hitachi Disk Array (Fibre)
+* hdisk44          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L10000000000000  Hitachi Disk Array (Fibre)
+* hdisk45          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L11000000000000  Hitachi Disk Array (Fibre)
+* hdisk46          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L12000000000000  Hitachi Disk Array (Fibre)
+* hdisk47          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L13000000000000  Hitachi Disk Array (Fibre)
+* hdisk48          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L14000000000000  Hitachi Disk Array (Fibre)
+* hdisk49          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L15000000000000  Hitachi Disk Array (Fibre)
+* hdisk50          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L16000000000000  Hitachi Disk Array (Fibre)
+* hdisk51          U1.9-P1-I3/Q1-W50060E8000C3B4A4-L17000000000000  Hitachi Disk Array (Fibre)
+* hdisk179         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L18000000000000  Hitachi Disk Array (Fibre)
+* hdisk180         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L19000000000000  Hitachi Disk Array (Fibre)
+* hdisk181         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L1A000000000000  Hitachi Disk Array (Fibre)
+* hdisk189         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L1B000000000000  Hitachi Disk Array (Fibre)
+* hdisk214         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L1C000000000000  Hitachi Disk Array (Fibre)
+* hdisk215         U1.9-P1-I3/Q1-W50060E8000C3B4A4-L1D000000000000  Hitachi Disk Array (Fibre)
+* fcnet1           U1.9-P1-I3/Q1                                    Fibre Channel Network Protocol Device
+* pci10            U1.9-P1                                          PCI Bus
++ sa2              U1.9-P1-I4/Q1                                    IBM 8-Port EIA-232/RS-422A (PCI) Adapter
++ tty1             U1.9-P1-I4/Q1-L0                                 Asynchronous Terminal
+* pci0             U1.18-P1-H2                                      PCI Bus
+* isa0             U1.18-P1-H2                                      ISA Bus
++ fda0             U1.18-P1-H2/D1                                   Standard I/O Diskette Adapter
++ fd0              U1.17-D1                                         Diskette Drive
++ sa0              U1.18-P1-H2/S1                                   Standard I/O Serial Port
++ tty0             U1.18-P1-H2/S1-L0                                Asynchronous Terminal
++ sa1              U1.18-P1-H2/S2                                   Standard I/O Serial Port
++ tty2             U1.18-P1-H2/S2-L0                                Asynchronous Terminal
++ L2cache0                                                          L2 Cache
++ mem0                                                              Memory
++ proc0            U1.18-P1-C1                                      Processor
++ proc1            U1.18-P1-C1                                      Processor
++ proc2            U1.18-P1-C1                                      Processor
++ proc3            U1.18-P1-C1                                      Processor
++ proc4            U1.18-P1-C1                                      Processor
++ proc5            U1.18-P1-C1                                      Processor
++ proc6            U1.18-P1-C1                                      Processor
++ proc7            U1.18-P1-C1                                      Processor
++ proc16           U1.18-P1-C4                                      Processor
++ proc17           U1.18-P1-C4                                      Processor
++ proc18           U1.18-P1-C4                                      Processor
++ proc19           U1.18-P1-C4                                      Processor
++ proc20           U1.18-P1-C4                                      Processor
++ proc21           U1.18-P1-C4                                      Processor
++ proc22           U1.18-P1-C4                                      Processor
++ proc23           U1.18-P1-C4                                      Processor
+* kbd0             U1.9-P1-I7/Q3-L1-L1-L1                           USB keyboard
+* mouse0           U1.9-P1-I7/Q3-L1-L1-L3                           USB mouse
+cmdbegin:disk
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        4096.00   4030.65    2%     4677     1% /
+/dev/hd2        5120.00   2370.20   54%    68996    12% /usr
+/dev/hd9var     2560.00   1923.67   25%    13503     3% /var
+/dev/hd3        2944.00   1997.18   33%     1000     1% /tmp
+/dev/hd1       10240.00   6092.07   41%     6583     1% /home
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt     128.00     82.00   36%     1709     9% /opt
+/dev/fslv22     5120.00   1278.64   76%     7217     3% /sybase
+/dev/fslv00      128.00    125.66    2%        7     1% /LSFFLAG
+/dev/waslv     10240.00   3701.23   64%    36414     5% /websphere
+/dev/testlv    44800.00  28801.12   36%      447     1% /restore
+/dev/etswork    1024.00   1012.04    2%      207     1% /ETSWORK
+/dev/crshome    1024.00    844.20   18%      497     1% /CRSHOME
+/dev/dpcauxi   10242.00   8144.00   21%      131     1% /DPCAUXI
+/dev/dpccomp  614412.00 487742.50   21%    11504     6% /DPCCOMP
+/dev/dpcfy2c  1638408.00 833556.00   50%   257213    16% /DPCFY2C
+/dev/dpcfy2d  1638408.00 350118.50   79%   412714    26% /DPCFY2D
+/dev/dpclsfa   20484.00   7832.00   62%    19354    30% /DPCLSFA
+/dev/dpcmtst  1638408.00 915688.50   45%  1064766    65% /DPCMTST
+/dev/dpctemp  102402.00  99421.50    3%    11159    11% /DPCTEMP
+/dev/dpcwork  102402.00  65665.50   36%    10396    11% /DPCWORK
+/dev/pdspull  204804.00  60995.00   71%   114508    19% /PDSPULL
+/dev/pdspush  307206.00 201060.50   35%    28832    10% /PDSPUSH
+/dev/socdata  409608.00  41218.00   90%   138355    45% /SOCDATA
+/dev/dpcfymv  102402.00  52317.00   49%    20147    20% /DPCFYMV
+/dev/ftpreal  4915224.00 1067502.00   79%  1617764    33% /FTPREAL
+cmdbegin:diskperf
+
+AIX dpc2 2 5 0037489C4C00    10/11/10
+
+System Configuration: lcpu=16 disk=226 
+
+01:55:29     device    %busy    avque    r+w/s   blks/s   avwait   avserv
+
+01:55:30     hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk22      0      0.0        0        0      0.0      0.0
+            hdisk23      0      0.0        0        0      0.0      0.0
+            hdisk24      0      0.0        0        0      0.0      0.0
+            hdisk25      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+           hdisk176      0      0.0        0        0      0.0      0.0
+           hdisk177      0      0.0        0        0      0.0      0.0
+           hdisk178      0      0.0        0        0      0.0      0.0
+           hdisk188      0      0.0        0        0      0.0      0.0
+           hdisk208      0      0.0        0        0      0.0      0.0
+           hdisk209      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+            hdisk30      0      0.0        0        0      0.0      0.0
+            hdisk31      0      0.0        0        0      0.0      0.0
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+           hdisk179      0      0.0        0        0      0.0      0.0
+           hdisk180      0      0.0        0        0      0.0      0.0
+           hdisk181      0      0.0        0        0      0.0      0.0
+           hdisk189      0      0.0        0        0      0.0      0.0
+           hdisk214      0      0.0        0        0      0.0      0.0
+           hdisk215      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk61      0      0.0        0        0      0.0      0.0
+            hdisk62      0      0.0        0        0      0.0      0.0
+            hdisk63      0      0.0        0        0      0.0      0.0
+            hdisk64      0      0.0        0        0      0.0      0.0
+            hdisk65      0      0.0        0        0      0.0      0.0
+            hdisk66      0      0.0        0        0      0.0      0.0
+            hdisk67      0      0.0        0        0      0.0      0.0
+            hdisk68      0      0.0        0        0      0.0      0.0
+            hdisk69      0      0.0        0        0      0.0      0.0
+            hdisk70      0      0.0        0        0      0.0      0.0
+            hdisk71      0      0.0        0        0      0.0      0.0
+            hdisk72      0      0.0        0        0      0.0      0.0
+            hdisk73      0      0.0        0        0      0.0      0.0
+            hdisk74      0      0.0        0        0      0.0      0.0
+            hdisk75      0      0.0        0        0      0.0      0.0
+           hdisk182      0      0.0        0        0      0.0      0.0
+           hdisk183      0      0.0        0        0      0.0      0.0
+           hdisk184      0      0.0        0        0      0.0      0.0
+           hdisk190      0      0.0        0        0      0.0      0.0
+           hdisk216      0      0.0        0        0      0.0      0.0
+           hdisk217      0      0.0        0        0      0.0      0.0
+            hdisk76      0      0.0        0        0      0.0      0.0
+            hdisk77      0      0.0        0        0      0.0      0.0
+            hdisk78      0      0.0        0        0      0.0      0.0
+            hdisk79      0      0.0        0        0      0.0      0.0
+            hdisk80      0      0.0        0        0      0.0      0.0
+            hdisk81      0      0.0        0        0      0.0      0.0
+            hdisk82      0      0.0        0        0      0.0      0.0
+            hdisk83      0      0.0        0        0      0.0      0.0
+            hdisk84      0      0.0        0        0      0.0      0.0
+            hdisk85      0      0.0        0        0      0.0      0.0
+            hdisk86      0      0.0        0        0      0.0      0.0
+            hdisk87      0      0.0        0        0      0.0      0.0
+            hdisk88      0      0.0        0        0      0.0      0.0
+            hdisk89      0      0.0        0        0      0.0      0.0
+            hdisk90      0      0.0        0        0      0.0      0.0
+            hdisk91      0      0.0        0        0      0.0      0.0
+            hdisk92      0      0.0        0        0      0.0      0.0
+            hdisk93      0      0.0        0        0      0.0      0.0
+            hdisk94      0      0.0        0        0      0.0      0.0
+            hdisk95      0      0.0        0        0      0.0      0.0
+            hdisk96      0      0.0        0        0      0.0      0.0
+            hdisk97      0      0.0        0        0      0.0      0.0
+            hdisk98      0      0.0        0        0      0.0      0.0
+            hdisk99      0      0.0        0        0      0.0      0.0
+           hdisk185      0      0.0        0        0      0.0      0.0
+           hdisk186      0      0.0        0        0      0.0      0.0
+           hdisk187      0      0.0        0        0      0.0      0.0
+           hdisk191      0      0.0        0        0      0.0      0.0
+           hdisk210      0      0.0        0        0      0.0      0.0
+           hdisk211      0      0.0        0        0      0.0      0.0
+           hdisk100      0      0.0        0        0      0.0      0.0
+           hdisk101      0      0.0        0        0      0.0      0.0
+           hdisk102      0      0.0        0        0      0.0      0.0
+           hdisk103      0      0.0        0        0      0.0      0.0
+           hdisk104      0      0.0        0        0      0.0      0.0
+           hdisk105      0      0.0        0        0      0.0      0.0
+           hdisk106      0      0.0        0        0      0.0      0.0
+           hdisk107      0      0.0        0        0      0.0      0.0
+           hdisk108      0      0.0        0        0      0.0      0.0
+           hdisk109      0      0.0        0        0      0.0      0.0
+           hdisk110      0      0.0        0        0      0.0      0.0
+           hdisk111      0      0.0        0        0      0.0      0.0
+           hdisk112      0      0.0        0       24      0.0      0.0
+           hdisk113      0      0.0        0        0      0.0      0.0
+           hdisk114      0      0.0        0        0      0.0      0.0
+           hdisk115      0      0.0        0        0      0.0      0.0
+           hdisk116      0      0.0        0        0      0.0      0.0
+           hdisk117      0      0.0        0        0      0.0      0.0
+           hdisk118      0      0.0        0        0      0.0      0.0
+           hdisk192      0      0.0        0        0      0.0      0.0
+           hdisk193      0      0.0        0        0      0.0      0.0
+           hdisk194      0      0.0        0        0      0.0      0.0
+           hdisk195      0      0.0        0        0      0.0      0.0
+           hdisk212      0      0.0        0        0      0.0      0.0
+           hdisk213      0      0.0        0        0      0.0      0.0
+           hdisk119      0      0.0        0        0      0.0      0.0
+           hdisk120      0      0.0        0        0      0.0      0.0
+           hdisk121      0      0.0        0        0      0.0      0.0
+           hdisk122      0      0.0        0        0      0.0      0.0
+           hdisk123      0      0.0        0        0      0.0      0.0
+           hdisk124      0      0.0        0        0      0.0      0.0
+           hdisk125      0      0.0        0        0      0.0      0.0
+           hdisk126      0      0.0        0        0      0.0      0.0
+           hdisk127      0      0.0        0        0      0.0      0.0
+           hdisk128      0      0.0        0        0      0.0      0.0
+           hdisk129      0      0.0        0        0      0.0      0.0
+           hdisk130      0      0.0        0        0      0.0      0.0
+           hdisk131      0      0.0        0        0      0.0      0.0
+           hdisk132      0      0.0        0        0      0.0      0.0
+           hdisk133      0      0.0        0        0      0.0      0.0
+           hdisk134      0      0.0        0        0      0.0      0.0
+           hdisk135      0      0.0        0        0      0.0      0.0
+           hdisk136      0      0.0        0        0      0.0      0.0
+           hdisk137      0      0.0        0        0      0.0      0.0
+           hdisk196      0      0.0        0        0      0.0      0.0
+           hdisk197      0      0.0        0        0      0.0      0.0
+           hdisk198      0      0.0        0        0      0.0      0.0
+           hdisk199      0      0.0        0        0      0.0      0.0
+           hdisk218      0      0.0        0        0      0.0      0.0
+           hdisk219      0      0.0        0        0      0.0      0.0
+           hdisk138      0      0.0        0        0      0.0      0.0
+           hdisk139      0      0.0        0        0      0.0      0.0
+           hdisk140      0      0.0        0        0      0.0      0.0
+           hdisk141      0      0.0        0        0      0.0      0.0
+           hdisk142      0      0.0        0        0      0.0      0.0
+           hdisk143      0      0.0        0        0      0.0      0.0
+           hdisk144      0      0.0        0        0      0.0      0.0
+           hdisk145      0      0.0        0        0      0.0      0.0
+           hdisk146      0      0.0        0        0      0.0      0.0
+           hdisk147      0      0.0        0        0      0.0      0.0
+           hdisk148      0      0.0        0        0      0.0      0.0
+           hdisk149      0      0.0        1      509      0.0      0.0
+           hdisk150      0      0.0        0        0      0.0      0.0
+           hdisk151      0      0.0        0        0      0.0      0.0
+           hdisk152      0      0.0        0        0      0.0      0.0
+           hdisk153      0      0.0        0        0      0.0      0.0
+           hdisk154      0      0.0        0        0      0.0      0.0
+           hdisk155      0      0.0        0        0      0.0      0.0
+           hdisk156      0      0.0        0        0      0.0      0.0
+           hdisk200      0      0.0        0        0      0.0      0.0
+           hdisk201      0      0.0        0        0      0.0      0.0
+           hdisk202      0      0.0        0        0      0.0      0.0
+           hdisk203      0      0.0        0        0      0.0      0.0
+           hdisk220      0      0.0        0        0      0.0      0.0
+           hdisk221      0      0.0        0        0      0.0      0.0
+           hdisk157      0      0.0        0        0      0.0      0.0
+           hdisk158      0      0.0        0        0      0.0      0.0
+           hdisk159      0      0.0        0        0      0.0      0.0
+           hdisk160      0      0.0        0        0      0.0      0.0
+           hdisk161      0      0.0        0        0      0.0      0.0
+           hdisk162      0      0.0        0        0      0.0      0.0
+           hdisk163      0      0.0        0        0      0.0      0.0
+           hdisk164      0      0.0        0        0      0.0      0.0
+           hdisk165      0      0.0        0        0      0.0      0.0
+           hdisk166      0      0.0        0        0      0.0      0.0
+           hdisk167      0      0.0        0        0      0.0      0.0
+           hdisk168      0      0.0        0        0      0.0      0.0
+           hdisk169      0      0.0        2      534      0.0      0.0
+           hdisk170      0      0.0        0        0      0.0      0.0
+           hdisk171      0      0.0        0        0      0.0      0.0
+           hdisk172      0      0.0        0        0      0.0      0.0
+           hdisk173      0      0.0        0        0      0.0      0.0
+           hdisk174      0      0.0        0        0      0.0      0.0
+           hdisk175      0      0.0        0        0      0.0      0.0
+           hdisk204      0      0.0        0        0      0.0      0.0
+           hdisk205      0      0.0        0        0      0.0      0.0
+           hdisk206      0      0.0        0        0      0.0      0.0
+           hdisk207      0      0.0        0        0      0.0      0.0
+           hdisk222      0      0.0        0        0      0.0      0.0
+           hdisk223      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+                cd1      0      0.0        0        0      0.0      0.0
+
+
+01:55:31     hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk22      0      0.0        0        0      0.0      0.0
+            hdisk23      0      0.0        0        0      0.0      0.0
+            hdisk24      0      0.0        0        0      0.0      0.0
+            hdisk25      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+           hdisk176      0      0.0        0        0      0.0      0.0
+           hdisk177      0      0.0        0        0      0.0      0.0
+           hdisk178      0      0.0        0        0      0.0      0.0
+           hdisk188      0      0.0        0        0      0.0      0.0
+           hdisk208      0      0.0        0        0      0.0      0.0
+           hdisk209      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+            hdisk30      0      0.0        0        0      0.0      0.0
+            hdisk31      0      0.0        0        0      0.0      0.0
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+           hdisk179      0      0.0        0        0      0.0      0.0
+           hdisk180      0      0.0        0        0      0.0      0.0
+           hdisk181      0      0.0        0        0      0.0      0.0
+           hdisk189      0      0.0        0        0      0.0      0.0
+           hdisk214      0      0.0        0        0      0.0      0.0
+           hdisk215      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk61      0      0.0        0        0      0.0      0.0
+            hdisk62      0      0.0        0        0      0.0      0.0
+            hdisk63      0      0.0        0        0      0.0      0.0
+            hdisk64      0      0.0        0        0      0.0      0.0
+            hdisk65      0      0.0        0        0      0.0      0.0
+            hdisk66      0      0.0        0        0      0.0      0.0
+            hdisk67      0      0.0        0        0      0.0      0.0
+            hdisk68      0      0.0        0        0      0.0      0.0
+            hdisk69      0      0.0        0        0      0.0      0.0
+            hdisk70      0      0.0        0        0      0.0      0.0
+            hdisk71      0      0.0        0        0      0.0      0.0
+            hdisk72      0      0.0        0        0      0.0      0.0
+            hdisk73      0      0.0        0        0      0.0      0.0
+            hdisk74      0      0.0        0        0      0.0      0.0
+            hdisk75      0      0.0        0        0      0.0      0.0
+           hdisk182      0      0.0        0        0      0.0      0.0
+           hdisk183      0      0.0        0        0      0.0      0.0
+           hdisk184      0      0.0        0        0      0.0      0.0
+           hdisk190      0      0.0        0        0      0.0      0.0
+           hdisk216      0      0.0        0        0      0.0      0.0
+           hdisk217      0      0.0        0        0      0.0      0.0
+            hdisk76      0      0.0        0        0      0.0      0.0
+            hdisk77      0      0.0        0        0      0.0      0.0
+            hdisk78      0      0.0        0        0      0.0      0.0
+            hdisk79      0      0.0        0        0      0.0      0.0
+            hdisk80      0      0.0        0        0      0.0      0.0
+            hdisk81      0      0.0        0        0      0.0      0.0
+            hdisk82      0      0.0        0        0      0.0      0.0
+            hdisk83      0      0.0        0        0      0.0      0.0
+            hdisk84      0      0.0        0        0      0.0      0.0
+            hdisk85      0      0.0        0        0      0.0      0.0
+            hdisk86      0      0.0        0        0      0.0      0.0
+            hdisk87      0      0.0        0        0      0.0      0.0
+            hdisk88      0      0.0        0        0      0.0      0.0
+            hdisk89      0      0.0        0        0      0.0      0.0
+            hdisk90      0      0.0        0        0      0.0      0.0
+            hdisk91      0      0.0        0        0      0.0      0.0
+            hdisk92      0      0.0        0        0      0.0      0.0
+            hdisk93      0      0.0        0        0      0.0      0.0
+            hdisk94      0      0.0        0        0      0.0      0.0
+            hdisk95      0      0.0        0        0      0.0      0.0
+            hdisk96      0      0.0        0        0      0.0      0.0
+            hdisk97      0      0.0        0        0      0.0      0.0
+            hdisk98      0      0.0        0        0      0.0      0.0
+            hdisk99      0      0.0        0        0      0.0      0.0
+           hdisk185      0      0.0        0        0      0.0      0.0
+           hdisk186      0      0.0        0        0      0.0      0.0
+           hdisk187      0      0.0        0        0      0.0      0.0
+           hdisk191      0      0.0        0        0      0.0      0.0
+           hdisk210      0      0.0        0        0      0.0      0.0
+           hdisk211      0      0.0        0        0      0.0      0.0
+           hdisk100      0      0.0        0        0      0.0      0.0
+           hdisk101      0      0.0        0        0      0.0      0.0
+           hdisk102      0      0.0        0        0      0.0      0.0
+           hdisk103      0      0.0        0        0      0.0      0.0
+           hdisk104      0      0.0        0        0      0.0      0.0
+           hdisk105      0      0.0        0        0      0.0      0.0
+           hdisk106      0      0.0        0        0      0.0      0.0
+           hdisk107      0      0.0        0        0      0.0      0.0
+           hdisk108      0      0.0        0        0      0.0      0.0
+           hdisk109      0      0.0        0        0      0.0      0.0
+           hdisk110      0      0.0        1      510      0.0      0.0
+           hdisk111      0      0.0        0        0      0.0      0.0
+           hdisk112      0      0.0        0        0      0.0      0.0
+           hdisk113      0      0.0        0        0      0.0      0.0
+           hdisk114      0      0.0        0        0      0.0      0.0
+           hdisk115      0      0.0        0        0      0.0      0.0
+           hdisk116      0      0.0        0        0      0.0      0.0
+           hdisk117      0      0.0        0        0      0.0      0.0
+           hdisk118      0      0.0        0        0      0.0      0.0
+           hdisk192      0      0.0        0        0      0.0      0.0
+           hdisk193      0      0.0        0        0      0.0      0.0
+           hdisk194      0      0.0        0        0      0.0      0.0
+           hdisk195      0      0.0        0        0      0.0      0.0
+           hdisk212      0      0.0        0        0      0.0      0.0
+           hdisk213      0      0.0        0        0      0.0      0.0
+           hdisk119      0      0.0        0        0      0.0      0.0
+           hdisk120      0      0.0        0        0      0.0      0.0
+           hdisk121      0      0.0        0        0      0.0      0.0
+           hdisk122      0      0.0        0        0      0.0      0.0
+           hdisk123      0      0.0        1      510      0.0      0.0
+           hdisk124      0      0.0        0        0      0.0      0.0
+           hdisk125      0      0.0        0        0      0.0      0.0
+           hdisk126      0      0.0        0        0      0.0      0.0
+           hdisk127      0      0.0        0        0      0.0      0.0
+           hdisk128      0      0.0        0        0      0.0      0.0
+           hdisk129      0      0.0        0        0      0.0      0.0
+           hdisk130      0      0.0        0        0      0.0      0.0
+           hdisk131      0      0.0        0        0      0.0      0.0
+           hdisk132      0      0.0        0        0      0.0      0.0
+           hdisk133      0      0.0        0        0      0.0      0.0
+           hdisk134      0      0.0        0        0      0.0      0.0
+           hdisk135      0      0.0        0        0      0.0      0.0
+           hdisk136      0      0.0        0        0      0.0      0.0
+           hdisk137      0      0.0        0        0      0.0      0.0
+           hdisk196      0      0.0        0        0      0.0      0.0
+           hdisk197      0      0.0        0        0      0.0      0.0
+           hdisk198      0      0.0        0        0      0.0      0.0
+           hdisk199      0      0.0        0        0      0.0      0.0
+           hdisk218      0      0.0        0        0      0.0      0.0
+           hdisk219      0      0.0        0        0      0.0      0.0
+           hdisk138      0      0.0        0        0      0.0      0.0
+           hdisk139      0      0.0        0        0      0.0      0.0
+           hdisk140      0      0.0        0        0      0.0      0.0
+           hdisk141      0      0.0        0        0      0.0      0.0
+           hdisk142      0      0.0        0        0      0.0      0.0
+           hdisk143      0      0.0        0        0      0.0      0.0
+           hdisk144      0      0.0        0        0      0.0      0.0
+           hdisk145      0      0.0        0        0      0.0      0.0
+           hdisk146      0      0.0        0        0      0.0      0.0
+           hdisk147      0      0.0        0        0      0.0      0.0
+           hdisk148      0      0.0        0        0      0.0      0.0
+           hdisk149      0      0.0        0        0      0.0      0.0
+           hdisk150      0      0.0        0        0      0.0      0.0
+           hdisk151      0      0.0        0        0      0.0      0.0
+           hdisk152      0      0.0        0        0      0.0      0.0
+           hdisk153      0      0.0        0        0      0.0      0.0
+           hdisk154      0      0.0        0        0      0.0      0.0
+           hdisk155      0      0.0        0        0      0.0      0.0
+           hdisk156      0      0.0        0        0      0.0      0.0
+           hdisk200      0      0.0        0        0      0.0      0.0
+           hdisk201      0      0.0        0        0      0.0      0.0
+           hdisk202      0      0.0        0        0      0.0      0.0
+           hdisk203      0      0.0        0        0      0.0      0.0
+           hdisk220      0      0.0        0        0      0.0      0.0
+           hdisk221      0      0.0        0        0      0.0      0.0
+           hdisk157      0      0.0        0        0      0.0      0.0
+           hdisk158      0      0.0        0        0      0.0      0.0
+           hdisk159      0      0.0        0        0      0.0      0.0
+           hdisk160      0      0.0        0        0      0.0      0.0
+           hdisk161      0      0.0        0        0      0.0      0.0
+           hdisk162      0      0.0        0        0      0.0      0.0
+           hdisk163      0      0.0        0        0      0.0      0.0
+           hdisk164      0      0.0        0        0      0.0      0.0
+           hdisk165      0      0.0        0        0      0.0      0.0
+           hdisk166      0      0.0        0        0      0.0      0.0
+           hdisk167      0      0.0        0        0      0.0      0.0
+           hdisk168      0      0.0        0        0      0.0      0.0
+           hdisk169      0      0.0        0        0      0.0      0.0
+           hdisk170      0      0.0        0        0      0.0      0.0
+           hdisk171      0      0.0        0        0      0.0      0.0
+           hdisk172      0      0.0        0        0      0.0      0.0
+           hdisk173      0      0.0        0        0      0.0      0.0
+           hdisk174      0      0.0        0        0      0.0      0.0
+           hdisk175      0      0.0        0        0      0.0      0.0
+           hdisk204      0      0.0        0        0      0.0      0.0
+           hdisk205      0      0.0        0        0      0.0      0.0
+           hdisk206      0      0.0        0        0      0.0      0.0
+           hdisk207      0      0.0        0        0      0.0      0.0
+           hdisk222      0      0.0        0        0      0.0      0.0
+           hdisk223      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+                cd1      0      0.0        0        0      0.0      0.0
+
+
+Average      hdisk1      0      0.0        0        0      0.0      0.0
+             hdisk2      0      0.0        0        0      0.0      0.0
+             hdisk3      0      0.0        0        0      0.0      0.0
+             hdisk0      0      0.0        0        0      0.0      0.0
+             hdisk4      0      0.0        0        0      0.0      0.0
+             hdisk5      0      0.0        0        0      0.0      0.0
+             hdisk6      0      0.0        0        0      0.0      0.0
+             hdisk7      0      0.0        0        0      0.0      0.0
+             hdisk8      0      0.0        0        0      0.0      0.0
+             hdisk9      0      0.0        0        0      0.0      0.0
+            hdisk10      0      0.0        0        0      0.0      0.0
+            hdisk11      0      0.0        0        0      0.0      0.0
+            hdisk12      0      0.0        0        0      0.0      0.0
+            hdisk13      0      0.0        0        0      0.0      0.0
+            hdisk14      0      0.0        0        0      0.0      0.0
+            hdisk15      0      0.0        0        0      0.0      0.0
+            hdisk16      0      0.0        0        0      0.0      0.0
+            hdisk17      0      0.0        0        0      0.0      0.0
+            hdisk18      0      0.0        0        0      0.0      0.0
+            hdisk19      0      0.0        0        0      0.0      0.0
+            hdisk20      0      0.0        0        0      0.0      0.0
+            hdisk21      0      0.0        0        0      0.0      0.0
+            hdisk22      0      0.0        0        0      0.0      0.0
+            hdisk23      0      0.0        0        0      0.0      0.0
+            hdisk24      0      0.0        0        0      0.0      0.0
+            hdisk25      0      0.0        0        0      0.0      0.0
+            hdisk26      0      0.0        0        0      0.0      0.0
+            hdisk27      0      0.0        0        0      0.0      0.0
+           hdisk176      0      0.0        0        0      0.0      0.0
+           hdisk177      0      0.0        0        0      0.0      0.0
+           hdisk178      0      0.0        0        0      0.0      0.0
+           hdisk188      0      0.0        0        0      0.0      0.0
+           hdisk208      0      0.0        0        0      0.0      0.0
+           hdisk209      0      0.0        0        0      0.0      0.0
+            hdisk28      0      0.0        0        0      0.0      0.0
+            hdisk29      0      0.0        0        0      0.0      0.0
+            hdisk30      0      0.0        0        0      0.0      0.0
+            hdisk31      0      0.0        0        0      0.0      0.0
+            hdisk32      0      0.0        0        0      0.0      0.0
+            hdisk33      0      0.0        0        0      0.0      0.0
+            hdisk34      0      0.0        0        0      0.0      0.0
+            hdisk35      0      0.0        0        0      0.0      0.0
+            hdisk36      0      0.0        0        0      0.0      0.0
+            hdisk37      0      0.0        0        0      0.0      0.0
+            hdisk38      0      0.0        0        0      0.0      0.0
+            hdisk39      0      0.0        0        0      0.0      0.0
+            hdisk40      0      0.0        0        0      0.0      0.0
+            hdisk41      0      0.0        0        0      0.0      0.0
+            hdisk42      0      0.0        0        0      0.0      0.0
+            hdisk43      0      0.0        0        0      0.0      0.0
+            hdisk44      0      0.0        0        0      0.0      0.0
+            hdisk45      0      0.0        0        0      0.0      0.0
+            hdisk46      0      0.0        0        0      0.0      0.0
+            hdisk47      0      0.0        0        0      0.0      0.0
+            hdisk48      0      0.0        0        0      0.0      0.0
+            hdisk49      0      0.0        0        0      0.0      0.0
+            hdisk50      0      0.0        0        0      0.0      0.0
+            hdisk51      0      0.0        0        0      0.0      0.0
+           hdisk179      0      0.0        0        0      0.0      0.0
+           hdisk180      0      0.0        0        0      0.0      0.0
+           hdisk181      0      0.0        0        0      0.0      0.0
+           hdisk189      0      0.0        0        0      0.0      0.0
+           hdisk214      0      0.0        0        0      0.0      0.0
+           hdisk215      0      0.0        0        0      0.0      0.0
+            hdisk52      0      0.0        0        0      0.0      0.0
+            hdisk53      0      0.0        0        0      0.0      0.0
+            hdisk54      0      0.0        0        0      0.0      0.0
+            hdisk55      0      0.0        0        0      0.0      0.0
+            hdisk56      0      0.0        0        0      0.0      0.0
+            hdisk57      0      0.0        0        0      0.0      0.0
+            hdisk58      0      0.0        0        0      0.0      0.0
+            hdisk59      0      0.0        0        0      0.0      0.0
+            hdisk60      0      0.0        0        0      0.0      0.0
+            hdisk61      0      0.0        0        0      0.0      0.0
+            hdisk62      0      0.0        0        0      0.0      0.0
+            hdisk63      0      0.0        0        0      0.0      0.0
+            hdisk64      0      0.0        0        0      0.0      0.0
+            hdisk65      0      0.0        0        0      0.0      0.0
+            hdisk66      0      0.0        0        0      0.0      0.0
+            hdisk67      0      0.0        0        0      0.0      0.0
+            hdisk68      0      0.0        0        0      0.0      0.0
+            hdisk69      0      0.0        0        0      0.0      0.0
+            hdisk70      0      0.0        0        0      0.0      0.0
+            hdisk71      0      0.0        0        0      0.0      0.0
+            hdisk72      0      0.0        0        0      0.0      0.0
+            hdisk73      0      0.0        0        0      0.0      0.0
+            hdisk74      0      0.0        0        0      0.0      0.0
+            hdisk75      0      0.0        0        0      0.0      0.0
+           hdisk182      0      0.0        0        0      0.0      0.0
+           hdisk183      0      0.0        0        0      0.0      0.0
+           hdisk184      0      0.0        0        0      0.0      0.0
+           hdisk190      0      0.0        0        0      0.0      0.0
+           hdisk216      0      0.0        0        0      0.0      0.0
+           hdisk217      0      0.0        0        0      0.0      0.0
+            hdisk76      0      0.0        0        0      0.0      0.0
+            hdisk77      0      0.0        0        0      0.0      0.0
+            hdisk78      0      0.0        0        0      0.0      0.0
+            hdisk79      0      0.0        0        0      0.0      0.0
+            hdisk80      0      0.0        0        0      0.0      0.0
+            hdisk81      0      0.0        0        0      0.0      0.0
+            hdisk82      0      0.0        0        0      0.0      0.0
+            hdisk83      0      0.0        0        0      0.0      0.0
+            hdisk84      0      0.0        0        0      0.0      0.0
+            hdisk85      0      0.0        0        0      0.0      0.0
+            hdisk86      0      0.0        0        0      0.0      0.0
+            hdisk87      0      0.0        0        0      0.0      0.0
+            hdisk88      0      0.0        0        0      0.0      0.0
+            hdisk89      0      0.0        0        0      0.0      0.0
+            hdisk90      0      0.0        0        0      0.0      0.0
+            hdisk91      0      0.0        0        0      0.0      0.0
+            hdisk92      0      0.0        0        0      0.0      0.0
+            hdisk93      0      0.0        0        0      0.0      0.0
+            hdisk94      0      0.0        0        0      0.0      0.0
+            hdisk95      0      0.0        0        0      0.0      0.0
+            hdisk96      0      0.0        0        0      0.0      0.0
+            hdisk97      0      0.0        0        0      0.0      0.0
+            hdisk98      0      0.0        0        0      0.0      0.0
+            hdisk99      0      0.0        0        0      0.0      0.0
+           hdisk185      0      0.0        0        0      0.0      0.0
+           hdisk186      0      0.0        0        0      0.0      0.0
+           hdisk187      0      0.0        0        0      0.0      0.0
+           hdisk191      0      0.0        0        0      0.0      0.0
+           hdisk210      0      0.0        0        0      0.0      0.0
+           hdisk211      0      0.0        0        0      0.0      0.0
+           hdisk100      0      0.0        0        0      0.0      0.0
+           hdisk101      0      0.0        0        0      0.0      0.0
+           hdisk102      0      0.0        0        0      0.0      0.0
+           hdisk103      0      0.0        0        0      0.0      0.0
+           hdisk104      0      0.0        0        0      0.0      0.0
+           hdisk105      0      0.0        0        0      0.0      0.0
+           hdisk106      0      0.0        0        0      0.0      0.0
+           hdisk107      0      0.0        0        0      0.0      0.0
+           hdisk108      0      0.0        0        0      0.0      0.0
+           hdisk109      0      0.0        0        0      0.0      0.0
+           hdisk110      0      0.0        0      255      0.0      0.0
+           hdisk111      0      0.0        0        0      0.0      0.0
+           hdisk112      0      0.0        0       12      0.0      0.0
+           hdisk113      0      0.0        0        0      0.0      0.0
+           hdisk114      0      0.0        0        0      0.0      0.0
+           hdisk115      0      0.0        0        0      0.0      0.0
+           hdisk116      0      0.0        0        0      0.0      0.0
+           hdisk117      0      0.0        0        0      0.0      0.0
+           hdisk118      0      0.0        0        0      0.0      0.0
+           hdisk192      0      0.0        0        0      0.0      0.0
+           hdisk193      0      0.0        0        0      0.0      0.0
+           hdisk194      0      0.0        0        0      0.0      0.0
+           hdisk195      0      0.0        0        0      0.0      0.0
+           hdisk212      0      0.0        0        0      0.0      0.0
+           hdisk213      0      0.0        0        0      0.0      0.0
+           hdisk119      0      0.0        0        0      0.0      0.0
+           hdisk120      0      0.0        0        0      0.0      0.0
+           hdisk121      0      0.0        0        0      0.0      0.0
+           hdisk122      0      0.0        0        0      0.0      0.0
+           hdisk123      0      0.0        0      255      0.0      0.0
+           hdisk124      0      0.0        0        0      0.0      0.0
+           hdisk125      0      0.0        0        0      0.0      0.0
+           hdisk126      0      0.0        0        0      0.0      0.0
+           hdisk127      0      0.0        0        0      0.0      0.0
+           hdisk128      0      0.0        0        0      0.0      0.0
+           hdisk129      0      0.0        0        0      0.0      0.0
+           hdisk130      0      0.0        0        0      0.0      0.0
+           hdisk131      0      0.0        0        0      0.0      0.0
+           hdisk132      0      0.0        0        0      0.0      0.0
+           hdisk133      0      0.0        0        0      0.0      0.0
+           hdisk134      0      0.0        0        0      0.0      0.0
+           hdisk135      0      0.0        0        0      0.0      0.0
+           hdisk136      0      0.0        0        0      0.0      0.0
+           hdisk137      0      0.0        0        0      0.0      0.0
+           hdisk196      0      0.0        0        0      0.0      0.0
+           hdisk197      0      0.0        0        0      0.0      0.0
+           hdisk198      0      0.0        0        0      0.0      0.0
+           hdisk199      0      0.0        0        0      0.0      0.0
+           hdisk218      0      0.0        0        0      0.0      0.0
+           hdisk219      0      0.0        0        0      0.0      0.0
+           hdisk138      0      0.0        0        0      0.0      0.0
+           hdisk139      0      0.0        0        0      0.0      0.0
+           hdisk140      0      0.0        0        0      0.0      0.0
+           hdisk141      0      0.0        0        0      0.0      0.0
+           hdisk142      0      0.0        0        0      0.0      0.0
+           hdisk143      0      0.0        0        0      0.0      0.0
+           hdisk144      0      0.0        0        0      0.0      0.0
+           hdisk145      0      0.0        0        0      0.0      0.0
+           hdisk146      0      0.0        0        0      0.0      0.0
+           hdisk147      0      0.0        0        0      0.0      0.0
+           hdisk148      0      0.0        0        0      0.0      0.0
+           hdisk149      0      0.0        0      254      0.0      0.0
+           hdisk150      0      0.0        0        0      0.0      0.0
+           hdisk151      0      0.0        0        0      0.0      0.0
+           hdisk152      0      0.0        0        0      0.0      0.0
+           hdisk153      0      0.0        0        0      0.0      0.0
+           hdisk154      0      0.0        0        0      0.0      0.0
+           hdisk155      0      0.0        0        0      0.0      0.0
+           hdisk156      0      0.0        0        0      0.0      0.0
+           hdisk200      0      0.0        0        0      0.0      0.0
+           hdisk201      0      0.0        0        0      0.0      0.0
+           hdisk202      0      0.0        0        0      0.0      0.0
+           hdisk203      0      0.0        0        0      0.0      0.0
+           hdisk220      0      0.0        0        0      0.0      0.0
+           hdisk221      0      0.0        0        0      0.0      0.0
+           hdisk157      0      0.0        0        0      0.0      0.0
+           hdisk158      0      0.0        0        0      0.0      0.0
+           hdisk159      0      0.0        0        0      0.0      0.0
+           hdisk160      0      0.0        0        0      0.0      0.0
+           hdisk161      0      0.0        0        0      0.0      0.0
+           hdisk162      0      0.0        0        0      0.0      0.0
+           hdisk163      0      0.0        0        0      0.0      0.0
+           hdisk164      0      0.0        0        0      0.0      0.0
+           hdisk165      0      0.0        0        0      0.0      0.0
+           hdisk166      0      0.0        0        0      0.0      0.0
+           hdisk167      0      0.0        0        0      0.0      0.0
+           hdisk168      0      0.0        0        0      0.0      0.0
+           hdisk169      0      0.0        1      267      0.0      0.0
+           hdisk170      0      0.0        0        0      0.0      0.0
+           hdisk171      0      0.0        0        0      0.0      0.0
+           hdisk172      0      0.0        0        0      0.0      0.0
+           hdisk173      0      0.0        0        0      0.0      0.0
+           hdisk174      0      0.0        0        0      0.0      0.0
+           hdisk175      0      0.0        0        0      0.0      0.0
+           hdisk204      0      0.0        0        0      0.0      0.0
+           hdisk205      0      0.0        0        0      0.0      0.0
+           hdisk206      0      0.0        0        0      0.0      0.0
+           hdisk207      0      0.0        0        0      0.0      0.0
+           hdisk222      0      0.0        0        0      0.0      0.0
+           hdisk223      0      0.0        0        0      0.0      0.0
+                cd0      0      0.0        0        0      0.0      0.0
+                cd1      0      0.0        0        0      0.0      0.0
+cmdbegin:netperf
+Name  Mtu   Network     Address            Ipkts Ierrs    Opkts Oerrs  Coll
+en5   1500  link#2      0.11.25.8.1e.9f    6318101     0  6100259     4     0
+                        01:00:5e:00:00:01
+en5   1500  192.168.106 192.168.106.4      6318101     0  6100259     4     0
+                        224.0.0.1          
+en2   1500  link#3      0.11.25.8.1d.df   1357559482     0 684388889     3     0
+                        01:00:5e:00:00:01
+en2   1500  192.168.105 192.168.105.4     1357559482     0 684388889     3     0
+                        224.0.0.1          
+en2   1500  10.24.251   10.24.251.4       1357559482     0 684388889     3     0
+                        224.0.0.1          
+en6   1500  link#4      0.11.25.8.1e.99   1984950674     0 438800915     3     0
+                        01:00:5e:00:00:01
+en6   1500  192.168.200 192.168.200.6     1984950674     0 438800915     3     0
+                        224.0.0.1          
+en7   1500  link#5      0.2.55.33.98.6    1510181055     0 274421929     2     0
+                        01:00:5e:00:00:01
+en7   1500  192.168.103 192.168.103.4     1510181055     0 274421929     2     0
+                        224.0.0.1          
+en7   1500  10.24.253   10.24.253.8       1510181055     0 274421929     2     0
+                        224.0.0.1          
+en7   1500  10.24.253   10.24.253.9       1510181055     0 274421929     2     0
+                        224.0.0.1          
+lo0   16896 link#1                        48610470     0 48790789     0     0
+lo0   16896 127         127.0.0.1         48610470     0 48790789     0     0
+                        224.0.0.1          
+lo0   16896 ::1                           48610470     0 48790789     0     0
+                        ff01::1          
+                        ff02::1:ff00:1   
+                        ff02::1          
+cmdbegin:netallperf
+start-en0
+end-en0
+start-en1
+end-en1
+start-en2
+Hardware Address: 00:11:25:08:1d:df
+Packets: 684389057                            Packets: 1357754003
+Bytes: 42147958901                            Bytes: 2028426368780
+Interrupts: 0                                 Interrupts: 1092348609
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 21        
+Broadcast Packets: 1625                       Broadcast Packets: 652181
+Multicast Packets: 1                          Multicast Packets: 26067
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 22039
+end-en2
+start-en3
+end-en3
+start-en4
+end-en4
+start-en5
+Hardware Address: 00:11:25:08:1e:9f
+Packets: 6100270                              Packets: 6512622
+Bytes: 734455430                              Bytes: 747403266
+Interrupts: 0                                 Interrupts: 6241385
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 3         
+Broadcast Packets: 1615                       Broadcast Packets: 652188
+Multicast Packets: 0                          Multicast Packets: 26067
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 0
+end-en5
+start-en6
+Hardware Address: 00:11:25:08:1e:99
+Packets: 438801794                            Packets: 1985335321
+Bytes: 3167444477228                          Bytes: 2571895274216
+Interrupts: 0                                 Interrupts: 538795282
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 50        
+Broadcast Packets: 166592                     Broadcast Packets: 169413
+Multicast Packets: 1                          Multicast Packets: 1
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Hardware Address: 00:11:25:08:1e:99
+Packets: 219400899                            Packets: 1802047759
+Bytes: 1583708596775                          Bytes: 2536738756801
+Interrupts: 0                                 Interrupts: 381572399
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 24        
+Broadcast Packets: 83502                      Broadcast Packets: 68101
+Multicast Packets: 0                          Multicast Packets: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 45248171
+Hardware Address: 00:11:25:08:1e:99
+Packets: 219400895                            Packets: 183287562
+Bytes: 1583735880453                          Bytes: 35156517415
+Interrupts: 0                                 Interrupts: 157222883
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 26        
+Broadcast Packets: 83090                      Broadcast Packets: 101312
+Multicast Packets: 1                          Multicast Packets: 1
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 45246439
+end-en6
+start-en7
+Hardware Address: 00:02:55:33:98:06
+Packets: 274688297                            Packets: 1510314632
+Bytes: 2533808080749                          Bytes: 382875519863
+Interrupts: 0                                 Interrupts: 730948810
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 69        
+Broadcast Packets: 11060                      Broadcast Packets: 308393
+Multicast Packets: 263613                     Multicast Packets: 2836965
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Hardware Address: 00:02:55:33:98:06
+Packets: 153263671                            Packets: 1037136314
+Bytes: 645346009817                           Bytes: 326465777073
+Interrupts: 0                                 Interrupts: 436701262
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 28        
+Broadcast Packets: 0                          Broadcast Packets: 7650
+Multicast Packets: 131806                     Multicast Packets: 1486050
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 23141247
+Hardware Address: 00:02:55:33:98:06
+Packets: 121424626                            Packets: 473178318
+Bytes: 1888462070932                          Bytes: 56409742790
+Interrupts: 0                                 Interrupts: 294247548
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 41        
+Broadcast Packets: 11060                      Broadcast Packets: 300743
+Multicast Packets: 131807                     Multicast Packets: 1350915
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Link Status : Up
+Media Speed Running: 1000 Mbps Full Duplex
+TCP Segmentation Offload Packets Transmitted: 78295002
+end-en7
+start-en8
+end-en8
+start-en9
+end-en9
+start-en10
+end-en10
+start-en11
+end-en11
+start-en12
+end-en12
+start-en13
+end-en13
+start-en14
+end-en14
+start-en15
+end-en15
+start-en16
+end-en16
+cmdbegin:uname
+AIX dpc2
+cmdbegin:service
+Subsystem         Group            PID          Status 
+ syslogd          ras              266300       active
+ portmap          portmap          315514       active
+ inetd            tcpip            229554       active
+ sshd             ssh              254108       active
+ clcomdES         clcomdES         225456       active
+ DLMManager                        237734       active
+ ctrmc            rsct             295108       active
+ IBM.ERRM         rsct_rm          221358       active
+ IBM.AuditRM      rsct_rm          389312       active
+ IBM.ServiceRM    rsct_rm          393410       active
+ llbd             iforncs          381128       active
+ glbd             iforncs          422094       active
+ i4llmd           iforls           434400       active
+ i4lmd            iforls           442612       active
+ automountd       autofs           532502       active
+ snmpd            tcpip            618572       active
+ clsmuxpdES       cluster          573472       active
+ topsvcs          topsvcs          639056       active
+ grpsvcs          grpsvcs          602366       active
+ emsvcs           emsvcs           680038       active
+ emaixos          emsvcs           667770       active
+ clstrmgrES       cluster          585936       active
+ clinfoES         cluster          671868       active
+ sendmail         mail             704684       active
+ hostmibd         tcpip            717052       active
+ aixmibd          tcpip            725134       active
+ dpid2            tcpip            733370       active
+ muxatmd          tcpip            708720       active
+ biod             nfs              749692       active
+ nfsd             nfs              712902       active
+ rpc.mountd       nfs              757980       active
+ rpc.statd        nfs              741550       active
+ rpc.lockd        nfs              782472       active
+ qdaemon          spooler          802982       active
+ writesrv         spooler          462852       active
+ lpd              spooler                       inoperative
+ clvmd                                          inoperative
+ rwhod            tcpip                         inoperative
+ xntpd            tcpip                         inoperative
+ snmpmibd         tcpip                         inoperative
+ dhcpcd           tcpip                         inoperative
+ ndpd-host        tcpip                         inoperative
+ ndpd-router      tcpip                         inoperative
+ tftpd            tcpip                         inoperative
+ gated            tcpip                         inoperative
+ named            tcpip                         inoperative
+ routed           tcpip                         inoperative
+ iptrace          tcpip                         inoperative
+ timed            tcpip                         inoperative
+ dhcpsd           tcpip                         inoperative
+ dhcprd           tcpip                         inoperative
+ mrouted          tcpip                         inoperative
+ rsvpd            qos                           inoperative
+ policyd          qos                           inoperative
+ pxed             tcpip                         inoperative
+ binld            tcpip                         inoperative
+ dfpd             tcpip                         inoperative
+ keyserv          keyserv                       inoperative
+ ypbind           yp                            inoperative
+ cpsd             ike                           inoperative
+ tmd              ike                           inoperative
+ isakmpd          ike                           inoperative
+ cdromd                                         inoperative
+ ctcas            rsct                          inoperative
+ i4glbcd          iforncs                       inoperative
+ i4gdb            iforls                        inoperative
+ wsmrefserver                                   inoperative
+ dtsrc                                          inoperative
+ pppcontrold      uucp                          inoperative
+ nis_cachemgr     nisplus                       inoperative
+ rpc.nisd         nisplus                       inoperative
+ rpc.nispasswdd   nisplus                       inoperative
+ ypserv           yp                            inoperative
+ ypupdated        yp                            inoperative
+ yppasswdd        yp                            inoperative
+ mobip6reqd                                     inoperative
+ grpglsm          grpsvcs                       inoperative
+ mmfs             aixmm                         inoperative
+ nimsh            nimclient                     inoperative
+ IBM.SensorRM     rsct_rm                       inoperative
+cmdbegin:usergroup
+system:!:0:root
+staff:!:1:invscout,ipsec,sybase,lsfadm,test,lsfusr,FTPCLT,zhdpc2,linmy,zhcheng,PDSRUN,zhangzy,ftpmtst,sshd,zhaolei,zhaojy,comm,zhengxd,lsftmp,tuxedo
+bin:!:2:root,bin
+sys:!:3:root,bin,sys
+adm:!:4:bin,adm
+uucp:!:5:nuucp,uucp
+mail:!:6:
+security:!:7:root
+cron:!:8:root
+printq:!:9:lp
+audit:!:10:root
+ecs:!:28:
+nobody:!:4294967294:nobody,lpd
+usr:!:100:guest,FTPCLT,lsftmp,tuxedo
+perf:!:20:
+shutdown:!:21:
+lp:!:11:root,lp,printq
+snapp:!:12:snapp
+ipsec:!:200:
+imnadm:!:188:imnadm
+haemrm:!:202:
+sybase:!:101:sybase
+DPC:!:102:lsfusr,ftpmtst
+PDS:!:207:PDSRUN
+invscout:!:13:
+sshd:!:201:sshd
+CROSS:!:203:zhaojy,comm,zhengxd
+ftp:!:204:FY2check
+cmdbegin:user
+root id=0 pgrp=system groups=system,bin,sys,security,cron,audit,lp home=/ shell=/usr/bin/ksh auditclasses=general login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1286761911 time_last_unsuccessful_login=1284449742 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=/dev/tty0 host_last_login=socc1_per host_last_unsuccessful_login=dpc2 unsuccessful_login_count=0 roles= 
+daemon id=1 pgrp=staff groups=staff home=/etc login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+bin id=2 pgrp=bin groups=bin,sys,adm home=/bin login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_unsuccessful_login=1169780612 tty_last_unsuccessful_login=ftp host_last_unsuccessful_login=PDS2 unsuccessful_login_count=2 roles= 
+sys id=3 pgrp=sys groups=sys home=/usr/sys login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+adm id=4 pgrp=adm groups=adm home=/var/adm login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+uucp id=5 pgrp=uucp groups=uucp home=/usr/lib/uucp login=false su=true rlogin=false daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+guest id=100 pgrp=usr groups=usr home=/home/guest login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+nobody id=-2 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+lpd id=9 pgrp=nobody groups=nobody home=/ login=true su=true rlogin=true daemon=true admin=true sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0101000070 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+lp id=11 pgrp=lp groups=lp,printq home=/var/spool/lp shell=/bin/false login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+invscout id=200 pgrp=staff groups=staff home=/var/adm/invscout shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+snapp id=201 pgrp=snapp groups=snapp home=/usr/sbin/snapp shell=/usr/sbin/snappd gecos=snapp login user login=true su=false rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=/dev/tty0 expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=NONE logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= dce_export=false fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+ipsec id=202 pgrp=staff groups=staff home=/etc/ipsec shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+nuucp id=6 pgrp=uucp groups=uucp home=/var/spool/uucppublic shell=/usr/sbin/uucp/uucico gecos=uucp login user login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+imnadm id=188 pgrp=imnadm groups=imnadm home=/home/imnadm shell=/usr/bin/ksh login=false su=true rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+sybase id=8000 pgrp=sybase groups=sybase,staff home=/sybase shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=-1 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1285382140 time_last_unsuccessful_login=1285382113 tty_last_login=/dev/pts/3 tty_last_unsuccessful_login=/dev/pts/3 host_last_login=10.24.189.103 host_last_unsuccessful_login=10.24.189.103 unsuccessful_login_count=0 roles= 
+lsfadm id=6001 pgrp=staff groups=staff home=/home/lsfadm shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1282809817 time_last_unsuccessful_login=1148266174 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=/dev/pts/10 host_last_login=10.24.189.51 host_last_unsuccessful_login=loopback unsuccessful_login_count=0 roles= 
+test id=203 pgrp=staff groups=staff home=/home/test shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups=staff tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1155177614 tty_last_login=/dev/pts/8 host_last_login=10.24.2.5 unsuccessful_login_count=0 roles= 
+lsfusr id=9001 pgrp=DPC groups=DPC,staff home=/home/lsfusr shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=4194302 cpu=-1 data=-1 stack=655360 core=2097151 rss=819200 nofiles=4000 rss_hard=819200 time_last_login=1286761388 time_last_unsuccessful_login=1286690693 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:10.24.248.150 host_last_unsuccessful_login=::ffff:10.24.248.150 unsuccessful_login_count=0 roles= 
+ftpsocc id=204 pgrp=usr groups=usr home=/DPCWORK/FTP/SOCC shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1286759421 time_last_unsuccessful_login=1267100340 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/4 host_last_login=SOCC1_per host_last_unsuccessful_login=SOCC1_per unsuccessful_login_count=0 roles= 
+ftpsdac id=205 pgrp=usr groups=usr home=/DPCWORK/FTP/SDAC shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1096366723 tty_last_login=/dev/pts/2 host_last_login=DPC2_G_pera unsuccessful_login_count=0 roles= 
+ftpcdas id=206 pgrp=usr groups=usr home=/DPCWORK/FTP/CDAS shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1096366741 tty_last_login=/dev/pts/2 host_last_login=DPC2_G_pera unsuccessful_login_count=0 roles= 
+ftpasc id=207 pgrp=usr groups=usr home=/DPCWORK/FTP/ASC shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1096366790 tty_last_login=ftp host_last_login=DPC2_G_pera unsuccessful_login_count=0 roles= 
+ftpets id=208 pgrp=usr groups=usr home=/DPCWORK/FTP/ETS shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1096366776 time_last_unsuccessful_login=1096366764 tty_last_login=/dev/pts/2 tty_last_unsuccessful_login=/dev/pts/2 host_last_login=DPC2_G_pera host_last_unsuccessful_login=DPC2_G_pera unsuccessful_login_count=0 roles= 
+FTPCLT id=209 pgrp=usr groups=usr,staff home=/DPCWORK/FTP/CLIENT shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1286722078 tty_last_login=ftp host_last_login=::ffff:10.24.249.31 unsuccessful_login_count=0 roles= 
+zhdpc2 id=210 pgrp=staff groups=staff home=/home/zhdpc2 shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1124441495 time_last_unsuccessful_login=1102471419 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=/dev/tty0 host_last_login=DPC1_G_servicea host_last_unsuccessful_login=DPC2 unsuccessful_login_count=0 roles= 
+linmy id=211 pgrp=staff groups=staff home=/home/linmy shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1251077747 time_last_unsuccessful_login=1250590795 tty_last_login=ftp tty_last_unsuccessful_login=/dev/pts/0 host_last_login=::ffff:10.24.190.111 host_last_unsuccessful_login=10.24.16.1 unsuccessful_login_count=0 roles= 
+zhcheng id=212 pgrp=staff groups=staff home=/home/zhcheng shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1243571546 time_last_unsuccessful_login=1217374721 tty_last_login=/dev/pts/8 tty_last_unsuccessful_login=/dev/pts/3 host_last_login=10.24.254.27 host_last_unsuccessful_login=10.24.253.24 unsuccessful_login_count=0 roles= 
+PDSRUN id=601 pgrp=PDS groups=PDS,staff home=/home/PDSRUN shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1245485149 time_last_unsuccessful_login=1216963992 tty_last_login=/dev/pts/8 tty_last_unsuccessful_login=/dev/pts/11 host_last_login=10.24.249.23 host_last_unsuccessful_login=10.24.189.15 unsuccessful_login_count=0 roles= 
+zhangzy id=213 pgrp=staff groups=staff home=/home/zhangzy shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1285288126 time_last_unsuccessful_login=1285288035 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=/dev/pts/3 host_last_login=10.24.249.153 host_last_unsuccessful_login=PDS1 unsuccessful_login_count=0 roles= 
+ftpmtst id=807 pgrp=DPC groups=DPC,staff home=/DPCMTST/L1/SVS/ shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1205288367 tty_last_login=ftp host_last_login=::ffff:10.24.253.33 unsuccessful_login_count=0 roles= 
+sshd id=214 pgrp=sshd groups=sshd,staff home=/var/empty shell=/usr/bin/ksh login=false su=true rlogin=false daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=true minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+zhaolei id=215 pgrp=staff groups=staff home=/home/zhaolei shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1285816367 time_last_unsuccessful_login=1274336545 tty_last_login=/dev/pts/9 tty_last_unsuccessful_login=ssh host_last_login=10.24.2.18 host_last_unsuccessful_login=dpc2_per unsuccessful_login_count=0 roles= 
+zhaojy id=216 pgrp=CROSS groups=CROSS,staff home=/CRSHOME/zhaojy shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1146306037 time_last_unsuccessful_login=1157010490 tty_last_login=ftp tty_last_unsuccessful_login=ftp host_last_login=::ffff:10.24.189.50 host_last_unsuccessful_login=::ffff:10.24.189.50 unsuccessful_login_count=4 roles= 
+comm id=233 pgrp=CROSS groups=CROSS,staff home=/CRSHOME/comm shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1148958695 time_last_unsuccessful_login=1206441299 tty_last_login=/dev/pts/4 tty_last_unsuccessful_login=ftp host_last_login=ets1 host_last_unsuccessful_login=::ffff:10.24.189.5 unsuccessful_login_count=1 roles= 
+zhengxd id=217 pgrp=CROSS groups=CROSS,staff home=/CRSHOME/zhengxd shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1144464442 tty_last_login=/dev/pts/6 host_last_login=10.24.189.16 unsuccessful_login_count=0 roles= 
+lsftmp id=218 pgrp=usr groups=usr,staff home=/home/lsftmp shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1144819320 tty_last_login=/dev/pts/4 host_last_login=loopback unsuccessful_login_count=0 roles= 
+tuxedo id=3333 pgrp=usr groups=usr,staff home=/home/tuxedo shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 time_last_login=1185341369 tty_last_login=/dev/pts/12 host_last_login=loopback unsuccessful_login_count=2 roles= 
+FY2check id=219 pgrp=ftp groups=ftp home=/home/FY2check shell=/usr/bin/ksh login=true su=true rlogin=true daemon=true admin=false sugroups=ALL admgroups= tpath=nosak ttys=ALL expires=0 auth1=SYSTEM auth2=NONE umask=22 registry=files SYSTEM=compat logintimes= loginretries=0 pwdwarntime=0 account_locked=false minage=0 maxage=0 maxexpired=-1 minalpha=0 minother=0 mindiff=0 maxrepeats=8 minlen=0 histexpire=0 histsize=0 pwdchecks= dictionlist= fsize=2097151 cpu=-1 data=262144 stack=65536 core=2097151 rss=65536 nofiles=2000 roles= 
+cmdbegin:date
+Mon Oct 11 01:55:31 CUT 2010
+cmdbegin:uptime
+  01:55AM   up 45 days,  18:22,  6 users,  load average: 1.81, 1.94, 2.13
+cmdbegin:end

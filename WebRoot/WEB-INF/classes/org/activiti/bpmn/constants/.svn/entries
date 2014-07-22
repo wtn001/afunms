@@ -1,0 +1,40 @@
+8
+
+dir
+80
+https://192.168.0.2/svn/afunms/src/org/activiti/bpmn/constants
+https://192.168.0.2/svn/afunms
+
+
+
+2012-11-28T09:25:13.953125Z
+1
+hexl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a5658f0c-17e0-b94f-bc97-acf27b462333
+
+BpmnXMLConstants.java
+file
+
+
+
+
+2012-11-30T04:14:32.415026Z
+cc69471d91e994951e91cf0943115409
+2012-11-28T09:25:13.953125Z
+1
+hexl
+

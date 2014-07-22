@@ -1,0 +1,40 @@
+8
+
+dir
+80
+https://192.168.0.2/svn/afunms/src/org/activiti/bpmn/exceptions
+https://192.168.0.2/svn/afunms
+
+
+
+2012-11-28T09:25:13.953125Z
+1
+hexl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a5658f0c-17e0-b94f-bc97-acf27b462333
+
+XMLException.java
+file
+
+
+
+
+2012-11-30T04:14:30.246902Z
+d9bf0616e2d09fd8869d3c3217626953
+2012-11-28T09:25:13.953125Z
+1
+hexl
+

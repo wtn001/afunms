@@ -1,0 +1,14 @@
+Backup Type Summary
+
+Server Name: all
+Group Name: all
+Client Name: all
+Save Set Name: all
+Backup Type: all
+Level: all
+Save Time: from earliest available to 12/4/08 4:53:13 PM
+
+Backup Type,Amount of Data,Number of Files,Number of Save Sets
+bootstrap,3341287488,562207,372
+FILE,97183060238260,1312205,18582
+index,243112283704,2966778,798

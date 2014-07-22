@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter
+END
+BaseBpmnXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/BaseBpmnXMLConverter.java
+END
+ScriptTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ScriptTaskXMLConverter.java
+END
+CallActivityXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/CallActivityXMLConverter.java
+END
+ExclusiveGatewayXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ExclusiveGatewayXMLConverter.java
+END
+BpmnXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/BpmnXMLConverter.java
+END
+StartEventXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/StartEventXMLConverter.java
+END
+ManualTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ManualTaskXMLConverter.java
+END
+IndentingXMLStreamWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/IndentingXMLStreamWriter.java
+END
+SequenceFlowXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/SequenceFlowXMLConverter.java
+END
+UserTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/UserTaskXMLConverter.java
+END
+EventGatewayXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/EventGatewayXMLConverter.java
+END
+ReceiveTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ReceiveTaskXMLConverter.java
+END
+ThrowEventXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ThrowEventXMLConverter.java
+END
+BusinessRuleTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/BusinessRuleTaskXMLConverter.java
+END
+EndEventXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/EndEventXMLConverter.java
+END
+ErrorEventDefinitionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ErrorEventDefinitionParser.java
+END
+ParallelGatewayXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ParallelGatewayXMLConverter.java
+END
+InclusiveGatewayXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/InclusiveGatewayXMLConverter.java
+END
+ServiceTaskXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/ServiceTaskXMLConverter.java
+END
+DelegatingXMLStreamWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/DelegatingXMLStreamWriter.java
+END
+CatchEventXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/CatchEventXMLConverter.java
+END
+XMLStreamReaderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/XMLStreamReaderUtil.java
+END
+BoundaryEventXMLConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/BoundaryEventXMLConverter.java
+END

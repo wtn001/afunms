@@ -1,0 +1,19 @@
+Group Summary by Client and Server
+
+Server Name: all
+Group Name: all
+Client Name: all
+Group Start Time: from earliest available to 12/4/08 4:54:34 PM
+Status: all
+Backup Type: all
+Level: all
+
+Client Name,Server Name,Group Name,Number of Save Sets,Successful,Failed,Success Ratio
+jfa05,P570B,jfa05_backup_dump,30,30,0,100
+jfa06,P570B,jfa06_backup_dump,30,30,0,100
+p570a,P570B,XZ_oracle_backupfull_raw,369,369,0,100
+p570b,P570B,JF_oracle_backupfull_raw,183,183,0,100
+P570B,P570B,jfa05_backup_dump,30,30,0,100
+P570B,P570B,jfa06_backup_dump,30,30,0,100
+p570b,P570B,JS_backup_dump,90,90,0,100
+P570B,P570B,XZ_oracle_backupfull_raw,3,3,0,100

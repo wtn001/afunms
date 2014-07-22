@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child
+END
+ActivitiListenerParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/ActivitiListenerParser.java
+END
+ConditionExpressionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/ConditionExpressionParser.java
+END
+BaseChildElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/BaseChildElementParser.java
+END
+FormPropertyParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/FormPropertyParser.java
+END
+SignalEventDefinitionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/SignalEventDefinitionParser.java
+END
+TaskListenerParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/TaskListenerParser.java
+END
+DocumentationParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/DocumentationParser.java
+END
+ExecutionListenerParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/ExecutionListenerParser.java
+END
+ScriptTextParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/ScriptTextParser.java
+END
+TimerEventDefinitionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/TimerEventDefinitionParser.java
+END
+MessageEventDefinitionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/MessageEventDefinitionParser.java
+END
+MultiInstanceParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/MultiInstanceParser.java
+END
+FieldExtensionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/afunms/!svn/ver/1/src/org/activiti/bpmn/converter/child/FieldExtensionParser.java
+END

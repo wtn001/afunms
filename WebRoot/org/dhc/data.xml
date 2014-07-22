@@ -1,0 +1,992 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DataResult label="root">
+	<item label="32u">
+		<!--机柜数量(至少1个最多51个)-->
+		<num32U label="51" type="int"></num32U>
+		
+		<!--第零列第一个机柜具体位置-->
+		<jglocalitysixteen>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			
+			<!--第1个服务器-->
+			<serverelement1 test="1">
+				<serverid>10</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>cuironghui-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.10.1.1</serverip>
+				<serverlocal>1,2</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:90%##内存利用率:30%</serverhint>
+			    <servercategory>net</servercategory>
+  			</serverelement1>
+			
+  			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			      <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitysixteen>
+		
+		<jglocalityseventeen>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第1个服务器-->
+			<serverelement1 test="1">
+				<serverid>10</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>cuironghui-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.10.1.1</serverip>
+				<serverlocal>1,2</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:90%##内存利用率:30%</serverhint>
+			    <servercategory>net</servercategory>
+  			</serverelement1>
+			
+  			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			      <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityseventeen>
+		
+		<jglocalityeighteen>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第1个服务器-->
+			<serverelement1 test="1">
+				<serverid>10</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>cuironghui-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.10.1.1</serverip>
+				<serverlocal>1,2</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:90%##内存利用率:30%</serverhint>
+			    <servercategory>net</servercategory>
+  			</serverelement1>
+			
+  			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			      <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityeighteen>
+	
+	
+	
+		<!--第一列第一个机柜具体位置-90-->
+		<jglocalityone>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			
+			<!--第1个服务器-->
+			<serverelement1 test="1">
+				<serverid>10</serverid> 
+				<serveralarm>1</serveralarm>
+				<servername>cuironghui-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.10.1.1</serverip>
+				<serverlocal>7,8</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:90%##内存利用率:30%</serverhint>
+			    <servercategory>net</servercategory>
+  			</serverelement1>
+		</jglocalityone>
+		
+		<!--第一列第二个机柜具体位置-->
+		<jglocalitytwo>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>13,14</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwo>
+		
+		<jglocalitythree>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythree>
+		
+		<!--第二列第一个机柜具体位置-->
+		<jglocalityfour>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfour>
+		
+		<jglocalityfive>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfive>
+		
+		<jglocalitysix>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitysix>
+		
+		<!--第三列第一个机柜具体位置-->
+		<jglocalityseven>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityseven>
+		
+		<jglocalityeight>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityeight>
+		
+		<jglocalitynine>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitynine>
+		
+		<!--第四列第一个机柜具体位置-->
+		<jglocalityten>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityten>
+		
+		<jglocalityeleven>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityeleven>
+		
+		<jglocalitytwelve>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwelve>
+		
+		<!--第五列第一个机柜具体位置-->
+		<jglocalitythirteen>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirteen>
+		
+		<jglocalityfourteen>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfourteen>
+		
+		<jglocalityfifteen>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfifteen>
+		
+		<!--第六列第一个机柜具体位置-->
+		<jglocalitynineteen>
+			<jgx>106</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitynineteen>
+		
+		<jglocalitytwenty>
+			<jgx>106</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty>
+		
+		<jglocalitytwenty-one>
+			<jgx>106</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-one>
+		
+		<!--第七列第一个机柜具体位置-->
+		<jglocalitytwenty-two>
+			<jgx>122</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-two>
+		
+		<jglocalitytwenty-three>
+			<jgx>122</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-three>
+		
+		<jglocalitytwenty-four>
+			<jgx>122</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-four>
+		
+		
+		<!--第八列第一个机柜具体位置-->
+		<jglocalitytwenty-five>
+			<jgx>138</jgx>
+			<jgy>-20</jgy>
+			<jgz>24</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-five>
+		
+		<jglocalitytwenty-six>
+			<jgx>138</jgx>
+			<jgy>-20</jgy>
+			<jgz>56</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-six>
+		
+		<jglocalitytwenty-even>
+			<jgx>138</jgx>
+			<jgy>-20</jgy>
+			<jgz>88</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-even>
+		
+		<!--前排第一个-->
+		<jglocalitytwenty-eight>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-eight>
+		
+		<jglocalitytwenty-nine>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitytwenty-nine>
+		
+		<jglocalitythirty>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty>
+		
+		<!--前排第二组-->
+		<jglocalitythirty-one>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-one>
+		
+		<jglocalitythirty-two>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-two>
+		
+		<jglocalitythirty-three>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-three>
+		
+		<!--前排第三组-->
+		<jglocalitythirty-four>
+			<jgx>106</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-four>
+		
+		<jglocalitythirty-five>
+			<jgx>122</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-five>
+		
+		<jglocalitythirty-six>
+			<jgx>138</jgx>
+			<jgy>-20</jgy>
+			<jgz>-8</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-six>
+		
+		<!--前排第四组-->
+		<jglocalitythirty-seven>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-seven>
+		
+		<jglocalitythirty-eight>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-eight>
+		
+		<jglocalitythirty-nine>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalitythirty-nine>
+		
+		<!--后排第一组-->
+		<jglocalityforty>
+			<jgx>10</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty>
+		
+		<jglocalityforty-one>
+			<jgx>26</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-one>
+		
+		<jglocalityforty-two>
+			<jgx>42</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-two>
+		
+		<!--后排第二组-->
+		<jglocalityforty-three>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-three>
+		
+		<jglocalityforty-four>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-four>
+		
+		<jglocalityforty-five>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-five>
+		
+		<!--后排第三组-->
+		<jglocalityforty-six>
+			<jgx>106</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-six>
+		
+		<jglocalityforty-seven>
+			<jgx>122</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-seven>
+		
+		<jglocalityforty-eight>
+			<jgx>138</jgx>
+			<jgy>-20</jgy>
+			<jgz>120</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-eight>
+		
+		
+		
+		<!--后排第四组-->
+		<jglocalityforty-nine>
+			<jgx>58</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityforty-nine>
+		
+		<jglocalityfivty>
+			<jgx>74</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfivty>
+		
+		<jglocalityfivty-one>
+			<jgx>90</jgx>
+			<jgy>-20</jgy>
+			<jgz>-40</jgz>
+			<!--第2个服务器-->
+			<serverelement2 test="2">
+				<serverid>11</serverid> 
+				<serveralarm>0</serveralarm>
+				<servername>zhangjian-server</servername>
+				<servertype>AIX服务器</servertype>
+				<serverapp>ERP业务</serverapp>
+				<serverip>10.11.1.1</serverip>
+				<serverlocal>3,4</serverlocal> 
+			    <serverhint>连通率:100%##CPU利用率:80%##内存利用率:30%</serverhint>
+			    <servercategory>java</servercategory>
+  			</serverelement2>
+		</jglocalityfivty-one>
+	</item>
+	 
+	
+	
+</DataResult>

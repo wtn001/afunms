@@ -1,0 +1,6 @@
+config
+rtr <entrynumber>
+type jitter dest-ipaddr 10.10.1.1 dest-port 80  num-packets 20 interval 20
+rtr sch < entrynumber > start-time now
+exit
+write

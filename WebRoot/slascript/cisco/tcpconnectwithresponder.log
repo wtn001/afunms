@@ -1,0 +1,7 @@
+config
+rtr <entrynumber>
+type tcpConnect dest-ipaddr 10.10.152.57 dest-port 80
+tos 4
+rtr sch <entrynumber> start-time now
+exit
+write

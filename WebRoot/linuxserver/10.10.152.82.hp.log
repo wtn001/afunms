@@ -1,0 +1,1861 @@
+
+
+系统信息
+Vendor ID:______________________________HP
+Product ID:_____________________________A6218A
+Array World Wide Name:__________________50060b000014f7dd
+Array Serial Number:____________________00SG341J0015
+Alias:__________________________________zhy7410
+Software Revision:______________________01.07.00 - 0256  - 030925
+Command execution timestamp:____________Mar 28, 2012 1:51:02 PM
+------------------------------------------------------------
+
+ARRAY INFORMATION
+
+  Array Status:_________________________Warning
+  Firmware Revision:____________________38370A120P1111031050
+  Product Revision:_____________________A120
+  Local Controller Product Revision:____A120
+  Remote Controller Product Revision:___A120
+  Last Event Log Entry for Page 1:______880972818
+  Last Event Log Entry for Page 2:______880972807
+  Last Event Log Entry for Page 5:______880966685
+
+ENCLOSURES
+
+Enclosure at M
+  Enclosure ID__________________________0
+  Enclosure Status______________________Good
+  Enclosure Type________________________HP StorageWorks Virtual Array 7410
+  Node WWN______________________________50060b000014f7dd
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  M         Enclosure      00SG341J0015                        Good
+  M/P1      Power Supply   94030JI00149                        Good
+  M/P2      Power Supply   94030JI00022                        Good
+  M/MP1     MidPlane       S399N1000019                        Good
+  M/C2      Controller     00PR02C50699                        Good
+  M/C2.H1   Host Port      <none>                              Good
+  M/C2.H2   Host Port      <none>                              Good
+  M/C2.J1   BackEnd Port   <none>                              Good
+  M/C2.J2   BackEnd Port   <none>                              Good
+  M/C2.B1   Battery        49255:MOLTECHPS:NI2040:2003/8/27    Good
+  M/C2.PM1  Processor      HP:A6218A:A120                      Good
+  M/C2.M1   DIMM           1024                                Good
+  M/C2.M2   DIMM           1024                                Good
+  M/C1      Controller     00PR02222975                        Good
+  M/C1.H1   Host Port      <none>                              Good
+  M/C1.H2   Host Port      <none>                              Good
+  M/C1.J1   BackEnd Port   <none>                              Good
+  M/C1.J2   BackEnd Port   <none>                              Good
+  M/C1.B1   Battery        31411:MOLTECHPS:NI2040:2002/5/3     Good
+  M/C1.PM1  Processor      HP:A6218A:A120                      Good
+  M/C1.M1   DIMM           1024                                Good
+  M/C1.M2   DIMM           1024                                Good
+  M/D1      Disk           3HW127A9                            Good
+  M/D3      Disk           3HW0M7W1                            Good
+  M/D4      Disk           3HW0M6A7                            Good
+  M/D5      Disk           3HW0M832                            Good
+  M/D6      Disk           3HZ0V3S0                            Good
+  M/D7      Disk           3HW0M81R                            Good
+  M/D8      Disk           3HZ1CW28                            Good
+  M/D9      Disk           3HW1V008                            Good
+  M/D10     Disk           3HZ0SW54                            Good
+  M/D11     Disk           3HW0DCSJ                            Good
+  M/D12     Disk           3HZ0T3NN                            Good
+  M/D13     Disk           3HW0LYCM                            Good
+  M/D14     Disk           3EK1H234                            Good
+  M/D15     Disk           3HW0M6F2                            Good
+
+Enclosure at JA0
+  Enclosure ID__________________________0
+  Enclosure Status______________________Good
+  Enclosure Type________________________HP StorageWorks Disk System DS2405
+  Node WWN______________________________50060b0000286c4c
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  JA0       Enclosure      SG62010020                          Good
+  JA0/MP1   MidPlane       SG62010020                          Good
+  JA0/P1    Power Supply   62060PD00160                        Good
+  JA0/P2    Power Supply   62060PD00170                        Good
+  JA0/C1    LCC            S64KK1419471                        Good
+  JA0/C1.H1 Front Port     <none>                              Good
+  JA0/C2    LCC            S64KK1419251                        Good
+  JA0/C2.H1 Front Port     <none>                              Good
+  JA0/D1    Disk           3KP2D2MX0000                        Good
+  JA0/D2    Disk           3KP2E4ET0000                        Good
+  JA0/D3    Disk           3KP3089X0000                        Good
+  JA0/D4    Disk           3KP308L10000                        Good
+  JA0/D6    Disk           3KP2JM130000                        Good
+  JA0/D8    Disk           3KP30GKL0000                        Good
+  JA0/D9    Disk           3KP309NA0000                        Good
+  JA0/D10   Disk           3KP308990000                        Good
+  JA0/D11   Disk           3KP309KV0000                        Good
+  JA0/D12   Disk           3KP2CQY60000                        Good
+  JA0/D13   Disk           3KP30J3F0000                        Good
+  JA0/D14   Disk           3HW32R40                            Good
+  JA0/D15   Disk           3KP30GFL0000                        Good
+
+Enclosure at PA
+  Enclosure ID__________________________0
+  Enclosure Status______________________Good
+  Enclosure Type________________________PHANTOM
+  Node WWN______________________________null
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  PA        Enclosure      <none>                              Good
+  PA/D1     Disk           3KP2CV7Q0000                        Good
+  PA/D2     Disk           3HW0BFZA                            Good
+
+Enclosure at JB1
+  Enclosure ID__________________________1
+  Enclosure Status______________________Good
+  Enclosure Type________________________HP StorageWorks Disk System DS2405
+  Node WWN______________________________50060b0000286c4e
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  JB1       Enclosure      SG62110003                          Good
+  JB1/MP1   MidPlane       SG62110003                          Good
+  JB1/P1    Power Supply   62060PD00173                        Good
+  JB1/P2    Power Supply   62060PD00171                        Good
+  JB1/C1    LCC            S64KK1419409                        Good
+  JB1/C1.H1 Front Port     <none>                              Good
+  JB1/C2    LCC            S64KK1419502                        Good
+  JB1/C2.H1 Front Port     <none>                              Good
+  JB1/D1    Disk           3KP2JVGX0000                        Good
+  JB1/D2    Disk           3HW16282                            Good
+  JB1/D3    Disk           3KP309VF0000                        Good
+  JB1/D4    Disk           3KP300Q40000                        Good
+  JB1/D5    Disk           3KP309360000                        Good
+  JB1/D6    Disk           3KP2ZEVV0000                        Good
+  JB1/D7    Disk           3KP2XZ080000                        Good
+  JB1/D8    Disk           3KP30HYK0000                        Good
+  JB1/D9    Disk           3KP308FD0000                        Good
+  JB1/D10   Disk           3KP308B10000                        Good
+  JB1/D11   Disk           3KP1L2B90000                        Good
+  JB1/D12   Disk           3KP309S20000                        Good
+  JB1/D13   Disk           3KP3086C0000                        Good
+  JB1/D14   Disk           3HW0ZQH6                            Good
+  JB1/D15   Disk           3KP308BG0000                        Good
+
+Enclosure at JB2
+  Enclosure ID__________________________2
+  Enclosure Status______________________Good
+  Enclosure Type________________________HP StorageWorks Disk System DS2405
+  Node WWN______________________________50060b0000286d01
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  JB2       Enclosure      SG61810054                          Good
+  JB2/MP1   MidPlane       SG61810054                          Good
+  JB2/P1    Power Supply   62060NC00169                        Good
+  JB2/P2    Power Supply   62060NC00179                        Good
+  JB2/C1    LCC            S63RK1418956                        Good
+  JB2/C1.H1 Front Port     <none>                              Good
+  JB2/C2    LCC            S63RK1418908                        Good
+  JB2/C2.H1 Front Port     <none>                              Good
+  JB2/D1    Disk           3HY9Y00G                            Good
+  JB2/D2    Disk           3HY8JCHY                            Good
+  JB2/D3    Disk           3HY6TECB                            Good
+  JB2/D4    Disk           3HY0RGHB                            Good
+  JB2/D5    Disk           3HY9V9CA                            Good
+  JB2/D6    Disk           3KS3X9JD0000                        Good
+  JB2/D7    Disk           3KS09AGP0000                        Good
+  JB2/D8    Disk           3KS23ZRP0000                        Good
+  JB2/D9    Disk           3KS3VWTP0000                        Good
+  JB2/D10   Disk           3KS3XD8G0000                        Good
+  JB2/D11   Disk           3KS3X2K90000                        Good
+  JB2/D12   Disk           3KS27RH20000                        Good
+  JB2/D13   Disk           3HY9YCML                            Good
+  JB2/D14   Disk           3HY8A8BT                            Good
+  JB2/D15   Disk           3HYY776S                            Good
+
+Enclosure at JB3
+  Enclosure ID__________________________3
+  Enclosure Status______________________Good
+  Enclosure Type________________________HP StorageWorks Disk System DS2405
+  Node WWN______________________________50060b00001bb5cc
+
+  FRU       HW COMPONENT   IDENTIFICATION                   ID STATUS
+  ===========================================================================
+  JB3       Enclosure      SG25100229                          Good
+  JB3/MP1   MidPlane       SG25100229                          Good
+  JB3/P1    Power Supply   62020HL00221                        Good
+  JB3/P2    Power Supply   62020HL00235                        Good
+  JB3/C1    LCC            S43MK1405808                        Good
+  JB3/C1.H1 Front Port     <none>                              Good
+  JB3/C2    LCC            S43MK1405783                        Good
+  JB3/C2.H1 Front Port     <none>                              Good
+  JB3/D1    Disk           3KS2H5P70000                        Good
+  JB3/D2    Disk           3KS2F86T0000                        Good
+  JB3/D3    Disk           3KS2K7D60000                        Good
+  JB3/D4    Disk           3KS281Y90000                        Good
+  JB3/D5    Disk           3KS5QZTB0000                        Good
+  JB3/D6    Disk           3KS3XCC00000                        Good
+  JB3/D7    Disk           3KS11QXC0000                        Good
+  JB3/D8    Disk           3KS2A6650000                        Good
+  JB3/D9    Disk           3KS1C3V60000                        Good
+  JB3/D10   Disk           3KS33AB20000                        Good
+  JB3/D11   Disk           3KS3C2RZ0000                        Good
+  JB3/D12   Disk           3KS3MBGY0000                        Good
+  JB3/D13   Disk           3KS3XDEF0000                        Good
+  JB3/D14   Disk           3KS2JMDS0000                        Good
+  JB3/D15   Disk           3KS2JRL10000                        Good
+
+CONTROLLERS
+
+Controller At M/C2:
+  Status:_______________________________Good
+  Serial Number:________________________00PR02C50699
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6218A
+  Product Revision:_____________________A120
+  Firmware Revision:____________________38370A120P1111031050
+  Manufacturing Product Code:___________IJMTU00015
+  Controller Type:______________________HP StorageWorks Virtual Array 7410
+  Battery Charger Firmware Revision:____5.0
+  Front Port At M/C2.H1:
+    Status:_____________________________Good
+    Port Instance:______________________0
+    Hard Address:_______________________126
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00002613b0
+    Topology:___________________________Point To Point, Fabric Attached
+    Data Rate:__________________________1 GBit/sec
+    Port ID:____________________________0x10000
+    Device Host Name:___________________caoscp01
+    Hardware Path:______________________1/12/0/0.1.0.0.0.0.0
+    Device Path:________________________/dev/dsk/c24t0d0
+  Front Port At M/C2.H2:
+    Status:_____________________________Good
+    Port Instance:______________________1
+    Hard Address:_______________________126
+    Link State:_________________________Link Down
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00002613b1
+  Back Port At M/C2.J1:
+    Status:_____________________________Good
+    Port Instance:______________________0
+    Hard Address:_______________________125
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00002613b2
+    Topology:___________________________Private Loop
+    Data Rate:__________________________2 GBit/sec
+    Port ID:____________________________125
+  Back Port At M/C2.J2:
+    Status:_____________________________Good
+    Port Instance:______________________1
+    Hard Address:_______________________125
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00002613b3
+    Topology:___________________________Private Loop
+    Data Rate:__________________________2 GBit/sec
+    Port ID:____________________________125
+  Battery at M/C2.B1:
+    Status:_____________________________Good
+    Identification:_____________________49255:MOLTECHPS:NI2040:2003/8/27
+    Manufacturer Name:__________________MOLTECHPS
+    Device Name:________________________NI2040
+    Manufacturer Date:__________________August 27, 2003
+    Remaining Capacity:_________________5785 mAh
+    Remaining Capacity:_________________96 %
+    Voltage:____________________________12330 mVolts
+    Discharge Cycles:___________________3
+  Processor at M/C2.PM1:
+    Status:_____________________________Good
+    Identification:_____________________HP:A6218A:A120
+  DIMM at M/C2.M1:
+    Status:_____________________________Good
+    Identification:_____________________1024
+    Capacity:___________________________1024 MB
+  DIMM at M/C2.M2:
+    Status:_____________________________Good
+    Identification:_____________________1024
+    Capacity:___________________________1024 MB
+
+Controller At M/C1:
+  Status:_______________________________Good
+  Serial Number:________________________00PR02222975
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6218A
+  Product Revision:_____________________A120
+  Firmware Revision:____________________38370A120P1111031050
+  Manufacturing Product Code:___________IJMTU00015
+  Controller Type:______________________HP StorageWorks Virtual Array 7410
+  Battery Charger Firmware Revision:____5.0
+  Front Port At M/C1.H1:
+    Status:_____________________________Good
+    Port Instance:______________________0
+    Hard Address:_______________________126
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00001e80e4
+    Topology:___________________________Point To Point, Fabric Attached
+    Data Rate:__________________________1 GBit/sec
+    Port ID:____________________________0x11400
+    Device Host Name:___________________caoscp01
+    Hardware Path:______________________Unknown
+    Device Path:________________________Unknown
+  Front Port At M/C1.H2:
+    Status:_____________________________Good
+    Port Instance:______________________1
+    Hard Address:_______________________126
+    Link State:_________________________Link Down
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00001e80e5
+  Back Port At M/C1.J1:
+    Status:_____________________________Good
+    Port Instance:______________________0
+    Hard Address:_______________________125
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00001e80e6
+    Topology:___________________________Private Loop
+    Data Rate:__________________________2 GBit/sec
+    Port ID:____________________________125
+  Back Port At M/C1.J2:
+    Status:_____________________________Good
+    Port Instance:______________________1
+    Hard Address:_______________________125
+    Link State:_________________________Link Up
+    Node WWN:___________________________50060b000014f7dd
+    Port WWN:___________________________50060b00001e80e7
+    Topology:___________________________Private Loop
+    Data Rate:__________________________2 GBit/sec
+    Port ID:____________________________125
+  Battery at M/C1.B1:
+    Status:_____________________________Good
+    Identification:_____________________31411:MOLTECHPS:NI2040:2002/5/3
+    Manufacturer Name:__________________MOLTECHPS
+    Device Name:________________________NI2040
+    Manufacturer Date:__________________May 3, 2002
+    Remaining Capacity:_________________4605 mAh
+    Remaining Capacity:_________________76 %
+    Voltage:____________________________12227 mVolts
+    Discharge Cycles:___________________3
+  Processor at M/C1.PM1:
+    Status:_____________________________Good
+    Identification:_____________________HP:A6218A:A120
+  DIMM at M/C1.M1:
+    Status:_____________________________Good
+    Identification:_____________________1024
+    Capacity:___________________________1024 MB
+  DIMM at M/C1.M2:
+    Status:_____________________________Good
+    Identification:_____________________1024
+    Capacity:___________________________1024 MB
+
+Controller At JA0/C1:
+  Status:_______________________________Good
+  Serial Number:________________________S64KK1419471
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________0
+  Drive Address Basis:__________________0
+  Enclosure ID:_________________________0
+  Loop Pair:____________________________0
+  Loop ID:______________________________15
+  Hard Address:_________________________15
+
+Controller At JA0/C2:
+  Status:_______________________________Good
+  Serial Number:________________________S64KK1419251
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________0
+  Drive Address Basis:__________________0
+  Enclosure ID:_________________________0
+  Loop Pair:____________________________0
+  Loop ID:______________________________15
+  Hard Address:_________________________15
+
+Controller At JB1/C1:
+  Status:_______________________________Good
+  Serial Number:________________________S64KK1419409
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________1
+  Drive Address Basis:__________________1
+  Enclosure ID:_________________________1
+  Loop Pair:____________________________1
+  Loop ID:______________________________31
+  Hard Address:_________________________31
+
+Controller At JB1/C2:
+  Status:_______________________________Good
+  Serial Number:________________________S64KK1419502
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________1
+  Drive Address Basis:__________________1
+  Enclosure ID:_________________________1
+  Loop Pair:____________________________1
+  Loop ID:______________________________31
+  Hard Address:_________________________31
+
+Controller At JB2/C1:
+  Status:_______________________________Good
+  Serial Number:________________________S63RK1418956
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________2
+  Drive Address Basis:__________________2
+  Enclosure ID:_________________________2
+  Loop Pair:____________________________1
+  Loop ID:______________________________47
+  Hard Address:_________________________47
+
+Controller At JB2/C2:
+  Status:_______________________________Good
+  Serial Number:________________________S63RK1418908
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________2
+  Drive Address Basis:__________________2
+  Enclosure ID:_________________________2
+  Loop Pair:____________________________1
+  Loop ID:______________________________47
+  Hard Address:_________________________47
+
+Controller At JB3/C1:
+  Status:_______________________________Good
+  Serial Number:________________________S43MK1405808
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________3
+  Drive Address Basis:__________________3
+  Enclosure ID:_________________________3
+  Loop Pair:____________________________1
+  Loop ID:______________________________63
+  Hard Address:_________________________63
+
+Controller At JB3/C2:
+  Status:_______________________________Good
+  Serial Number:________________________S43MK1405783
+  Vendor ID:____________________________HP
+  Product ID:___________________________A6255A
+  Product Revision:_____________________HP05
+  Controller Type:______________________HP StorageWorks Disk System DS2405
+  Enclosure Switch Setting:_____________3
+  Drive Address Basis:__________________3
+  Enclosure ID:_________________________3
+  Loop Pair:____________________________1
+  Loop ID:______________________________63
+  Hard Address:_________________________63
+
+PORTS
+
+Settings for port M/C2.H1:
+  Port ID:______________________________108
+  Behavior:_____________________________HPUX
+  Topology:_____________________________Point To Point, Fabric Attached
+  Queue Full Threshold:_________________20
+  Data Rate:____________________________1 GBit/sec
+
+Settings for port M/C2.H2:
+  Port ID:______________________________107
+  Behavior:_____________________________HPUX
+  Topology:_____________________________Private Loop
+  Queue Full Threshold:_________________20
+  Data Rate:____________________________1 GBit/sec
+
+Settings for port M/C2.J1:
+  Data Rate:____________________________2 GBit/sec
+
+Settings for port M/C2.J2:
+  Data Rate:____________________________2 GBit/sec
+
+Settings for port M/C1.H1:
+  Port ID:______________________________110
+  Behavior:_____________________________HPUX
+  Topology:_____________________________Point To Point, Fabric Attached
+  Queue Full Threshold:_________________20
+  Data Rate:____________________________1 GBit/sec
+
+Settings for port M/C1.H2:
+  Port ID:______________________________109
+  Behavior:_____________________________HPUX
+  Topology:_____________________________Private Loop
+  Queue Full Threshold:_________________20
+  Data Rate:____________________________1 GBit/sec
+
+Settings for port M/C1.J1:
+  Data Rate:____________________________2 GBit/sec
+
+Settings for port M/C1.J2:
+  Data Rate:____________________________2 GBit/sec
+
+DISKS
+
+Disk at M/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________111
+  Node WWN:_____________________________2000000c50ad9434
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW127A9
+  Firmware Revision:____________________HP05
+  Space is reserved on this disk for subsystem metadata and 
+may be a map disk.
+
+Disk at M/D3:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________113
+  Node WWN:_____________________________2000000c5053ff0a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0M7W1
+  Firmware Revision:____________________HP03
+  Recovery Maps are on this disk.
+  Space is reserved on this disk for subsystem metadata and 
+may be a map disk.
+
+Disk at M/D4:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________114
+  Node WWN:_____________________________2000000c5053feea
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0M6A7
+  Firmware Revision:____________________HP03
+
+Disk at M/D5:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________115
+  Node WWN:_____________________________2000000c5053fb5f
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0M832
+  Firmware Revision:____________________HP03
+
+Disk at M/D6:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373307FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________116
+  Node WWN:_____________________________2000002037eb0aea
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HZ0V3S0
+  Firmware Revision:____________________HP05
+
+Disk at M/D7:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________117
+  Node WWN:_____________________________2000000c5053fb56
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0M81R
+  Firmware Revision:____________________HP03
+
+Disk at M/D8:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373307FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________118
+  Node WWN:_____________________________2000000c502d6dfd
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HZ1CW28
+  Firmware Revision:____________________HP05
+
+Disk at M/D9:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________119
+  Node WWN:_____________________________2000000c50fab321
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW1V008
+  Firmware Revision:____________________HP05
+
+Disk at M/D10:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373307FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________120
+  Node WWN:_____________________________20000004cf2686d2
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HZ0SW54
+  Firmware Revision:____________________HP05
+
+Disk at M/D11:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________121
+  Node WWN:_____________________________2000000c502730e6
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0DCSJ
+  Firmware Revision:____________________HP03
+  Recovery Maps are on this disk.
+  Space is reserved on this disk for subsystem metadata and 
+may be a map disk.
+
+Disk at M/D12:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373307FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________122
+  Node WWN:_____________________________20000004cf269d16
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HZ0T3NN
+  Firmware Revision:____________________HP05
+
+Disk at M/D13:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________123
+  Node WWN:_____________________________2000000c5053fbc4
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0LYCM
+  Firmware Revision:____________________HP03
+
+Disk at M/D14:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373405FC
+  Product Revision:_____________________HP0A
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________124
+  Node WWN:_____________________________20000004cfa6c4c2
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3EK1H234
+  Firmware Revision:____________________HP0A
+
+Disk at M/D15:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________109
+  Node WWN:_____________________________2000000c5053fc58
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0M6F2
+  Firmware Revision:____________________HP03
+
+Disk at JA0/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________0
+  Node WWN:_____________________________20000014c3881774
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2D2MX0000
+  Firmware Revision:____________________HP01
+
+Disk at JA0/D2:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________1
+  Node WWN:_____________________________20000014c388ae43
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2E4ET0000
+  Firmware Revision:____________________HP01
+
+Disk at JA0/D3:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________2
+  Node WWN:_____________________________20000014c3d563c9
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP3089X0000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D4:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________3
+  Node WWN:_____________________________20000014c3d5655d
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP308L10000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D6:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________5
+  Node WWN:_____________________________20000014c3a039d4
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2JM130000
+  Firmware Revision:____________________HP01
+
+Disk at JA0/D8:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________7
+  Node WWN:_____________________________20000014c3d5a8df
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP30GKL0000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D9:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________8
+  Node WWN:_____________________________20000014c3d561e1
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP309NA0000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D10:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________9
+  Node WWN:_____________________________20000014c3d56498
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP308990000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D11:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________10
+  Node WWN:_____________________________20000014c3d56155
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP309KV0000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D12:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________11
+  Node WWN:_____________________________20000014c38801e9
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2CQY60000
+  Firmware Revision:____________________HP01
+
+Disk at JA0/D13:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________12
+  Node WWN:_____________________________20000014c3d55572
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP30J3F0000
+  Firmware Revision:____________________HP02
+
+Disk at JA0/D14:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________13
+  Node WWN:_____________________________20000011c6b3cda6
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW32R40
+  Firmware Revision:____________________HP05
+
+Disk at JA0/D15:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________14
+  Node WWN:_____________________________20000014c3d55638
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP30GFL0000
+  Firmware Revision:____________________HP02
+
+Disk at PA/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________6
+  Node WWN:_____________________________20000014c388089a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2CV7Q0000
+  Firmware Revision:____________________HP01
+
+Disk at PA/D2:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP03
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________4
+  Node WWN:_____________________________2000000c50161c90
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0BFZA
+  Firmware Revision:____________________HP03
+
+Disk at JB1/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP01
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________16
+  Node WWN:_____________________________20000014c3a036ab
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2JVGX0000
+  Firmware Revision:____________________HP01
+
+Disk at JB1/D2:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________17
+  Node WWN:_____________________________2000000c50babbb4
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW16282
+  Firmware Revision:____________________HP05
+
+Disk at JB1/D3:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________18
+  Node WWN:_____________________________20000014c3d5628a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP309VF0000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D4:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________19
+  Node WWN:_____________________________20000014c3d59a41
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP300Q40000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D5:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________20
+  Node WWN:_____________________________20000014c3d562a9
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP309360000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D6:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________21
+  Node WWN:_____________________________20000014c3d57848
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2ZEVV0000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D7:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________22
+  Node WWN:_____________________________20000014c3d5b467
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP2XZ080000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D8:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________23
+  Node WWN:_____________________________20000014c3d55566
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP30HYK0000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D9:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________24
+  Node WWN:_____________________________20000014c3d5647a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP308FD0000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D10:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________25
+  Node WWN:_____________________________20000014c3d563a1
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP308B10000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D11:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________26
+  Node WWN:_____________________________20000014c3d53741
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP1L2B90000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D12:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________27
+  Node WWN:_____________________________20000014c3d56204
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP309S20000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D13:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________28
+  Node WWN:_____________________________20000014c3d5657c
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP3086C0000
+  Firmware Revision:____________________HP02
+
+Disk at JB1/D14:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 73.4G
+  Product ID:___________________________ST373453FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________29
+  Node WWN:_____________________________2000001862bdc9c9
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HW0ZQH6
+  Firmware Revision:____________________HP05
+
+Disk at JB1/D15:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BF07258243
+  Product Revision:_____________________HP02
+  Data Capacity:________________________66.757 GB (140000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________30
+  Node WWN:_____________________________20000014c3d56598
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KP308BG0000
+  Firmware Revision:____________________HP02
+
+Disk at JB2/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________32
+  Node WWN:_____________________________20000011c665f934
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY9Y00G
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D2:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________33
+  Node WWN:_____________________________2000000c5023a3cc
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY8JCHY
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D3:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________34
+  Node WWN:_____________________________2000000c50c42a7d
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY6TECB
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D4:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________35
+  Node WWN:_____________________________2000000c5009f190
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY0RGHB
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D5:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________36
+  Node WWN:_____________________________20000011c661cec0
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY9V9CA
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D6:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________37
+  Node WWN:_____________________________20000014c39f0f44
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3X9JD0000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D7:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________38
+  Node WWN:_____________________________20000011c66976e6
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS09AGP0000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D8:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________39
+  Node WWN:_____________________________20000014c317c1d6
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS23ZRP0000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D9:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________40
+  Node WWN:_____________________________20000014c39d0e7e
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3VWTP0000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D10:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________41
+  Node WWN:_____________________________20000014c39dcfac
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3XD8G0000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D11:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________42
+  Node WWN:_____________________________20000014c39dd1c0
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3X2K90000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D12:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________43
+  Node WWN:_____________________________20000014c320f47c
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS27RH20000
+  Firmware Revision:____________________HP04
+
+Disk at JB2/D13:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________44
+  Node WWN:_____________________________20000011c66e444a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY9YCML
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D14:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________45
+  Node WWN:_____________________________2000000c50e1839c
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HY8A8BT
+  Firmware Revision:____________________HP05
+
+Disk at JB2/D15:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HP 0146G
+  Product ID:___________________________ST3146807FC
+  Product Revision:_____________________HP05
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________46
+  Node WWN:_____________________________2000001862fe3e3a
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3HYY776S
+  Firmware Revision:____________________HP05
+
+Disk at JB3/D1:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________48
+  Node WWN:_____________________________20000014c33b543c
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2H5P70000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D2:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________49
+  Node WWN:_____________________________20000014c3359a1e
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2F86T0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D3:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________50
+  Node WWN:_____________________________20000014c33b8813
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2K7D60000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D4:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________51
+  Node WWN:_____________________________20000014c3208a79
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS281Y90000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D5:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________52
+  Node WWN:_____________________________200000186248f630
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS5QZTB0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D6:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________53
+  Node WWN:_____________________________20000014c39dcffd
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3XCC00000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D7:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP02
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________54
+  Node WWN:_____________________________20000014c350e9c8
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS11QXC0000
+  Firmware Revision:____________________HP02
+
+Disk at JB3/D8:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________55
+  Node WWN:_____________________________20000014c32a51b9
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2A6650000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D9:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________56
+  Node WWN:_____________________________20000011c6dcd485
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS1C3V60000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D10:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________57
+  Node WWN:_____________________________20000014c3591459
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS33AB20000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D11:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________58
+  Node WWN:_____________________________20000014c373a98f
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3C2RZ0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D12:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________59
+  Node WWN:_____________________________20000014c39dbf5d
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3MBGY0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D13:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________60
+  Node WWN:_____________________________20000014c39f101f
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS3XDEF0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D14:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________61
+  Node WWN:_____________________________2000000c50c82368
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________2
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2JMDS0000
+  Firmware Revision:____________________HP04
+
+Disk at JB3/D15:
+  Status:_______________________________Good
+  Disk State:___________________________Included
+  Vendor ID:____________________________HPQ
+  Product ID:___________________________BD1465822C
+  Product Revision:_____________________HP04
+  Data Capacity:________________________133.514 GB (280000000 blocks)
+  Block Length:_________________________520 bytes
+  Address:______________________________62
+  Node WWN:_____________________________20000014c33b7619
+  Initialize State:_____________________Ready
+  Redundancy Group:_____________________1
+  Volume Set Serial Number:_____________0000C66C0000001D
+  Serial Number:________________________3KS2JRL10000
+  Firmware Revision:____________________HP04
+
+LUNS
+
+LUN 0:
+  Redundancy Group:_____________________1
+  Active:_______________________________True
+  Data Capacity:________________________102.5 MB
+  WWN:__________________________________60060b000014f7dd000000000000002b
+  Number Of Business Copies:____________0
+
+LUN 1:
+  Redundancy Group:_____________________1
+  Active:_______________________________True
+  Data Capacity:________________________100 MB
+  WWN:__________________________________60060b000014f7dd0001000000000022
+  Number Of Business Copies:____________0
+
+LUN 3:
+  Redundancy Group:_____________________1
+  Active:_______________________________True
+  Data Capacity:________________________800 GB
+  WWN:__________________________________60060b000014f7dd0003000000000060
+  Number Of Business Copies:____________0
+
+LUN 4:
+  Redundancy Group:_____________________1
+  Active:_______________________________True
+  Data Capacity:________________________200 GB
+  WWN:__________________________________60060b000014f7dd0004000000000061
+  Number Of Business Copies:____________0
+
+LUN 5:
+  Redundancy Group:_____________________2
+  Active:_______________________________True
+  Data Capacity:________________________1 TB
+  WWN:__________________________________60060b000014f7dd0005000000000062
+  Number Of Business Copies:____________0
+
+LUN 13:
+  Redundancy Group:_____________________1
+  Active:_______________________________True
+  Data Capacity:________________________60 GB
+  WWN:__________________________________60060b000014f7dd000d000000000043
+  Number Of Business Copies:____________0
+
+LUN 24:
+  Redundancy Group:_____________________2
+  Active:_______________________________True
+  Data Capacity:________________________100 GB
+  WWN:__________________________________60060b000014f7dd0018000000000051
+  Number Of Business Copies:____________0
+
+CAPACITY Totals for Redundancy Group 1:
+  REGULAR LUNs:_________________________1.035 TB
+  BUSINESS COPIES:______________________0 bytes
+
+CAPACITY Totals for Redundancy Group 2:
+  REGULAR LUNs:_________________________1.097 TB
+  BUSINESS COPIES:______________________0 bytes
+
+CAPACITY USAGE
+
+  Total Disk Enclosures:________________6
+
+  Redundancy Group:_____________________1
+    Total Disks:________________________40
+    Total Physical Size:________________3.65 TB
+    Allocated to Regular LUNs:__________1.035 TB
+    Allocated as Business Copies:_______0 bytes
+    Used as Active Hot Spare:___________267.023 GB
+    Used for Redundancy:________________547.192 GB
+    Unallocated (Available for LUNs):___1.82 TB
+
+  Redundancy Group:_____________________2
+    Total Disks:________________________34
+    Total Physical Size:________________3.129 TB
+    Allocated to Regular LUNs:__________1.097 TB
+    Allocated as Business Copies:_______0 bytes
+    Used as Active Hot Spare:___________267.023 GB
+    Used for Redundancy:________________482.603 GB
+    Unallocated (Available for LUNs):___1.299 TB
+
+VFP
+
+Settings for VFP Serial Port M/C1.VFP:
+  VFP Baud Rate:________________________9600
+  VFP Paging Value:_____________________24
+
+Settings for VFP Serial Port M/C2.VFP:
+  VFP Baud Rate:________________________9600
+  VFP Paging Value:_____________________24
+
+SUB-SYSTEM SETTINGS
+
+  RAID Level:___________________________HPAutoRAID
+  Auto Format Drive:____________________On
+  Hang Detection:_______________________On
+  Capacity Depletion Threshold:_________100%
+  Queue Full Threshold Maximum:_________4096
+  Enable Optimize Policy:_______________True
+  Enable Manual Override:_______________False
+  Manual Override Destination:__________False
+  Read Cache Disable:___________________False
+  Rebuild Priority:_____________________Low
+  Security Enabled:_____________________True
+  Shutdown Completion:__________________0
+  Subsystem Type ID:____________________1
+  Unit Attention:_______________________True
+  Volume Set Partition (VSpart):________False
+  Write Cache Enable:___________________True
+  Write Working Set Interval:___________8640
+  Enable Prefetch:______________________True
+  Disable Secondary Path Presentation:__False
+
+RESILIENCY SETTINGS
+
+  Simplified Resiliency Setting:________Normal Performance (Default)
+  Enable Secure Mode:___________________True
+  Disable NVRAM on UPS Absent:__________False
+  Disable NVRAM on WCE False:___________False
+  Disable Read Hits:____________________False
+  Force Unit Access Response:___________1
+  Lock Write Cache On:__________________True
+  Performance Goal Configuration:_______Normal Performance
+  Resiliency Threshold:_________________4
+  Single Controller Warning:____________True
+
+DISK SETTINGS
+
+  Auto Include:_________________________On
+  Auto Rebuild:_________________________On
+  Hot Spare:____________________________Automatic
+  Max Drives per Loop Pair:_____________105
+  Max Drives per Subsystem:_____________105
+
+ENCLOSURE SETTINGS
+
+  Max Enclosures per Loop Pair:_________6
+  Max Enclosures per Subsystem:_________6
+
+LUN SETTINGS
+
+  LUN Creation Limit:___________________1024
+  Maximum LUN Creation Limit:___________1024
+  Migrating Write Destination:__________False
+
+SCRUB SETTINGS
+
+  Scrub Restart Period:_________________0 minutes
+  Scrub State:__________________________Stopped, host activity detected
+
+OPERATIONS IN PROGRESS
+
+  None
+
+WARNINGS
+
+  WARNING: One or more of the target devices (attached to the JBOD ports) were unable to obtain their hard address during the fibre channel address acquisition process.
+
+

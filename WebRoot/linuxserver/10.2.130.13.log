@@ -1,0 +1,232 @@
+cmdbegin:version
+architecture=IA32
+bus_types=PCI3.0,ISA,PnP1.0
+hostname=WORK.cnapsA
+hw_provider=HP PROLIANT
+hw_serial=3PC000735
+kernel_stamp=05/08/02
+machine=Pentium III
+num_cg=1
+num_cpu=2
+os_base=UNIX_SVR5
+os_provider=SCO
+release=5
+srpc_domain=
+sysname=UnixWare
+user_limit=10
+version=7.1.3
+cmdbegin:swap
+
+total: 353384 allocated + 1684040 reserved = 2037424 blocks used, 4139424 blocks available
+cmdbegin:process
+    root  9934  1830   TS  70  0 08:35:00 ?        0:00 sh -c /home/nms/collection.sh >/dev/null 
+    root  9935  9934   TS  70  0 08:35:00 ?        0:00 /home/nms/collection.sh 
+    root  9940  9935   TS  85  0 08:35:00 ?        0:00 sort +6b -7 -n -r 
+    root  9941  9940   TS  59  0 08:35:00 ?        0:00 ps -ef 
+    root  9942  9940   TS  59  0 08:35:00 ?        0:00 /home/nms/collection.sh 
+  sybase  9923 18348   TS  80  0 08:34:59 ?        0:00 sleep 10 
+     UID   PID  PPID  CLS PRI  C    STIME TTY      TIME COMD
+    cnap  7575     1   TS  80  0   Jun 21 ?        0:01 mbserver 
+    cnap  7589  7575   TS  80  0   Jun 21 ?       15:28 mbserver 
+    cnap  7591     1   TS  80  0   Jun 21 ?        0:00 mbclient 
+    cnap  7592  7591   TS  80  0   Jun 21 ?        0:12 mbclient 
+    root     0     0  SYS  79  0   Dec 01 ?        4:14 sysproc
+    root     1     0   TS  59  0   Dec 01 ?       27:52 /sbin/init 
+    root  1167     1   TS  80  0   Dec 01 ?        0:00 /etc/conf/bin/idmknodd -r /etc/conf 
+    root  1193     1   TS  70  0   Dec 01 ?        0:00 /etc/ifor_pmd 
+    root  1195  1193   TS  80  0   Dec 01 ?        0:03 /etc/ifor_pmd 
+    root  1196  1195   TS  80  0   Dec 01 ?        0:00 /etc/sco_cpd 
+    root  1197  1195   TS  80  0   Dec 01 ?        0:01 /etc/ifor_sld 
+    root  1254     1   TS  88  0   Dec 01 ?        0:00 /usr/lib/mousemgr 
+    root  1269     1   TS  80  0   Dec 01 ?        0:37 /usr/sbin/dlpid /etc/inst/nd/dlpidPIPE 
+    root  1309     1   TS  80  0   Dec 01 ?        0:02 /usr/sbin/in.routed 
+    root  1318     1   TS  80  0   Dec 01 ?        0:01 /usr/sbin/syslogd 
+    root  1336     1   TS  70  0   Dec 01 pts/0    0:00 /usr/sbin/pppd 
+    root  1346     1   TS  80  0   Dec 01 ?        0:00 /usr/sbin/rpcbind 
+    root  1348     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/netsvc/rwall/rpc.rwalld 
+    root  1350     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/netsvc/spray/rpc.sprayd 
+    root  1367     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/sendmail -q1m -bd 
+    root  1383     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/apache/bin/httpd -d /usr/lib/docview -f /usr/lib/docview/conf/httpd.co
+    root  1397     1   TS  80  0   Dec 01 ?        0:03 /usr/sbin/sshd 
+    root  1411     1   TS  80  0   Dec 01 ?        0:00 /usr/dt/bin/dtlogin -daemon 
+    root  1437  1411   TS  80  0   Dec 01 vt01     0:01 /usr/bin/X11/X :0 -noexit -auth /var/dt/A:0-b000M3 
+    root  1442  1411   TS  70  0   Dec 01 ?        0:00 /usr/dt/bin/dtlogin -daemon 
+    root  1594     1   TS  80  0   Dec 01 ?        0:00 cat /dev/osm 
+    root  1627     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/biod 
+    root  1628     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/bootparamd 
+    root  1629     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/statd 
+    root  1631     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/nfsd -a 
+    root  1632     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/nfsd -a 
+    root  1633     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/nfsd -a 
+    root  1637     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/pcnfsd 
+    root  1638     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/lockd 
+    root  1640     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/nfs/mountd -n 
+    root  1700     1   TS  85  0   Dec 01 ?        0:00 /usr/lib/saf/sac -t 300 
+    root  1701     1   TS  80  0   Dec 01 console  0:00 /usr/lib/saf/ttymon -g -p Console Login:  -d /dev/syscon -l console 
+    root  1709  1700   TS  80  0   Dec 01 ?        0:00 /usr/lib/saf/ttymon 
+    root  1710  1700   TS  80  0   Dec 01 ?        0:00 /usr/sbin/inetd 
+    root  1711  1700   TS  80  0   Dec 01 ?        0:00 /usr/lib/saf/listen nbcots 
+    root  1712  1700   TS  80  0   Dec 01 ?        0:00 /usr/lib/saf/listen -m inet/tcp0 tcp 2>/dev/null 
+    root  1825     1   TS  80  0   Dec 01 ?        0:00 /usr/sbin/keymaster -n 
+    root  1830     1   TS  70  0   Dec 01 ?        0:01 /usr/sbin/cron 
+    root  1833     1   TS  80  0   Dec 01 ?        0:00 /usr/sbin/cs 
+    root  1843     1   TS  80  0   Dec 01 ?        0:00 /usr/lib/lpsched 
+    root  1850  1843   TS  80  0   Dec 01 ?        0:00 lpNet 
+    root  1863  1442   TS  70  0   Dec 01 ?        0:00 /usr/dt/bin/Xsession 
+    root  1889  1863   TS  80  0   Dec 01 ?        0:00 /usr/dt/bin/dtsession 
+    root  1895     1   TS  80  0   Dec 01 ?        0:00 /usr/dt/bin/dsdm 
+    root  1913  1889   TS  80  0   Dec 01 pts/2    0:02 dtwm 
+    root  1922  1709   TS  80  0   Dec 01 vt04     0:01 -ksh 
+    root  1948  1889   TS  80  0   Dec 01 ?        0:00 /usr/dt/bin/dtterm -ls -iconic 
+    root  1954  1948   TS  80  0   Dec 01 pts/9    0:01 -ksh 
+    root  3033     1   TS  80  0   Dec 01 vt04     0:00 /etc/dhbs.d/dhbs_netser 
+    root 21437     1   TS  80  0   Jun 13 ?        0:04 ./sendccpc mbfeprogram 
+    root 21459     1   TS  80  0   Jun 13 ?        0:04 ./sendccpc mbfeprogram 
+    root 21475     1   TS  80  0   Jun 13 ?        0:34 ./recvccpc mbfeprogram 
+    root 21494     1   TS  80  0   Jun 13 ?        0:01 ./dealerrmsg mbfeprogram 
+    root 21513     1   TS  80  0   Jun 13 ?        0:00 ./sealsrv mbfeprogram 
+    root 21532     1   TS  80  0   Jun 13 ?        0:04 ./dealccpcmsg mbfeprogram 
+    root 21554     1   TS  80  0   Jun 13 ?        0:02 ./watchpro mbfeprogram 
+    root 28763     1   TS  80  0   Jun 10 ?        7:28 cclclnt 
+   mbcom 19682     1   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 6888 3 500 / / 
+   mbcom 19683     1   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 5888 3 500 /bepsmbfe/msg/sendfilemsg / 
+   mbcom 19685 19682   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 6888 3 500 / / 
+   mbcom 19686 19682   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 6888 3 500 / / 
+   mbcom 19687 19682   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 6888 3 500 / / 
+   mbcom 19688 19683   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 5888 3 500 /bepsmbfe/msg/sendfilemsg / 
+   mbcom 19689 19683   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 5888 3 500 /bepsmbfe/msg/sendfilemsg / 
+   mbcom 19690 19683   TS  80  0   Apr 10 ?        0:00 MBFSERVER 10.2.130.13 5888 3 500 /bepsmbfe/msg/sendfilemsg / 
+   mbcom 19741     1   TS  80  0   Apr 10 ?        0:01 MBSERVNRT 
+   mbcom 19750     1   TS  80  0   Apr 10 ?        0:00 MBSERVRT 
+   mbcom 19765 19750   TS  80  0   Apr 10 ?        0:00 MBSERVRT 
+   mbcom 19766 19750   TS  80  0   Apr 10 ?        0:00 MBSERVRT 
+   mbcom 19767 19750   TS  80  0   Apr 10 ?        0:00 MBSERVRT 
+   mbcom 19768 19750   TS  80  0   Apr 10 ?        0:00 MBSERVRT 
+   mbcom 19769 19741   TS  80  0   Apr 10 ?        0:05 MBSERVNRT 
+   mbcom 19770 19741   TS  80  0   Apr 10 ?        0:04 MBSERVNRT 
+   mbcom 19771 19741   TS  80  0   Apr 10 ?        0:04 MBSERVNRT 
+   mbcom 19772 19741   TS  80  0   Apr 10 ?        0:05 MBSERVNRT 
+   mbcom 19778     1   TS  80  0   Apr 10 ?        0:00 MBCLINRT 
+   mbcom 19779 19778   TS  80  0   Apr 10 ?        0:30 MBCLINRT 
+   mbcom 19786     1   TS  80  0   Apr 10 ?        0:00 MBCLIRT 
+   mbcom 19787 19786   TS  80  0   Apr 10 ?        0:42 MBCLIRT 
+  nobody  1387  1383   TS  80  0   Dec 01 ?        0:00 /usr/lib/apache/bin/httpd -d /usr/lib/docview -f /usr/lib/docview/conf/httpd.co
+  nobody  1389  1383   TS  83  0   Dec 01 ?        0:00 /usr/lib/apache/bin/httpd -d /usr/lib/docview -f /usr/lib/docview/conf/httpd.co
+  nobody  1390  1383   TS  83  0   Dec 01 ?        0:00 /usr/lib/apache/bin/httpd -d /usr/lib/docview -f /usr/lib/docview/conf/httpd.co
+  nobody  1391  1383   TS  83  0   Dec 01 ?        0:00 /usr/lib/apache/bin/httpd -d /usr/lib/docview -f /usr/lib/docview/conf/httpd.co
+  sybase  3517     1   TS  70  0   Dec 01 vt04     0:00 /sybase/install/RUN_SYBASE 
+  sybase  3519  3517   TS  80  0   Dec 01 vt04    17774:11 /sybase/bin/dataserver -d/sybase/data/master -e/sybase/install/SYBASE.log -M/sy
+  sybase  3537     1   TS  70  0   Dec 01 vt04     0:00 /sybase/install/RUN_SYB_BACKUP 
+  sybase  3539  3537   TS  80  0   Dec 01 vt04     9:32 /sybase/bin/backupserver -e/sybase/install/SYB_BACKUP.log -N25 -C20 -SSYB_BACKU
+  sybase  3549  3519   TS  80  0   Dec 01 vt04    14733:40 /sybase/bin/dataserver -ONLINE:1,0,0x66012296,0x8900000,0x2a4f4000,0x1159 
+  sybase 18348     1   TS  70  0   Dec 10 ?        0:03 mbfe.sh 
+bepsmbfe 22248     1   TS  80  0   Jun 13 ?        9:47 ./WATCHCTL BEPSMBFE 
+bepsmbfe 22255     1   TS  80  0   Jun 13 ?        1:27 ./COMMSHDLE BEPSMBFE 
+bepsmbfe 22262     1   TS  80  0   Jun 13 ?        1:30 ./COMMRHDLE BEPSMBFE 
+bepsmbfe 22272     1   TS  80  0   Jun 13 ?        1:34 ./COMMSSEND BEPSMBFE 
+bepsmbfe 22282     1   TS  80  0   Jun 13 ?        1:38 ./COMMRRECV BEPSMBFE 
+bepsmbfe 22292     1   TS  80  0   Jun 13 ?        6:59 ./RLTMSHDLE BEPSMBFE 
+bepsmbfe 22308     1   TS  80  0   Jun 13 ?        7:04 ./RLTMRHDLE BEPSMBFE 
+bepsmbfe 22399     1   TS  80  0   Jun 13 ?        7:39 ./RLTMSSEND BEPSMBFE 
+bepsmbfe 22519     1   TS  80  0   Jun 13 ?        7:05 ./RLTMRRECV BEPSMBFE 
+cmdbegin:cpu
+
+UnixWare WORK 5 7.1.3 i386    07/09/13
+
+08:35:00    %usr   %sys   %wio  %idle  %intr
+08:35:01       0      5      8     87      0
+08:35:02       1      4      6     88      0
+08:35:03       0      6      2     92      0
+Average        0      5      6     89      0
+cmdbegin:allconfig
+
+    SYSTEM CONFIGURATION:
+
+    Memory Size: 1022 Megabytes
+    System Peripherals:
+
+        Floppy Drive 1 - 1.44 MB 3.5
+        CD-ROM 1 - TEAC    DV-28E-V        
+        Tape Drive 1 - HP       - C5683A          
+        Disk Drive 1 - HP       - LOGICAL VOLUME   - 69973 MB
+
+        Disk Drive 3 - HP       - LOGICAL VOLUME   - 138927 MB
+        Disk Drive 4 - HP       - LOGICAL VOLUME   - 138927 MB
+	80387 Math Processor
+
+
+cmdbegin:disk
+filesystem          kbytes   used     avail    capacity  mounted on
+/dev/root           10240000 1111006  9128994  11%       /
+/dev/stand          20480    7787     12692    39%       /stand
+/proc               0        0        0         0%       /proc
+/dev/fd             0        0        0         0%       /dev/fd
+/dev/_tcp           0        0        0         0%       /dev/_tcp
+/dev/dsk/c0b0t0d0s4 10240000 735588   9504412   8%       /home
+/processorfs        0        0        0         0%       /system/processor
+/tmp                1048576  272      1048304   1%       /tmp
+/var/tmp            1048576  272      1048304   1%       /var/tmp
+/dev/dsk/c0b0t0d0s10 5120000  410954   4709046   9%       /mbfe
+/dev/dsk/c0b0t0d0s11 10240000 1407772  8832228  14%       /bepsmbfe
+/dev/dsk/c0b0t0d0s12 10240000 1870228  8369772  19%       /sybase
+cmdbegin:diskperf
+
+UnixWare WORK 5 7.1.3 i386    07/09/13
+
+08:35:03 device         MB       %busy   avque   r+w/s  blks/s  avwait  avserv
+08:35:04 c0b0t0d0s1     10000        1     2.0       3      48     3.3     3.3
+08:35:04 c0b0t0d0s17    10000        0     0.0       2       8     0.0     0.0
+08:35:04 c0b0t0d0       69973        1     2.0       5      56     2.0     2.0
+
+08:35:05 c0b0t0d0s1     10000        3     2.0       3      40    10.0    10.0
+08:35:05 c0b0t0d0s4     10000        2     1.0       1       4     0.0    20.0
+08:35:05 c0b0t0d0s16    5000         2     1.0       1       6     0.0    20.0
+08:35:05 c0b0t0d0s17    10000        4     1.0       6      24     0.0     6.7
+08:35:05 c0b0t0d0s18    10000        4     1.0       1      16     0.0    40.0
+08:35:05 c0b0t0d0       69973        8     2.2      12      90     8.3     6.7
+
+Average  c0b0t0d0s1     10000        2     2.0       3      44     6.7     6.7
+Average  c0b0t0d0s4     10000        1     1.0       0       2     0.0    20.0
+Average  c0b0t0d0s16    5000         1     1.0       0       3     0.0    20.0
+Average  c0b0t0d0s17    10000        2     1.0       4      16     0.0     5.0
+Average  c0b0t0d0s18    10000        2     1.0       0       8     0.0    40.0
+Average  c0b0t0d0       69973        4     2.2       8      73     6.5     5.3
+
+cmdbegin:netperf
+Name  Mtu   Network     Address         Ipkts    Ierrs Opkts    Oerrs  Coll 
+lo0   16384 127         127.0.0.1       920089667 0     920089667 0      0
+                        224.0.0.1          
+net0  1500  10          10.2.130.13     71522174 0     56208898 0      0
+                        224.0.0.1          
+net1  1500  192.168     192.168.0.1     0        0     6        0      0
+                        224.0.0.9          
+                        224.0.0.1          
+cmdbegin:netallperf
+cmdbegin:uname
+UnixWare WORK
+cmdbegin:usergroup
+root::0:root
+other::1:root,cnap,mbcom
+bin::2:bin,daemon,root
+sys::3:bin,sys,adm
+adm::4:adm,daemon,root
+uucp::5:uucp,root
+mail::6:root
+tty::7:adm,root
+audit::8:root
+nuucp::10:nuucp,root
+daemon::12:daemon,root
+cron::23:root
+dtadmin::25:root
+priv::47:root
+nobody::60001:
+noaccess::60002:
+lp::9:lp,root
+dos::100:
+sybase::101:
+bepsmbfe::102:
+cmdbegin:date
+Tue Jul  9 08:35:05 GMT+0800 2013
+cmdbegin:uptime
+   8:35am  up 220 days,  5:16,  3 users
+cmdbegin:end

@@ -1,0 +1,310 @@
+cmdbegin:disk
+/data01                (/dev/vgdata01/lvol1   ) : 204256320 total allocated Kb
+                                                  69048008 free allocated Kb
+                                                  135208312 used allocated Kb
+                                                        66 % allocation used
+/data                  (/dev/vgdata/lvol1     ) : 209394000 total allocated Kb
+                                                  40931664 free allocated Kb
+                                                  168462336 used allocated Kb
+                                                        80 % allocation used
+/home                  (/dev/vg00/lvol5       ) :    24408 total allocated Kb
+                                                     21952 free allocated Kb
+                                                      2456 used allocated Kb
+                                                        10 % allocation used
+/opt                   (/dev/vg00/lvol6       ) :  1785352 total allocated Kb
+                                                    124296 free allocated Kb
+                                                   1661056 used allocated Kb
+                                                        93 % allocation used
+/tmp                   (/dev/vg00/lvol4       ) :   204432 total allocated Kb
+                                                     53040 free allocated Kb
+                                                    151392 used allocated Kb
+                                                        74 % allocation used
+/usr                   (/dev/vg00/lvol7       ) :  5048960 total allocated Kb
+                                                    712560 free allocated Kb
+                                                   4336400 used allocated Kb
+                                                        85 % allocation used
+/var                   (/dev/vg00/lvol8       ) : 13027128 total allocated Kb
+                                                   9237224 free allocated Kb
+                                                   3789904 used allocated Kb
+                                                        29 % allocation used
+/stand                 (/dev/vg00/lvol1       ) :   269032 total allocated Kb
+                                                    198128 free allocated Kb
+                                                     70904 used allocated Kb
+                                                        26 % allocation used
+/                      (/dev/vg00/lvol3       ) :   204032 total allocated Kb
+                                                    103368 free allocated Kb
+                                                    100664 used allocated Kb
+                                                        49 % allocation used
+cmdbegin:cpu
+
+HP-UX bbdshp02 B.11.11 U 9000/800    09/21/10
+
+17:10:00    %usr    %sys    %wio   %idle
+17:10:01       0       0       0     100
+17:10:02       0       0       0     100
+
+Average        0       0       0     100
+cmdbegin:proc
+     UID   PID  PPID  C    STIME TTY       TIME COMMAND
+    root     0     0  0  Aug 25  ?        20:27 swapper
+    root     8     0  0  Aug 25  ?         0:00 supsched
+    root     9     0  0  Aug 25  ?         0:00 strmem
+    root    10     0  0  Aug 25  ?         0:00 strweld
+    root    11     0  0  Aug 25  ?         0:00 strfreebd
+    root     2     0  0  Aug 25  ?         6:46 vhand
+    root     3     0  0  Aug 25  ?        14:07 statdaemon
+    root     4     0  0  Aug 25  ?         0:24 unhashdaemon
+    root    12     0  0  Aug 25  ?         0:00 ttisr
+    root    13     0  0  Aug 25  ?         0:00 ioconfigd
+    root     1     0  0  Aug 25  ?         0:02 init
+    root    19     0  0  Aug 25  ?         0:24 lvmkd
+    root    20     0  0  Aug 25  ?         0:22 lvmkd
+    root    21     0  0  Aug 25  ?         0:23 lvmkd
+    root    22     0  0  Aug 25  ?         0:24 lvmkd
+    root    23     0  0  Aug 25  ?         0:24 lvmkd
+    root    24     0  0  Aug 25  ?         0:25 lvmkd
+    root    25     0  0  Aug 25  ?         0:00 lvmschedd
+    root    26     0  0  Aug 25  ?         0:00 smpsched
+    root    27     0  0  Aug 25  ?         0:00 smpsched
+    root    28     0  0  Aug 25  ?         0:00 smpsched
+    root    29     0  0  Aug 25  ?         0:00 smpsched
+    root    30     0  0  Aug 25  ?         0:00 sblksched
+    root    31     0  0  Aug 25  ?         0:00 sblksched
+    root    32     0  0  Aug 25  ?         0:00 lvmdevd
+    root  1571     1  0  Aug 25  console   0:00 /usr/sbin/getty console console
+    root  1342     1  0  Aug 25  ?         0:15 /usr/sbin/swagentd -r
+    root  1107     1  0  Aug 25  ?         0:00 /usr/sbin/hp_unixagt
+    root    38     0  0  Aug 25  ?        30:56 vxfsd
+    root   453     1  0  Aug 25  ?         1:02 /usr/sbin/syncer
+    root   542     1  0  Aug 25  ?         0:00 /usr/sbin/ptydaemon
+    root   751     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   539     1  0  Aug 25  ?         0:01 /usr/sbin/syslogd -D
+    root   780     1  0  Aug 25  ?         0:00 /usr/sbin/rpc.lockd
+    root   556     1  0  Aug 25  ?         0:00 /usr/sbin/hotplugd /var/adm/hotplugd.log trunc
+    root   574     1  0  Aug 25  ?         0:00 /usr/lbin/ntl_reader 0 1 1 0 1000 2 /var/adm/nettl /var/adm/con
+    root   707     1  0  Aug 25  ?         0:02 /opt/ssh/sbin/sshd
+    root   727     1  0  Aug 25  ?         0:00 /usr/sbin/rpcbind
+    root   732     0  0  Aug 25  ?         0:00 nfskd
+    root   752     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   753     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   754     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   755     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   756     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   757     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   758     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   759     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   760     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   761     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   762     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   763     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   764     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   765     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root   766     1  0  Aug 25  ?         0:00 /usr/sbin/biod 16
+    root  1094     1  0  Aug 25  ?         0:00 /usr/sbin/snmpdm
+    root   774     1  0  Aug 25  ?         0:00 /usr/sbin/rpc.statd
+    root   811     1  0  Aug 25  ?         0:15 /usr/sbin/inetd
+    root   791     1  0  Aug 25  ?         0:01 /usr/lib/netsvc/fs/automount/automount -f /etc/auto_master
+    root  1084     1  0  Aug 25  ?         3:02 sendmail: accepting connections on port 25
+    root  1131     1  0  Aug 25  ?         0:00 /usr/lbin/cmsnmpd
+    root  1116     1  0  Aug 25  ?         0:49 /usr/sbin/mib2agt
+    root  1125     1  0  Aug 25  ?         0:00 /usr/sbin/trapdestagt
+    root  1158     1  0  Aug 25  ?         0:00 /usr/sbin/fddi4subagt
+    root  1180     1  0  Aug 25  ?         6:15 /opt/wbem/sbin/cimserver
+    root  1563     1  0  Aug 25  ?         0:00 /sbin/sh /usr/dt/bin/dtrc
+    root  1200     1  0  Aug 25  ?         0:00 /usr/sbin/rbootd
+    root  1174     1  0  Aug 25  ?         0:27 /opt/dce/sbin/rpcd
+    root  1507  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1505  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1222     1  0  Aug 25  ?         1:15 /usr/sbin/pwgrd
+    root  1492     1  0  Aug 25  ?         0:00 /usr/sbin/rpc.mountd
+    root  1234     1  0  Aug 25  ?         0:14 /usr/sbin/cron
+    root  1274     1  0  Aug 25  ?         0:00 /usr/sbin/envd
+    root  1299     1  0  Aug 25  ?         0:29 spagent
+    root  1572     1  0  Aug 25  ?         0:00 /sbin/krsd -i
+    root  1271     1  0  Aug 25  ?         0:56 /usr/sbin/stm/uut/bin/sys/diagmond
+    root  1503     1  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1566     1  0  Aug 25  ?         1:37 /opt/openssl/prngd/prngd -n -c /opt/openssl/prngd/prngd.conf /v
+    root  1360     1  0  Aug 25  ?         0:00 /etc/opt/resmon/lbin/emsagent
+    root  1475     1  0  Aug 25  ?         0:52 /opt/VRTSob/bin/vxsvc -r /etc/vx/isis/Registry
+    root  1504     1  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1623  1563  0  Aug 25  ?         0:00 /usr/dt/bin/dtlogin
+    root  1506  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1695  1693  0  Aug 25  ?         0:00 /usr/lbin/cmlvmd
+    root  1508  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1509  1507  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1510  1507  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1511  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1512  1507  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1513  1504  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1514  1506  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1515  1505  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1516  1506  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1517  1506  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1518  1505  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1519  1505  0  Aug 25  ?         0:00 /usr/sbin/nfsd 16
+    root  1573     1  0  Aug 25  ?         0:00 /sbin/sfd
+    root  1574     1  0  Aug 25  ?         0:16 /usr/sam/lbin/samd
+    root  1585     1  0  Aug 25  ?         0:56 /etc/opt/resmon/lbin/p_client
+    root  1586     1  0  Aug 25  ?         0:10 /opt/wbem/sbin/cimserverd
+sybasecx  3952  3934  0  Aug 25  ?        144:24 /usr/sybasecx/ASE-12_5/bin/dataserver -ONLINE:2,0,0x691c9764, c
+    root  1692   811  0  Aug 25  ?         0:00 cmclconfd -c
+    root  1681   811  0  Aug 25  ?         0:00 cmclconfd -c
+    root  1587     1  0  Aug 25  ?         0:05 /usr/lbin/icodd
+    root  1693  1690  0  Aug 25  ?         0:20 /usr/lbin/cmsrvassistd
+    root  1694  1693  0  Aug 25  ?         0:00 /usr/lbin/cmlogd
+    root  1698   811  0  Aug 25  ?         0:00 cmclconfd -c
+    root  1696  1693  0  Aug 25  ?         0:00 /usr/lbin/cmtaped
+    root  1690  1681  0  Aug 25  ?        44:01 /usr/lbin/cmcld -m -n bbdshp01 -n bbdshp02
+    root   810   805  0 17:10:02 ?         0:00 ps -ef
+    root  1732     0  0  Aug 25  ?         0:00 lvmdevd
+    root  1959   811  0  Aug 25  ?         0:00 /etc/opt/resmon/lbin/registrar
+    root  1721     0  0  Aug 25  ?         0:00 lvmdevd
+sybasecx  3929     1  0  Aug 25  ?         0:00 /bin/sh RUN_bbdshpcx_back
+    root  1950  1271  0  Aug 25  ?         0:12 diaglogd
+    root  1951  1271  0  Aug 25  ?         0:04 memlogd
+    root  1952  1271  0  Aug 25  ?         9:11 psmctd
+sybasecx  3934  3933  0  Aug 25  ?        338:41 /usr/sybasecx/ASE-12_5/bin/dataserver -sbbdshpcx -d/data/device
+    root  2053     1  0  Aug 25  ?         0:04 /usr/sbin/stm/uut/bin/tools/monitor/dm_FCMS_adapter
+    root  2011     1  0  Aug 25  ?         0:08 /usr/sbin/stm/uut/bin/tools/monitor/disk_em
+    root  2272     1  0  Aug 25  ?         0:45 /usr/sbin/stm/uut/bin/tools/monitor/dm_core_hw
+sybasecx  3930  3929  0  Aug 25  ?         3:39 /usr/sybasecx/ASE-12_5/bin/backupserver -Sbbdshpcx_back -e/usr/
+    root   804  1234  0 17:10:00 ?         0:00 sh -c /home/nms/collection.sh >/dev/null
+    root  2095     1  0  Aug 25  ?         0:24 /usr/sbin/stm/uut/bin/tools/monitor/dm_TL_adapter
+    root  2493     1  0  Aug 25  ?         1:19 /usr/sbin/stm/uut/bin/tools/monitor/ia64_corehw
+    root  2335     1  0  Aug 25  ?         0:02 /usr/sbin/stm/uut/bin/tools/monitor/dm_memory
+    root  2574     1  0  Aug 25  ?         0:12 /usr/sbin/stm/uut/bin/tools/monitor/sysstat_em
+sybasecx  3951  3934  0  Aug 25  ?        641:53 /usr/sybasecx/ASE-12_5/bin/dataserver -ONLINE:1,0,0x691c9764, c
+    root  2395     1  0  Aug 25  ?         0:17 /usr/sbin/stm/uut/bin/tools/monitor/dm_stape
+    root  2451     1  0  Aug 25  ?        59:53 /usr/sbin/stm/uut/bin/tools/monitor/fpl_em
+    root  2523     1  0  Aug 25  ?         5:42 /usr/sbin/stm/uut/bin/tools/monitor/lpmc_em
+sybasecx  3933     1  0  Aug 25  ?         0:00 /bin/sh RUN_bbdshpcx
+    root   805   804  0 17:10:00 ?         0:00 /usr/bin/sh /home/nms/collection.sh
+    root   790  2493  0 17:09:12 ?         0:00 <defunct>
+cmdbegin:vmstat
+         procs           memory                   page                              faults       cpu
+    r     b     w      avm    free   re   at    pi   po    fr   de    sr     in     sy    cs  us sy id
+    1     1     0  1187883   26005    3    1     0    0     0    0     0   1163   9199   231   1  0 98
+cmdbegin:swapinfo
+             Kb      Kb      Kb   PCT  START/      Kb
+TYPE      AVAIL    USED    FREE  USED   LIMIT RESERVE  PRI  NAME
+dev     12582912    2212 12580700    0%       0       -    1  /dev/vg00/lvol2
+reserve       - 4789636 -4789636
+memory  6463892 2940976 3522916   45%
+cmdbegin:uname
+HP-UX bbdshp02
+cmdbegin:date
+Tue Sep 21 17:10:02 EAT 2010
+cmdbegin:uptime
+  5:10pm  up 27 days,  2:51,  0 users,  load average: 0.15, 0.18, 0.18
+cmdbegin:netstat
+Name      Mtu  Network         Address         Ipkts   Ierrs Opkts   Oerrs Coll
+lan2*     1500 none            none            0       0     0       0     0   
+lan1:1    1500 143.24.16.0     bbdshpcx        95705153 0     20085   0     0   
+lan1      1500 143.24.16.0     bbdshp02        14822969 0     244552276 0     0   
+lan0      1500 192.168.100.0   node02          39072   346   39611   0     9   
+lo0       4136 loopback        localhost       1273152 0     1273152 0     0   
+cmdbegin:end
+System: bbdshp02 Tue Sep 21 17:10:08 2010
+Load averages: 0.18, 0.18, 0.19
+134 processes: 119 sleeping, 14 running, 1 zombie
+Cpu states:
+CPU   LOAD   USER   NICE    SYS   IDLE  BLOCK  SWAIT   INTR   SSYS
+ 0    0.07   0.0%   0.0%   0.2%  99.8%   0.0%   0.0%   0.0%   0.0% 
+ 1    0.12   0.0%   0.0%   0.0% 100.0%   0.0%   0.0%   0.0%   0.0% 
+ 2    0.02   0.0%   0.0%   0.0% 100.0%   0.0%   0.0%   0.0%   0.0% 
+ 3    0.50   0.0%   0.0%   0.0% 100.0%   0.0%   0.0%   0.0%   0.0% 
+---   ----  -----  -----  -----  -----  -----  -----  -----  -----
+avg   0.18   0.0%   0.0%   0.0% 100.0%   0.0%   0.0%   0.0%   0.0% 
+
+Memory: 4508044K (4458524K) real, 4823844K (4751532K) virtual, 104232K free  Page# 1/9
+
+CPU TTY  PID USERNAME PRI NI   SIZE    RES STATE    TIME %WCPU  %CPU COMMAND
+ 0   ?    38 root     152 20  1888K  1888K run     30:56  0.65  0.65 vxfsd
+ 1   ?  3934 sybasecx 152 20  4669M 13512K run    338:41  0.57  0.57 dataserver
+ 3   ?  3951 sybasecx 152 20  4664M  9180K run    641:53  0.29  0.29 dataserver
+ 1   ?  3952 sybasecx 152 20  4664M  9180K run    144:24  0.28  0.28 dataserver
+ 2   ?  1690 root     -27 20 12896K  8940K run     44:01  0.21  0.21 cmcld
+ 1   ?  1475 root     152 20 23532K  4164K run      0:52  0.10  0.10 vxsvc
+ 2   ?  1574 root     152 20 14440K  2788K run      0:16  0.10  0.10 samd
+ 2   ?  1951 root     152 10  6124K   992K run      0:04  0.10  0.10 memlogd
+ 0   ?   453 root     152 20  2140K   232K run      1:02  0.08  0.08 syncer
+ 2   ?     3 root     128 20    32K    32K sleep   14:07  0.04  0.04 statdaemon
+ 0   ?  1952 root     154 10  5956K  2340K sleep    9:11  0.04  0.04 psmctd
+ 3   ?  1342 root     154 20 10772K  1680K sleep    0:15  0.04  0.04 swagentd
+ 3   ?     0 root     127 20    32K     0K sleep   20:27  0.03  0.03 swapper
+ 0   ?  1084 root     154 20  3516K   408K sleep    3:02  0.03  0.03 sendmail:
+ 1   ?     2 root     128 20    32K    32K sleep    6:46  0.03  0.03 vhand
+ 0   ?     1 root     168 20   488K   204K sleep    0:02  0.02  0.02 init
+cmdbegin:memory
+kmeminfo (3.11)
+libp4 (5.17): Opening /stand/vmunix /dev/kmem
+
+Loading symbols from /stand/vmunix
+
+======================================================================
+Date: Tue Sep 21 17:10:08 2010
+
+Processing pfdat table (2042679 entries)...
+
+----------------------------------------------------------------------
+Physical memory usage summary (in pages):
+
+Physmem        = 2090240  Available physical memory:
+  Freemem      =   21084    Free physical memory
+  Used         = 2069156    Used physical memory:
+    System     =  777546      by kernel:
+      Static   =   47561        for text and static data
+      Dynamic  =       0        for dynamic data
+      Bufcache =  729939        for file-system buffer cache
+      Eqmem    =      46        for equiv. mapped page pool
+      SCmem    =       0        for system critical page pool
+    User       = 1141909      by user processes
+      Uarea    =    2416        for thread uareas
+    Disowned   =   52210      disowned pages
+
+----------------------------------------------------------------------
+Dynamic memory usage summary (in pages):
+
+Dynamic        =       0  Kernel dynamic data (sysmap):
+  MALLOC       =       0    memory buckets:
+    bucket[ 5] =       0      size    32 bytes
+    bucket[ 6] =       0      size    64 bytes
+    bucket[ 7] =       0      size   128 bytes
+    bucket[ 8] =       0      size   256 bytes
+    bucket[ 9] =       0      size   512 bytes
+    bucket[10] =       0      size  1024 bytes
+    bucket[11] =       0      size  2048 bytes
+    bucket[12] =       0      size  4096 bytes
+    bucket[13] =       0      size     2 pages
+    bucket[14] =       0      size     3 pages
+    bucket[15] =       0      size     4 pages
+    bucket[16] =       0      size     5 pages
+    bucket[17] =       0      size     6 pages
+    bucket[18] =       0      size     7 pages
+    bucket[19] =       0      size     8 pages
+    bucket[20] =       0      size >   8 pages
+  Kalloc       =       0    kalloc()
+  Eqalloc      =       0    eqalloc()
+  Reserved     =       0    Reserved pools
+cmdbegin:memoryend
+root:GpLbCh7lK4AU2:0:3::/:/sbin/sh
+daemon:*:1:5::/:/sbin/sh
+bin:*:2:2::/usr/bin:/sbin/sh
+sys:*:3:3::/:
+adm:*:4:4::/var/adm:/sbin/sh
+uucp:*:5:3::/var/spool/uucppublic:/usr/lbin/uucp/uucico
+lp:*:9:7::/var/spool/lp:/sbin/sh
+nuucp:*:11:11::/var/spool/uucppublic:/usr/lbin/uucp/uucico
+hpdb:*:27:1:ALLBASE:/:/sbin/sh
+nobody:*:-2:-2::/:
+www:*:30:1::/:
+smbnull:*:101:101:DO NOT USE OR DELETE - needed by Samba:/home/smbnull:/sbin/sh
+webadmin:*:40:1::/usr/obam/server/nologindir:/usr/bin/false
+iwww:*:102:1::/home/iwww:/sbin/sh
+owww:*:103:1::/home/owww:/sbin/sh
+mysql:*:104:102::/home/mysql:/sbin/sh
+sybase:TqtN3YOwvJ80I:200:200:,,,:/usr/sybase:/usr/bin/sh
+sybasecx:8uqjrWtJjTKg2:105:200:sybasecx,,,:/usr/sybasecx:/usr/bin/sh
+nms:FXFBhOY5EvQIY:106:20:,,,:/home/nms:/usr/bin/sh
+sshd:*:107:103:sshd privsep:/var/empty:/bin/false
+cmdbegin:user

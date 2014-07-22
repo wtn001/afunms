@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="GBK"?>
+<host>
+<serviceinfostar>
+<serviceinfo>
+<DisplayName>Alerter</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>通知所选用户和计算机有关系统管理级警报。如果服务停止，使用管理警报的程序将不会受到它们。如果此服务被禁用，任何直接依赖它的服务都将不能启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k LocalService</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Application Layer Gateway Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>为 Internet 连接共享和 Windows 防火墙提供第三方协议插件的支持。</Description>
+<PathName>C:\WINDOWS\System32\alg.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Application Management</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供软件安装服务，诸如分派，发行以及删除。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Array SSL VPN Service 8,2,0,11</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Array Networks\Array SSL VPN\8,2,0,11\arr_srvs.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Array Utility Service 8,2,0,11</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Array Networks\Common\8,2,0,11\arr_isrv.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>ASP.NET 状态服务</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>为 ASP.NET 提供进程外会话状态支持。如果此服务被停止，进程外请求将得不到处理。如果此服务被禁用，任何显式依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_state.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Audio</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理基于 Windows 的程序的音频设备。如果此服务被终止，音频设备及其音效将不能正常工作。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Background Intelligent Transfer Service</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>利用空闲的网络带宽在后台传输文件。如果服务被停用，例如 Windows Update 和 MSN Explorer 的功能将无法自动下载程序和其他信息。如果此服务被禁用，任何依赖它的服务如果没有容错技术以直接通过 IE 传输文件，一旦 BITS 被禁用，就可能无法传输文件。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Computer Browser</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>维护网络上计算机的更新列表，并将列表提供给计算机指定浏览。如果服务停止，列表不会被更新或维护。如果服务被禁用，任何直接依赖于此服务的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Indexing Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>本地和远程计算机上文件的索引内容和属性；通过灵活查询语言提供文件快速访问。</Description>
+<PathName>C:\WINDOWS\system32\cisvc.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>ClipBook</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>启用“剪贴簿查看器”储存信息并与远程计算机共享。如果此服务终止，“剪贴簿查看器” 将无法与远程计算机共享信息。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\clipsrv.exe</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>.NET Runtime Optimization Service v2.0.50727_X86</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Microsoft .NET Framework NGEN</Description>
+<PathName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>COM+ System Application</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理 基于COM+ 组件的配置和跟踪。如果服务停止，大多数基于 COM+ 组件将不能正常工作。如果本服务被禁用，任何明确依赖它的服务都将不能启动。</Description>
+<PathName>C:\WINDOWS\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Cryptographic Services</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供三种管理服务: 编录数据库服务，它确定 Windows 文件的签字; 受保护的根服务，它从此计算机添加和删除受信根证书机构的证书;和密钥(Key)服务，它帮助注册此计算机获取证书。如果此服务被终止，这些管理服务将无法正常运行。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DCOM 服务器进程启动器</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为 DCOM 服务提供加载功能。</Description>
+<PathName>C:\WINDOWS\system32\svchost -k DcomLaunch</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DefWatch</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>D:\PROGRA~1\SYMANT~1\SYMANT~1\DefWatch.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DELGuard32</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Lenovo\Data Exchange Lock\DELGuard.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DELHelper32</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Lenovo\Data Exchange Lock\DELHelper.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DHCP Client</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>通过注册和更改 IP 地址以及 DNS 名称来管理网络配置。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Logical Disk Manager Administrative Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>配置硬盘驱动器和卷。此服务只为配置处理运行，然后终止。</Description>
+<PathName>C:\WINDOWS\System32\dmadmin.exe /com</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Logical Disk Manager</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>监测和监视新硬盘驱动器并向逻辑磁盘管理器管理服务发送卷的信息以便配置。如果此服务被终止，动态磁盘状态和配置信息会过时。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>DNS Client</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为此计算机解析和缓冲域名系统 (DNS) 名称。如果此服务被停止，计算机将不能解析 DNS 名称并定位 Active Directory 域控制器。如果此服务被禁用，任何明确依赖它的服务将不能启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k NetworkService</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Wired AutoConfig</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>此服务在以太网接口上执行 IEEE 802.1X 身份验证</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k dot3svc</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Extensible Authentication Protocol Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供 Windows 客户端可扩展的身份验证协议</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k eapsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Error Reporting Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>服务和应用程序在非标准环境下运行时允许错误报告。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Event Log</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启用在事件查看器查看基于 Windows 的程序和组件颁发的事件日志消息。无法终止此服务。</Description>
+<PathName>C:\WINDOWS\system32\services.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>COM+ Event System</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>支持系统事件通知服务(SENS)，此服务为订阅组件对象模型(COM)组件事件提供自动分布功能。如果停止此服务，SENS 将关闭，而且不能提供登录和注销通知。如果禁用此服务，显式依赖此服务的其他服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Fast User Switching Compatibility</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为在多用户下需要协助的应用程序提供管理。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>FileZilla Server FTP server</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>"C:\Program Files\FileZilla Server\FileZilla Server.exe"</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Presentation Foundation Font Cache 3.0.0.0</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Optimizes performance of Windows Presentation Foundation (WPF) applications by caching commonly used font data. WPF applications will start this service if it is not already running. It can be disabled, though doing so will degrade the performance of WPF applications.</Description>
+<PathName>C:\WINDOWS\Microsoft.NET\Framework\v3.0\WPF\PresentationFontCache.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Help and Support</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启用在此计算机上运行帮助和支持中心。如果停止服务，帮助和支持中心将不可用。如果禁用服务，任何直接依赖于此服务的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Human Interface Device Access</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启用对智能界面设备 (HID)的通用输入访问，它激活并保存键盘、远程控制和其它多媒体设备上的预先定义的热按钮。如果此服务被终止，由此服务控制的热按钮将不再运行。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Health Key and Certificate Management Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理健康证书和密钥(由 NAP 使用)</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>HTTP SSL</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>此服务通过安全套接字层(SSL)实现 HTTP 服务的安全超文本传送协议(HTTPS)。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k HTTPFilter</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Intel(R) Matrix Storage Event Monitor</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Intel\Intel Matrix Storage Manager\IAANTMon.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows CardSpace</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>Securely enables the creation, management, and disclosure of digital identities.</Description>
+<PathName>"C:\WINDOWS\Microsoft.NET\Framework\v3.0\Windows Communication Foundation\infocard.exe"</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>IMAPI CD-Burning COM Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>用 Image Mastering Applications Programming Interface (IMAPI) 管理 CD 录制。如果停止该服务，这台计算机将无法录制  CD。如果该服务被停用，任何依靠它的服务都无法启动。</Description>
+<PathName>C:\WINDOWS\system32\imapi.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Java Quick Starter</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Prefetches JRE files for faster startup of Java applets and applications</Description>
+<PathName>"C:\Program Files\Java\jre6\bin\jqs.exe" -service -config "C:\Program Files\Java\jre6\lib\deploy\jqs\jqs.conf"</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Kingsoft Antivirus WebShield Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Kingsoft Antivirus WebShield Service</Description>
+<PathName>d:\Program Files\Maxthon2\Modules\MxKWS\KSWebShield.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Server</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>支持此计算机通过网络的文件、打印、和命名管道共享。如果服务停止，这些功能不可用。如果服务被禁用，任何直接依赖于此服务的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Workstation</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>创建和维护到远程服务的客户端网络连接。如果服务停止，这些连接将不可用。如果服务被禁用，任何直接依赖于此服务的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>TCP/IP NetBIOS Helper</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>允许对“TCP/IP 上 NetBIOS (NetBT)”服务以及 NetBIOS 名称解析的支持。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k LocalService</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Lenovo Secert Space</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>C:\Program Files\Lenovo\LSS\LSSService.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Machine Debug Manager</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>支持对 Visual Studio 和脚本调试器进行本地和远程调试。如果该服务停止，调试器将不能正常工作。</Description>
+<PathName>"C:\Program Files\Common Files\Microsoft Shared\VS7DEBUG\mdm.exe"</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Messenger</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>传输客户端和服务器之间的 NET SEND 和 Alerter 服务消息。此服务与 Windows Messenger 无关。如果服务停止，Alerter 消息不会被传输。如果服务被禁用，任何直接依赖于此服务的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>NetMeeting Remote Desktop Sharing</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>使授权用户能够通过使用 NetMeeting 跨企业 intranet 远程访问此计算机。如果此服务被停用，远程桌面服务将不可用。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\mnmsrvc.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Distributed Transaction Coordinator</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>协调跨多个数据库、消息队列、文件系统等资源管理器的事务。如果停止此服务，则不会发生这些事务。如果禁用此服务，显式依赖此服务的其他服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\msdtc.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Installer</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>添加、修改和删除以 Windows 安装程序(*.msi)的软件包提供的应用程序。如果禁用了此服务，任何完全依赖它的服务不会被启动。</Description>
+<PathName>C:\WINDOWS\system32\msiexec.exe /V</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>MySQL</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>"D:\MySQL\bin\mysqld-nt" --defaults-file="D:\MySQL\my.ini" MySQL</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network Access Protection Agent</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>允许 Windows 客户端参与网络访问保护</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network DDE</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为在同一台计算机或不同计算机上运行的程序提供动态数据交换 (DDE) 的网络传输和安全。如果此服务被终止， DDE 传输和安全将不可用。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\netdde.exe</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network DDE DSDM</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理动态数据交换 (DDE) 网络共享。如果此服务终止，DDE 网络共享将不可用。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\netdde.exe</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Net Logon</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>支持网络上计算机 pass-through 帐户登录身份验证事件。</Description>
+<PathName>C:\WINDOWS\system32\lsass.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network Connections</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理“网络和拨号连接”文件夹中对象，在其中您可以查看局域网和远程连接。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Net.Tcp Port Sharing Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>Provides ability to share TCP ports over the net.tcp protocol.</Description>
+<PathName>"C:\WINDOWS\Microsoft.NET\Framework\v3.0\Windows Communication Foundation\SMSvcHost.exe"</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network Location Awareness (NLA)</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>收集并保存网络配置和位置信息，并在信息改动时通知应用程序。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Symantec AntiVirus Client</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>为 Symantec Client Security 提供实时病毒扫描、报告和管理功能。</Description>
+<PathName>D:\PROGRA~1\SYMANT~1\SYMANT~1\Rtvscan.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>NT LM Security Support Provider</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为使用传输协议而不是命名管道的远程过程调用(RPC)程序提供安全机制。</Description>
+<PathName>C:\WINDOWS\system32\lsass.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Removable Storage</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description></Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Microsoft Office Diagnostics Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>运行部分 Microsoft Office 诊断。</Description>
+<PathName>"C:\Program Files\Common Files\Microsoft Shared\OFFICE12\ODSERV.EXE"</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>OracleDBConsoleitimsDB</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>D:\oracle\product\10.2.0\db_1\bin\nmesrvc.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>OracleJobSchedulerITIMSDB</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>d:\oracle\product\10.2.0\db_1\Bin\extjob.exe ITIMSDB</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>OracleOraDb10g_home1iSQL*Plus</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>iSQL*Plus Application Server</Description>
+<PathName>D:\oracle\product\10.2.0\db_1\bin\isqlplussvc.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>OracleOraDb10g_home1TNSListener</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>D:\oracle\product\10.2.0\db_1\BIN\TNSLSNR </PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>OracleServiceITIMSDB</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>d:\oracle\product\10.2.0\db_1\bin\ORACLE.EXE ITIMSDB</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Office Source Engine</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>保存用于更新和修复的安装文件，并且在下载安装程序更新和 Watson 错误报告时必须使用。</Description>
+<PathName>"C:\Program Files\Common Files\Microsoft Shared\Source Engine\OSE.EXE"</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Plug and Play</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>使计算机在极少或没有用户输入的情况下能识别并适应硬件的更改。终止或禁用此服务会造成系统不稳定。</Description>
+<PathName>C:\WINDOWS\system32\services.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>IPSEC Services</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理 IP 安全策略以及启动 ISAKMP/Oakley (IKE) 和 IP 安全驱动程序。</Description>
+<PathName>C:\WINDOWS\system32\lsass.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Protected Storage</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供对敏感数据(如私钥)的保护性存储，以便防止未授权的服务，过程或用户对其的非法访问。</Description>
+<PathName>C:\WINDOWS\system32\lsass.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Access Auto Connection Manager</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>无论什么时候当某个程序引用一个远程 DNS 或 NetBIOS 名或者地址就创建一个到远程网络的连接。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Access Connection Manager</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>创建网络连接。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Desktop Help Session Manager</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理并控制远程协助。如果此服务被终止，远程协助将不可用。终止此服务前，请参见“属性”对话框上的“依存”选项卡。</Description>
+<PathName>C:\WINDOWS\system32\sessmgr.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Routing and Remote Access</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>在局域网以及广域网环境中为企业提供路由服务。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Disabled</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Cyberlink RichVideo Service(CRVS)</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>"C:\Program Files\CyberLink\Shared Files\RichVideo.exe"</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Packet Capture Protocol v.0 (experimental)</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Allows to capture traffic on this machine from a remote machine.</Description>
+<PathName>"C:\Program Files\WinPcap\rpcapd.exe" -d -f "C:\Program Files\WinPcap\rpcapd.ini"</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Procedure Call (RPC) Locator</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理 RPC 名称服务数据库。</Description>
+<PathName>C:\WINDOWS\system32\locator.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Remote Procedure Call (RPC)</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>提供终结点映射程序 (endpoint mapper) 以及其它 RPC 服务。</Description>
+<PathName>C:\WINDOWS\system32\svchost -k rpcss</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>QoS RSVP</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>为依赖质量服务(QoS)的程序和控制应用程序提供网络信号和本地通信控制安装功能。</Description>
+<PathName>C:\WINDOWS\system32\rsvp.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Security Accounts Manager</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>存储本地用户帐户的安全信息。</Description>
+<PathName>C:\WINDOWS\system32\lsass.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Smart Card</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>管理此计算机对智能卡的取读访问。如果此服务被终止，此计算机将无法取读智能卡。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\SCardSvr.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Task Scheduler</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>使用户能在此计算机上配置和制定自动任务的日程。如果此服务被终止，这些任务将无法在日程时间里运行。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Secondary Logon</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启用替换凭据下的启用进程。如果此服务被终止，此类型登录访问将不可用。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>System Event Notification</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>跟踪系统事件，如登录 Windows，网络以及电源事件等。将这些事件通知给 COM+ 事件系统 “订阅者(subscriber)”。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Firewall/Internet Connection Sharing (ICS)</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为家庭和小型办公网络提供网络地址转换、寻址、名称解析和/或入侵保护服务。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Shell Hardware Detection</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为自动播放硬件事件提供通知。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>SNMP Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>包含代理程序可以监视网络设备的活动并且向网络控制台工作站汇报。</Description>
+<PathName>C:\WINDOWS\System32\snmp.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>SNMP Trap Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>接收由本地或远程 SNMP 代理程序产生的陷阱消息，然后将消息传递到运行在这台计算机上 SNMP 管理程序。</Description>
+<PathName>C:\WINDOWS\System32\snmptrap.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Print Spooler</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>将文件加载到内存中以便迟后打印。</Description>
+<PathName>C:\WINDOWS\system32\spoolsv.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>System Restore Service</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>执行系统还原功能。 要停止服务，请从“我的电脑”的属性中的系统还原选项卡关闭系统还原</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>SSDP Discovery Service</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启动您家庭网络上的 UPnP 设备的发现。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k LocalService</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Image Acquisition (WIA)</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为扫描仪和照相机提供图像捕获。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k imgsvc</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>MS Software Shadow Copy Provider</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理卷影复制服务拍摄的软件卷影复制。如果该服务被停止，软件卷影复制将无法管理。如果该服务被停用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\dllhost.exe /Processid:{27150BE5-C8DF-431F-88D9-CDE06A16AB07}</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Performance Logs and Alerts</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>收集本地或远程计算机基于预先配置的日程参数的性能数据，然后将此数据写入日志或触发警报。如果此服务被终止，将不会收集性能信息。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\smlogsvc.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>System Repair Windows Update Monitor</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Monitors operating system files changed by Windows update and backup them instantly.</Description>
+<PathName>C:\Program Files\Lenovo\OneKey App\System Repair\UpdateMonitor.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Telephony</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供 TAPI 的支持，以便程序控制本地计算机，服务器以及 LAN 上的电话设备和基于 IP 的语音连接。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Terminal Services</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>允许多位用户连接并控制一台机器，并且在远程计算机上显示桌面和应用程序。这是远程桌面(包括管理员的远程桌面)、快速用户转换、远程协助和终端服务器的基础结构。</Description>
+<PathName>C:\WINDOWS\System32\svchost -k DComLaunch</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Themes</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为用户提供使用主题管理的经验。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Apache Tomcat tomcat</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Apache Tomcat Server - http://tomcat.apache.org</Description>
+<PathName>D:\tomcat-5.5\bin\tomcat5.exe //RS//tomcat</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>tomcat5-Forceview</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>D:\Tomcat5.0\bin\tomcat.exe //RS//tomcat</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Distributed Link Tracking Client</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>在计算机内 NTFS 文件之间保持链接或在网络域中的计算机之间保持链接。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>VMware Agent Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>VMware Agent Service</Description>
+<PathName>"D:\Program Files\VMware\VMware Workstation\vmware-ufad.exe" -d "D:\Program Files\VMware\VMware Workstation\\" -s ufad-p2v.xml</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Universal Plug and Play Device Host</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为主持通用即插即用设备提供支持。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k LocalService</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Uninterruptible Power Supply</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理连接到计算机的不间断电源(UPS)。</Description>
+<PathName>C:\WINDOWS\System32\ups.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>VMware Authorization Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Authorization and authentication service for starting and accessing virtual machines</Description>
+<PathName>D:\Program Files\VMware\VMware Workstation\vmware-authd.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>VMware DHCP Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>DHCP service for virtual networks</Description>
+<PathName>C:\WINDOWS\system32\vmnetdhcp.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>VMware Virtual Mount Manager Extended</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description></Description>
+<PathName>"C:\Program Files\Common Files\VMware\VMware Virtual Image Editing\vmount2.exe"</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>VMware NAT Service</DisplayName>
+<State>Running</State>
+<ServiceType>Own Process</ServiceType>
+<Description>Network address translation for virtual networks</Description>
+<PathName>C:\WINDOWS\system32\vmnat.exe</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Volume Shadow Copy</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>管理并执行用于备份和其它目的的卷影复制。如果此服务被终止，备份将没有卷影复制，并且备份会失败。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\System32\vssvc.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Time</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>维护在网络上的所有客户端和服务器的时间和日期同步。如果此服务被停止，时间和日期的同步将不可用。如果此服务被禁用，任何明确依赖它的服务都将不能启动。
+</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>WebClient</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>使基于 Windows 的程序能创建、访问和修改基于 Internet 的文件。如果此服务被终止，将会失去这些功能。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k LocalService</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Windows Management Instrumentation</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>提供共同的界面和对象模式以便访问有关操作系统、设备、应用程序和服务的管理信息。如果此服务被终止，多数基于 Windows 的软件将无法正常运行。如果此服务被禁用，任何依赖它的服务将无法启动。</Description>
+<PathName>C:\WINDOWS\system32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Portable Media Serial Number Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>Retrieves the serial number of any portable media player connected to this computer. If this service is stopped, protected content might not be down loaded to the device.</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>WMI Performance Adapter</DisplayName>
+<State>Stopped</State>
+<ServiceType>Own Process</ServiceType>
+<Description>从 WMI HiPerf  提供程序提供性能库信息。</Description>
+<PathName>C:\WINDOWS\system32\wbem\wmiapsrv.exe</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Security Center</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>监视系统安全设置和配置。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Automatic Updates</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>启用 Windows 更新的下载和安装。如果服务被禁用，此计算机将无法使用自动更新功能或 Windows 更新网站。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Wireless Zero Configuration</DisplayName>
+<State>Running</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为您的 802.11 适配器提供自动配置</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Auto</StartMode>
+</serviceinfo>
+<serviceinfo>
+<DisplayName>Network Provisioning Service</DisplayName>
+<State>Stopped</State>
+<ServiceType>Share Process</ServiceType>
+<Description>为自动网络提供管理基于域的 XML 配置文件。</Description>
+<PathName>C:\WINDOWS\System32\svchost.exe -k netsvcs</PathName>
+<StartMode>Manual</StartMode>
+</serviceinfo>
+</serviceinfostar>
+
+
+<processinfostart>
+<processinfo>
+<Caption>System Idle Process</Caption>
+<CreationDate></CreationDate>
+<Description>System Idle Process</Description>
+<ExecutablePath></ExecutablePath>
+<Name>System Idle Process</Name>
+<WorkingSetSize>28672</WorkingSetSize>
+<Priority>0</Priority>
+<ProcessId>0</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>388652968750</KernelModeTime>
+<UserModeTime>0</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>System</Caption>
+<CreationDate></CreationDate>
+<Description>System</Description>
+<ExecutablePath></ExecutablePath>
+<Name>System</Name>
+<WorkingSetSize>307200</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>4</ProcessId>
+<ThreadCount>107</ThreadCount>
+<KernelModeTime>2913281250</KernelModeTime>
+<UserModeTime>0</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SMSS.EXE</Caption>
+<CreationDate>20100510080941.375000+480</CreationDate>
+<Description>SMSS.EXE</Description>
+<ExecutablePath>C:\WINDOWS\System32\smss.exe</ExecutablePath>
+<Name>SMSS.EXE</Name>
+<WorkingSetSize>454656</WorkingSetSize>
+<Priority>11</Priority>
+<ProcessId>1140</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>312500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>CSRSS.EXE</Caption>
+<CreationDate>20100510080943.343750+480</CreationDate>
+<Description>CSRSS.EXE</Description>
+<ExecutablePath></ExecutablePath>
+<Name>CSRSS.EXE</Name>
+<WorkingSetSize>5488640</WorkingSetSize>
+<Priority>13</Priority>
+<ProcessId>1208</ProcessId>
+<ThreadCount>14</ThreadCount>
+<KernelModeTime>458437500</KernelModeTime>
+<UserModeTime>235312500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>WINLOGON.EXE</Caption>
+<CreationDate>20100510080944.984375+480</CreationDate>
+<Description>WINLOGON.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\winlogon.exe</ExecutablePath>
+<Name>WINLOGON.EXE</Name>
+<WorkingSetSize>1454080</WorkingSetSize>
+<Priority>13</Priority>
+<ProcessId>1232</ProcessId>
+<ThreadCount>16</ThreadCount>
+<KernelModeTime>17500000</KernelModeTime>
+<UserModeTime>2187500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SERVICES.EXE</Caption>
+<CreationDate>20100510080945.281250+480</CreationDate>
+<Description>SERVICES.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\services.exe</ExecutablePath>
+<Name>SERVICES.EXE</Name>
+<WorkingSetSize>5021696</WorkingSetSize>
+<Priority>9</Priority>
+<ProcessId>1276</ProcessId>
+<ThreadCount>17</ThreadCount>
+<KernelModeTime>203437500</KernelModeTime>
+<UserModeTime>192187500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>LSASS.EXE</Caption>
+<CreationDate>20100510080945.296875+480</CreationDate>
+<Description>LSASS.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\lsass.exe</ExecutablePath>
+<Name>LSASS.EXE</Name>
+<WorkingSetSize>6459392</WorkingSetSize>
+<Priority>9</Priority>
+<ProcessId>1288</ProcessId>
+<ThreadCount>20</ThreadCount>
+<KernelModeTime>107343750</KernelModeTime>
+<UserModeTime>48125000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510080945.953125+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\svchost.exe</ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>5394432</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1456</ProcessId>
+<ThreadCount>18</ThreadCount>
+<KernelModeTime>4687500</KernelModeTime>
+<UserModeTime>3437500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510080946.234375+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath></ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>5058560</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1516</ProcessId>
+<ThreadCount>10</ThreadCount>
+<KernelModeTime>17656250</KernelModeTime>
+<UserModeTime>8593750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510080946.406250+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath>C:\WINDOWS\System32\svchost.exe</ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>33939456</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1940</ProcessId>
+<ThreadCount>83</ThreadCount>
+<KernelModeTime>185625000</KernelModeTime>
+<UserModeTime>190781250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510080946.468750+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath></ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>4059136</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>300</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>14531250</KernelModeTime>
+<UserModeTime>17343750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510080946.750000+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath></ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>4444160</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>788</ProcessId>
+<ThreadCount>11</ThreadCount>
+<KernelModeTime>5312500</KernelModeTime>
+<UserModeTime>7031250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>KSWebShield.exe</Caption>
+<CreationDate>20100510080947.140625+480</CreationDate>
+<Description>KSWebShield.exe</Description>
+<ExecutablePath>d:\Program Files\Maxthon2\Modules\MxKWS\KSWebShield.exe</ExecutablePath>
+<Name>KSWebShield.exe</Name>
+<WorkingSetSize>5890048</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1292</ProcessId>
+<ThreadCount>15</ThreadCount>
+<KernelModeTime>28906250</KernelModeTime>
+<UserModeTime>8281250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SPOOLSV.EXE</Caption>
+<CreationDate>20100510080947.375000+480</CreationDate>
+<Description>SPOOLSV.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\spoolsv.exe</ExecutablePath>
+<Name>SPOOLSV.EXE</Name>
+<WorkingSetSize>5550080</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1576</ProcessId>
+<ThreadCount>10</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>625000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>ARR_ISRV.EXE</Caption>
+<CreationDate>20100510081002.296875+480</CreationDate>
+<Description>ARR_ISRV.EXE</Description>
+<ExecutablePath>C:\Program Files\Array Networks\Common\8,2,0,11\arr_isrv.exe</ExecutablePath>
+<Name>ARR_ISRV.EXE</Name>
+<WorkingSetSize>3547136</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2032</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>468750</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>ARR_SRVS.EXE</Caption>
+<CreationDate>20100510081003.000000+480</CreationDate>
+<Description>ARR_SRVS.EXE</Description>
+<ExecutablePath>C:\Program Files\Array Networks\Array SSL VPN\8,2,0,11\arr_srvs.exe</ExecutablePath>
+<Name>ARR_SRVS.EXE</Name>
+<WorkingSetSize>5349376</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2040</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>468750</KernelModeTime>
+<UserModeTime>2812500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>DefWatch.exe</Caption>
+<CreationDate>20100510081003.078125+480</CreationDate>
+<Description>DefWatch.exe</Description>
+<ExecutablePath>D:\PROGRA~1\SYMANT~1\SYMANT~1\DefWatch.exe</ExecutablePath>
+<Name>DefWatch.exe</Name>
+<WorkingSetSize>1699840</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>196</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>0</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>DELGuard.exe</Caption>
+<CreationDate>20100510081003.109375+480</CreationDate>
+<Description>DELGuard.exe</Description>
+<ExecutablePath>C:\Program Files\Lenovo\Data Exchange Lock\DELGuard.exe</ExecutablePath>
+<Name>DELGuard.exe</Name>
+<WorkingSetSize>5697536</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>212</ProcessId>
+<ThreadCount>4</ThreadCount>
+<KernelModeTime>9375000</KernelModeTime>
+<UserModeTime>2187500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>DELHelper.exe</Caption>
+<CreationDate>20100510081003.125000+480</CreationDate>
+<Description>DELHelper.exe</Description>
+<ExecutablePath>C:\Program Files\Lenovo\Data Exchange Lock\DELHelper.exe</ExecutablePath>
+<Name>DELHelper.exe</Name>
+<WorkingSetSize>8065024</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1800</ProcessId>
+<ThreadCount>8</ThreadCount>
+<KernelModeTime>2500000</KernelModeTime>
+<UserModeTime>2343750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>FileZilla server.exe</Caption>
+<CreationDate>20100510081003.156250+480</CreationDate>
+<Description>FileZilla server.exe</Description>
+<ExecutablePath>C:\Program Files\FileZilla Server\FileZilla Server.exe</ExecutablePath>
+<Name>FileZilla server.exe</Name>
+<WorkingSetSize>4984832</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>272</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>937500</KernelModeTime>
+<UserModeTime>468750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>JQS.EXE</Caption>
+<CreationDate>20100510081003.156250+480</CreationDate>
+<Description>JQS.EXE</Description>
+<ExecutablePath>C:\Program Files\Java\jre6\bin\jqs.exe</ExecutablePath>
+<Name>JQS.EXE</Name>
+<WorkingSetSize>1441792</WorkingSetSize>
+<Priority>4</Priority>
+<ProcessId>292</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>377656250</KernelModeTime>
+<UserModeTime>109375000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>LSSService.exe</Caption>
+<CreationDate>20100510081003.187500+480</CreationDate>
+<Description>LSSService.exe</Description>
+<ExecutablePath>C:\Program Files\Lenovo\LSS\LSSService.exe</ExecutablePath>
+<Name>LSSService.exe</Name>
+<WorkingSetSize>4534272</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>408</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>1875000</KernelModeTime>
+<UserModeTime>312500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>mysqld-nt.exe</Caption>
+<CreationDate>20100510081003.437500+480</CreationDate>
+<Description>mysqld-nt.exe</Description>
+<ExecutablePath>D:\MySQL\bin\mysqld-nt.exe</ExecutablePath>
+<Name>mysqld-nt.exe</Name>
+<WorkingSetSize>31571968</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>592</ProcessId>
+<ThreadCount>37</ThreadCount>
+<KernelModeTime>24687500</KernelModeTime>
+<UserModeTime>61875000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>Rtvscan.exe</Caption>
+<CreationDate>20100510081017.390625+480</CreationDate>
+<Description>Rtvscan.exe</Description>
+<ExecutablePath>D:\PROGRA~1\SYMANT~1\SYMANT~1\Rtvscan.exe</ExecutablePath>
+<Name>Rtvscan.exe</Name>
+<WorkingSetSize>44429312</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1664</ProcessId>
+<ThreadCount>33</ThreadCount>
+<KernelModeTime>17031250</KernelModeTime>
+<UserModeTime>2968750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>nmesrvc.exe</Caption>
+<CreationDate>20100510081018.109375+480</CreationDate>
+<Description>nmesrvc.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\bin\nmesrvc.exe</ExecutablePath>
+<Name>nmesrvc.exe</Name>
+<WorkingSetSize>1372160</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>180</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>312500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>isqlplussvc.exe</Caption>
+<CreationDate>20100510081027.125000+480</CreationDate>
+<Description>isqlplussvc.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\bin\isqlplussvc.exe</ExecutablePath>
+<Name>isqlplussvc.exe</Name>
+<WorkingSetSize>6131712</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>812</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>TNSLSNR.EXE</Caption>
+<CreationDate>20100510081037.578125+480</CreationDate>
+<Description>TNSLSNR.EXE</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\BIN\TNSLSNR.exe</ExecutablePath>
+<Name>TNSLSNR.EXE</Name>
+<WorkingSetSize>8527872</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1932</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>30781250</KernelModeTime>
+<UserModeTime>11406250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>java.exe</Caption>
+<CreationDate>20100510081038.093750+480</CreationDate>
+<Description>java.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\jdk\bin\java.exe</ExecutablePath>
+<Name>java.exe</Name>
+<WorkingSetSize>27217920</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2000</ProcessId>
+<ThreadCount>10</ThreadCount>
+<KernelModeTime>212031250</KernelModeTime>
+<UserModeTime>70625000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>oracle.exe</Caption>
+<CreationDate>20100510081038.750000+480</CreationDate>
+<Description>oracle.exe</Description>
+<ExecutablePath>d:\oracle\product\10.2.0\db_1\bin\ORACLE.EXE</ExecutablePath>
+<Name>oracle.exe</Name>
+<WorkingSetSize>251199488</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2016</ProcessId>
+<ThreadCount>28</ThreadCount>
+<KernelModeTime>758281250</KernelModeTime>
+<UserModeTime>755000000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>RichVideo.exe</Caption>
+<CreationDate>20100510081106.546875+480</CreationDate>
+<Description>RichVideo.exe</Description>
+<ExecutablePath>C:\Program Files\CyberLink\Shared Files\RichVideo.exe</ExecutablePath>
+<Name>RichVideo.exe</Name>
+<WorkingSetSize>4489216</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2336</ProcessId>
+<ThreadCount>4</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SNMP.EXE</Caption>
+<CreationDate>20100510081106.796875+480</CreationDate>
+<Description>SNMP.EXE</Description>
+<ExecutablePath>C:\WINDOWS\System32\snmp.exe</ExecutablePath>
+<Name>SNMP.EXE</Name>
+<WorkingSetSize>4366336</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2360</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>2812500</KernelModeTime>
+<UserModeTime>1562500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SVCHOST.EXE</Caption>
+<CreationDate>20100510081108.031250+480</CreationDate>
+<Description>SVCHOST.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\svchost.exe</ExecutablePath>
+<Name>SVCHOST.EXE</Name>
+<WorkingSetSize>4575232</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2400</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>937500</KernelModeTime>
+<UserModeTime>625000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>UpdateMonitor.exe</Caption>
+<CreationDate>20100510081108.250000+480</CreationDate>
+<Description>UpdateMonitor.exe</Description>
+<ExecutablePath>C:\Program Files\Lenovo\OneKey App\System Repair\UpdateMonitor.exe</ExecutablePath>
+<Name>UpdateMonitor.exe</Name>
+<WorkingSetSize>3481600</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2684</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>2343750</KernelModeTime>
+<UserModeTime>468750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>vmware-authd.exe</Caption>
+<CreationDate>20100510081109.187500+480</CreationDate>
+<Description>vmware-authd.exe</Description>
+<ExecutablePath>D:\Program Files\VMware\VMware Workstation\vmware-authd.exe</ExecutablePath>
+<Name>vmware-authd.exe</Name>
+<WorkingSetSize>7176192</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3004</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>602187500</KernelModeTime>
+<UserModeTime>117812500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>VMOUNT2.EXE</Caption>
+<CreationDate>20100510081115.609375+480</CreationDate>
+<Description>VMOUNT2.EXE</Description>
+<ExecutablePath>C:\Program Files\Common Files\VMware\VMware Virtual Image Editing\vmount2.exe</ExecutablePath>
+<Name>VMOUNT2.EXE</Name>
+<WorkingSetSize>5185536</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2176</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>468750</KernelModeTime>
+<UserModeTime>468750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>VMNAT.EXE</Caption>
+<CreationDate>20100510081117.562500+480</CreationDate>
+<Description>VMNAT.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\vmnat.exe</ExecutablePath>
+<Name>VMNAT.EXE</Name>
+<WorkingSetSize>2433024</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2320</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>0</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>vmnetdhcp.exe</Caption>
+<CreationDate>20100510081117.843750+480</CreationDate>
+<Description>vmnetdhcp.exe</Description>
+<ExecutablePath>C:\WINDOWS\system32\vmnetdhcp.exe</ExecutablePath>
+<Name>vmnetdhcp.exe</Name>
+<WorkingSetSize>2105344</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2636</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>156250</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>IAANTmon.exe</Caption>
+<CreationDate>20100510081117.843750+480</CreationDate>
+<Description>IAANTmon.exe</Description>
+<ExecutablePath>C:\Program Files\Intel\Intel Matrix Storage Manager\IAANTMon.exe</ExecutablePath>
+<Name>IAANTmon.exe</Name>
+<WorkingSetSize>4669440</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2724</ProcessId>
+<ThreadCount>4</ThreadCount>
+<KernelModeTime>9375000</KernelModeTime>
+<UserModeTime>62187500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>CMD.EXE</Caption>
+<CreationDate>20100510081121.984375+480</CreationDate>
+<Description>CMD.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\cmd.exe</ExecutablePath>
+<Name>CMD.EXE</Name>
+<WorkingSetSize>1761280</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3120</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>0</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>perl.exe</Caption>
+<CreationDate>20100510081122.015625+480</CreationDate>
+<Description>perl.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\perl\5.8.3\bin\MSWin32-x86-multi-thread\perl.exe</ExecutablePath>
+<Name>perl.exe</Name>
+<WorkingSetSize>8351744</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3128</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>59062500</KernelModeTime>
+<UserModeTime>17656250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>java.exe</Caption>
+<CreationDate>20100510081124.718750+480</CreationDate>
+<Description>java.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\jdk\bin\java.exe</ExecutablePath>
+<Name>java.exe</Name>
+<WorkingSetSize>48164864</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3364</ProcessId>
+<ThreadCount>24</ThreadCount>
+<KernelModeTime>33281250</KernelModeTime>
+<UserModeTime>202343750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>EXPLORER.EXE</Caption>
+<CreationDate>20100510081127.593750+480</CreationDate>
+<Description>EXPLORER.EXE</Description>
+<ExecutablePath>C:\WINDOWS\Explorer.EXE</ExecutablePath>
+<Name>EXPLORER.EXE</Name>
+<WorkingSetSize>12541952</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3616</ProcessId>
+<ThreadCount>17</ThreadCount>
+<KernelModeTime>704687500</KernelModeTime>
+<UserModeTime>201562500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>HKCMD.EXE</Caption>
+<CreationDate>20100510081129.859375+480</CreationDate>
+<Description>HKCMD.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\hkcmd.exe</ExecutablePath>
+<Name>HKCMD.EXE</Name>
+<WorkingSetSize>7913472</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3820</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>625000</KernelModeTime>
+<UserModeTime>937500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SynTPEnh.exe</Caption>
+<CreationDate>20100510081129.859375+480</CreationDate>
+<Description>SynTPEnh.exe</Description>
+<ExecutablePath>C:\Program Files\Synaptics\SynTP\SynTPEnh.exe</ExecutablePath>
+<Name>SynTPEnh.exe</Name>
+<WorkingSetSize>6615040</WorkingSetSize>
+<Priority>10</Priority>
+<ProcessId>3828</ProcessId>
+<ThreadCount>4</ThreadCount>
+<KernelModeTime>20781250</KernelModeTime>
+<UserModeTime>13125000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>UTILITY.EXE</Caption>
+<CreationDate>20100510081130.218750+480</CreationDate>
+<Description>UTILITY.EXE</Description>
+<ExecutablePath>C:\Program Files\Lenovo\Energy Management\utility.exe</ExecutablePath>
+<Name>UTILITY.EXE</Name>
+<WorkingSetSize>6107136</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3968</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>1250000</KernelModeTime>
+<UserModeTime>781250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>Energy Management.exe</Caption>
+<CreationDate>20100510081130.234375+480</CreationDate>
+<Description>Energy Management.exe</Description>
+<ExecutablePath>C:\Program Files\Lenovo\Energy Management\Energy Management.exe</ExecutablePath>
+<Name>Energy Management.exe</Name>
+<WorkingSetSize>5308416</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3988</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>468750</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>hqtray.exe</Caption>
+<CreationDate>20100510081130.609375+480</CreationDate>
+<Description>hqtray.exe</Description>
+<ExecutablePath>D:\Program Files\VMware\VMware Workstation\hqtray.exe</ExecutablePath>
+<Name>hqtray.exe</Name>
+<WorkingSetSize>6205440</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>496</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>vmware-tray.exe</Caption>
+<CreationDate>20100510081131.031250+480</CreationDate>
+<Description>vmware-tray.exe</Description>
+<ExecutablePath>D:\Program Files\VMware\VMware Workstation\vmware-tray.exe</ExecutablePath>
+<Name>vmware-tray.exe</Name>
+<WorkingSetSize>20709376</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>588</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>2656250</KernelModeTime>
+<UserModeTime>3906250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>VPTray.exe</Caption>
+<CreationDate>20100510081135.046875+480</CreationDate>
+<Description>VPTray.exe</Description>
+<ExecutablePath>D:\PROGRA~1\SYMANT~1\SYMANT~1\vptray.exe</ExecutablePath>
+<Name>VPTray.exe</Name>
+<WorkingSetSize>5861376</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1188</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>781250</KernelModeTime>
+<UserModeTime>468750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>IGFXPERS.EXE</Caption>
+<CreationDate>20100510081135.718750+480</CreationDate>
+<Description>IGFXPERS.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\igfxpers.exe</ExecutablePath>
+<Name>IGFXPERS.EXE</Name>
+<WorkingSetSize>5410816</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>740</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>156250</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>IGFXSRVC.EXE</Caption>
+<CreationDate>20100510081135.984375+480</CreationDate>
+<Description>IGFXSRVC.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\igfxsrvc.exe</ExecutablePath>
+<Name>IGFXSRVC.EXE</Name>
+<WorkingSetSize>5672960</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>808</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>2343750</KernelModeTime>
+<UserModeTime>781250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>CTFMON.EXE</Caption>
+<CreationDate>20100510081136.140625+480</CreationDate>
+<Description>CTFMON.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\ctfmon.exe</ExecutablePath>
+<Name>CTFMON.EXE</Name>
+<WorkingSetSize>4939776</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>232</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>13593750</KernelModeTime>
+<UserModeTime>3750000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>PPSAP.exe</Caption>
+<CreationDate>20100510081138.437500+480</CreationDate>
+<Description>PPSAP.exe</Description>
+<ExecutablePath>D:\Program Files\PPStream\ppsap.exe</ExecutablePath>
+<Name>PPSAP.exe</Name>
+<WorkingSetSize>10641408</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3084</ProcessId>
+<ThreadCount>15</ThreadCount>
+<KernelModeTime>166406250</KernelModeTime>
+<UserModeTime>86093750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>emagent.exe</Caption>
+<CreationDate>20100510081301.984375+480</CreationDate>
+<Description>emagent.exe</Description>
+<ExecutablePath>D:\oracle\product\10.2.0\db_1\bin\emagent.exe</ExecutablePath>
+<Name>emagent.exe</Name>
+<WorkingSetSize>18644992</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2720</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>342968750</KernelModeTime>
+<UserModeTime>214687500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>alg.exe</Caption>
+<CreationDate>20100510081304.453125+480</CreationDate>
+<Description>alg.exe</Description>
+<ExecutablePath></ExecutablePath>
+<Name>alg.exe</Name>
+<WorkingSetSize>3960832</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2136</ProcessId>
+<ThreadCount>5</ThreadCount>
+<KernelModeTime>156250</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>eclipse.exe</Caption>
+<CreationDate>20100510081418.843750+480</CreationDate>
+<Description>eclipse.exe</Description>
+<ExecutablePath>D:\Program Files\MyEclipse 6.5\eclipse\eclipse.exe</ExecutablePath>
+<Name>eclipse.exe</Name>
+<WorkingSetSize>4268032</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1644</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>156250</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>javaw.exe</Caption>
+<CreationDate>20100510081419.437500+480</CreationDate>
+<Description>javaw.exe</Description>
+<ExecutablePath>d:\Program Files\MyEclipse 6.5\jre\bin\javaw.exe</ExecutablePath>
+<Name>javaw.exe</Name>
+<WorkingSetSize>536788992</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2108</ProcessId>
+<ThreadCount>39</ThreadCount>
+<KernelModeTime>3049531250</KernelModeTime>
+<UserModeTime>5691093750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>BaiduHi.exe</Caption>
+<CreationDate>20100510081636.531250+480</CreationDate>
+<Description>BaiduHi.exe</Description>
+<ExecutablePath>C:\Program Files\baidu\Baidu Hi\BaiduHi.exe</ExecutablePath>
+<Name>BaiduHi.exe</Name>
+<WorkingSetSize>37728256</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>1412</ProcessId>
+<ThreadCount>18</ThreadCount>
+<KernelModeTime>1463437500</KernelModeTime>
+<UserModeTime>1137031250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>IEXPLORE.EXE</Caption>
+<CreationDate>20100510082033.875000+480</CreationDate>
+<Description>IEXPLORE.EXE</Description>
+<ExecutablePath>C:\Program Files\Internet Explorer\iexplore.exe</ExecutablePath>
+<Name>IEXPLORE.EXE</Name>
+<WorkingSetSize>41766912</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3456</ProcessId>
+<ThreadCount>40</ThreadCount>
+<KernelModeTime>1194218750</KernelModeTime>
+<UserModeTime>1762187500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>EditPlus.exe</Caption>
+<CreationDate>20100510083612.109375+480</CreationDate>
+<Description>EditPlus.exe</Description>
+<ExecutablePath>d:\Program Files\EditPlus 3\editplus.exe</ExecutablePath>
+<Name>EditPlus.exe</Name>
+<WorkingSetSize>4542464</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>4092</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>136093750</KernelModeTime>
+<UserModeTime>73281250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>conime.exe</Caption>
+<CreationDate>20100510083921.234375+480</CreationDate>
+<Description>conime.exe</Description>
+<ExecutablePath>C:\WINDOWS\system32\conime.exe</ExecutablePath>
+<Name>conime.exe</Name>
+<WorkingSetSize>4890624</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2828</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>312500</KernelModeTime>
+<UserModeTime>468750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>taskmgr.exe</Caption>
+<CreationDate>20100510084528.828125+480</CreationDate>
+<Description>taskmgr.exe</Description>
+<ExecutablePath>C:\WINDOWS\system32\taskmgr.exe</ExecutablePath>
+<Name>taskmgr.exe</Name>
+<WorkingSetSize>4890624</WorkingSetSize>
+<Priority>13</Priority>
+<ProcessId>4496</ProcessId>
+<ThreadCount>3</ThreadCount>
+<KernelModeTime>23437500</KernelModeTime>
+<UserModeTime>9375000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>CMD.EXE</Caption>
+<CreationDate>20100510085024.140625+480</CreationDate>
+<Description>CMD.EXE</Description>
+<ExecutablePath>C:\WINDOWS\system32\cmd.exe</ExecutablePath>
+<Name>CMD.EXE</Name>
+<WorkingSetSize>53248</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>4172</ProcessId>
+<ThreadCount>1</ThreadCount>
+<KernelModeTime>156250</KernelModeTime>
+<UserModeTime>156250</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>cscript.exe</Caption>
+<CreationDate>20100510085024.156250+480</CreationDate>
+<Description>cscript.exe</Description>
+<ExecutablePath>C:\WINDOWS\system32\cscript.exe</ExecutablePath>
+<Name>cscript.exe</Name>
+<WorkingSetSize>4890624</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>5952</ProcessId>
+<ThreadCount>6</ThreadCount>
+<KernelModeTime>80937500</KernelModeTime>
+<UserModeTime>43593750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>wmiprvse.exe</Caption>
+<CreationDate>20100510085024.343750+480</CreationDate>
+<Description>wmiprvse.exe</Description>
+<ExecutablePath></ExecutablePath>
+<Name>wmiprvse.exe</Name>
+<WorkingSetSize>9695232</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>3484</ProcessId>
+<ThreadCount>10</ThreadCount>
+<KernelModeTime>76406250</KernelModeTime>
+<UserModeTime>68125000</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>Maxthon.exe</Caption>
+<CreationDate>20100510101640.203125+480</CreationDate>
+<Description>Maxthon.exe</Description>
+<ExecutablePath>D:\Program Files\Maxthon2\Maxthon.exe</ExecutablePath>
+<Name>Maxthon.exe</Name>
+<WorkingSetSize>13430784</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>4828</ProcessId>
+<ThreadCount>30</ThreadCount>
+<KernelModeTime>1375312500</KernelModeTime>
+<UserModeTime>1269218750</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>SQLyog.exe</Caption>
+<CreationDate>20100510102422.750000+480</CreationDate>
+<Description>SQLyog.exe</Description>
+<ExecutablePath>C:\Program Files\SQLyog\SQLyog.exe</ExecutablePath>
+<Name>SQLyog.exe</Name>
+<WorkingSetSize>2830336</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>2904</ProcessId>
+<ThreadCount>2</ThreadCount>
+<KernelModeTime>38125000</KernelModeTime>
+<UserModeTime>14062500</UserModeTime>
+</processinfo>
+<processinfo>
+<Caption>javaw.exe</Caption>
+<CreationDate>20100510125717.531250+480</CreationDate>
+<Description>javaw.exe</Description>
+<ExecutablePath>D:\Program Files\MyEclipse 6.5\jre\bin\javaw.exe</ExecutablePath>
+<Name>javaw.exe</Name>
+<WorkingSetSize>100835328</WorkingSetSize>
+<Priority>8</Priority>
+<ProcessId>17816</ProcessId>
+<ThreadCount>79</ThreadCount>
+<KernelModeTime>176875000</KernelModeTime>
+<UserModeTime>899218750</UserModeTime>
+</processinfo>
+</processinfostart>
+
+
+<diskinfostart>
+<diskinfo>
+<Caption>C:</Caption>
+<VolumeName></VolumeName>
+<FileSystem>FAT32</FileSystem>
+<FreeSpace>11617435648</FreeSpace>
+<Size>31446286336</Size>
+</diskinfo>
+<diskinfo>
+<Caption>D:</Caption>
+<VolumeName>LENOVO</VolumeName>
+<FileSystem>NTFS</FileSystem>
+<FreeSpace>70140968960</FreeSpace>
+<Size>202753118208</Size>
+</diskinfo>
+</diskinfostart>
+
+
+<cpuconfigstart>
+<cpuconfiginfo>
+<DataWidth>32</DataWidth>
+<LoadPercentage>0</LoadPercentage>
+<ProcessorId>BFEBFBFF0001067A</ProcessorId>
+<Name>Intel Pentium III Xeon 处理器</Name>
+<L2CacheSize>1024</L2CacheSize>
+<L2CacheSpeed>2095</L2CacheSpeed>
+</cpuconfiginfo>
+</cpuconfigstart>
+
+
+<OSProcessorstart>
+<OLDOSProcessorsinfo>
+<InterruptsPersec>22807461</InterruptsPersec>
+<PercentProcessorTime>197716406250</PercentProcessorTime>
+<Timestamp_Sys100NS>129179451652031250</Timestamp_Sys100NS>
+<Name>0</Name>
+</OLDOSProcessorsinfo>
+<OLDOSProcessorsinfo>
+<InterruptsPersec>2597577</InterruptsPersec>
+<PercentProcessorTime>191111406250</PercentProcessorTime>
+<Timestamp_Sys100NS>129179451652031250</Timestamp_Sys100NS>
+<Name>1</Name>
+</OLDOSProcessorsinfo>
+</OSProcessorstart>
+
+
+<PerfOSMemorystart>
+<OSMemorystartinfo>
+<AvailableBytes>183730176</AvailableBytes>
+<CommittedBytes>2274869248</CommittedBytes>
+<PageFaultsPersec>61716</PageFaultsPersec>
+<PagesInputPersec>0</PagesInputPersec>
+<PagesOutputPersec>0</PagesOutputPersec>
+<PagesPersec>0</PagesPersec>
+</OSMemorystartinfo>
+</PerfOSMemorystart>
+
+
+<PhysicalDiskstart>
+<PhysicalDiskinfo>
+<AvgDiskQueueLength>32112877533</AvgDiskQueueLength>
+<AvgDiskReadQueueLength>23904566178</AvgDiskReadQueueLength>
+<AvgDiskWriteQueueLength>8208311355</AvgDiskWriteQueueLength>
+<CurrentDiskQueueLength>0</CurrentDiskQueueLength>
+<DiskWriteBytesPersec>3540968448</DiskWriteBytesPersec>
+<DiskReadBytesPersec>5569598976</DiskReadBytesPersec>
+<PercentDiskTime_Base>129179451692187500</PercentDiskTime_Base>
+<PercentDiskTime>32112877533</PercentDiskTime>
+</PhysicalDiskinfo>
+</PhysicalDiskstart>
+
+
+<LogicalDiskstart>
+<LogicalDiskinfo>
+<Name>C:</Name>
+<AvgDiskQueueLength>10832741948</AvgDiskQueueLength>
+<AvgDiskReadQueueLength>8379008597</AvgDiskReadQueueLength>
+<AvgDiskWriteQueueLength>2453733351</AvgDiskWriteQueueLength>
+<DiskWriteBytesPersec>1956271104</DiskWriteBytesPersec>
+<AvgDisksecPerWrite>878324894</AvgDisksecPerWrite>
+<AvgDisksecPerRead>-1295663464</AvgDisksecPerRead>
+<DiskReadBytesPersec>4240116736</DiskReadBytesPersec>
+<PercentDiskTime>10832741948</PercentDiskTime>
+<PercentDiskTime_Base>129179451712187500</PercentDiskTime_Base>
+</LogicalDiskinfo>
+<LogicalDiskinfo>
+<Name>D:</Name>
+<AvgDiskQueueLength>21555964371</AvgDiskQueueLength>
+<AvgDiskReadQueueLength>15790020228</AvgDiskReadQueueLength>
+<AvgDiskWriteQueueLength>5765944143</AvgDiskWriteQueueLength>
+<DiskWriteBytesPersec>1584829952</DiskWriteBytesPersec>
+<AvgDisksecPerWrite>2063945652</AvgDisksecPerWrite>
+<AvgDisksecPerRead>1357141499</AvgDisksecPerRead>
+<DiskReadBytesPersec>1329515008</DiskReadBytesPersec>
+<PercentDiskTime>21555964371</PercentDiskTime>
+<PercentDiskTime_Base>129179451712187500</PercentDiskTime_Base>
+</LogicalDiskinfo>
+</LogicalDiskstart>
+
+
+<NetworkInterfacestart>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>0</BytesReceivedPersec>
+<BytesSentPersec>0</BytesSentPersec>
+<BytesTotalPersec>0</BytesTotalPersec>
+<CurrentBandwidth>150000000</CurrentBandwidth>
+<Name>Intel[R] WiFi Link 5100 AGN - 数据包计划程序微型端口</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>0</PacketsOutboundErrors>
+<PacketsPersec>0</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>0</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>0</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>0</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>0</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>0</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>0</PacketsSentPersec>
+<PacketsSentUnicastPersec>0</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>106913</BytesReceivedPersec>
+<BytesSentPersec>91285</BytesSentPersec>
+<BytesTotalPersec>198198</BytesTotalPersec>
+<CurrentBandwidth>2000000000</CurrentBandwidth>
+<Name>Array Networks VPN Adapter - 数据包计划程序微型端口</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>4</PacketsOutboundErrors>
+<PacketsPersec>1679</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>784</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>889</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>0</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>105</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>790</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>790</PacketsSentPersec>
+<PacketsSentUnicastPersec>0</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>28962805</BytesReceivedPersec>
+<BytesSentPersec>11431597</BytesSentPersec>
+<BytesTotalPersec>40394402</BytesTotalPersec>
+<CurrentBandwidth>100000000</CurrentBandwidth>
+<Name>Broadcom NetLink [TM] Gigabit Ethernet - 数据包计划程序微型端口</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>0</PacketsOutboundErrors>
+<PacketsPersec>180657</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>123335</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>152250</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>18412</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>10503</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>271</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>28407</PacketsSentPersec>
+<PacketsSentUnicastPersec>28136</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>67507</BytesReceivedPersec>
+<BytesSentPersec>48843</BytesSentPersec>
+<BytesTotalPersec>116350</BytesTotalPersec>
+<CurrentBandwidth>100000000</CurrentBandwidth>
+<Name>VMware Virtual Ethernet Adapter for VMnet1</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>0</PacketsOutboundErrors>
+<PacketsPersec>898</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>361</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>520</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>0</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>159</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>378</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>378</PacketsSentPersec>
+<PacketsSentUnicastPersec>0</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>65966</BytesReceivedPersec>
+<BytesSentPersec>47268</BytesSentPersec>
+<BytesTotalPersec>113234</BytesTotalPersec>
+<CurrentBandwidth>100000000</CurrentBandwidth>
+<Name>VMware Virtual Ethernet Adapter for VMnet8</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>0</PacketsOutboundErrors>
+<PacketsPersec>873</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>352</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>510</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>0</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>158</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>363</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>363</PacketsSentPersec>
+<PacketsSentUnicastPersec>0</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+<NetworkInterfaceinfo>
+<BytesReceivedPersec>116252025</BytesReceivedPersec>
+<BytesSentPersec>116252025</BytesSentPersec>
+<BytesTotalPersec>232504050</BytesTotalPersec>
+<CurrentBandwidth>10000000</CurrentBandwidth>
+<Name>MS TCP Loopback interface</Name>
+<OutputQueueLength>0</OutputQueueLength>
+<PacketsOutboundErrors>0</PacketsOutboundErrors>
+<PacketsPersec>2629119</PacketsPersec>
+<PacketsReceivedDiscarded>0</PacketsReceivedDiscarded>
+<PacketsReceivedErrors>0</PacketsReceivedErrors>
+<PacketsReceivedNonUnicastPersec>0</PacketsReceivedNonUnicastPersec>
+<PacketsReceivedPersec>1314617</PacketsReceivedPersec>
+<PacketsReceivedUnicastPersec>1314617</PacketsReceivedUnicastPersec>
+<PacketsReceivedUnknown>0</PacketsReceivedUnknown>
+<PacketsSentNonUnicastPersec>0</PacketsSentNonUnicastPersec>
+<PacketsSentPersec>1314502</PacketsSentPersec>
+<PacketsSentUnicastPersec>1314502</PacketsSentUnicastPersec>
+</NetworkInterfaceinfo>
+</NetworkInterfacestart>
+
+
+<SystemMemorystart>
+<SystemMemoryinfo>
+<FreePhysicalMemory>179500</FreePhysicalMemory>
+<TotalVisibleMemorySize>1958444</TotalVisibleMemorySize>
+<FreeVirtualMemory>2044108</FreeVirtualMemory>
+<TotalVirtualMemorySize>2097024</TotalVirtualMemorySize>
+</SystemMemoryinfo>
+</SystemMemorystart>
+
+
+<OSSystemstart>
+<OSSysteminfo>
+<ContextSwitchesPersec>228626246</ContextSwitchesPersec>
+<ProcessorQueueLength>1</ProcessorQueueLength>
+<SystemCallsPersec>582826381</SystemCallsPersec>
+</OSSysteminfo>
+</OSSystemstart>
+
+
+<NetworkStatusstart>
+<NetworkStatusinfo>
+<Index>1</Index>
+<MACAddress>00:1E:65:AC:B1:04</MACAddress>
+<Name>Intel(R) WiFi Link 5100 AGN</Name>
+<NetConnectionStatus>7</NetConnectionStatus>
+</NetworkStatusinfo>
+<NetworkStatusinfo>
+<Index>12</Index>
+<MACAddress>00:50:56:C0:00:01</MACAddress>
+<Name>VMware Virtual Ethernet Adapter for VMnet1</Name>
+<NetConnectionStatus>2</NetConnectionStatus>
+</NetworkStatusinfo>
+<NetworkStatusinfo>
+<Index>14</Index>
+<MACAddress>00:26:9E:0E:B3:FE</MACAddress>
+<Name>Broadcom NetLink (TM) Gigabit Ethernet</Name>
+<NetConnectionStatus>2</NetConnectionStatus>
+</NetworkStatusinfo>
+<NetworkStatusinfo>
+<Index>15</Index>
+<MACAddress>00:50:56:C0:00:08</MACAddress>
+<Name>VMware Virtual Ethernet Adapter for VMnet8</Name>
+<NetConnectionStatus>2</NetConnectionStatus>
+</NetworkStatusinfo>
+<NetworkStatusinfo>
+<Index>20</Index>
+<MACAddress>08:00:58:00:00:01</MACAddress>
+<Name>Array Networks VPN Adapter</Name>
+<NetConnectionStatus>2</NetConnectionStatus>
+</NetworkStatusinfo>
+</NetworkStatusstart>
+
+
+</host>

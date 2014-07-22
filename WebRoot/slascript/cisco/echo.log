@@ -1,0 +1,8 @@
+config
+rtr <entrynumber>
+type echo protocol ipicmpecho <ip-address>
+request-data-size 400
+tos 160
+rtr sch <entrynumber> start now
+exit
+write

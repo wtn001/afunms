@@ -1,0 +1,7 @@
+config
+rtr <entrynumber>
+type udpEcho dest-ipaddr <ip_address> dest-port <port>
+rtr sch <entrynumber> start-time now
+exit
+write
+

@@ -1,0 +1,10 @@
+config
+rtr <entrynumber>
+type pathEcho protocol ipicmpEcho <ip_address>
+frequency 61
+lives-of-history-kept 2
+buckets-of-history-kept 3
+filter-for-history all
+rtr sch <entrynumber> life 25 start-time now
+exit
+write

@@ -1,0 +1,479 @@
+<content>
+  <status>1</status>
+  <tablespace>
+    <row>
+      <Tablespace>ITOWNET_DAT</Tablespace>
+      <Size_MB>500</Size_MB>
+      <Free_MB>500</Free_MB>
+      <Percent_Free>100</Percent_Free>
+      <file_name>D:\ORACLE\PRODUCT\10.2.0\ORADATA\ITOWNET\ITOWNET_DAT.DBF</file_name>
+      <status>AVAILABLE</status>
+    </row>
+    <row>
+      <Tablespace>SYSAUX</Tablespace>
+      <Size_MB>290</Size_MB>
+      <Free_MB>7</Free_MB>
+      <Percent_Free>2.2</Percent_Free>
+      <file_name>D:\ORACLE\PRODUCT\10.2.0\ORADATA\ITOWNET\SYSAUX01.DBF</file_name>
+      <status>AVAILABLE</status>
+    </row>
+    <row>
+      <Tablespace>SYSTEM</Tablespace>
+      <Size_MB>790</Size_MB>
+      <Free_MB>9</Free_MB>
+      <Percent_Free>1.1</Percent_Free>
+      <file_name>D:\ORACLE\PRODUCT\10.2.0\ORADATA\ITOWNET\SYSTEM01.DBF</file_name>
+      <status>AVAILABLE</status>
+    </row>
+    <row>
+      <Tablespace>UNDOTBS1</Tablespace>
+      <Size_MB>30</Size_MB>
+      <Free_MB>24</Free_MB>
+      <Percent_Free>80.4</Percent_Free>
+      <file_name>D:\ORACLE\PRODUCT\10.2.0\ORADATA\ITOWNET\UNDOTBS01.DBF</file_name>
+      <status>AVAILABLE</status>
+    </row>
+    <row>
+      <Tablespace>USERS</Tablespace>
+      <Size_MB>5</Size_MB>
+      <Free_MB>5</Free_MB>
+      <Percent_Free>91.3</Percent_Free>
+      <file_name>D:\ORACLE\PRODUCT\10.2.0\ORADATA\ITOWNET\USERS01.DBF</file_name>
+      <status>AVAILABLE</status>
+    </row>
+  </tablespace>
+  <session>
+    <row>
+      <username>ITSM</username>
+      <status>ACTIVE</status>
+      <machine>legend-009dd8f7</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-15 09-30-40</logontime>
+      <program />
+      <command>Select</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-15 09-30-33</logontime>
+      <program>ORACLE.EXE (J00</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username>DBSNMP</username>
+      <status>ACTIVE</status>
+      <machine>WORKGROUP\DHCC-867735D125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-14 21-23-33</logontime>
+      <program>emagent.exe</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username>DBSNMP</username>
+      <status>INACTIVE</status>
+      <machine>WORKGROUP\DHCC-867735D125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-14 17-23-16</logontime>
+      <program>emagent.exe</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username>SYSMAN</username>
+      <status>INACTIVE</status>
+      <machine>dhcc-867735d125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-14 17-22-01</logontime>
+      <program>OMS</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username>SYSMAN</username>
+      <status>ACTIVE</status>
+      <machine>dhcc-867735d125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-14 17-22-01</logontime>
+      <program>OMS</program>
+      <command>47: Other</command>
+    </row>
+    <row>
+      <username>SYSMAN</username>
+      <status>INACTIVE</status>
+      <machine>dhcc-867735d125</machine>
+      <sessiontype>USER</sessiontype>
+      <logontime>2010-03-14 17-22-01</logontime>
+      <program>OMS</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-20-33</logontime>
+      <program>ORACLE.EXE (q00</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-20-28</logontime>
+      <program>ORACLE.EXE (q00</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-58</logontime>
+      <program>ORACLE.EXE (QMN</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (PSP</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (MMA</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (DBW</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (LGW</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (CKP</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (SMO</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (REC</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (CJQ</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (MMO</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (PMO</program>
+      <command>No Command</command>
+    </row>
+    <row>
+      <username />
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (MMN</program>
+      <command>No Command</command>
+    </row>
+  </session>
+  <oracleSys>
+    <row>
+      <INSTANCE_NAME>itownet</INSTANCE_NAME>
+      <HOST_NAME>DHCC-867735D125</HOST_NAME>
+      <DBNAME>Oracle</DBNAME>
+      <VERSION>10.2.0.1.0</VERSION>
+      <STARTUP_TIME>2010-03-14 17:18:56</STARTUP_TIME>
+      <STATUS>´ò¿ª</STATUS>
+      <ARCHIVER>ARCHIVERLOG</ARCHIVER>
+    </row>
+  </oracleSys>
+  <oracleRollbackInfo>
+    <row>
+      <rollback_segment>SYSTEM</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>0</shrinks>
+      <average_shrink>0</average_shrink>
+      <wraps>0</wraps>
+      <extends>0</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU1$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>3</shrinks>
+      <average_shrink>109226</average_shrink>
+      <wraps>38</wraps>
+      <extends>5</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU10$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>1</shrinks>
+      <average_shrink>131072</average_shrink>
+      <wraps>26</wraps>
+      <extends>3</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU2$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>1</shrinks>
+      <average_shrink>1048576</average_shrink>
+      <wraps>6</wraps>
+      <extends>1</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU3$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>1</shrinks>
+      <average_shrink>1048576</average_shrink>
+      <wraps>7</wraps>
+      <extends>1</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU4$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>1</shrinks>
+      <average_shrink>1048576</average_shrink>
+      <wraps>4</wraps>
+      <extends>1</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU5$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>2</shrinks>
+      <average_shrink>98304</average_shrink>
+      <wraps>26</wraps>
+      <extends>4</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU6$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>2</shrinks>
+      <average_shrink>65536</average_shrink>
+      <wraps>34</wraps>
+      <extends>2</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU7$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>1</shrinks>
+      <average_shrink>65536</average_shrink>
+      <wraps>29</wraps>
+      <extends>1</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU8$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>0</shrinks>
+      <average_shrink>0</average_shrink>
+      <wraps>6</wraps>
+      <extends>0</extends>
+    </row>
+    <row>
+      <rollback_segment>_SYSSMU9$</rollback_segment>
+      <optimal>--</optimal>
+      <shrinks>3</shrinks>
+      <average_shrink>87381</average_shrink>
+      <wraps>38</wraps>
+      <extends>3</extends>
+    </row>
+  </oracleRollbackInfo>
+  <oracleLockInfo>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (CKP</program>
+      <locktype>XR</locktype>
+      <lmode>1</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (CKP</program>
+      <locktype>CF</locktype>
+      <lmode>2</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (CKP</program>
+      <locktype>RS</locktype>
+      <lmode>2</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (LGW</program>
+      <locktype>RT</locktype>
+      <lmode>6</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (DBW</program>
+      <locktype>PW</locktype>
+      <lmode>3</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (DBW</program>
+      <locktype>MR</locktype>
+      <lmode>4</lmode>
+      <request>0</request>
+    </row>
+    <row>
+      <username>--</username>
+      <status>ACTIVE</status>
+      <machine>DHCC-867735D125</machine>
+      <sessiontype>BACKGROUND</sessiontype>
+      <logontime>2010-03-14 17-19-06</logontime>
+      <program>ORACLE.EXE (SMO</program>
+      <locktype>TS</locktype>
+      <lmode>3</lmode>
+      <request>0</request>
+    </row>
+  </oracleLockInfo>
+  <oracleMem>
+    <row>
+      <shared_pool>172</shared_pool>
+    </row>
+    <row>
+      <large_pool>4</large_pool>
+    </row>
+    <row>
+      <java_pool>4</java_pool>
+    </row>
+    <row>
+      <streams_pool>0</streams_pool>
+    </row>
+    <row>
+      <DEFAULT_buffer_cache>396</DEFAULT_buffer_cache>
+    </row>
+    <row>
+      <KEEP_buffer_cache>0</KEEP_buffer_cache>
+    </row>
+    <row>
+      <RECYCLE_buffer_cache>0</RECYCLE_buffer_cache>
+    </row>
+    <row>
+      <DEFAULT_2K_buffer_cache>0</DEFAULT_2K_buffer_cache>
+    </row>
+    <row>
+      <DEFAULT_4K_buffer_cache>0</DEFAULT_4K_buffer_cache>
+    </row>
+    <row>
+      <DEFAULT_8K_buffer_cache>0</DEFAULT_8K_buffer_cache>
+    </row>
+    <row>
+      <DEFAULT_16K_buffer_cache>0</DEFAULT_16K_buffer_cache>
+    </row>
+    <row>
+      <DEFAULT_32K_buffer_cache>0</DEFAULT_32K_buffer_cache>
+    </row>
+    <row>
+      <ASM_Buffer_Cache>0</ASM_Buffer_Cache>
+    </row>
+    <row>
+      <java_pool>4</java_pool>
+    </row>
+    <aggregate_PGA_target_parameter>194.0MB</aggregate_PGA_target_parameter>
+    <aggregate_PGA_auto_target>160.03125MB</aggregate_PGA_auto_target>
+    <global_memory_bound>38.799805MB</global_memory_bound>
+    <total_PGA_inuse>16.516602MB</total_PGA_inuse>
+    <total_PGA_allocated>28.72754MB</total_PGA_allocated>
+    <maximum_PGA_allocated>32.93457MB</maximum_PGA_allocated>
+    <total_freeable_PGA_memory>0.0KB</total_freeable_PGA_memory>
+    <process_count>0.0234375KB</process_count>
+    <max_processes_count>0.02734375KB</max_processes_count>
+    <PGA_memory_freed_back_to_OS>0.0KB</PGA_memory_freed_back_to_OS>
+    <total_PGA_used_for_auto_workareas>0.0KB</total_PGA_used_for_auto_workareas>
+    <maximum_PGA_used_for_auto_workareas>1.4677734MB</maximum_PGA_used_for_auto_workareas>
+    <total_PGA_used_for_manual_workareas>0.0KB</total_PGA_used_for_manual_workareas>
+    <maximum_PGA_used_for_manual_workareas>0.0KB</maximum_PGA_used_for_manual_workareas>
+    <over_allocation_count>0.0KB</over_allocation_count>
+    <bytes_processed>1416.4111MB</bytes_processed>
+    <extra_bytes_read_written>0.0KB</extra_bytes_read_written>
+    <cache_hit_percentage>100%</cache_hit_percentage>
+    <recompute_count_total>18.948242KB</recompute_count_total>
+  </oracleMem>
+</content>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<alarmTree alarmNum="2">
+	<alarmNode ip="10.1.1.1(10.1.1.1)" level="2" content="10.1.1.1(10.1.1.1)  入口流速超过阀值 当前值:290855 kb/秒 阀值:200000 kb/秒" />
+	<alarmNode ip="10.1.1.1(10.1.1.1)" level="2" content="10.1.1.1(10.1.1.1)  出口流速超过阀值 当前值:287959 kb/秒 阀值:200000 kb/秒" />
+</alarmTree>
+

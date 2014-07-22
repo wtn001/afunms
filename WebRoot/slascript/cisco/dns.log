@@ -1,0 +1,6 @@
+config
+rtr <entrynumber>
+type dns target-addr <addrstr> name-server <ipstr>
+rtr sch <entrynumber> start-time now
+exit
+write

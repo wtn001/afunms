@@ -1,0 +1,49 @@
+<%@page contentType="text/html; charset=GB2312"%>
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+	<nodes>
+		<node>
+			<index>3</index>
+			<img>image/port_ethernet_down_gray.gif</img>
+			<direction>1</direction>
+			<x>81</x>
+			<y>124</y>
+		</node>
+		<node>
+			<index>4</index>
+			<img>image/port_ethernet_up_gray.gif</img>
+			<direction>1</direction>
+			<x>83</x>
+			<y>85</y>
+		</node>
+		<node>
+			<index>6</index>
+			<img>image/port_ethernet_down_gray.gif</img>
+			<direction>1</direction>
+			<x>597</x>
+			<y>135</y>
+		</node>
+		<node>
+			<index>7</index>
+			<img>image/port_ethernet_down_gray.gif</img>
+			<direction>1</direction>
+			<x>621</x>
+			<y>135</y>
+		</node>
+		<node>
+			<index>8</index>
+			<img>image/port_ethernet_down_gray.gif</img>
+			<direction>1</direction>
+			<x>645</x>
+			<y>135</y>
+		</node>
+		<node>
+			<index>9</index>
+			<img>image/port_ethernet_down_gray.gif</img>
+			<direction>1</direction>
+			<x>669</x>
+			<y>135</y>
+		</node>
+	</nodes>
+</root>
+

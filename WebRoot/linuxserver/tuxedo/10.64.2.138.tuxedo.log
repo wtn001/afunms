@@ -1,0 +1,80 @@
+Wed Jun 02 11:04:05 CST 2010
+
+> Prog Name      Queue Name  Grp Name      ID RqDone Load Done Current Service
+---------      ----------  --------      -- ------ --------- ---------------
+BBL            123456      elink_1+       0      1        50 (  IDLE )
+GWADM          00002.00001 LGWGRP         1      0         0 (  IDLE )
+DMADM          00001.00001 LDMGRP         1     14       700 (  IDLE )
+GWTDOMAIN      00002.00002 LGWGRP         2    292         0 (  IDLE )
+WSL            00003.00005 GROUP1         5      0         0 (  IDLE )
+elgt_tuxs      00003.00010 GROUP1        10     29      1450 (  IDLE )
+elgt_tuxs      00003.00011 GROUP1        11     32      1600 (  IDLE )
+elgt_tuxs      00003.00012 GROUP1        12    191      9550 (  IDLE )
+tuxserv32      00003.00050 GROUP1        50      7       350 (  IDLE )
+fps_gateway    00003.00060 GROUP1        60     39      1950 (  IDLE )
+
+> Service Name Routine Name Prog Name  Grp Name  ID    Machine  # Done Status
+------------ ------------ ---------  --------  --    -------  ------ ------
+LAPP         GWS          GWADM      LGWGRP     1 elink_100+       0 AVAIL
+DMADMIN      DMADMIN      DMADM      LDMGRP     1 elink_100+       7 AVAIL
+GETLEN_0000+ GWS          GWTDOMAIN  LGWGRP     2 elink_100+       0 AVAIL
+GETLEN_0000+ GWS          GWTDOMAIN  LGWGRP     2 elink_100+      21 AVAIL
+EUSPSERVER   GWS          GWTDOMAIN  LGWGRP     2 elink_100+     249 AVAIL
+TUXFTP_0000+ GWS          GWTDOMAIN  LGWGRP     2 elink_100+       0 AVAIL
+TUXFTP_0000+ GWS          GWTDOMAIN  LGWGRP     2 elink_100+      22 AVAIL
+TMS          GWS          GWTDOMAIN  LGWGRP     2 elink_100+       0 AVAIL
+ELINKSERV    ELINKSERV    elgt_tuxs  GROUP1    10 elink_100+      29 AVAIL
+ELINKSERV    ELINKSERV    elgt_tuxs  GROUP1    11 elink_100+      32 AVAIL
+ELINKSERV    ELINKSERV    elgt_tuxs  GROUP1    12 elink_100+     191 AVAIL
+TUXFTP       TUXFTP       tuxserv32  GROUP1    50 elink_100+       5 AVAIL
+GETLEN       GETLEN       tuxserv32  GROUP1    50 elink_100+       2 AVAIL
+TUXFTP_0000+ TUXFTP_0000+ fps_gatew+ GROUP1    60 elink_100+      20 AVAIL
+GETLEN_0000+ GETLEN_0000+ fps_gatew+ GROUP1    60 elink_100+      19 AVAIL
+
+> Prog Name      Queue Name  # Serve Wk Queued  # Queued  Ave. Len    Machine
+---------      ------------------- ---------  --------  --------    -------
+GWADM          00002.00001       1         -         0         - elink_100+
+elgt_tuxs      00003.00011       1         -         0         - elink_100+
+elgt_tuxs      00003.00010       1         -         0         - elink_100+
+GWTDOMAIN      00002.00002       1         -         0         - elink_100+
+BBL            123456            1         -         0         - elink_100+
+tuxserv32      00003.00050       1         -         0         - elink_100+
+fps_gateway    00003.00060       1         -         0         - elink_100+
+elgt_tuxs      00003.00012       1         -         0         - elink_100+
+DMADM          00001.00001       1         -         0         - elink_100+
+WSL            00003.00005       1         -         0         - elink_100+
+
+>      LMID         User Name       Client Name    Time    Status  Bgn/Cmmt/Abrt
+--------------- --------------- --------------- -------- ------- -------------
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink           WSH             **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           **:**:** IDLE    0/0/0
+elink_10000000  elink                           49:09:07 IDLE    0/0/0
+elink_10000000  elink                           47:27:26 IDLE    0/0/0
+elink_10000000  elink                           47:26:08 IDLE    0/0/0
+elink_10000000  elink           tmadmin          0:00:00 IDLE    0/0/0
+
+> 

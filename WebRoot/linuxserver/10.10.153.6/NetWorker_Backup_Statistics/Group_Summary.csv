@@ -1,0 +1,15 @@
+Group Summary
+
+Server Name: all
+Group Name: all
+Backup Type: all
+Level: all
+Save Time: from earliest available to 12/4/08 4:52:50 PM
+
+Group Name,Amount of Data,Number of Files,Number of Save Sets
+,18536198280996,950764,10515
+JF_oracle_backupfull_raw,23782856590248,67515,2388
+jfa05_backup_dump,4147050263332,3051922,715
+jfa06_backup_dump,2737661639924,92185,718
+JS_backup_dump,3295796800,538797,394
+XZ_oracle_backupfull_raw,48222451238152,140007,5022

@@ -1,0 +1,651 @@
+cmdbegin:version
+SunOS fe01 5.10 Generic_138888-01 sun4v sparc SUNW,T5240
+cmdbegin:vmstat
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr rm s0 s1 s2   in   sy   cs us sy id
+ 0 0 0 91600688 29812080 374 1679 0 206 194 0 0 -0 60 1 -0 6047 63590 9729 2 1 97
+cmdbegin:swapinfo
+total: 1035776k bytes allocated + 559064k reserved = 1594840k used, 91563176k available
+cmdbegin:process
+  PID     USER %CPU %MEM        TIME  RSS COMMAND
+    0     root  0.0  0.0       00:43    0 sched
+    1     root  0.0  0.0    17:50:25 2184 /sbin/init
+    2     root  0.0  0.0       00:00    0 pageout
+    3     root  0.2  0.0 26-12:42:54    0 fsflush
+  254     root  0.0  0.0       00:00 1016 /usr/lib/efcode/sparcv9/efdaemon
+    7     root  0.0  0.1    02:31:07 19480 /lib/svc/bin/svc.startd
+    9     root  0.0  0.1    01:06:22 11224 /lib/svc/bin/svc.configd
+  472     root  0.0  0.1  1-01:54:55 14296 /usr/lib/inet/inetd
+  436   daemon  0.0  0.2       00:44 51736 /usr/lib/nfs/nfsmapid
+  509     root  0.0  0.0       00:00 1304 /usr/sadm/lib/smc/bin/smcboot
+  223     root  0.0  0.0       33:15 1648 /usr/lib/inet/in.mpathd
+  311     root  0.0  0.0       37:20 2056 /usr/lib/inet/xntpd
+  510     root  0.0  0.0       00:00 1448 -sh
+  154     root  0.0  0.0       00:00 1600 /usr/lib/ldoms/drd
+  432   daemon  0.0  0.0       00:00 2616 /usr/lib/nfs/statd
+  429   daemon  0.0  0.0       00:00 2272 /usr/sbin/rpcbind
+  438   daemon  0.0  0.0       00:00 2120 /usr/lib/nfs/nfs4cbd
+  507     root  0.0  0.0       00:00 1736 /usr/sadm/lib/smc/bin/smcboot
+  190     root  0.0  0.0       00:01 2976 devfsadmd
+  508     root  0.0  0.0       00:00 1304 /usr/sadm/lib/smc/bin/smcboot
+  442   daemon  0.0  0.0       00:00 2128 /usr/lib/nfs/lockd
+  482     root  0.0  0.0       00:11 1720 /usr/lib/saf/sac
+  329     root  0.0  0.0       34:37 1856 /usr/sbin/cron
+  497     root  0.0  0.0    02:52:45 1176 /usr/lib/utmpd
+  143     root  0.0  0.0       00:00 3472 /usr/lib/sysevent/syseventd
+  173     root  0.0  0.1       00:01 7592 /usr/lib/picl/picld
+23454     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+  149     root  0.1  0.1  7-13:02:07 14784 /usr/sbin/nscd
+  155   daemon  0.0  0.0       00:47 3880 /usr/lib/crypto/kcfd
+  499     root  0.0  0.0       00:08 2112 /usr/lib/saf/ttymon
+  627   daemon  0.0  0.0       00:00 2312 /usr/lib/nfs/nfsd
+  645     root  0.0  0.0       08:06 3088 /usr/sbin/syslogd
+  623     root  0.0  0.0       00:00 2656 /usr/lib/nfs/mountd
+  739     root  0.0  0.0       00:00 2984 /usr/lib/dmi/snmpXdmid
+13067      osa  0.0  0.0       00:00 2200 rlogin
+  905      osa  0.0  0.0       00:00 1312 rlogin
+  611     root  0.0  0.0       00:00 1888 /usr/lib/autofs/automountd
+  612     root  0.0  0.0       01:25 2592 /usr/lib/autofs/automountd
+  656     root  0.0  0.0       00:00 3104 /usr/sbin/vold
+  638     root  0.0  0.0       00:01 2808 /usr/lib/ssh/sshd
+22114      osa  0.0  0.0       00:00 2192 rlogin
+22121      osa  0.0  0.0       00:02 1312 rlogin
+ 2349   nobody  0.0  0.0       00:00 3056 /usr/apache/bin/httpd
+  742     root  0.0  0.0       00:00 2552 /usr/lib/dmi/dmispd
+13068      osa  0.0  0.0       00:00 1312 rlogin
+  712     root  0.0  0.0       00:03 2048 /usr/lib/snmp/snmpdx
+  701     root  0.0  0.1    02:01:57 14008 /usr/lib/fm/fmd/fmd
+  716     root  0.0  0.1       27:18 8056 /usr/sfw/sbin/snmpd
+ 1112     root  0.0  0.0       00:04 2624 /usr/dt/bin/dtlogin
+ 1226 noaccess  0.0  0.4    05:31:45 106504 /usr/java/bin/java
+ 1113     root  0.0  0.1    01:03:02 19712 /data/users/osa/bin/hi
+ 2610     root  0.0  0.0       00:00 2824 bash
+ 2148      osa  0.0  0.0    08:37:46 1560 sh
+20629      osa  0.0  0.0       00:00 4752 /data/users/osa/bin/wframe
+ 1539    smmsp  0.0  0.0       01:33 3256 /usr/lib/sendmail
+ 1540     root  0.0  0.0       21:23 4168 /usr/lib/sendmail
+11194      osa  0.0  0.0       00:00 3000 -bash
+24491      osa  0.0  0.0       00:00 3000 -bash
+28374      osa  0.0  0.2    07:43:30 38416 /data/users/osa/bin/sendstatus
+24119      osa  0.0  0.1    01:22:57 13216 /data/users/osa/bin/midbrowser
+23835      osa  0.0  0.0       00:02 3792 /usr/lib/ssh/sshd
+15374      osa  0.0  0.0       00:00 3056 -bash
+15371     root  0.0  0.0       00:00 3216 /usr/sbin/in.telnetd
+21633      osa  0.0  0.1       02:39 23520 /data/users/osa/bin/rteevnreg
+25645      osa  0.0  0.0       00:00 3000 -bash
+21943      osa  0.0  0.1       00:00 5000 /data/users/osa/bin/rtereset
+25587      osa  0.0  0.0       00:00 3000 -bash
+ 2224      osa  0.0  0.0    02:16:36 1872 sh
+21609     root  0.0  0.0       00:00 2296 rcp
+ 2348   nobody  0.0  0.0       00:00 3144 /usr/apache/bin/httpd
+21458      osa  0.0  0.0       00:00 1416 sleep
+ 2329     root  0.0  0.0       18:49 4680 /usr/apache/bin/httpd
+ 2352   nobody  0.0  0.0       00:00 3152 /usr/apache/bin/httpd
+ 2350   nobody  0.0  0.0       00:00 3160 /usr/apache/bin/httpd
+ 2351   nobody  0.0  0.0       00:00 2704 /usr/apache/bin/httpd
+13378      osa  0.0  0.0       00:02 1312 rlogin
+17468     root  0.0  0.0       00:00 3176 bash
+10383      osa  0.0  0.0       00:04 3792 /usr/lib/ssh/sshd
+21492      osa  0.0  0.0       00:00 2192 rlogin
+21603     root  0.0  0.0       00:00 1408 sh
+ 1874      osa  0.1  0.3       03:36 72632 /data/users/osa/bin/ptp_web_cli
+20687      osa  0.0  0.0       00:00 1312 rlogin
+28886      osa  0.0  0.1       00:00 9768 /data/users/osa/bin/middata
+21493      osa  0.0  0.0       00:01 1312 rlogin
+15601      osa  0.0  0.0       00:00 2200 rlogin
+ 3595      osa  0.2  0.3       01:43 91192 /data/users/osa/bin/telcom
+ 9973      osa  0.0  0.0       00:00 3064 -bash
+21815      osa  0.1  0.1    04:43:00 24288 /data/users/osa/bin/rtelmd
+21606      osa  0.0  0.0       00:00 2848 -bash
+21714      osa  0.0  0.1    01:20:08 12056 /data/users/osa/bin/rtemgrd
+ 4012     root  0.0  0.0       00:32 1312 rlogin
+26074      osa  0.0  0.0       00:00 3000 -bash
+  892      osa  0.0  0.0       00:00 2200 rlogin
+11192     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+14660      osa  0.0  0.0       00:00 3152 -bash
+12809     root  0.0  0.0       00:00 3208 /usr/sbin/in.telnetd
+28471      osa  0.0  0.0       00:00 3000 -bash
+ 3729      osa  0.3  1.2       02:44 377776 /data/users/osa/bin/combob
+ 1937      osa  0.3  0.2       38:56 53736 /data/users/osa/bin/mimic
+  207      osa  0.0  0.0       00:00 1312 rlogin
+ 2810      osa  0.0  0.0       00:00 3208 -bash
+23817     root  0.0  0.1       00:00 6304 /usr/lib/ssh/sshd
+ 2806      osa  0.0  0.0       00:08 3784 /usr/lib/ssh/sshd
+  206      osa  0.0  0.0       00:00 2200 rlogin
+ 4008     root  0.0  0.0       00:00 1976 rlogin
+21213      osa  0.0  0.0       00:00 1416 sleep
+20680      osa  0.0  0.0       00:00 2200 rlogin
+21357      osa  0.3  0.2  2-03:40:50 66888 /data/users/osa/bin/rtesfmrtp
+26072     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+  883     root  0.0  0.0       00:00 3216 /usr/sbin/in.telnetd
+21607      osa  0.0  0.0       00:00 2848 -bash
+23840      osa  0.0  0.0       00:00 3000 -bash
+ 2801     root  0.0  0.1       00:00 6248 /usr/lib/ssh/sshd
+12830      osa  0.0  0.0       00:00 3048 -bash
+10385      osa  0.0  0.0       00:00 2976 -bash
+25643     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+23740      osa  0.0  0.1    01:24:57 10832 /data/users/osa/bin/rtesyndb
+17402     root  0.0  0.0       00:00 1608 -sh
+14652     root  0.0  0.0       00:00 3224 /usr/sbin/in.telnetd
+29187      osa  0.0  0.1       01:45 21080 /data/users/osa/bin/telbob
+ 9971      osa  0.0  0.0       00:00 3792 /usr/lib/ssh/sshd
+20631      osa  0.1  0.1    04:00:46 5608 /data/users/osa/bin/sysmonitor
+10380     root  0.0  0.1       00:00 6280 /usr/lib/ssh/sshd
+ 1032      osa  0.2  0.2       29:54 51712 /data/users/osa/bin/psbob
+  103      osa  0.0  0.1       05:55 17520 /data/users/osa/bin/startrtdb
+13371      osa  0.0  0.0       00:00 2200 rlogin
+21602     root  0.0  0.0       00:00 1408 sh
+20609      osa  0.0  0.1       47:42 6136 /data/users/osa/bin/resmoni
+28919      osa  0.0  0.1       00:02 10128 /data/users/osa/bin/midmmi
+20999      osa  0.0  0.1       00:01 34968 /data/users/osa/bin/rteinit
+21605     root  0.0  0.0       00:00 1408 /bin/sh
+ 6296      osa  0.1  0.8       01:04 235208 /data/users/osa/bin/serbob
+23456      osa  0.0  0.0       00:00 3064 -bash
+21631     root  0.0  0.0       00:00 1664 ps
+25585     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+ 1020      osa  0.0  0.0       00:00 3064 -bash
+22065      osa  0.0  0.1       00:00 5312 /data/users/osa/bin/rteshd
+22929      osa  0.0  0.0       00:01 1312 rlogin
+21604     root  0.0  0.0       00:00 1448 sh
+  886      osa  0.0  0.0       00:00 3056 -bash
+28938      osa  0.0  0.1       00:07 22864 /data/users/osa/bin/midrela
+15602      osa  0.0  0.0       00:00 1312 rlogin
+24031      osa  0.0  0.1       28:28 5784 /data/users/osa/bin/rtetimhan
+21601     root  0.0  0.0       00:00 1400 sh
+24489     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+22921      osa  0.0  0.0       00:00 2200 rlogin
+28466     root  0.0  0.0       00:00 2120 /usr/sbin/in.rlogind
+ 9968     root  0.0  0.1       00:00 6304 /usr/lib/ssh/sshd
+cmdbegin:cpu
+
+SunOS fe01 5.10 Generic_138888-01 sun4v    12/06/2010
+
+18:45:00    %usr    %sys    %wio   %idle
+18:45:02       2       3       0      96
+18:45:03       2       3       0      96
+18:45:04       1       1       0      98
+
+Average        1       2       0      97
+cmdbegin:allmemory
+System Configuration:  Sun Microsystems  sun4v
+Memory size: 32544 Megabytes
+cmdbegin:cpuconfig
+The physical processor has 32 virtual processors (0-31)
+  UltraSPARC-T2+ (cpuid 0 clock 1165 MHz)
+The physical processor has 32 virtual processors (64-95)
+  UltraSPARC-T2+ (cpuid 64 clock 1165 MHz)
+cmdbegin:disk
+Filesystem            kbytes    used   avail capacity  Mounted on
+/dev/dsk/c1t0d0s0    75336151 25566934 49015856    35%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 91560792    1576 91559216     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/platform/SUNW,T5240/lib/libc_psr/libc_psr_hwcap2.so.1 75336151 25566934 49015856    35%    /platform/sun4v/lib/libc_psr.so.1
+/platform/SUNW,T5240/lib/sparcv9/libc_psr/libc_psr_hwcap2.so.1 75336151 25566934 49015856    35%    /platform/sun4v/lib/sparcv9/libc_psr.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 91683720  124504 91559216     1%    /tmp
+swap                 91559272      56 91559216     1%    /var/run
+/dev/dsk/c1t2d0s3    40340394 2207310 37729681     6%    /oracle
+/dev/dsk/c1t2d0s4    98833320 18895934 78949053    20%    /data
+cmdbegin:diskperf
+
+SunOS fe01 5.10 Generic_138888-01 sun4v    12/06/2010
+
+18:45:04   device        %busy   avque   r+w/s  blks/s  avwait  avserv
+
+18:45:05   nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0              25     2.1      78    6191     2.0    24.5
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,d             0     0.0       0       0     0.0     0.0
+           sd0,e            25     2.1      78    6191     2.0    24.5
+           sd1               0     0.0       0       0     0.0     0.0
+           sd1,a             0     0.0       0       0     0.0     0.0
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       0       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       0       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+
+18:45:06   nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0              21     4.7      79    3240    27.9    31.7
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,d             0     0.0       0       0     0.0     0.0
+           sd0,e            21     4.7      79    3240    27.9    31.7
+           sd1               0     0.0       0       0     0.0     0.0
+           sd1,a             0     0.0       0       0     0.0     0.0
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       4       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       4       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+
+
+Average    nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0              23     3.6      78    4461    17.2    28.7
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,d             0     0.0       0       0     0.0     0.0
+           sd0,e            23     3.6      78    4461    17.2    28.7
+           sd1               0     0.0       0       0     0.0     0.0
+           sd1,a             0     0.0       0       0     0.0     0.0
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       4       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       4       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+cmdbegin:netconf
+e1000g0		link: up	speed: 1000  Mbps	duplex: full
+e1000g1		link: up	speed: 1000  Mbps	duplex: full
+nxge0		link: up	speed: 100   Mbps	duplex: full
+nxge1		link: up	speed: 100   Mbps	duplex: full
+nxge2		link: up	speed: 100   Mbps	duplex: full
+nxge3		link: up	speed: 1000  Mbps	duplex: full
+e1000g2		link: up	speed: 1000  Mbps	duplex: full
+e1000g3		link: down	speed: 0     Mbps	duplex: half
+cmdbegin:netperf
+Name  Mtu  Net/Dest      Address        Ipkts  Ierrs Opkts  Oerrs Collis Queue 
+lo0   8232 127.0.0.0     127.0.0.1      2189362475 0     2189362475 0     0      0     
+lo0   8232 127.0.0.0     127.0.0.1      0      N/A   1141141 N/A   N/A    0     
+e1000g0 1500 10.63.0.0     10.63.0.41     800348813 0     3657057469 0     0      0     
+e1000g0 1500 10.63.0.0     10.63.0.41     2909645647 N/A   103055 N/A   N/A    0     
+e1000g1 1500 10.63.1.0     10.63.1.41     6413812 0     1177899909 0     0      0     
+e1000g1 1500 10.63.1.0     10.63.1.41     200890 N/A   0      N/A   N/A    0     
+e1000g2 1500 63.0.0.0      63.10.10.1     21636409 0     19859450 0     0      0     
+e1000g2 1500 63.0.0.0      63.10.10.1     3447899506 N/A   19800085 N/A   N/A    0     
+e1000g3 1500 63.0.0.0      63.10.10.101   0      0     0      0     0      0     
+e1000g3 1500 63.0.0.0      63.10.10.101   0      N/A   0      N/A   N/A    0     
+nxge0 1500 10.63.0.0     10.63.0.11     425565376 34    2576209812 0     0      0     
+nxge0 1500 10.63.0.0     10.63.0.11     364942080 N/A   1940568041 N/A   N/A    0     
+nxge1 1500 10.63.1.0     10.63.1.11     2114241713 0     32092436 0     0      0     
+nxge1 1500 10.63.1.0     10.63.1.11     62151016 N/A   1212596519 N/A   N/A    0     
+nxge2 1500 10.63.3.0     10.63.3.11     2760859479 180   1500825624 0     0      0     
+nxge2 1500 10.63.3.0     10.63.3.11     2757989447 N/A   2226190382 N/A   N/A    0     
+nxge3 1500 10.63.4.0     10.63.4.11     41278085 0     0      0     0      0     
+nxge3 1500 10.63.4.0     10.63.4.11     31977311 N/A   16     N/A   N/A    0     
+
+cmdbegin:netaddr
+Net to Media Table: IPv4
+Device   IP Address               Mask      Flags      Phys Addr
+------ -------------------- --------------- -------- ---------------
+nxge1  224.0.0.22           255.255.255.255          01:00:5e:00:00:16
+e1000g0 228.228.228.228      255.255.255.255          01:00:5e:64:e4:e4
+e1000g1 228.228.228.229      255.255.255.255          01:00:5e:64:e4:e5
+e1000g1 10.63.1.1            255.255.255.255 o        00:14:4f:ed:1b:8b
+nxge1  10.63.1.2            255.255.255.255 o        00:14:4f:ed:1a:4b
+nxge1  10.63.1.14           255.255.255.255          00:14:4f:f3:75:d5
+nxge0  10.63.0.23           255.255.255.255          00:14:4f:f3:79:ee
+nxge0  10.63.0.24           255.255.255.255 o        00:14:4f:f3:75:7a
+e1000g0 10.63.0.5            255.255.255.255 o        00:14:4f:ed:33:cc
+e1000g0 10.63.0.7            255.255.255.255          00:14:4f:ed:1c:34
+nxge0  10.63.0.6            255.255.255.255          00:14:4f:ed:42:2c
+nxge0  10.63.0.1            255.255.255.255          00:14:4f:ed:1b:8a
+e1000g0 10.63.0.2            255.255.255.255          00:14:4f:ed:1a:4a
+nxge0  10.63.0.13           255.255.255.255          00:14:4f:f3:79:6c
+e1000g0 10.63.0.12           255.255.255.255          00:14:4f:f3:80:92
+e1000g0 10.63.0.8            255.255.255.255          00:14:4f:ed:41:00
+nxge0  10.63.0.254          255.255.255.255 o        00:00:5e:00:01:0a
+nxge2  10.63.3.101          255.255.255.255          00:90:e8:18:f1:e0
+nxge2  10.63.3.105          255.255.255.255          00:90:e8:18:f1:8c
+nxge2  10.63.3.254          255.255.255.255 o        00:00:5e:00:01:64
+e1000g2 63.10.10.254         255.255.255.255          00:23:89:7d:e6:31
+nxge0  10.63.0.36           255.255.255.255 o        00:14:4f:ed:42:2e
+e1000g1 10.63.1.35           255.255.255.255 o        00:14:4f:ed:33:cf
+e1000g0 10.63.0.41           255.255.255.255 SPLA     00:15:17:ab:39:e0
+e1000g1 10.63.1.41           255.255.255.255 SPLA     00:15:17:ab:39:e1
+nxge0  10.63.0.20           255.255.255.255 o        00:15:17:e4:6e:72
+e1000g0 10.63.0.23           255.255.255.255 o        00:14:4f:f3:79:ee
+nxge0  10.63.0.17           255.255.255.255 o        00:15:17:e4:6d:c0
+e1000g0 10.63.0.17           255.255.255.255 o        00:15:17:e4:6d:c0
+e1000g0 10.63.0.16           255.255.255.255 o        00:21:28:58:22:52
+e1000g0 10.63.0.19           255.255.255.255 o        00:15:17:e4:6d:dc
+nxge0  10.63.0.19           255.255.255.255 o        00:15:17:e4:6d:dc
+e1000g0 10.63.0.18           255.255.255.255 o        00:15:17:e4:58:86
+e1000g0 10.63.0.24           255.255.255.255 o        00:14:4f:f3:75:7a
+nxge0  10.63.0.5            255.255.255.255 o        00:14:4f:ed:33:cc
+nxge0  10.63.0.7            255.255.255.255 o        00:14:4f:ed:1c:34
+nxge2  10.63.3.4            255.255.255.255 o        00:26:55:d0:cd:f1
+e1000g1 10.63.1.6            255.255.255.255 o        00:14:4f:ed:42:2d
+nxge1  10.63.1.6            255.255.255.255 o        00:14:4f:ed:42:2d
+e1000g0 10.63.0.6            255.255.255.255 o        00:14:4f:ed:42:2c
+nxge1  10.63.1.7            255.255.255.255 o        00:14:4f:ed:1c:35
+e1000g1 10.63.1.7            255.255.255.255 o        00:14:4f:ed:1c:35
+e1000g0 10.63.0.1            255.255.255.255 o        00:14:4f:ed:1b:8a
+nxge1  10.63.1.1            255.255.255.255 o        00:14:4f:ed:1b:8b
+e1000g1 10.63.1.2            255.255.255.255 o        00:14:4f:ed:1a:4b
+nxge0  10.63.0.3            255.255.255.255 o        00:14:4f:f3:79:ee
+e1000g0 10.63.0.3            255.255.255.255 o        00:14:4f:f3:79:ee
+nxge0  10.63.0.2            255.255.255.255 o        00:14:4f:ed:1a:4a
+nxge2  10.63.3.1            255.255.255.255 o        00:21:70:6e:a1:aa
+e1000g0 10.63.0.13           255.255.255.255 o        00:14:4f:f3:79:6c
+nxge0  10.63.0.12           255.255.255.255 o        00:14:4f:f3:80:92
+nxge1  10.63.1.13           255.255.255.255 o        00:14:4f:f3:79:6d
+e1000g1 10.63.1.14           255.255.255.255 o        00:14:4f:f3:75:d5
+nxge0  10.63.0.15           255.255.255.255 o        00:21:28:58:22:20
+e1000g0 10.63.0.15           255.255.255.255 o        00:21:28:58:22:20
+nxge3  10.63.4.11           255.255.255.255 SPLA     00:14:4f:f3:80:a9
+nxge0  10.63.0.14           255.255.255.255 o        00:14:4f:f3:75:d4
+e1000g0 10.63.0.14           255.255.255.255 o        00:14:4f:f3:75:d4
+nxge2  10.63.3.13           255.255.255.255 o        00:14:4f:f3:79:6e
+nxge1  10.63.1.8            255.255.255.255 o        00:14:4f:ed:41:01
+e1000g1 10.63.1.8            255.255.255.255 o        00:14:4f:ed:41:01
+e1000g0 10.63.0.9            255.255.255.255 o        00:1e:68:1e:2c:50
+nxge0  10.63.0.8            255.255.255.255 o        00:14:4f:ed:41:00
+nxge2  10.63.3.11           255.255.255.255 SPLA     00:14:4f:f3:80:a8
+e1000g2 63.10.10.2           255.255.255.255 o        00:15:17:ad:02:1c
+nxge0  10.63.0.11           255.255.255.255 SPLA     00:14:4f:f3:80:a6
+e1000g2 63.10.10.1           255.255.255.255 SPLA     00:15:17:ad:00:c8
+nxge1  10.63.1.11           255.255.255.255 SPLA     00:14:4f:f3:80:a7
+e1000g0 10.63.0.125          255.255.255.255 o        00:22:64:62:29:25
+e1000g0 10.63.0.121          255.255.255.255 o        00:22:64:62:29:25
+nxge2  10.63.3.111          255.255.255.255 o        00:0f:e2:d3:f9:b6
+e1000g0 10.63.0.111          255.255.255.255 o        00:13:d4:e1:94:3a
+e1000g3 63.10.10.101         255.255.255.255 SPLdA    00:15:17:ad:00:c9
+e1000g0 10.63.0.81           255.255.255.255 o        00:21:86:9e:41:33
+nxge0  10.63.0.81           255.255.255.255 o        00:21:86:9e:41:33
+e1000g0 10.63.0.90           255.255.255.255 o        00:21:86:9e:41:33
+e1000g0 10.63.0.76           255.255.255.255 o        00:22:68:1e:61:e4
+e1000g0 10.63.0.72           255.255.255.255 o        f0:de:f1:07:f8:37
+nxge0  10.63.0.72           255.255.255.255 o        f0:de:f1:07:f8:37
+e1000g0 10.63.0.74           255.255.255.255 o        f0:de:f1:07:f8:37
+e1000g0 10.63.0.181          255.255.255.255 o        00:1e:37:ce:4a:c8
+nxge0  10.63.0.181          255.255.255.255 o        00:1e:37:ce:4a:c8
+e1000g0 10.63.0.178          255.255.255.255 o        00:0c:29:b5:c8:fa
+nxge0  10.63.0.178          255.255.255.255 o        00:0c:29:b5:c8:fa
+e1000g0 10.63.0.156          255.255.255.255 o        00:23:54:30:1e:00
+nxge3  10.63.4.240          255.255.255.255 o        00:0f:e2:cc:ad:11
+nxge0  10.63.0.253          255.255.255.255 o        00:0f:e2:b2:26:2c
+e1000g0 10.63.0.253          255.255.255.255 o        00:0f:e2:b2:26:2c
+e1000g0 10.63.0.252          255.255.255.255 o        00:0f:e2:df:01:08
+nxge0  10.63.0.252          255.255.255.255 o        00:0f:e2:df:01:08
+nxge2  10.63.3.252          255.255.255.255 o        00:18:82:49:dd:da
+e1000g0 10.63.0.254          255.255.255.255 o        00:00:5e:00:01:0a
+e1000g0 10.63.0.233          255.255.255.255 o        00:16:d3:ca:11:42
+nxge0  10.63.0.233          255.255.255.255 o        00:16:d3:ca:11:42
+nxge0  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+nxge1  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+nxge3  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+nxge2  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+e1000g3 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+e1000g2 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+e1000g0 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+e1000g1 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+
+cmdbegin:service
+STATE          STIME    FMRI
+legacy_run     May_14   lrc:/etc/rc2_d/S10lu
+legacy_run     May_14   lrc:/etc/rc2_d/S20sysetup
+legacy_run     May_14   lrc:/etc/rc2_d/S40llc2
+legacy_run     May_14   lrc:/etc/rc2_d/S42ncakmod
+legacy_run     May_14   lrc:/etc/rc2_d/S47pppd
+legacy_run     May_14   lrc:/etc/rc2_d/S70uucp
+legacy_run     May_14   lrc:/etc/rc2_d/S72autoinstall
+legacy_run     May_14   lrc:/etc/rc2_d/S73cachefs_daemon
+legacy_run     May_14   lrc:/etc/rc2_d/S76ACT_dumpscript
+legacy_run     May_14   lrc:/etc/rc2_d/S81dodatadm_udaplt
+legacy_run     May_14   lrc:/etc/rc2_d/S89PRESERVE
+legacy_run     May_14   lrc:/etc/rc2_d/S91afbinit
+legacy_run     May_14   lrc:/etc/rc2_d/S91gfbinit
+legacy_run     May_14   lrc:/etc/rc2_d/S91ifbinit
+legacy_run     May_14   lrc:/etc/rc2_d/S91jfbinit
+legacy_run     May_14   lrc:/etc/rc2_d/S91kfbinit
+legacy_run     May_14   lrc:/etc/rc2_d/S91zuluinit
+legacy_run     May_14   lrc:/etc/rc2_d/S94ncalogd
+legacy_run     May_14   lrc:/etc/rc2_d/S98deallocate
+legacy_run     May_14   lrc:/etc/rc2_d/S99sneep
+legacy_run     May_14   lrc:/etc/rc3_d/S100routeadd
+legacy_run     May_14   lrc:/etc/rc3_d/S102histart
+legacy_run     May_14   lrc:/etc/rc3_d/S103rtdbstart
+legacy_run     May_14   lrc:/etc/rc3_d/S104rtestart
+legacy_run     May_14   lrc:/etc/rc3_d/S105midmonstart
+legacy_run     May_14   lrc:/etc/rc3_d/S106rtdbmonstart
+legacy_run     May_14   lrc:/etc/rc3_d/S16boot_server
+legacy_run     May_14   lrc:/etc/rc3_d/S50apache
+legacy_run     May_14   lrc:/etc/rc3_d/S52imq
+legacy_run     May_14   lrc:/etc/rc3_d/S80mipagent
+legacy_run     May_14   lrc:/etc/rc3_d/S84appserv
+legacy_run     May_14   lrc:/etc/rc3_d/S99EIS-DVDtag
+online         May_14   svc:/system/svc/restarter:default
+online         May_14   svc:/network/pfil:default
+online         May_14   svc:/network/tnctl:default
+online         May_14   svc:/network/loopback:default
+online         May_14   svc:/system/filesystem/root:default
+online         May_14   svc:/system/installupdates:default
+online         May_14   svc:/milestone/name-services:default
+online         May_14   svc:/system/scheduler:default
+online         May_14   svc:/system/boot-archive:default
+online         May_14   svc:/system/filesystem/usr:default
+online         May_14   svc:/system/device/local:default
+online         May_14   svc:/system/keymap:default
+online         May_14   svc:/system/filesystem/minimal:default
+online         May_14   svc:/system/name-service-cache:default
+online         May_14   svc:/system/rmtmpfiles:default
+online         May_14   svc:/system/sysevent:default
+online         May_14   svc:/platform/sun4v/drd:default
+online         May_14   svc:/system/coreadm:default
+online         May_14   svc:/system/resource-mgmt:default
+online         May_14   svc:/system/power:default
+online         May_14   svc:/system/cryptosvc:default
+online         May_14   svc:/system/device/fc-fabric:default
+online         May_14   svc:/system/picl:default
+online         May_14   svc:/milestone/devices:default
+online         May_14   svc:/system/manifest-import:default
+online         May_14   svc:/network/physical:default
+online         May_14   svc:/milestone/network:default
+online         May_14   svc:/system/identity:node
+online         May_14   svc:/system/identity:domain
+online         May_14   svc:/milestone/single-user:default
+online         May_14   svc:/platform/sun4v/efdaemon:default
+online         May_14   svc:/network/initial:default
+online         May_14   svc:/application/print/ppd-cache-update:default
+online         May_14   svc:/network/service:default
+online         May_14   svc:/system/filesystem/local:default
+online         May_14   svc:/network/ntp:default
+online         May_14   svc:/system/sysidtool:net
+online         May_14   svc:/network/shares/group:default
+online         May_14   svc:/system/cron:default
+online         May_14   svc:/system/boot-archive-update:default
+online         May_14   svc:/application/psncollector:default
+online         May_14   svc:/application/font/fc-cache:default
+online         May_14   svc:/network/routing-setup:default
+online         May_14   svc:/network/rpc/bind:default
+online         May_14   svc:/network/nfs/status:default
+online         May_14   svc:/system/sysidtool:system
+online         May_14   svc:/network/nfs/mapid:default
+online         May_14   svc:/network/nfs/cbd:default
+online         May_14   svc:/network/nfs/nlockmgr:default
+online         May_14   svc:/milestone/sysconfig:default
+online         May_14   svc:/system/postrun:default
+online         May_14   svc:/application/stosreg:default
+online         May_14   svc:/application/sthwreg:default
+online         May_14   svc:/system/sac:default
+online         May_14   svc:/network/inetd:default
+online         May_14   svc:/system/utmp:default
+online         May_14   svc:/application/management/wbem:default
+online         May_14   svc:/system/console-login:default
+online         May_14   svc:/network/rpc/gss:default
+online         May_14   svc:/network/rpc/meta:default
+online         May_14   svc:/application/x11/xfs:default
+online         May_14   svc:/application/font/stfsloader:default
+online         May_14   svc:/network/nfs/client:default
+online         May_14   svc:/network/rpc/rstat:default
+online         May_14   svc:/network/rpc/cde-calendar-manager:default
+online         May_14   svc:/network/rpc/cde-ttdbserver:tcp
+online         May_14   svc:/system/filesystem/autofs:default
+online         May_14   svc:/network/rpc/mdcomm:default
+online         May_14   svc:/network/rpc/metamed:default
+online         May_14   svc:/network/rpc/metamh:default
+online         May_14   svc:/network/rpc/smserver:default
+online         May_14   svc:/network/nfs/server:default
+online         May_14   svc:/network/rpc/rusers:default
+online         May_14   svc:/network/ssh:default
+online         May_14   svc:/system/system-log:default
+online         May_14   svc:/system/dumpadm:default
+online         May_14   svc:/network/cde-spc:default
+online         May_14   svc:/system/filesystem/volfs:default
+online         May_14   svc:/network/security/ktkt_warn:default
+online         May_14   svc:/network/telnet:default
+online         May_14   svc:/application/management/seaport:default
+online         May_14   svc:/network/smtp:sendmail
+online         May_14   svc:/network/nfs/rquota:default
+online         May_14   svc:/network/ftp:default
+online         May_14   svc:/network/finger:default
+online         May_14   svc:/network/login:rlogin
+online         May_14   svc:/network/shell:default
+online         May_14   svc:/network/rpc-100235_1/rpc_ticotsord:default
+online         May_14   svc:/network/stdiscover:default
+online         May_14   svc:/network/stlisten:default
+online         May_14   svc:/application/management/snmpdx:default
+online         May_14   svc:/application/management/sma:default
+online         May_14   svc:/application/management/dmi:default
+online         May_14   svc:/milestone/multi-user:default
+online         May_14   svc:/application/graphical-login/cde-login:default
+online         May_14   svc:/application/cde-printinfo:default
+online         May_14   svc:/system/fmd:default
+online         May_14   svc:/system/webconsole:console
+online         May_14   svc:/milestone/multi-user-server:default
+online         May_14   svc:/system/zones:default
+online         May_14   svc:/system/basicreg:default
+offline        May_14   svc:/application/print/ipp-listener:default
+offline        May_14   svc:/application/print/rfc1179:default
+maintenance    May_14   svc:/application/server/tomcat:default
+cmdbegin:uname
+SunOS fe01
+cmdbegin:usergroup
+root::0:
+other::1:root
+bin::2:root,daemon
+sys::3:root,bin,adm
+adm::4:root,daemon
+uucp::5:root
+mail::6:root
+tty::7:root,adm
+lp::8:root,adm
+nuucp::9:root
+staff::10:
+daemon::12:root
+sysadmin::14:
+smmsp::25:
+gdm::50:
+webservd::80:
+postgres::90:
+nobody::60001:
+noaccess::60002:
+nogroup::65534:
+users::100:
+dba::200:
+cmdbegin:user
+root:x:0:0:Super-User:/:/sbin/sh
+daemon:x:1:1::/:
+bin:x:2:2::/usr/bin:
+sys:x:3:3::/:
+adm:x:4:4:Admin:/var/adm:
+lp:x:71:8:Line Printer Admin:/usr/spool/lp:
+uucp:x:5:5:uucp Admin:/usr/lib/uucp:
+nuucp:x:9:9:uucp Admin:/var/spool/uucppublic:/usr/lib/uucp/uucico
+smmsp:x:25:25:SendMail Message Submission Program:/:
+listen:x:37:4:Network Admin:/usr/net/nls:
+gdm:x:50:50:GDM Reserved UID:/:
+webservd:x:80:80:WebServer Reserved UID:/:
+postgres:x:90:90:PostgreSQL Reserved UID:/:/usr/bin/pfksh
+svctag:x:95:12:Service Tag UID:/:
+nobody:x:60001:60001:NFS Anonymous Access User:/:
+noaccess:x:60002:60002:No Access User:/:
+nobody4:x:65534:65534:SunOS 4.x NFS Anonymous Access User:/:
+osa:x:100:100::/data/users/osa:/bin/bash
+oracle:x:101:200::/oracle:/bin/bash
+cc2000:x:102:100::/data/users/cc2000:/bin/bash
+avcco:x:103:100::/data/users/avcco:/bin/bash
+cmdbegin:date
+Mon Dec  6 18:45:07 CST 2010
+cmdbegin:uptime
+  6:45pm  up 206 day(s),  3:07,  14 users,  load average: 1.47, 1.47, 1.48
+cmdbegin:end
+netflow:start
+    Time     Int   rKB/s   wKB/s   rPk/s   wPk/s    rAvs    wAvs   %Util    Sat
+18:45:07 e1000g2    0.16    0.17    0.98    0.90   166.7   199.4    0.00   0.00
+18:45:07   nxge0   105.8   67.36   213.4   116.5   507.6   592.2    1.42   0.00
+18:45:07 e1000g3    0.00    0.00    0.00    0.00    0.00    0.00    0.00   0.00
+18:45:07   nxge3    0.25    0.00    1.87    0.00   139.5    0.00    0.00   0.00
+18:45:07 e1000g0   20.74   88.47   36.18   165.3   586.9   548.0    0.09   0.04
+18:45:07   nxge1   146.0    0.52   289.7    1.45   516.1   366.6    1.20   0.00
+18:45:07 e1000g1    0.02   118.6    0.29   247.4   66.40   491.1    0.10   0.00
+18:45:07   nxge2   12.97    5.80   124.8   67.85   106.5   87.53    0.15   0.00
+18:45:07     lo0    0.00    0.00   98.97   98.97    0.00    0.00    0.00   0.00
+netflow:end
+netmac:start
+lo0: flags=2001000849<UP,LOOPBACK,RUNNING,MULTICAST,IPv4,VIRTUAL> mtu 8232 index 1
+	inet 127.0.0.1 netmask ff000000 
+e1000g0: flags=201040843<UP,BROADCAST,RUNNING,MULTICAST,DEPRECATED,IPv4,CoS> mtu 1500 index 2
+	inet 10.63.0.41 netmask ffffff00 broadcast 10.63.0.255
+	groupname febind1
+	ether 0:15:17:ab:39:e0 
+e1000g1: flags=201040843<UP,BROADCAST,RUNNING,MULTICAST,DEPRECATED,IPv4,CoS> mtu 1500 index 3
+	inet 10.63.1.41 netmask ffffff00 broadcast 10.63.1.255
+	groupname febind2
+	ether 0:15:17:ab:39:e1 
+e1000g2: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 4
+	inet 63.10.10.1 netmask ff000000 broadcast 63.255.255.255
+	ether 0:15:17:ad:0:c8 
+e1000g3: flags=201000803<UP,BROADCAST,MULTICAST,IPv4,CoS> mtu 1500 index 5
+	inet 63.10.10.101 netmask ff000000 broadcast 63.255.255.255
+	ether 0:15:17:ad:0:c9 
+nxge0: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 6
+	inet 10.63.0.11 netmask ffffff00 broadcast 10.63.0.255
+	groupname febind1
+	ether 0:14:4f:f3:80:a6 
+nxge1: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 7
+	inet 10.63.1.11 netmask ffffff00 broadcast 10.63.1.255
+	groupname febind2
+	ether 0:14:4f:f3:80:a7 
+nxge2: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 8
+	inet 10.63.3.11 netmask ffffff00 broadcast 10.63.3.255
+	ether 0:14:4f:f3:80:a8 
+nxge3: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 9
+	inet 10.63.4.11 netmask ffffff00 broadcast 10.63.4.255
+	ether 0:14:4f:f3:80:a9 
+netmac:end

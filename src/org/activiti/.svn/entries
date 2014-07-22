@@ -1,0 +1,37 @@
+8
+
+dir
+80
+https://192.168.0.2/svn/afunms/src/org/activiti
+https://192.168.0.2/svn/afunms
+
+
+
+2012-12-17T08:45:28.781250Z
+43
+hexl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a5658f0c-17e0-b94f-bc97-acf27b462333
+
+engine
+dir
+
+editor
+dir
+
+bpmn
+dir
+

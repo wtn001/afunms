@@ -1,0 +1,15 @@
+Level Summary
+
+Server Name: all
+Group Name: all
+Client Name: all
+Save Set Name: all
+Backup Type: all
+Level: all
+Save Time: from earliest available to 12/4/08 4:53:08 PM
+
+Level,Amount of Data,Number of Files,Number of Save Sets
+ ,18536198280996,950764,10515
+9,6996908,210,7
+full,78893302535116,3888664,9222
+incr,5996432,1552,8

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <status>1</status>
+  <sqlserverProcessesTabInfo>
+    <row>
+      <spid>3</spid>
+      <waittime>0</waittime>
+      <lastwaittype>PAGEIOLATCH_SH</lastwaittype>
+      <waitresource>1:1:126</waitresource>
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>4</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>SIGNAL HANDLER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>5</spid>
+      <waittime>0</waittime>
+      <lastwaittype>PAGEIOLATCH_EX</lastwaittype>
+      <waitresource>3:1:1</waitresource>
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>2</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>6</spid>
+      <waittime>12171656</waittime>
+      <lastwaittype>RESOURCE_QUEUE</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>8</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>9</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>10</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>11</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>12</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 08:31:29.013</login_time>
+      <last_batch>2010-03-19 08:31:29.013</last_batch>
+      <status>background</status>
+      <hostname />
+      <program_name />
+      <hostprocess />
+      <cmd>TASK MANAGER</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library />
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>51</spid>
+      <waittime>0</waittime>
+      <lastwaittype>NETWORKIO</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>public</username>
+      <cpu>16</cpu>
+      <physical_io>0</physical_io>
+      <memusage>2</memusage>
+      <login_time>2010-03-19 10:49:08.733</login_time>
+      <last_batch>2010-03-19 10:59:04.653</last_batch>
+      <status>sleeping</status>
+      <hostname>LEGEND-009DD8F7</hostname>
+      <program_name>SQL 查询分析器</program_name>
+      <hostprocess>2352</hostprocess>
+      <cmd>AWAITING COMMAND</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library>LPC</net_library>
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>52</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>0</memusage>
+      <login_time>2010-03-19 11:54:16.28</login_time>
+      <last_batch>2010-03-19 11:54:16.34</last_batch>
+      <status>sleeping</status>
+      <hostname>localhost</hostname>
+      <program_name />
+      <hostprocess>0</hostprocess>
+      <cmd>AWAITING COMMAND</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library>TCP/IP</net_library>
+      <loginame>sa</loginame>
+    </row>
+    <row>
+      <spid>53</spid>
+      <waittime>0</waittime>
+      <lastwaittype>MISCELLANEOUS</lastwaittype>
+      <waitresource />
+      <dbname>master</dbname>
+      <username>dbo</username>
+      <cpu>0</cpu>
+      <physical_io>0</physical_io>
+      <memusage>6</memusage>
+      <login_time>2010-03-19 11:54:17.467</login_time>
+      <last_batch>2010-03-19 11:54:17.53</last_batch>
+      <status>runnable</status>
+      <hostname>localhost</hostname>
+      <program_name />
+      <hostprocess>0</hostprocess>
+      <cmd>SELECT</cmd>
+      <nt_domain />
+      <nt_username />
+      <net_library>TCP/IP</net_library>
+      <loginame>sa</loginame>
+    </row>
+  </sqlserverProcessesTabInfo>
+  <sqlserverDB>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>96</usedsize>
+      <size>768</size>
+      <dbname>model</dbname>
+    </row>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>1024</usedsize>
+      <size>8192</size>
+      <dbname>tempdb</dbname>
+    </row>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>1968</usedsize>
+      <size>15744</size>
+      <dbname>master</dbname>
+    </row>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>64</usedsize>
+      <size>504</size>
+      <logname>model</logname>
+    </row>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>64</usedsize>
+      <size>504</size>
+      <logname>tempdb</logname>
+    </row>
+    <row>
+      <usedperc>12</usedperc>
+      <usedsize>648</usedsize>
+      <size>5176</size>
+      <logname>master</logname>
+    </row>
+  </sqlserverDB>
+  <sqlServerSysTabInfo>
+    <row>
+      <productlevel>SP3</productlevel>
+      <version>Microsoft SQL Server  2000 - 8.00.760 (Intel X86) 
+	Dec 17 2002 14:22:05 
+	Copyright (c) 1988-2003 Microsoft Corporation
+	Personal Edition on Windows NT 5.1 (Build 2600: Service Pack 3)</version>
+      <machineName>LEGEND-009DD8F7</machineName>
+      <isSingleUser>非单个用户</isSingleUser>
+      <ProcessID>1656</ProcessID>
+      <isIntegratedSecurityOnly>非集成安全性</isIntegratedSecurityOnly>
+      <isClustered>非群集</isClustered>
+    </row>
+  </sqlServerSysTabInfo>
+  <SqlserverLockTabInfo />
+  <page>
+    <bufferCacheHitRatio>99.897</bufferCacheHitRatio>
+    <dbPages>876.0</dbPages>
+    <totalPageLookups>83979.0</totalPageLookups>
+    <totalPageLookupsRate>0.0</totalPageLookupsRate>
+    <totalPageReads>136.0</totalPageReads>
+    <totalPageReadsRate>0.0</totalPageReadsRate>
+    <totalPageWrites>8.0</totalPageWrites>
+    <totalPageWritesRate>0.0</totalPageWritesRate>
+    <totalPages>1073.0</totalPages>
+    <freePages>52.0</freePages>
+  </page>
+  <pageConnection>
+    <connections>4.0</connections>
+    <totalLogins>163.0</totalLogins>
+    <totalLoginsRate>0.0</totalLoginsRate>
+    <totalLogouts>0.0</totalLogouts>
+    <totalLogoutsRate>0.0</totalLogoutsRate>
+  </pageConnection>
+  <lock>
+    <lockRequests>29343.0</lockRequests>
+    <lockRequestsRate>0.0</lockRequestsRate>
+    <lockWaits>3.0</lockWaits>
+    <lockWaitsRate>0.0</lockWaitsRate>
+    <lockTimeouts>0.0</lockTimeouts>
+    <lockTimeoutsRate>0.0</lockTimeoutsRate>
+    <deadLocks>0.0</deadLocks>
+    <deadLocksRate>0.0</deadLocksRate>
+    <avgWaitTime>0.0</avgWaitTime>
+    <avgWaitTimeBase>0.0</avgWaitTimeBase>
+    <latchWaits>111.0</latchWaits>
+    <latchWaitsRate>0.0</latchWaitsRate>
+    <avgLatchWait>0.0</avgLatchWait>
+  </lock>
+  <caches>
+    <cacheHitRatio>82.201</cacheHitRatio>
+    <cacheHitRatioBase>0.0</cacheHitRatioBase>
+    <cacheCount>17.0</cacheCount>
+    <cachePages>52.0</cachePages>
+    <cacheUsed>702.0</cacheUsed>
+    <cacheUsedRate>0.0</cacheUsedRate>
+  </caches>
+  <mems>
+    <totalMemory>16912.0</totalMemory>
+    <sqlMem>464.0</sqlMem>
+    <optMemory>0.0</optMemory>
+    <memGrantPending>0.0</memGrantPending>
+    <memGrantSuccess>0.0</memGrantSuccess>
+    <lockMem>144.0</lockMem>
+    <conMemory>280.0</conMemory>
+    <grantedWorkspaceMem>0.0</grantedWorkspaceMem>
+  </mems>
+  <sqls>
+    <batchRequests>581.0</batchRequests>
+    <batchRequestsRate>0.0</batchRequestsRate>
+    <sqlCompilations>273.0</sqlCompilations>
+    <sqlCompilationsRate>0.0</sqlCompilationsRate>
+    <sqlRecompilation>9.0</sqlRecompilation>
+    <sqlRecompilationRate>0.0</sqlRecompilationRate>
+    <autoParams>134.0</autoParams>
+    <autoParamsRate>0.0</autoParamsRate>
+    <failedAutoParams>134.0</failedAutoParams>
+    <failedAutoParamsRate>0.0</failedAutoParamsRate>
+  </sqls>
+  <scans>
+    <fullScans>0.0</fullScans>
+    <fullScansRate>0.0</fullScansRate>
+    <rangeScans>3988.0</rangeScans>
+    <rangeScansRate>0.0</rangeScansRate>
+    <probeScans>2.0</probeScans>
+    <probeScansRate>0.0</probeScansRate>
+  </scans>
+</content>
+

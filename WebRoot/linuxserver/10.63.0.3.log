@@ -1,0 +1,1044 @@
+cmdbegin:version
+SunOS his1 5.10 Generic_138888-01 sun4v sparc SUNW,T5240
+cmdbegin:vmstat
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr 2m 2m 2m 2m   in   sy   cs us sy id
+ 0 0 0 89815824 27812328 174 684 0 5 5 0 0 161 0  0  2 4037 18285 5526 1  1 99
+cmdbegin:swapinfo
+total: 4546688k bytes allocated + 465320k reserved = 5012008k used, 88805936k available
+cmdbegin:process
+  PID     USER %CPU %MEM        TIME  RSS COMMAND
+    0     root  0.0  0.0       00:44    0 sched
+    1     root  0.0  0.0    01:17:12 2160 /sbin/init
+    2     root  0.0  0.0       00:00    0 pageout
+    3     root  0.1  0.0  3-03:51:11    0 fsflush
+    4     root  0.0  0.0  8-22:24:44    0 cluster
+  381     root  0.0  0.1       30:33 13752 /usr/sbin/nscd
+    8     root  0.0  0.1       04:58 28016 /lib/svc/bin/svc.startd
+   10     root  0.0  0.1       22:10 11064 /lib/svc/bin/svc.configd
+  735     root  0.0  0.0       00:00 2896 /usr/lib/ssh/sshd
+  236     root  0.0  0.1       00:05 12840 devfsadmd
+ 2940     root  0.0  0.1    02:21:09 21240 dlmd
+ 1672   oracle  0.0  5.3    10:06:08 1723816 ora_lmsb_his1
+  404     root  0.0  0.1       00:00 5488 /usr/cluster/lib/sc/clexecd
+  387     root  0.0  0.0       00:00 4568 /usr/cluster/lib/sc/failfastd
+  165     root  0.0  0.0       22:10 1600 /usr/lib/inet/in.mpathd
+  405     root  0.0  0.0       00:00 2648 /usr/cluster/lib/sc/clexecd
+  343     root  0.0  0.0       00:00 2672 /usr/cluster/lib/sc/qd_userd
+  197     root  0.0  0.0       00:00 1616 /usr/lib/ldoms/drd
+ 3583     root  0.0  0.0       00:00 1520 /bin/sh
+  227   daemon  0.0  0.0       00:09 3704 /usr/lib/crypto/kcfd
+  794     root  0.0  0.1    01:36:22 14784 /usr/lib/fm/fmd/fmd
+  240     root  0.0  0.1       00:05 7424 /usr/lib/picl/picld
+  419     root  0.0  0.0       00:00 1024 /usr/lib/efcode/sparcv9/efdaemon
+  638     root  0.0  0.1  1-15:13:51 27664 /usr/lib/pool/poold
+  225     root  0.0  0.1       00:00 6256 /usr/lib/sysevent/syseventd
+ 1660   oracle  0.0  5.3    10:07:48 1723816 ora_lmsa_his1
+  598     root  0.0  0.0       00:36 1184 /usr/lib/utmpd
+  433     root  0.0  0.1       00:00 5000 /usr/cluster/lib/sc/ifconfig_proxy_serverd
+  434     root  0.0  0.1       00:00 5064 /usr/cluster/lib/sc/rtreg_proxy_serverd
+  422     root  0.0  0.0       00:00 4424 /usr/cluster/lib/sc/cl_execd
+  629     root  0.0  0.0       29:59 2096 /usr/lib/inet/xntpd
+  414     root  0.0  0.1       00:00 6632 /usr/cluster/lib/sc/pmmd
+ 4553   oracle  0.0  0.4    09:03:59 106896 /oracle/product/10.2.0/crs/jdk/jre/bin/sparcv9/java
+  439     root  0.0  0.0       00:15 1864 /usr/sbin/cron
+  423     root  0.0  0.1       00:00 5576 /usr/cluster/lib/sc/cl_execd
+ 1488     root  0.0  0.1       03:12 7776 /usr/cluster/bin/cl_pnmd
+  456   daemon  0.0  0.0       00:00 2264 /usr/sbin/rpcbind
+  744     root  0.0  0.0       20:39 2744 /usr/sbin/syslogd
+  460   daemon  0.0  0.0       00:00 2600 /usr/lib/nfs/statd
+  462   daemon  0.0  0.2       00:38 41992 /usr/lib/nfs/nfsmapid
+  464   daemon  0.0  0.0       00:00 2128 /usr/lib/nfs/nfs4cbd
+  589     root  0.0  0.0       00:00 1288 /usr/sadm/lib/smc/bin/smcboot
+  488   daemon  0.0  0.0       00:00 2136 /usr/lib/nfs/lockd
+ 3150     root  0.0  0.0       09:24 4176 /usr/lib/sendmail
+  599     root  0.0  0.0       00:00 2224 /usr/lib/saf/ttymon
+  709     root  0.0  0.0       00:00 1896 /usr/lib/autofs/automountd
+  544     root  0.0  0.0       00:08 1728 /usr/lib/saf/sac
+  792     root  0.0  0.1       23:45 8472 /usr/sfw/sbin/snmpd
+  588     root  0.0  0.0       00:00 1288 /usr/sadm/lib/smc/bin/smcboot
+  597     root  0.0  0.1       04:29 13192 /usr/lib/inet/inetd
+ 2932     root  0.0  0.1    01:07:36 21512 dlmmon
+  710     root  0.0  0.0       01:11 2592 /usr/lib/autofs/automountd
+ 3685   oracle  0.0  0.0       00:00 1408 sh
+  585     root  0.0  0.0       00:08 2120 /usr/lib/saf/ttymon
+  788     root  0.0  0.0       00:03 2200 /usr/lib/snmp/snmpdx
+  745     root  0.0  0.0       00:28 3176 /usr/sbin/vold
+  584     root  0.0  0.0       00:00 1744 /usr/sadm/lib/smc/bin/smcboot
+ 3972   oracle  0.0  0.1       02:17 27368 /oracle/product/10.2.0/crs/bin/evmlogger.bin
+ 3690   oracle  0.0  0.0       00:00 1416 /bin/sh
+12913     root  0.0  0.4    05:46:30 109336 /usr/jdk/jdk1.5.0_17/bin/java
+  789     root  0.0  0.1       00:00 5032 /usr/sbin/mdmonitord
+ 1732     root  0.0  0.1       00:00 5152 /usr/cluster/lib/sc/scprivipd
+ 1751     root  0.0  0.0       00:00 1440 /bin/sh
+  803     root  0.0  0.1       00:01 11216 /usr/sbin/rpc.metad
+  824     root  0.0  0.0       00:00 3256 /usr/lib/dmi/snmpXdmid
+ 3735   oracle  0.0  0.1    02:33:49 26680 /oracle/product/10.2.0/crs/bin/oclsomon.bin
+ 3040     root  0.0  0.1       00:01 11104 /usr/lib/lvm/mddoors
+  823     root  0.0  0.0       00:00 2728 /usr/lib/dmi/dmispd
+ 1648   oracle  0.0  5.3    09:50:26 1724008 ora_lms7_his1
+17264     root  0.0  0.0       00:00 1408 /bin/sh
+ 1152 noaccess  0.0  0.4    09:46:17 126512 /usr/java/bin/java
+17260   oracle  0.1  5.3       00:00 1713576 oraclehis1
+ 1633     root  0.0  0.1       00:00 6616 /usr/cluster/lib/sc/pnm_mod_serverd
+ 1509     root  0.0  0.0       00:00 4768 /usr/cluster/lib/sc/rpc.pmfd
+ 1445     root  0.0  0.1       00:00 5648 /usr/cluster/lib/sc/cl_eventd
+ 1514     root  0.0  0.1       00:01 8544 /usr/cluster/lib/sc/cl_ccrad
+ 1752     root  0.1  0.0  1-17:28:07 1520 /bin/sh
+ 1407     root  0.0  0.0       00:03 2952 /usr/dt/bin/dtlogin
+ 3691   oracle  0.0  0.2    04:33:33 41680 /oracle/product/10.2.0/crs/bin/oclsvmon.bin
+ 1749     root  0.0  0.1       00:00 5304 /usr/cluster/lib/sc/cznetd
+ 1446     root  0.0  0.0       05:34 4872 /usr/cluster/lib/sc/scqdmd
+ 1753     root  0.0  0.0       00:00 1448 /bin/sh
+ 1743     root  0.0  0.1       33:14 5336 /usr/cluster/lib/sc/rpc.fed
+ 1456     root  0.0  0.0       00:00 3176 /usr/cluster/lib/sc/sc_zonesd
+ 3733   oracle  0.0  0.0       00:00 1408 sh
+ 1604   oracle  0.0  5.3    02:07:55 1724256 ora_lmd0_his1
+ 1630     root  0.0  0.0       00:05 3264 /usr/cluster/lib/sc/cl_eventlogd
+  300   oracle  0.0  5.3       00:00 1714344 oraclehis1
+ 1532     root  0.0  0.1       06:00 5632 /usr/cluster/lib/sc/scdpmd
+ 3624     root  0.0  0.0       00:00 1520 /bin/sh
+ 3572     root  0.0  0.2  1-14:55:21 64016 /oracle/product/10.2.0/crs/bin/crsd.bin
+ 1946     root  0.0  0.1       00:00 6288 /usr/cluster/lib/sc/rgmd
+ 3520   oracle  0.0  0.0       00:00 1408 sh
+ 3148    smmsp  0.0  0.0       01:23 3264 /usr/lib/sendmail
+ 3734   oracle  0.0  0.0       00:00 1416 /bin/sh
+ 1953     root  0.0  0.2       04:52 65104 /usr/cluster/lib/sc/rgmd
+ 3599     root  0.0  0.0       00:00 1520 /bin/sh
+ 1736   oracle  0.0  5.3    02:46:10 1719544 ora_cjq0_his1
+ 3807   oracle  0.0  0.2    17:55:00 51144 /oracle/product/10.2.0/crs/bin/ocssd.bin
+ 2941     root  0.0  0.1    07:08:35 21304 dlmd
+ 2869     root  0.0  0.1    10:18:01 9192 /usr/cluster/lib/ucmm/ucmmd
+ 3537   oracle  0.0  0.2    01:04:56 43600 /oracle/product/10.2.0/crs/bin/evmd.bin
+ 4505   oracle  0.0  0.1       12:36 21952 /oracle/product/10.2.0/crs/opmn/bin/ons
+ 2931     root  0.0  0.1       00:36 11584 /usr/sbin/rpc.mdcommd
+ 1644   oracle  0.0  5.3    10:06:23 1723816 ora_lms6_his1
+ 1768   oracle  0.0  5.3       54:43 1718728 ora_lck0_his1
+ 4573   oracle  0.3  5.0  3-04:03:11 1607000 /oracle/product/10.2.0/crs/bin/gsdproxy
+ 1968   oracle  0.0  0.1       25:04 20592 /oracle/product/10.2.0/ora10g/bin/tnslsnr
+ 7547   oracle  0.0  5.3       02:35 1714280 oraclehis1
+ 4504   oracle  0.0  0.0       00:00 3136 /oracle/product/10.2.0/crs/opmn/bin/ons
+ 1739   oracle  0.0  5.3       43:00 1716792 ora_mmon_his1
+ 1688   oracle  0.0  5.3    10:06:16 1724008 ora_lmsf_his1
+ 1640   oracle  0.0  5.3    09:47:18 1723816 ora_lms5_his1
+ 1987   oracle  0.0  5.3       00:00 1714472 ora_q000_his1
+ 1592   oracle  0.0  5.3       03:15 1712800 ora_psp0_his1
+ 1702   oracle  0.0  5.3       24:43 1718960 ora_dbw0_his1
+ 1692   oracle  0.0  5.3       20:44 1712808 ora_mman_his1
+ 2957   oracle  0.0  5.3       00:15 1714696 oraclehis1
+12029   oracle  0.1  5.3       09:23 1715376 oraclehis1
+ 1652   oracle  0.0  5.3    10:22:35 1724008 ora_lms8_his1
+ 1602   oracle  0.0  5.3    03:59:07 1719752 ora_lmon_his1
+ 1614   oracle  0.0  5.3    09:50:33 1723816 ora_lms1_his1
+ 1588   oracle  0.0  5.3    03:37:39 1714784 ora_pmon_his1
+ 1704   oracle  0.0  5.3       16:30 1716464 ora_dbw1_his1
+ 1728   oracle  0.0  5.3       46:35 1715952 ora_ckpt_his1
+ 1710   oracle  0.0  5.3       23:17 1716464 ora_dbw4_his1
+ 1680   oracle  0.0  5.3    10:09:20 1723816 ora_lmsd_his1
+ 1714   oracle  0.0  5.3       22:54 1716464 ora_dbw6_his1
+ 1733   oracle  0.0  5.3       00:32 1714544 ora_reco_his1
+ 1784   oracle  0.0  0.2    01:28:20 57464 /oracle/product/10.2.0/ora10g/bin/racgimon
+ 1708   oracle  0.0  5.3       16:24 1716464 ora_dbw3_his1
+ 8147   oracle  0.0  5.3       01:33 1715376 oraclehis1
+ 1864   oracle  0.0  5.3       36:47 1716360 oraclehis1
+ 1712   oracle  0.0  5.3       16:54 1716400 ora_dbw5_his1
+11218   oracle  0.0  5.3       00:00 1713576 oraclehis1
+ 1656   oracle  0.0  5.3    09:54:39 1723816 ora_lms9_his1
+16277   oracle  0.0  5.3       00:00 1713576 oraclehis1
+ 4721   oracle  0.0  5.3       00:00 1713576 oraclehis1
+13275   oracle  0.3  5.3    01:04:21 1714864 oraclehis1
+14957   oracle  0.0  5.3       32:02 1718288 ora_j001_his1
+ 1590   oracle  0.0  5.3       56:10 1718144 ora_diag_his1
+12033   oracle  0.0  5.3       00:00 1713576 oraclehis1
+17263     root  0.0  0.0       00:00 1400 sh
+28567   oracle  0.0  5.3       29:27 1718992 ora_j002_his1
+ 1723   oracle  0.0  5.3       16:03 1716464 ora_dbw7_his1
+11158   oracle  0.0  5.3       00:04 1714152 oraclehis1
+17262   oracle  0.0  5.3       00:00 1713704 oraclehis1
+17279     root  0.0  0.0       00:00 1672 ps
+12053   oracle  0.0  5.3       00:19 1713960 oraclehis1
+  822   oracle  0.0  5.3       46:09 1718608 ora_j000_his1
+ 1606   oracle  0.0  5.3    10:02:09 1724008 ora_lms0_his1
+ 1622   oracle  0.0  5.3    09:55:12 1724008 ora_lms3_his1
+ 1706   oracle  0.0  5.3       23:07 1716464 ora_dbw2_his1
+ 1726   oracle  0.0  5.3    01:21:00 1713776 ora_lgwr_his1
+ 1730   oracle  0.0  5.3       48:58 1715888 ora_smon_his1
+ 1989   oracle  0.0  5.3       00:39 1712872 ora_q001_his1
+11222   oracle  0.0  5.3       00:00 1713576 oraclehis1
+17277     root  0.0  0.0       00:00 1192 /bin/sleep
+12203   oracle  0.1  5.3       10:27 1714856 oraclehis1
+ 4902   oracle  0.0  5.3       00:00 1714152 oraclehis1
+11208   oracle  0.0  5.3       00:00 1713576 oraclehis1
+ 1844   oracle  0.0  5.3       25:16 1714408 ora_pz99_his1
+ 1741   oracle  0.0  5.3    03:14:22 1713768 ora_mmnl_his1
+ 1866   oracle  0.0  5.3       22:31 1715464 oraclehis1
+ 4723   oracle  0.0  5.3       00:00 1713576 oraclehis1
+ 1684   oracle  0.0  5.3    10:00:10 1723816 ora_lmse_his1
+17275   oracle  0.0  5.3       00:00 1712936 oraclehis1
+ 1756   oracle  0.0  5.3       00:07 1713312 ora_d000_his1
+17258   oracle  0.1  5.3       00:00 1714152 oraclehis1
+ 1676   oracle  0.0  5.3    10:08:35 1723816 ora_lmsc_his1
+ 1868   oracle  0.0  5.3       03:50 1716176 ora_qmnc_his1
+ 1758   oracle  0.0  5.3       00:12 1712544 ora_s000_his1
+ 1618   oracle  0.0  5.3    10:01:41 1724008 ora_lms2_his1
+14902   oracle  0.0  5.3       00:06 1713896 oraclehis1
+ 7712   oracle  0.0  5.3       00:17 1714536 oraclehis1
+11220   oracle  0.0  5.3       00:00 1713576 oraclehis1
+ 7666   oracle  0.0  5.3       00:01 1714984 oraclehis1
+12043   oracle  0.0  5.3       00:09 1714600 oraclehis1
+12912     root  0.0  0.0       00:03 1808 /usr/lib/cacao/lib/tools/launch
+ 6111   oracle  0.0  5.3       00:06 1714408 oraclehis1
+12031   oracle  0.0  5.3       00:00 1713576 oraclehis1
+25006   oracle  0.0  5.3       39:20 1714736 oraclehis1
+28700   oracle  0.0  5.3       00:38 1715568 oraclehis1
+ 1631   oracle  0.0  5.3    10:02:50 1723816 ora_lms4_his1
+ 7668   oracle  0.0  5.3       00:00 1713512 oraclehis1
+cmdbegin:cpu
+
+SunOS his1 5.10 Generic_138888-01 sun4v    12/06/2010
+
+18:45:01    %usr    %sys    %wio   %idle
+18:45:02       2       2       0      96
+18:45:03       1       1       0      98
+18:45:04       1       1       0      98
+
+Average        1       1       0      98
+cmdbegin:allmemory
+System Configuration:  Sun Microsystems  sun4v
+Memory size: 32544 Megabytes
+cmdbegin:cpuconfig
+The physical processor has 32 virtual processors (0-31)
+  UltraSPARC-T2+ (cpuid 0 clock 1165 MHz)
+The physical processor has 32 virtual processors (64-95)
+  UltraSPARC-T2+ (cpuid 64 clock 1165 MHz)
+cmdbegin:disk
+Filesystem            kbytes    used   avail capacity  Mounted on
+/dev/md/dsk/d10      73621232 19351533 53533487    27%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 88822200    2048 88820152     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/platform/SUNW,T5240/lib/libc_psr/libc_psr_hwcap2.so.1 73621232 19351533 53533487    27%    /platform/sun4v/lib/libc_psr.so.1
+/platform/SUNW,T5240/lib/sparcv9/libc_psr/libc_psr_hwcap2.so.1 73621232 19351533 53533487    27%    /platform/sun4v/lib/sparcv9/libc_psr.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 88820264     112 88820152     1%    /tmp
+swap                 88964536  144384 88820152     1%    /var/run
+/dev/md/dsk/d91      41307634 10799058 30095500    27%    /oracle
+/dev/md/dsk/d92      382099844   65554 378213292     1%    /data
+/dev/md/dsk/d80       488487    4275  435364     1%    /global/.devices/node@2
+/dev/md/dsk/d70       488487    4283  435356     1%    /global/.devices/node@1
+cmdbegin:diskperf
+
+SunOS his1 5.10 Generic_138888-01 sun4v    12/06/2010
+
+18:45:04   device        %busy   avque   r+w/s  blks/s  avwait  avserv
+
+18:45:05   2/md101           0     0.0       0       0     0.0     0.0
+           2/md102           0     0.0       0       0     0.0     0.0
+           2/md110           0     0.0       0       0     0.0     0.0
+           2/md111           0     0.0       0       0     0.0     0.0
+           2/md112           0     0.0       0       0     0.0     0.0
+           2/md113           0     0.0       0       0     0.0     0.0
+           2/md114           0     0.0       0       0     0.0     0.0
+           2/md115           0     0.0       0       0     0.0     0.0
+           2/md116           0     0.0       0       0     0.0     0.0
+           2/md117           0     0.0       1      47     0.0     0.3
+           2/md118           0     0.0       0       0     0.0     0.0
+           2/md119         111     1.1       0       0     0.0     0.0
+           2/md120           0     0.0       0       0     0.0     0.0
+           2/md121           0     0.0       2       2     0.0     0.3
+           2/md122           0     0.0       2       2     0.0     0.3
+           2/md123           0     0.0       2       2     0.0     0.3
+           2/md124           0     0.0       0       0     0.0     0.0
+           2/md125           0     0.0       0       0     0.0     0.0
+           2/md126           0     0.0       0       0     0.0     0.0
+           2/md127           0     0.0       0       0     0.0     0.0
+           2/md128           0     0.0       0       0     0.0     0.0
+           2/md129           0     0.0       0       0     0.0     0.0
+           2/md130           0     0.0       0       0     0.0     0.0
+           2/md131           0     0.0       0       0     0.0     0.0
+           2/md132           0     0.0       0       0     0.0     0.0
+           2/md140           0     0.0       0       0     0.0     0.0
+           2/md141           0     0.0       0       0     0.0     0.0
+           2/md142           0     0.0       0       0     0.0     0.0
+           2/md200           0     0.0      10      55     0.0     0.3
+           2/md201           0     0.0       0       0     0.0     0.0
+           2/md202           0     0.0       0       0     0.0     0.0
+           2/md203           0     0.0       0       0     0.0     0.0
+           2/md250           0     0.0       0       0     0.0     0.0
+           2/md251           0     0.0       0       0     0.0     0.0
+           2/md252           0     0.0       0       0     0.0     0.0
+           2/md253           0     0.0       0       0     0.0     0.0
+           2/md254           0     0.0       0       0     0.0     0.0
+           2/md255           0     0.0       0       0     0.0     0.0
+           2/md256           0     0.0       0       0     0.0     0.0
+           2/md257           0     0.0       0       0     0.0     0.0
+           2/md258           0     0.0       0       0     0.0     0.0
+           2/md259           0     0.0       0       0     0.0     0.0
+           2/md260           0     0.0       0       0     0.0     0.0
+           2/md261           0     0.0       0       0     0.0     0.0
+           2/md262           0     0.0       0       0     0.0     0.0
+           2/md263           0     0.0       0       0     0.0     0.0
+           2/md264           0     0.0       0       0     0.0     0.0
+           2/md265           0     0.0       0       0     0.0     0.0
+           2/md269           0     0.0       0       0     0.0     0.0
+           2/md281           0     0.0       0       0     0.0     0.0
+           md10              0     0.0       0      11     0.5     0.6
+           md11              0     0.0       0      11     0.0     0.6
+           md12              0     0.0       0      11     0.0     0.5
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md22              0     0.0       0       0     0.0     0.0
+           md50              0     0.0       0       2     0.4     0.6
+           md51              0     0.0       0       2     0.0     0.4
+           md52              0     0.0       0       2     0.0     0.5
+           md70              0     0.0       0       0     0.0     0.0
+           md71              0     0.0       0       0     0.0     0.0
+           md72              0     0.0       0       0     0.0     0.0
+           md91              0     0.0       0       2     0.0     1.0
+           md92              0     0.0       0       0     0.0     0.0
+           ssd105.t          0     0.0       0       0     0.0     0.0
+           ssd106.t          0     0.0       0       0     0.0     0.0
+           ssd107.t          0     0.0       0       0     0.0     0.0
+           ssd108.t          0     0.0       0       0     0.0     0.0
+           ssd109.t          0     0.0       0       0     0.0     0.0
+           ssd158.t          0     0.0      14      76     0.0     0.0
+           nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0               0     0.0       1      12     0.0     0.3
+           sd0,a             0     0.0       0      11     0.0     0.5
+           sd0,b             0     0.0       0       0     0.0     0.0
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,g             0     0.0       0       0     0.0     0.2
+           sd0,h             0     0.0       0       0     0.0     0.0
+           sd1               0     0.0       1      12     0.0     0.3
+           sd1,a             0     0.0       0      11     0.0     0.5
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd1,g             0     0.0       0       0     0.0     0.3
+           sd1,h             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           sd3               0     0.0       0       1     0.0     0.3
+           sd3,a             0     0.0       0       0     0.0     0.0
+           sd3,b             0     0.0       0       0     0.0     0.0
+           sd3,c             0     0.0       0       1     0.0     0.3
+           sd3,g             0     0.0       0       0     0.0     0.0
+           sd4               0     0.0       0       1     0.0     0.4
+           sd4,a             0     0.0       0       0     0.0     0.0
+           sd4,b             0     0.0       0       0     0.0     0.0
+           sd4,c             0     0.0       0       1     0.0     0.4
+           sd4,g             0     0.0       0       0     0.0     0.0
+           sd5               0     0.0       0       0     0.0     0.0
+           sd5,a             0     0.0       0       0     0.0     0.0
+           sd5,b             0     0.0       0       0     0.0     0.0
+           sd5,c             0     0.0       0       0     0.0     0.0
+           sd5,g             0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           sd6,a             0     0.0       0       0     0.0     0.0
+           sd6,b             0     0.0       0       0     0.0     0.0
+           sd6,c             0     0.0       0       0     0.0     0.0
+           sd6,g             0     0.0       0       0     0.0     0.0
+           sd7               0     0.0       0       1     0.0     0.3
+           sd7,a             0     0.0       0       0     0.0     0.0
+           sd7,b             0     0.0       0       0     0.0     0.0
+           sd7,c             0     0.0       0       1     0.0     0.3
+           sd7,g             0     0.0       0       0     0.0     0.0
+           sd8               0     0.0       0       1     0.0     0.4
+           sd8,a             0     0.0       0       0     0.0     0.0
+           sd8,b             0     0.0       0       0     0.0     0.0
+           sd8,c             0     0.0       0       1     0.0     0.4
+           sd8,g             0     0.0       0       0     0.0     0.0
+           ssd105            0     0.0       0       0     0.0     0.0
+           ssd105,a          0     0.0       0       0     0.0     0.0
+           ssd105,c          0     0.0       0       0     0.0     0.0
+           ssd106            0     0.0       0       0     0.0     0.0
+           ssd106,a          0     0.0       0       0     0.0     0.0
+           ssd106,c          0     0.0       0       0     0.0     0.0
+           ssd107            0     0.0       0       0     0.0     0.0
+           ssd107,a          0     0.0       0       0     0.0     0.0
+           ssd107,c          0     0.0       0       0     0.0     0.0
+           ssd108            0     0.0       0       0     0.0     0.0
+           ssd108,a          0     0.0       0       0     0.0     0.0
+           ssd108,c          0     0.0       0       0     0.0     0.0
+           ssd109            0     0.0       0       0     0.0     0.0
+           ssd109,a          0     0.0       0       0     0.0     0.0
+           ssd109,c          0     0.0       0       0     0.0     0.0
+           ssd158            0     0.0      10      55     0.0     0.3
+           ssd158,a          0     0.0      10      55     0.0     0.3
+           ssd158,h          0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       0       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       0       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+
+18:45:06   2/md101           0     0.0       0       0     0.0     0.0
+           2/md102           0     0.0       0       0     0.0     0.0
+           2/md110           0     0.0       0      23     0.0     0.6
+           2/md111           0     0.0       0       0     0.0     0.0
+           2/md112           0     0.0       0       0     0.0     0.0
+           2/md113           0     0.0       0       0     0.0     0.0
+           2/md114           0     0.0       0       0     0.0     0.0
+           2/md115           0     0.0       0       0     0.0     0.0
+           2/md116           0     0.0       0       0     0.0     0.0
+           2/md117           0     0.0       5     145     0.0     0.4
+           2/md118           0     0.0       0      11     0.0     0.4
+           2/md119         111     1.1       0       0     0.0     0.0
+           2/md120           0     0.0       0       0     0.0     0.0
+           2/md121           0     0.0       2       2     0.0     0.2
+           2/md122           0     0.0       2       2     0.0     0.2
+           2/md123           0     0.0       2       2     0.0     0.2
+           2/md124           0     0.0       0       0     0.0     0.0
+           2/md125           0     0.0       0       0     0.0     0.0
+           2/md126           0     0.0       0       0     0.0     0.0
+           2/md127           0     0.0       0       0     0.0     0.0
+           2/md128           0     0.0       0       0     0.0     0.0
+           2/md129           0     0.0       0       0     0.0     0.0
+           2/md130           0     0.0       0       0     0.0     0.0
+           2/md131           0     0.0       0       6     0.0     0.3
+           2/md132           0     0.0       0       0     0.0     0.0
+           2/md140           0     0.0       0       0     0.0     0.0
+           2/md141           0     0.0       0       0     0.0     0.0
+           2/md142           0     0.0       0       0     0.0     0.0
+           2/md200           0     0.0      12     209     0.0     0.3
+           2/md201           0     0.0       0       0     0.0     0.0
+           2/md202           0     0.0       0       0     0.0     0.0
+           2/md203           0     0.0       0       0     0.0     0.0
+           2/md250           0     0.0       0       0     0.0     0.0
+           2/md251           0     0.0       0       0     0.0     0.0
+           2/md252           0     0.0       0       0     0.0     0.0
+           2/md253           0     0.0       0       0     0.0     0.0
+           2/md254           0     0.0       0       0     0.0     0.0
+           2/md255           0     0.0       0       0     0.0     0.0
+           2/md256           0     0.0       0       0     0.0     0.0
+           2/md257           0     0.0       0       0     0.0     0.0
+           2/md258           0     0.0       0       0     0.0     0.0
+           2/md259           0     0.0       0       0     0.0     0.0
+           2/md260           0     0.0       0       0     0.0     0.0
+           2/md261           0     0.0       0       0     0.0     0.0
+           2/md262           0     0.0       0       0     0.0     0.0
+           2/md263           0     0.0       0       0     0.0     0.0
+           2/md264           0     0.0       0       0     0.0     0.0
+           2/md265           0     0.0       0       0     0.0     0.0
+           2/md269           0     0.0       0       0     0.0     0.0
+           2/md281           0     0.0       0       0     0.0     0.0
+           md10              0     0.0       1      24     0.0     0.4
+           md11              0     0.0       1      24     0.0     0.4
+           md12              0     0.0       1      24     0.0     0.3
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md22              0     0.0       0       0     0.0     0.0
+           md50              0     0.0       0       0     0.0     0.0
+           md51              0     0.0       0       0     0.0     0.0
+           md52              0     0.0       0       0     0.0     0.0
+           md70              0     0.0       0       0     0.0     0.0
+           md71              0     0.0       0       0     0.0     0.0
+           md72              0     0.0       0       0     0.0     0.0
+           md91              0     0.0       0       0     0.0     0.0
+           md92              0     0.0       0       0     0.0     0.0
+           ssd105.t          0     0.0       0       0     0.0     0.0
+           ssd106.t          0     0.0       0       0     0.0     0.0
+           ssd107.t          0     0.0       0       0     0.0     0.0
+           ssd108.t          0     0.0       0       0     0.0     0.0
+           ssd109.t          0     0.0       0       0     0.0     0.0
+           ssd158.t          0     0.0      12     211     0.0     0.0
+           nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0               0     0.0       1      24     0.0     0.3
+           sd0,a             0     0.0       1      24     0.0     0.3
+           sd0,b             0     0.0       0       0     0.0     0.0
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,g             0     0.0       0       0     0.0     0.0
+           sd0,h             0     0.0       0       0     0.0     0.0
+           sd1               0     0.0       1      24     0.0     0.3
+           sd1,a             0     0.0       1      24     0.0     0.3
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd1,g             0     0.0       0       0     0.0     0.0
+           sd1,h             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           sd3               0     0.0       0       0     0.0     0.0
+           sd3,a             0     0.0       0       0     0.0     0.0
+           sd3,b             0     0.0       0       0     0.0     0.0
+           sd3,c             0     0.0       0       0     0.0     0.0
+           sd3,g             0     0.0       0       0     0.0     0.0
+           sd4               0     0.0       0       0     0.0     0.0
+           sd4,a             0     0.0       0       0     0.0     0.0
+           sd4,b             0     0.0       0       0     0.0     0.0
+           sd4,c             0     0.0       0       0     0.0     0.0
+           sd4,g             0     0.0       0       0     0.0     0.0
+           sd5               0     0.0       0       0     0.0     0.0
+           sd5,a             0     0.0       0       0     0.0     0.0
+           sd5,b             0     0.0       0       0     0.0     0.0
+           sd5,c             0     0.0       0       0     0.0     0.0
+           sd5,g             0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           sd6,a             0     0.0       0       0     0.0     0.0
+           sd6,b             0     0.0       0       0     0.0     0.0
+           sd6,c             0     0.0       0       0     0.0     0.0
+           sd6,g             0     0.0       0       0     0.0     0.0
+           sd7               0     0.0       0       0     0.0     0.0
+           sd7,a             0     0.0       0       0     0.0     0.0
+           sd7,b             0     0.0       0       0     0.0     0.0
+           sd7,c             0     0.0       0       0     0.0     0.0
+           sd7,g             0     0.0       0       0     0.0     0.0
+           sd8               0     0.0       0       0     0.0     0.0
+           sd8,a             0     0.0       0       0     0.0     0.0
+           sd8,b             0     0.0       0       0     0.0     0.0
+           sd8,c             0     0.0       0       0     0.0     0.0
+           sd8,g             0     0.0       0       0     0.0     0.0
+           ssd105            0     0.0       0       0     0.0     0.0
+           ssd105,a          0     0.0       0       0     0.0     0.0
+           ssd105,c          0     0.0       0       0     0.0     0.0
+           ssd106            0     0.0       0       0     0.0     0.0
+           ssd106,a          0     0.0       0       0     0.0     0.0
+           ssd106,c          0     0.0       0       0     0.0     0.0
+           ssd107            0     0.0       0       0     0.0     0.0
+           ssd107,a          0     0.0       0       0     0.0     0.0
+           ssd107,c          0     0.0       0       0     0.0     0.0
+           ssd108            0     0.0       0       0     0.0     0.0
+           ssd108,a          0     0.0       0       0     0.0     0.0
+           ssd108,c          0     0.0       0       0     0.0     0.0
+           ssd109            0     0.0       0       0     0.0     0.0
+           ssd109,a          0     0.0       0       0     0.0     0.0
+           ssd109,c          0     0.0       0       0     0.0     0.0
+           ssd158            0     0.0      12     209     0.0     0.2
+           ssd158,a          0     0.0      12     209     0.0     0.2
+           ssd158,h          0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       4       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       4       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+
+
+Average    2/md101           0     0.0       0       0     0.0     0.0
+           2/md102           0     0.0       0       0     0.0     0.0
+           2/md110           0     0.0       0      23     0.0     0.6
+           2/md111           0     0.0       0       0     0.0     0.0
+           2/md112           0     0.0       0       0     0.0     0.0
+           2/md113           0     0.0       0       0     0.0     0.0
+           2/md114           0     0.0       0       0     0.0     0.0
+           2/md115           0     0.0       0       0     0.0     0.0
+           2/md116           0     0.0       0       0     0.0     0.0
+           2/md117           0     0.0       2      80     0.0     0.4
+           2/md118           0     0.0       0      11     0.0     0.4
+           2/md119         222     2.2       0       0     0.0     0.0
+           2/md120           0     0.0       0       0     0.0     0.0
+           2/md121           0     0.0       2       2     0.0     0.3
+           2/md122           0     0.0       2       2     0.0     0.3
+           2/md123           0     0.0       2       2     0.0     0.3
+           2/md124           0     0.0       0       0     0.0     0.0
+           2/md125           0     0.0       0       0     0.0     0.0
+           2/md126           0     0.0       0       0     0.0     0.0
+           2/md127           0     0.0       0       0     0.0     0.0
+           2/md128           0     0.0       0       0     0.0     0.0
+           2/md129           0     0.0       0       0     0.0     0.0
+           2/md130           0     0.0       0       0     0.0     0.0
+           2/md131           0     0.0       0       6     0.0     0.3
+           2/md132           0     0.0       0       0     0.0     0.0
+           2/md140           0     0.0       0       0     0.0     0.0
+           2/md141           0     0.0       0       0     0.0     0.0
+           2/md142           0     0.0       0       0     0.0     0.0
+           2/md200           0     0.0      11     120     0.0     0.3
+           2/md201           0     0.0       0       0     0.0     0.0
+           2/md202           0     0.0       0       0     0.0     0.0
+           2/md203           0     0.0       0       0     0.0     0.0
+           2/md250           0     0.0       0       0     0.0     0.0
+           2/md251           0     0.0       0       0     0.0     0.0
+           2/md252           0     0.0       0       0     0.0     0.0
+           2/md253           0     0.0       0       0     0.0     0.0
+           2/md254           0     0.0       0       0     0.0     0.0
+           2/md255           0     0.0       0       0     0.0     0.0
+           2/md256           0     0.0       0       0     0.0     0.0
+           2/md257           0     0.0       0       0     0.0     0.0
+           2/md258           0     0.0       0       0     0.0     0.0
+           2/md259           0     0.0       0       0     0.0     0.0
+           2/md260           0     0.0       0       0     0.0     0.0
+           2/md261           0     0.0       0       0     0.0     0.0
+           2/md262           0     0.0       0       0     0.0     0.0
+           2/md263           0     0.0       0       0     0.0     0.0
+           2/md264           0     0.0       0       0     0.0     0.0
+           2/md265           0     0.0       0       0     0.0     0.0
+           2/md269           0     0.0       0       0     0.0     0.0
+           2/md281           0     0.0       0       0     0.0     0.0
+           md10              0     0.0       0      13     0.2     0.5
+           md11              0     0.0       0      13     0.0     0.5
+           md12              0     0.0       0      13     0.0     0.4
+           md20              0     0.0       0       0     0.0     0.0
+           md21              0     0.0       0       0     0.0     0.0
+           md22              0     0.0       0       0     0.0     0.0
+           md50              0     0.0       0       2     0.4     0.6
+           md51              0     0.0       0       2     0.0     0.4
+           md52              0     0.0       0       2     0.0     0.5
+           md70              0     0.0       0       0     0.0     0.0
+           md71              0     0.0       0       0     0.0     0.0
+           md72              0     0.0       0       0     0.0     0.0
+           md91              0     0.0       0       2     0.0     1.0
+           md92              0     0.0       0       0     0.0     0.0
+           ssd105.t          0     0.0       0       0     0.0     0.0
+           ssd106.t          0     0.0       0       0     0.0     0.0
+           ssd107.t          0     0.0       0       0     0.0     0.0
+           ssd108.t          0     0.0       0       0     0.0     0.0
+           ssd109.t          0     0.0       0       0     0.0     0.0
+           ssd158.t          0     0.0      26     287     0.0     0.0
+           nfs1              0     0.0       0       0     0.0     0.0
+           ramdisk1          0     0.0       0       0     0.0     0.0
+           sd0               0     0.0       1      14     0.0     0.3
+           sd0,a             0     0.0       0      13     0.0     0.4
+           sd0,b             0     0.0       0       0     0.0     0.0
+           sd0,c             0     0.0       0       0     0.0     0.0
+           sd0,g             0     0.0       0       0     0.0     0.2
+           sd0,h             0     0.0       0       0     0.0     0.0
+           sd1               0     0.0       1      14     0.0     0.3
+           sd1,a             0     0.0       0      13     0.0     0.4
+           sd1,b             0     0.0       0       0     0.0     0.0
+           sd1,c             0     0.0       0       0     0.0     0.0
+           sd1,g             0     0.0       0       0     0.0     0.3
+           sd1,h             0     0.0       0       0     0.0     0.0
+           sd2               0     0.0       0       0     0.0     0.0
+           sd3               0     0.0       0       1     0.0     0.3
+           sd3,a             0     0.0       0       0     0.0     0.0
+           sd3,b             0     0.0       0       0     0.0     0.0
+           sd3,c             0     0.0       0       1     0.0     0.3
+           sd3,g             0     0.0       0       0     0.0     0.0
+           sd4               0     0.0       0       1     0.0     0.4
+           sd4,a             0     0.0       0       0     0.0     0.0
+           sd4,b             0     0.0       0       0     0.0     0.0
+           sd4,c             0     0.0       0       1     0.0     0.4
+           sd4,g             0     0.0       0       0     0.0     0.0
+           sd5               0     0.0       0       0     0.0     0.0
+           sd5,a             0     0.0       0       0     0.0     0.0
+           sd5,b             0     0.0       0       0     0.0     0.0
+           sd5,c             0     0.0       0       0     0.0     0.0
+           sd5,g             0     0.0       0       0     0.0     0.0
+           sd6               0     0.0       0       0     0.0     0.0
+           sd6,a             0     0.0       0       0     0.0     0.0
+           sd6,b             0     0.0       0       0     0.0     0.0
+           sd6,c             0     0.0       0       0     0.0     0.0
+           sd6,g             0     0.0       0       0     0.0     0.0
+           sd7               0     0.0       0       1     0.0     0.3
+           sd7,a             0     0.0       0       0     0.0     0.0
+           sd7,b             0     0.0       0       0     0.0     0.0
+           sd7,c             0     0.0       0       1     0.0     0.3
+           sd7,g             0     0.0       0       0     0.0     0.0
+           sd8               0     0.0       0       1     0.0     0.4
+           sd8,a             0     0.0       0       0     0.0     0.0
+           sd8,b             0     0.0       0       0     0.0     0.0
+           sd8,c             0     0.0       0       1     0.0     0.4
+           sd8,g             0     0.0       0       0     0.0     0.0
+           ssd105            0     0.0       0       0     0.0     0.0
+           ssd105,a          0     0.0       0       0     0.0     0.0
+           ssd105,c          0     0.0       0       0     0.0     0.0
+           ssd106            0     0.0       0       0     0.0     0.0
+           ssd106,a          0     0.0       0       0     0.0     0.0
+           ssd106,c          0     0.0       0       0     0.0     0.0
+           ssd107            0     0.0       0       0     0.0     0.0
+           ssd107,a          0     0.0       0       0     0.0     0.0
+           ssd107,c          0     0.0       0       0     0.0     0.0
+           ssd108            0     0.0       0       0     0.0     0.0
+           ssd108,a          0     0.0       0       0     0.0     0.0
+           ssd108,c          0     0.0       0       0     0.0     0.0
+           ssd109            0     0.0       0       0     0.0     0.0
+           ssd109,a          0     0.0       0       0     0.0     0.0
+           ssd109,c          0     0.0       0       0     0.0     0.0
+           ssd158            0     0.0      11     120     0.0     0.3
+           ssd158,a          0     0.0      11     120     0.0     0.3
+           ssd158,h          0     0.0       0       0     0.0     0.0
+           ehci0,bu          0     0.0       4       0     0.0     0.0
+           ehci0,ct          0     0.0       0       0     0.0     0.0
+           ehci0,in          0     0.0       0       0     0.0     0.0
+           ehci0,is          0     0.0       0       0     0.0     0.0
+           ehci0,to          0     0.0       4       0     0.0     0.0
+           ohci0,bu          0     0.0       0       0     0.0     0.0
+           ohci0,ct          0     0.0       0       0     0.0     0.0
+           ohci0,in          0     0.0       0       0     0.0     0.0
+           ohci0,is          0     0.0       0       0     0.0     0.0
+           ohci0,to          0     0.0       0       0     0.0     0.0
+           ohci1,bu          0     0.0       0       0     0.0     0.0
+           ohci1,ct          0     0.0       0       0     0.0     0.0
+           ohci1,in          0     0.0       0       0     0.0     0.0
+           ohci1,is          0     0.0       0       0     0.0     0.0
+           ohci1,to          0     0.0       0       0     0.0     0.0
+cmdbegin:netconf
+e1000g0		link: up	speed: 1000  Mbps	duplex: full
+e1000g1		link: up	speed: 1000  Mbps	duplex: full
+nxge0		link: up	speed: 1000  Mbps	duplex: full
+nxge1		link: up	speed: 1000  Mbps	duplex: full
+nxge2		link: up	speed: 1000  Mbps	duplex: full
+nxge3		link: unknown	speed: 0     Mbps	duplex: unknown
+clprivnet0		link: unknown	speed: 0     Mbps	duplex: unknown
+cmdbegin:netperf
+Name  Mtu  Net/Dest      Address        Ipkts  Ierrs Opkts  Oerrs Collis Queue 
+lo0   8232 127.0.0.0     127.0.0.1      73928843 0     73928843 0     0      0     
+lo0   8232 127.0.0.0     127.0.0.1      0      N/A   70842009 N/A   N/A    0     
+nxge0 1500 10.63.0.0     10.63.0.3      1765684670 0     837638319 0     0      0     
+nxge0 1500 10.63.0.0     10.63.0.3      253487920 N/A   1703752124 N/A   N/A    0     
+nxge0:1 1500 10.63.0.0     10.63.0.23     1463910373 N/A   92586  N/A   N/A    0     
+nxge1 1500 10.63.0.0     10.63.0.33     95204664 0     865702438 0     0      0     
+nxge1 1500 10.63.0.0     10.63.0.33     207    N/A   1      N/A   N/A    0     
+nxge2 1500 192.168.111.0 192.168.111.1  277828263 0     3828857162 0     0      0     
+nxge2 1500 192.168.111.0 192.168.111.1  277770244 N/A   663312083 N/A   N/A    0     
+e1000g0 1500 172.16.0.128  172.16.0.129   17714922 0     17719494 0     0      0     
+e1000g0 1500 172.16.0.128  172.16.0.129   3678688 N/A   3688928 N/A   N/A    0     
+e1000g1 1500 172.16.1.0    172.16.1.1     298853836 0     289608293 0     0      0     
+e1000g1 1500 172.16.1.0    172.16.1.1     3678499 N/A   3688806 N/A   N/A    0     
+clprivnet0 1500 172.16.4.0    172.16.4.1     281197838 N/A   272069745 N/A   N/A    0     
+
+cmdbegin:netaddr
+Net to Media Table: IPv4
+Device   IP Address               Mask      Flags      Phys Addr
+------ -------------------- --------------- -------- ---------------
+nxge1  10.63.0.5            255.255.255.255 o        00:14:4f:ed:33:cc
+nxge0  10.63.0.7            255.255.255.255 o        00:14:4f:ed:1c:34
+nxge1  10.63.0.1            255.255.255.255 o        00:14:4f:ed:1b:8a
+nxge0  10.63.0.2            255.255.255.255 o        00:14:4f:ed:1a:4a
+nxge0  10.63.0.12           255.255.255.255 o        00:14:4f:f3:80:92
+nxge1  10.63.0.8            255.255.255.255 o        00:14:4f:ed:41:00
+nxge0  10.63.0.11           255.255.255.255 o        00:14:4f:f3:80:a6
+nxge1  10.63.0.254          255.255.255.255 o        00:00:5e:00:01:0a
+nxge2  192.168.111.2        255.255.255.255 o        00:14:4f:f3:75:7c
+clprivnet0 172.16.4.2           255.255.255.255 o        00:00:00:00:00:02
+e1000g0 172.16.0.130         255.255.255.255 o        00:15:17:8a:23:ce
+e1000g1 172.16.1.2           255.255.255.255 o        00:15:17:8a:23:cf
+nxge2  192.168.111.1        255.255.255.255 SPLA     00:14:4f:f3:79:f0
+nxge1  10.63.0.33           255.255.255.255 SPLA     00:14:4f:f3:79:ef
+nxge0  10.63.0.23           255.255.255.255 SPLA     00:14:4f:f3:79:ee
+nxge0  10.63.0.5            255.255.255.255 o        00:14:4f:ed:33:cc
+nxge0  10.63.0.4            255.255.255.255 o        00:14:4f:f3:75:7a
+nxge1  10.63.0.7            255.255.255.255 o        00:14:4f:ed:1c:34
+nxge1  10.63.0.6            255.255.255.255 o        00:14:4f:ed:42:2c
+nxge0  10.63.0.6            255.255.255.255 o        00:14:4f:ed:42:2c
+nxge0  10.63.0.1            255.255.255.255 o        00:14:4f:ed:1b:8a
+nxge0  10.63.0.3            255.255.255.255 SPLA     00:14:4f:f3:79:ee
+nxge1  10.63.0.2            255.255.255.255 o        00:14:4f:ed:1a:4a
+nxge1  10.63.0.13           255.255.255.255 o        00:14:4f:f3:79:6c
+nxge0  10.63.0.13           255.255.255.255 o        00:14:4f:f3:79:6c
+nxge1  10.63.0.12           255.255.255.255 o        00:14:4f:f3:80:92
+nxge0  10.63.0.15           255.255.255.255 o        00:21:28:58:22:20
+nxge0  10.63.0.14           255.255.255.255 o        00:14:4f:f3:75:d4
+nxge1  10.63.0.14           255.255.255.255 o        00:14:4f:f3:75:d4
+nxge0  10.63.0.8            255.255.255.255 o        00:14:4f:ed:41:00
+e1000g0 172.16.0.129         255.255.255.255 SPLA     00:15:17:8a:23:98
+nxge1  10.63.0.11           255.255.255.255 o        00:14:4f:f3:80:a6
+nxge1  10.63.0.116          255.255.255.255 o        00:23:54:30:1e:00
+nxge0  10.63.0.116          255.255.255.255 o        00:23:54:30:1e:00
+nxge0  10.63.0.122          255.255.255.255 o        00:22:64:62:29:25
+nxge0  10.63.0.111          255.255.255.255 o        00:13:d4:e1:94:3a
+nxge1  10.63.0.81           255.255.255.255 o        00:21:86:9e:41:33
+nxge0  10.63.0.81           255.255.255.255 o        00:21:86:9e:41:33
+nxge0  10.63.0.90           255.255.255.255 o        00:21:86:9e:41:33
+nxge0  10.63.0.76           255.255.255.255 o        00:22:68:1e:61:e4
+nxge0  10.63.0.72           255.255.255.255 o        f0:de:f1:07:f8:37
+nxge1  10.63.0.72           255.255.255.255 o        f0:de:f1:07:f8:37
+nxge0  10.63.0.74           255.255.255.255 o        f0:de:f1:07:f8:37
+nxge1  10.63.0.178          255.255.255.255 o        00:0c:29:b5:c8:fa
+nxge0  10.63.0.178          255.255.255.255 o        00:0c:29:b5:c8:fa
+nxge0  10.63.0.148          255.255.255.255 o        00:1a:6b:68:7c:73
+nxge0  10.63.0.145          255.255.255.255 o        00:23:54:30:1e:00
+nxge0  10.63.0.156          255.255.255.255 o        00:23:54:30:1e:00
+clprivnet0 172.16.4.1           255.255.255.255 SPLA     00:00:00:00:00:01
+e1000g1 172.16.1.1           255.255.255.255 SPLA     00:15:17:8a:23:99
+nxge0  10.63.0.254          255.255.255.255 o        00:00:5e:00:01:0a
+nxge1  10.63.0.233          255.255.255.255 o        00:16:d3:ca:11:42
+nxge0  10.63.0.233          255.255.255.255 o        00:16:d3:ca:11:42
+nxge1  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+clprivnet0 224.0.0.0            240.0.0.0       SM       ff:ff:ff:ff:ff:ff
+e1000g1 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+e1000g0 224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+nxge2  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+nxge0  224.0.0.0            240.0.0.0       SM       01:00:5e:00:00:00
+
+cmdbegin:service
+STATE          STIME    FMRI
+legacy_run     Jun_28   lrc:/etc/rc2_d/S10lu
+legacy_run     Jun_28   lrc:/etc/rc2_d/S20sysetup
+legacy_run     Jun_28   lrc:/etc/rc2_d/S40llc2
+legacy_run     Jun_28   lrc:/etc/rc2_d/S42ncakmod
+legacy_run     Jun_28   lrc:/etc/rc2_d/S47pppd
+legacy_run     Jun_28   lrc:/etc/rc2_d/S70uucp
+legacy_run     Jun_28   lrc:/etc/rc2_d/S72autoinstall
+legacy_run     Jun_28   lrc:/etc/rc2_d/S72sc_update_hosts
+legacy_run     Jun_28   lrc:/etc/rc2_d/S72sc_update_ntp
+legacy_run     Jun_28   lrc:/etc/rc2_d/S73cachefs_daemon
+legacy_run     Jun_28   lrc:/etc/rc2_d/S74xntpd_cluster
+legacy_run     Jun_28   lrc:/etc/rc2_d/S76ACT_dumpscript
+legacy_run     Jun_28   lrc:/etc/rc2_d/S77scpostconfig
+legacy_run     Jun_28   lrc:/etc/rc2_d/S81dodatadm_udaplt
+legacy_run     Jun_28   lrc:/etc/rc2_d/S89PRESERVE
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91afbinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91gfbinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91ifbinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91jfbinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91kfbinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S91zuluinit
+legacy_run     Jun_28   lrc:/etc/rc2_d/S94ncalogd
+legacy_run     Jun_28   lrc:/etc/rc2_d/S95SUNWmd_binddevs
+legacy_run     Jun_28   lrc:/etc/rc2_d/S98deallocate
+legacy_run     Jun_28   lrc:/etc/rc2_d/S99sneep
+legacy_run     Jun_28   lrc:/etc/rc3_d/S16boot_server
+legacy_run     Jun_28   lrc:/etc/rc3_d/S50apache
+legacy_run     Jun_28   lrc:/etc/rc3_d/S52imq
+legacy_run     Jun_28   lrc:/etc/rc3_d/S80mipagent
+legacy_run     Jun_28   lrc:/etc/rc3_d/S84appserv
+legacy_run     Jun_28   lrc:/etc/rc3_d/S96init_crs
+legacy_run     Jun_28   lrc:/etc/rc3_d/S99EIS-DVDtag
+online         Jun_28   svc:/system/svc/restarter:default
+online         Jun_28   svc:/network/loopback:default
+online         Jun_28   svc:/network/tnctl:default
+online         Jun_28   svc:/network/pfil:default
+online         Jun_28   svc:/system/installupdates:default
+online         Jun_28   svc:/milestone/name-services:default
+online         Jun_28   svc:/network/physical:default
+online         Jun_28   svc:/milestone/network:default
+online         Jun_28   svc:/system/identity:node
+online         Jun_28   svc:/system/metainit:default
+online         Jun_28   svc:/system/filesystem/root:default
+online         Jun_28   svc:/system/scheduler:default
+online         Jun_28   svc:/system/boot-archive:default
+online         Jun_28   svc:/system/filesystem/usr:default
+online         Jun_28   svc:/system/keymap:default
+online         Jun_28   svc:/system/cluster/cl_boot_check:default
+online         Jun_28   svc:/network/multipath:cluster
+online         Jun_28   svc:/system/cluster/scmountdev:default
+online         Jun_28   svc:/system/device/local:default
+online         Jun_28   svc:/system/filesystem/minimal:default
+online         Jun_28   svc:/system/identity:domain
+online         Jun_28   svc:/system/rmtmpfiles:default
+online         Jun_28   svc:/platform/sun4v/drd:default
+online         Jun_28   svc:/system/power:default
+online         Jun_28   svc:/system/coreadm:default
+online         Jun_28   svc:/system/sysevent:default
+online         Jun_28   svc:/system/cryptosvc:default
+online         Jun_28   svc:/system/picl:default
+online         Jun_28   svc:/system/pools:default
+online         Jun_28   svc:/system/resource-mgmt:default
+online         Jun_28   svc:/network/initial:default
+online         Jun_28   svc:/system/device/fc-fabric:default
+online         Jun_28   svc:/system/manifest-import:default
+online         Jun_28   svc:/milestone/devices:default
+online         Jun_28   svc:/system/cluster/scslm:default
+online         Jun_28   svc:/application/print/ppd-cache-update:default
+online         Jun_28   svc:/network/routing-setup:default
+online         Jun_28   svc:/network/ntp:default
+online         Jun_28   svc:/system/pools/dynamic:default
+online         Jun_28   svc:/system/cluster/loaddid:default
+online         Jun_28   svc:/system/cluster/bootcluster:default
+online         Jun_28   svc:/network/rpc/meta:default
+online         Jun_28   svc:/network/rpc/gss:default
+online         Jun_28   svc:/application/x11/xfs:default
+online         Jun_28   svc:/application/font/stfsloader:default
+online         Jun_28   svc:/network/rpc/rstat:default
+online         Jun_28   svc:/system/name-service-cache:default
+online         Jun_28   svc:/network/rpc/cde-calendar-manager:default
+online         Jun_28   svc:/system/cluster/initdid:default
+online         Jun_28   svc:/network/nfs/client:default
+online         Jun_28   svc:/network/rpc/cde-ttdbserver:tcp
+online         Jun_28   svc:/network/rpc/mdcomm:default
+online         Jun_28   svc:/network/service:default
+online         Jun_28   svc:/system/cluster/sc_failfast:default
+online         Jun_28   svc:/network/rpc/metamed:default
+online         Jun_28   svc:/network/rpc/metamh:default
+online         Jun_28   svc:/system/filesystem/autofs:default
+online         Jun_28   svc:/milestone/single-user:default
+online         Jun_28   svc:/network/rpc/smserver:default
+online         Jun_28   svc:/network/rpc/rusers:default
+online         Jun_28   svc:/network/cde-spc:default
+online         Jun_28   svc:/network/security/ktkt_warn:default
+online         Jun_28   svc:/network/telnet:default
+online         Jun_28   svc:/platform/sun4v/efdaemon:default
+online         Jun_28   svc:/system/cluster/sc_pmmd:default
+online         Jun_28   svc:/network/nfs/rquota:default
+online         Jun_28   svc:/network/ssh:default
+online         Jun_28   svc:/system/dumpadm:default
+online         Jun_28   svc:/system/system-log:default
+online         Jun_28   svc:/network/ftp:default
+online         Jun_28   svc:/system/filesystem/volfs:default
+online         Jun_28   svc:/network/finger:default
+online         Jun_28   svc:/network/login:rlogin
+online         Jun_28   svc:/network/shell:default
+online         Jun_28   svc:/network/rpc-100235_1/rpc_ticotsord:default
+online         Jun_28   svc:/application/management/seaport:default
+online         Jun_28   svc:/network/smtp:sendmail
+online         Jun_28   svc:/network/rpc/scadmd:default
+online         Jun_28   svc:/system/cluster/clexecd:default
+online         Jun_28   svc:/system/cluster/cl_execd:default
+online         Jun_28   svc:/network/rpc/scrcmd:default
+online         Jun_28   svc:/network/sccheckd:default
+online         Jun_28   svc:/network/rpc/metacld:default
+online         Jun_28   svc:/network/stdiscover:default
+online         Jun_28   svc:/system/filesystem/local:default
+online         Jun_28   svc:/network/stlisten:default
+online         Jun_28   svc:/application/management/snmpdx:default
+online         Jun_28   svc:/system/cluster/zc_cmd_log_replay:default
+online         Jun_28   svc:/network/shares/group:default
+online         Jun_28   svc:/system/mdmonitor:default
+online         Jun_28   svc:/system/cluster/sc_rtreg_server:default
+online         Jun_28   svc:/system/cluster/sc_ifconfig_server:default
+online         Jun_28   svc:/system/cron:default
+online         Jun_28   svc:/application/management/sma:default
+online         Jun_28   svc:/system/boot-archive-update:default
+online         Jun_28   svc:/system/sysidtool:net
+online         Jun_28   svc:/system/cluster/scvxinstall:default
+online         Jun_28   svc:/application/management/dmi:default
+online         Jun_28   svc:/network/rpc/bind:default
+online         Jun_28   svc:/network/nfs/cbd:default
+online         Jun_28   svc:/network/nfs/status:default
+online         Jun_28   svc:/network/nfs/mapid:default
+online         Jun_28   svc:/system/sysidtool:system
+online         Jun_28   svc:/network/nfs/nlockmgr:default
+online         Jun_28   svc:/milestone/sysconfig:default
+online         Jun_28   svc:/system/postrun:default
+online         Jun_28   svc:/system/sac:default
+online         Jun_28   svc:/application/management/wbem:default
+online         Jun_28   svc:/system/utmp:default
+online         Jun_28   svc:/application/stosreg:default
+online         Jun_28   svc:/application/psncollector:default
+online         Jun_28   svc:/network/inetd:default
+online         Jun_28   svc:/system/console-login:default
+online         Jun_28   svc:/application/sthwreg:default
+online         Jun_28   svc:/application/font/fc-cache:default
+online         Jun_28   svc:/system/cluster/globaldevices:default
+online         Jun_28   svc:/system/cluster/gdevsync:default
+online         Jun_28   svc:/milestone/multi-user:default
+online         Jun_28   svc:/system/fmd:default
+online         Jun_28   svc:/system/cluster/cl-svc-enable:default
+online         Jun_28   svc:/application/graphical-login/cde-login:default
+online         Jun_28   svc:/application/cde-printinfo:default
+online         Jun_28   svc:/system/cluster/scqdm:default
+online         Jun_28   svc:/system/cluster/pnm:default
+online         Jun_28   svc:/system/cluster/scdpm:default
+online         Jun_28   svc:/system/cluster/cl-event:default
+online         Jun_28   svc:/system/cluster/ql_upgrade:default
+online         Jun_28   svc:/system/cluster/cl-ccra:default
+online         Jun_28   svc:/system/cluster/rpc-pmf:default
+online         Jun_28   svc:/system/cluster/cl-eventlog:default
+online         Jun_28   svc:/system/cluster/mountgfs:default
+online         Jun_28   svc:/system/cluster/sc_pnm_proxy_server:default
+online         Jun_28   svc:/system/cluster/sc_zc_member:default
+online         Jun_28   svc:/system/cluster/sc_zones:default
+online         Jun_28   svc:/system/cluster/clusterdata:default
+online         Jun_28   svc:/system/cluster/scprivipd:default
+online         Jun_28   svc:/system/cluster/ql_rgm:default
+online         Jun_28   svc:/milestone/multi-user-server:default
+online         Jun_28   svc:/system/cluster/rpc-fed:default
+online         Jun_28   svc:/system/cluster/cznetd:default
+online         Jun_28   svc:/system/basicreg:default
+online         Jun_28   svc:/system/zones:default
+online         Jun_28   svc:/system/webconsole:console
+online         Jun_28   svc:/system/cluster/rgm-starter:default
+online         Jun_28   svc:/system/cluster/cl-svc-cluster-milestone:default
+online         Jun_28   svc:/system/cluster/scslmclean:default
+online         Jun_28   svc:/system/cluster/sc_svtag:default
+online         Jun_28   svc:/system/cluster/sckeysync:default
+online         Nov_11   svc:/application/management/common-agent-container-2:default
+offline        Jun_28   svc:/application/print/ipp-listener:default
+offline        Jun_28   svc:/system/cluster/scsymon-srv:default
+offline        Jun_28   svc:/application/print/rfc1179:default
+cmdbegin:uname
+SunOS his1
+cmdbegin:usergroup
+root::0:
+other::1:root
+bin::2:root,daemon
+sys::3:root,bin,adm
+adm::4:root,daemon
+uucp::5:root
+mail::6:root
+tty::7:root,adm
+lp::8:root,adm
+nuucp::9:root
+staff::10:
+daemon::12:root
+sysadmin::14:
+smmsp::25:
+gdm::50:
+webservd::80:
+postgres::90:
+nobody::60001:
+noaccess::60002:
+nogroup::65534:
+dba:*:520:root
+oinstall:*:520:
+cmdbegin:user
+root:x:0:0:Super-User:/:/sbin/sh
+daemon:x:1:1::/:
+bin:x:2:2::/usr/bin:
+sys:x:3:3::/:
+adm:x:4:4:Admin:/var/adm:
+lp:x:71:8:Line Printer Admin:/usr/spool/lp:
+uucp:x:5:5:uucp Admin:/usr/lib/uucp:
+nuucp:x:9:9:uucp Admin:/var/spool/uucppublic:/usr/lib/uucp/uucico
+smmsp:x:25:25:SendMail Message Submission Program:/:
+listen:x:37:4:Network Admin:/usr/net/nls:
+gdm:x:50:50:GDM Reserved UID:/:
+webservd:x:80:80:WebServer Reserved UID:/:
+postgres:x:90:90:PostgreSQL Reserved UID:/:/usr/bin/pfksh
+svctag:x:95:12:Service Tag UID:/:
+nobody:x:60001:60001:NFS Anonymous Access User:/:
+noaccess:x:60002:60002:No Access User:/:
+nobody4:x:65534:65534:SunOS 4.x NFS Anonymous Access User:/:
+oracle:x:120:520::/oracle:/bin/sh
+cmdbegin:date
+Mon Dec  6 18:45:07 CST 2010
+cmdbegin:uptime
+  6:45pm  up 161 day(s),  2:42,  0 users,  load average: 0.99, 0.88, 0.86
+cmdbegin:end
+netflow:start
+    Time     Int   rKB/s   wKB/s   rPk/s   wPk/s    rAvs    wAvs   %Util    Sat
+18:45:07   nxge0   21.58   37.12   126.8   60.18   174.2   631.6    0.05   0.00
+18:45:07   nxge1    0.61   39.13    6.84   62.19   90.94   644.3    0.03   0.00
+18:45:07 e1000g0    0.08    0.08    1.27    1.27   67.14   67.59    0.00   0.00
+18:45:07 e1000g1    3.68    3.83   21.47   20.81   175.7   188.4    0.01   0.00
+18:45:07   nxge2  1347.4  1395.1  1254.1  1200.7  1100.1  1189.8    2.25   0.00
+18:45:07     lo0    0.00    0.00    5.31    5.31    0.00    0.00    0.00   0.00
+netflow:end
+netmac:start
+lo0: flags=2001000849<UP,LOOPBACK,RUNNING,MULTICAST,IPv4,VIRTUAL> mtu 8232 index 1
+	inet 127.0.0.1 netmask ff000000 
+nxge0: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 2
+	inet 10.63.0.3 netmask ffffff00 broadcast 10.63.0.255
+	groupname hisbind
+	ether 0:14:4f:f3:79:ee 
+nxge0:1: flags=201040843<UP,BROADCAST,RUNNING,MULTICAST,DEPRECATED,IPv4,CoS> mtu 1500 index 2
+	inet 10.63.0.23 netmask ffffff00 broadcast 10.63.0.255
+nxge1: flags=201040843<UP,BROADCAST,RUNNING,MULTICAST,DEPRECATED,IPv4,CoS> mtu 1500 index 3
+	inet 10.63.0.33 netmask ffffff00 broadcast 10.63.0.255
+	groupname hisbind
+	ether 0:14:4f:f3:79:ef 
+nxge2: flags=201000843<UP,BROADCAST,RUNNING,MULTICAST,IPv4,CoS> mtu 1500 index 4
+	inet 192.168.111.1 netmask fffffffc broadcast 192.168.111.3
+	ether 0:14:4f:f3:79:f0 
+e1000g0: flags=201008843<UP,BROADCAST,RUNNING,MULTICAST,PRIVATE,IPv4,CoS> mtu 1500 index 6
+	inet 172.16.0.129 netmask ffffff80 broadcast 172.16.0.255
+	ether 0:15:17:8a:23:98 
+e1000g1: flags=201008843<UP,BROADCAST,RUNNING,MULTICAST,PRIVATE,IPv4,CoS> mtu 1500 index 5
+	inet 172.16.1.1 netmask ffffff80 broadcast 172.16.1.127
+	ether 0:15:17:8a:23:99 
+clprivnet0: flags=1009843<UP,BROADCAST,RUNNING,MULTICAST,MULTI_BCAST,PRIVATE,IPv4> mtu 1500 index 7
+	inet 172.16.4.1 netmask fffffe00 broadcast 172.16.5.255
+	ether 0:0:0:0:0:1 
+netmac:end
