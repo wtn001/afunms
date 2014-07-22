@@ -86,12 +86,19 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 
 	SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
+	/**
+	 * 1.加载Tomcat列表
+	 * 
+	 * @return
+	 */
 	private String list() {
 
 		// 从session中取出当前用户
 		User operator = (User) session
 				.getAttribute(SessionConstant.CURRENT_USER);
+		// 获取当前用户的所属业务
 		String bids = operator.getBusinessids();
+		// 拆分当前用户所属业务字符串
 		String bid[] = bids.split(",");
 		Vector rbids = new Vector();
 		if (bid != null && bid.length > 0) {
@@ -100,7 +107,6 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 					rbids.add(bid[i].trim());
 			}
 		}
-
 		List list = null;
 		TomcatDao dao = new TomcatDao();
 		try {
@@ -129,7 +135,7 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 	}
 
 	/**
-	 * snow 增加前将供应商查找到
+	 * 2.查询供应商snow 增加前将供应商查找到
 	 * 
 	 * @return
 	 */
@@ -137,6 +143,7 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 		SupperDao supperdao = new SupperDao();
 		List<Supper> allSupper = supperdao.loadAll();
 		request.setAttribute("allSupper", allSupper);
+		System.out.println("增加Tomcat....查询供应商");
 		return "/application/tomcat/add.jsp";
 	}
 

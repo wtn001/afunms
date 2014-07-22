@@ -1,4 +1,4 @@
-<%@page language="java" contentType="text/html;charset=GB2312"%>
+<%@page language="java" contentType="text/html;charset=GBK"%>
 <%@page import="java.util.List"%>
 <%@page import="com.afunms.topology.util.NodeHelper"%>
 <%@page import="com.afunms.application.model.Tomcat"%>
@@ -20,7 +20,7 @@
 <LINK href="<%=rootPath%>/resource/css/style.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="<%=rootPath%>/resource/js/page.js"></script> 
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
 <LINK href="<%=rootPath%>/resource/css/itsm_style.css" type="text/css" rel="stylesheet">
 <link href="<%=rootPath%>/resource/css/detail.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="<%=rootPath%>/resource/css/style.css" type="text/css">

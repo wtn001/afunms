@@ -1,4 +1,4 @@
-<%@page language="java" contentType="text/html;charset=gb2312" %>
+<%@page language="java" contentType="text/html;charset=gbk"%>
 <%@ include file="/include/globe.inc"%>
 
 <%@page import="java.util.List"%>
@@ -9,39 +9,54 @@
 <%@page import="com.afunms.application.dao.*"%>
 <%@page import="com.afunms.config.model.*"%>
 <%@page import="com.afunms.config.dao.*"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%
-  String rootPath = request.getContextPath();
-  String menuTable = (String)request.getAttribute("menuTable");
-   BusinessDao bussdao = new BusinessDao();
-   List allbuss = bussdao.loadAll(); 
+	String rootPath = request.getContextPath();
+	String menuTable = (String) request.getAttribute("menuTable");
+	BusinessDao bussdao = new BusinessDao();
+	List allbuss = bussdao.loadAll();
 %>
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
 <script type="text/javascript" src="<%=rootPath%>/include/swfobject.js"></script>
-<script language="JavaScript" type="text/javascript" src="<%=rootPath%>/include/navbar.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="<%=rootPath%>/include/navbar.js"></script>
 
 <script type="text/javascript" src="<%=rootPath%>/resource/js/wfm.js"></script>
 
-<link href="<%=rootPath%>/resource/<%=com.afunms.common.util.CommonAppUtil.getSkinPath() %>css/global/global.css" rel="stylesheet" type="text/css"/>
+<link
+	href="<%=rootPath%>/resource/<%=com.afunms.common.util.CommonAppUtil.getSkinPath()%>css/global/global.css"
+	rel="stylesheet" type="text/css" />
 
-<link rel="stylesheet" type="text/css" 	href="<%=rootPath%>/js/ext/lib/resources/css/ext-all.css" charset="gb2312" />
-<script type="text/javascript" 	src="<%=rootPath%>/js/ext/lib/adapter/ext/ext-base.js" charset="gb2312"></script>
-<script type="text/javascript" src="<%=rootPath%>/js/ext/lib/ext-all.js" charset="gb2312"></script>
-<script type="text/javascript" src="<%=rootPath%>/js/ext/lib/locale/ext-lang-zh_CN.js" charset="gb2312"></script>
+<link rel="stylesheet" type="text/css"
+	href="<%=rootPath%>/js/ext/lib/resources/css/ext-all.css"
+	charset="gb2312" />
+<script type="text/javascript"
+	src="<%=rootPath%>/js/ext/lib/adapter/ext/ext-base.js" charset="gb2312"></script>
+<script type="text/javascript" src="<%=rootPath%>/js/ext/lib/ext-all.js"
+	charset="gb2312"></script>
+<script type="text/javascript"
+	src="<%=rootPath%>/js/ext/lib/locale/ext-lang-zh_CN.js"
+	charset="gb2312"></script>
 
 <!-- snow add for gatherTime at 2010-5-20 start -->
-<script type="text/javascript" 	src="<%=rootPath%>/application/resource/js/addTimeConfig.js" charset="gb2312"></script>
-<script type="text/javascript" 	src="<%=rootPath%>/application/resource/js/jquery-1.4.2.min.js" charset="gb2312"></script>
+<script type="text/javascript"
+	src="<%=rootPath%>/application/resource/js/addTimeConfig.js"
+	charset="gb2312"></script>
+<script type="text/javascript"
+	src="<%=rootPath%>/application/resource/js/jquery-1.4.2.min.js"
+	charset="gb2312"></script>
 <script type="text/javascript">
 	$(addTimeConfigRow);//addTimeConfigRow函数在application/resource/js/addTimeConfig.js中 
 </script>
 <!-- snow add for gatherTime at 2010-5-20 end -->
 
 <!--nielin add for timeShareConfig at 2010-01-04 start-->
-<script type="text/javascript" 	src="<%=rootPath%>/application/resource/js/timeShareConfigdiv.js" charset="gb2312"></script>
+<script type="text/javascript"
+	src="<%=rootPath%>/application/resource/js/timeShareConfigdiv.js"
+	charset="gb2312"></script>
 <!--nielin add for timeShareConfig at 2010-01-04 end-->
 
 
@@ -165,18 +180,20 @@ function initmenu()
 		var timeShareConfigs = new Array();
 		var smsConfigs = new Array();
 		var phoneConfigs = new Array();
-		<%	
-			List timeShareConfigList = (List) request.getAttribute("timeShareConfigList");
-			if(timeShareConfigList!=null&&timeShareConfigList.size()>=0){
-			for(int i = 0 ; i < timeShareConfigList.size(); i++){	        
-	            TimeShareConfig timeShareConfig = (TimeShareConfig) timeShareConfigList.get(i);
-	            int timeShareConfigId = timeShareConfig.getId();
-	            String timeShareType = timeShareConfig.getTimeShareType();
-	            String timeShareConfigbeginTime = timeShareConfig.getBeginTime();
-	            String timeShareConfigendTime = timeShareConfig.getEndTime();
-	            String timeShareConfiguserIds = timeShareConfig.getUserIds();
-	            
-	    %>
+		<%List timeShareConfigList = (List) request
+					.getAttribute("timeShareConfigList");
+			if (timeShareConfigList != null && timeShareConfigList.size() >= 0) {
+				for (int i = 0; i < timeShareConfigList.size(); i++) {
+					TimeShareConfig timeShareConfig = (TimeShareConfig) timeShareConfigList
+							.get(i);
+					int timeShareConfigId = timeShareConfig.getId();
+					String timeShareType = timeShareConfig.getTimeShareType();
+					String timeShareConfigbeginTime = timeShareConfig
+							.getBeginTime();
+					String timeShareConfigendTime = timeShareConfig
+							.getEndTime();
+					String timeShareConfiguserIds = timeShareConfig
+							.getUserIds();%>
 	            timeShareConfigs.push({
 	                timeShareConfigId:"<%=timeShareConfigId%>",
 	                timeShareType:"<%=timeShareType%>",
@@ -184,10 +201,8 @@ function initmenu()
 	                endTime:"<%=timeShareConfigendTime%>",
 	                userIds:"<%=timeShareConfiguserIds%>"
 	            });
-	    <%
-	        }
-	        }
-	    %>   
+	    <%}
+			}%>   
 	    for(var i = 0; i< timeShareConfigs.length; i++){
 	    	var item = timeShareConfigs[i];
 	    	if(item.timeShareType=="sms"){
@@ -219,40 +234,38 @@ function initmenu()
 </head>
 <body id="body" class="body" onload="initmenu();">
 
-<!-- 这里用来定义需要显示的右键菜单 -->
+	<!-- 这里用来定义需要显示的右键菜单 -->
 	<div id="itemMenu" style="display: none";>
-	<table border="1" width="100%" height="100%" bgcolor="#F1F1F1"
-		style="border: thin" cellspacing="0">
-		<tr>
-			<td style="cursor: default; border: outset 1;" align="center"
-				onclick="parent.edit()">修改信息</td>
-		</tr>
-		<tr>
-			<td style="cursor: default; border: outset 1;" align="center"
-				onclick="parent.detail();">监视信息</td>
-		</tr>
-		<tr>
-			<td style="cursor: default; border: outset 1;" align="center"
-				onclick="parent.cancelmanage()">取消监视</td>
-		</tr>
-		<tr>
-			<td style="cursor: default; border: outset 1;" align="center"
-				onclick="parent.addmanage()">添加监视</td>
-		</tr>		
-	</table>
+		<table border="1" width="100%" height="100%" bgcolor="#F1F1F1"
+			style="border: thin" cellspacing="0">
+			<tr>
+				<td style="cursor: default; border: outset 1;" align="center"
+					onclick="parent.edit()">修改信息</td>
+			</tr>
+			<tr>
+				<td style="cursor: default; border: outset 1;" align="center"
+					onclick="parent.detail();">监视信息</td>
+			</tr>
+			<tr>
+				<td style="cursor: default; border: outset 1;" align="center"
+					onclick="parent.cancelmanage()">取消监视</td>
+			</tr>
+			<tr>
+				<td style="cursor: default; border: outset 1;" align="center"
+					onclick="parent.addmanage()">添加监视</td>
+			</tr>
+		</table>
 	</div>
 	<!-- 右键菜单结束-->
 
 	<form id="mainForm" method="post" name="mainForm">
-		
+
 		<table id="body-container" class="body-container">
 			<tr>
 				<td class="td-container-menu-bar">
 					<table id="container-menu-bar" class="container-menu-bar">
 						<tr>
-							<td>
-								<%=menuTable%>
-							</td>	
+							<td><%=menuTable%></td>
 						</tr>
 					</table>
 				</td>
@@ -267,215 +280,256 @@ function initmenu()
 												<tr>
 													<td>
 														<table id="add-content-header" class="add-content-header">
-										                	<tr>
-											                	<td align="left" width="5"><img src="<%=rootPath%>/common/images/right_t_01.jpg" width="5" height="29" /></td>
-											                	<td class="add-content-title">应用 >> 中间件管理 >> Tomcat监视添加</td>
-											                    <td align="right"><img src="<%=rootPath%>/common/images/right_t_03.jpg" width="5" height="29" /></td>
-											       			</tr>
-											        	</table>
-				        							</td>
-				        						</tr>
-				        						<tr>
-				        							<td>
-				        								<table id="detail-content-body" class="detail-content-body">
-				        									<tr>
-				        										<td>
-				        										
-				        												<table border="0" id="table1" cellpadding="0" cellspacing="1"
-																	width="100%">
-																<TBODY>
-			<tr style="background-color: #ECECEC;">						
-			<TD nowrap align="right" height="24" width="10%">名称&nbsp;</TD>				
-			<TD nowrap width="40%">&nbsp;<input type="text" id="alias"  name="alias" size="20" class="formStyle"><font color='red'>*</font></TD>															
-			<TD nowrap align="right" height="24">IP地址&nbsp;</TD>				
-			<TD nowrap width="40%">&nbsp;<input type="text" id="ip_address" name="ip_address" size="20" class="formStyle"><font color='red'>*</font></TD>						
-			</tr>
-			<tr>						
-			<TD nowrap align="right" height="24" width="10%">用户名&nbsp;</TD>				
-			<TD nowrap width="40%">&nbsp;<input type="text" id="user" name="user" size="20" class="formStyle" value="admin"></TD>				
-			<TD nowrap align="right" height="24" width="10%">密码&nbsp;</TD>				
-			<TD nowrap width="40%">&nbsp;<input type="text" id="password" name="password" size="20" class="formStyle" value="admin"></TD>				
-	        	</tr>
-			<tr style="background-color: #ECECEC;">
-		    		<TD nowrap align="right" height="24">端口&nbsp;</TD>				
-            			<TD nowrap>&nbsp;<input type="text" id="port" name="port" size="20" class="formStyle" value="8080"><font color='red'>*</font></TD>
-				<TD nowrap align="right" height="24" width="10%">&nbsp;</TD>				
-				<TD nowrap width="40%">&nbsp;</TD>
-			</tr>
-			<tr>
-							<TD nowrap align="right" height="24" width="10%">是否监控&nbsp;</TD>				
-							<TD nowrap width="40%" colspan=3>&nbsp;
-								<select   name="monflag"  class="formStyle">
-									<option value=1>是</option>
-									<option value=0>否</option>
-									
-								</select>
-							</TD>	
-						</tr>
-						<!--<tr style="background-color: #ECECEC;"> 
+															<tr>
+																<td align="left" width="5"><img
+																	src="<%=rootPath%>/common/images/right_t_01.jpg"
+																	width="5" height="29" /></td>
+																<td class="add-content-title">应用 >> 中间件管理 >>
+																	Tomcat监视添加</td>
+																<td align="right"><img
+																	src="<%=rootPath%>/common/images/right_t_03.jpg"
+																	width="5" height="29" /></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<table id="detail-content-body"
+															class="detail-content-body">
+															<tr>
+																<td>
+
+																	<table border="0" id="table1" cellpadding="0"
+																		cellspacing="1" width="100%">
+																		<TBODY>
+																			<tr style="background-color: #ECECEC;">
+																				<TD nowrap align="right" height="24" width="10%">名称&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp;<input type="text"
+																					id="alias" name="alias" size="20" class="formStyle"><font
+																					color='red'>*</font></TD>
+																				<TD nowrap align="right" height="24">IP地址&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp;<input type="text"
+																					id="ip_address" name="ip_address" size="20"
+																					class="formStyle"><font color='red'>*</font></TD>
+																			</tr>
+																			<tr>
+																				<TD nowrap align="right" height="24" width="10%">用户名&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp;<input type="text"
+																					id="user" name="user" size="20" class="formStyle"
+																					value="admin"></TD>
+																				<TD nowrap align="right" height="24" width="10%">密码&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp;<input type="text"
+																					id="password" name="password" size="20"
+																					class="formStyle" value="admin"></TD>
+																			</tr>
+																			<tr style="background-color: #ECECEC;">
+																				<TD nowrap align="right" height="24">端口&nbsp;</TD>
+																				<TD nowrap>&nbsp;<input type="text" id="port"
+																					name="port" size="20" class="formStyle"
+																					value="8080"><font color='red'>*</font></TD>
+																				<TD nowrap align="right" height="24" width="10%">&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp;</TD>
+																			</tr>
+																			<tr>
+																				<TD nowrap align="right" height="24" width="10%">是否监控&nbsp;</TD>
+																				<TD nowrap width="40%" colspan=3>&nbsp; <select
+																					name="monflag" class="formStyle">
+																						<option value=1>是</option>
+																						<option value=0>否</option>
+
+																				</select>
+																				</TD>
+																			</tr>
+																			<!--<tr style="background-color: #ECECEC;"> 
   							<TD nowrap align="right" height="24" width="10%">短信接收人&nbsp;</TD>       
 							<TD nowrap width="40%"  colspan=3>&nbsp;
 							<input type="text" readonly="readonly" id="sendmobiles" name="sendmobiles" maxlength="32" size="50" value="">&nbsp;&nbsp; <input type=button value="设置短信接收人" onclick='setReceiver("sendmobiles");'> 
 							</td>
  						</tr>-->
- 						<!-- snow modify begin 添加供应商  2010-05-20 -->
-						<tr >												
-							<TD nowrap align="right" height="24" width="10%">供应商&nbsp;</TD>				
-							<TD nowrap width="40%">&nbsp;
-								<select size=1 name='supperid' style="width:260px;">
-									<option value='0' selected></option>
-									<c:forEach items="${allSupper}" var="al">
-						      							<option value='${al.su_id }'>${al.su_name }（${al.su_dept}）</option>
-						      						</c:forEach>
-						      					</select>
-						      				</TD>	
-						      				<TD nowrap align="right" height="24" width="10%"></TD>				
-							<TD nowrap width="40%">&nbsp;
-						      				</TD>																					
-						</tr>						
-						<!-- snow modify end -->
-    						<tr style="background-color: #ECECEC;"> 
-  							<TD nowrap align="right" height="24" width="10%">邮件接收人&nbsp;</TD>       
-							<TD nowrap width="40%"  colspan=3>&nbsp;
-							<input type="text" readonly="readonly" id="sendemail" name="sendemail" maxlength="32" size="50" value="">&nbsp;&nbsp;<input type=button value="设置邮件接收人" onclick='setReceiver("sendemail");'> 
-							</td>
- 						</tr> 
- 						<!--<tr> 
+																			<!-- snow modify begin 添加供应商  2010-05-20 -->
+																			<tr>
+																				<TD nowrap align="right" height="24" width="10%">供应商&nbsp;</TD>
+																				<TD nowrap width="40%">&nbsp; <select size=1
+																					name='supperid' style="width:260px;">
+																						<option value='0' selected></option>
+																						<c:forEach items="${allSupper}" var="al">
+																							<option value='${al.su_id }'>${al.su_name
+																								}（${al.su_dept}）</option>
+																						</c:forEach>
+																				</select>
+																				</TD>
+																				<TD nowrap align="right" height="24" width="10%"></TD>
+																				<TD nowrap width="40%">&nbsp;</TD>
+																			</tr>
+																			<!-- snow modify end -->
+																			<tr style="background-color: #ECECEC;">
+																				<TD nowrap align="right" height="24" width="10%">邮件接收人&nbsp;</TD>
+																				<TD nowrap width="40%" colspan=3>&nbsp; <input
+																					type="text" readonly="readonly" id="sendemail"
+																					name="sendemail" maxlength="32" size="50" value="">&nbsp;&nbsp;<input
+																					type=button value="设置邮件接收人"
+																					onclick='setReceiver("sendemail");'>
+																				</td>
+																			</tr>
+																			<!--<tr> 
   							<TD nowrap align="right" height="24" width="10%">电话接收人&nbsp;</TD>       
 							<TD nowrap width="40%"  colspan=3>&nbsp;
 							<input type="text" readonly="readonly" id="sendphone" name="sendphone" maxlength="32" size="50" value="">&nbsp;&nbsp;<input type=button value="设置电话接收人" onclick='setReceiver("sendphone");'> 
 							</td>
- 						</tr>--> 
-						<tr>	
-							<TD nowrap align="right" height="24">所属业务&nbsp;</TD>
-							<td nowrap colspan="3" height="1">
-							<input type=text readonly="readonly" onclick='setBid("bidtext" , "bid");' id="bidtext" name="bidtext" size="50" maxlength="32" value="">&nbsp;&nbsp;<input type=button value="设置所属业务" onclick='setBid("bidtext" , "bid");'>
-							<input type="hidden" id="bid" name="bid" value="">
-							</td>
-						</tr>
-															
-															<!-- snow modify begin (timeConfig div)*/ 2010-05-20 -->
-															<tr>
-															 	<td nowrap align="right" width="10%" style="height:35px;">信息采集时间&nbsp;</td>		
-															 	<td nowrap  colspan="3">
-															        <div id="formDiv" style="">         
-														                <table width="100%" style="BORDER-COLLAPSE: collapse" borderColor=#cedefa cellPadding=0 rules=none border=1 algin="center" >
-													                        <tr>
-													                            <td align="left">  
-														                            <br>
-													                                <table id="timeConfigTable" style="width:60%; padding:0;  background-color:#FFFFFF; position:relative; left:15px;" >
-												                                        <tr>
-												                                            <td colspan="7" height="50" align="center"> 
-												                                                <span id="addTimeConfigRow" style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
-												                                            </td>
-												                                        </tr>
-													                                </table>
-													                            </td>
-													                        </tr>
-														                </table>
-														            </div> 
+ 						</tr>-->
+																			<tr>
+																				<TD nowrap align="right" height="24">所属业务&nbsp;</TD>
+																				<td nowrap colspan="3" height="1"><input
+																					type=text readonly="readonly"
+																					onclick='setBid("bidtext" , "bid");' id="bidtext"
+																					name="bidtext" size="50" maxlength="32" value="">&nbsp;&nbsp;<input
+																					type=button value="设置所属业务"
+																					onclick='setBid("bidtext" , "bid");'> <input
+																					type="hidden" id="bid" name="bid" value="">
+																				</td>
+																			</tr>
+
+																			<!-- snow modify begin (timeConfig div)*/ 2010-05-20 -->
+																			<tr>
+																				<td nowrap align="right" width="10%"
+																					style="height:35px;">信息采集时间&nbsp;</td>
+																				<td nowrap colspan="3">
+																					<div id="formDiv" style="">
+																						<table width="100%"
+																							style="BORDER-COLLAPSE: collapse"
+																							borderColor=#cedefa cellPadding=0 rules=none
+																							border=1 algin="center">
+																							<tr>
+																								<td align="left"><br>
+																									<table id="timeConfigTable"
+																										style="width:60%; padding:0;  background-color:#FFFFFF; position:relative; left:15px;">
+																										<tr>
+																											<td colspan="7" height="50" align="center">
+																												<span id="addTimeConfigRow"
+																												style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
+																											</td>
+																										</tr>
+																									</table></td>
+																							</tr>
+																						</table>
+																					</div>
+																				</td>
+																			</tr>
+																			<!-- snow modify end */ 2010-05-20-->
+
+																			<tr>
+																				<td nowrap colspan="8">
+																					<!-- nielin modify begin (SMS div)*/ 2009-01-03-->
+																					<div id="formDiv" style="">
+																						<table width="100%"
+																							style="BORDER-COLLAPSE: collapse"
+																							borderColor=#cedefa cellPadding=0 rules=none
+																							border=1 algin="center">
+																							<tr>
+																								<td style="padding:0px 0px 0px 5px">&nbsp;&nbsp;短信发送详细配置</td>
+																							</tr>
+																							<tr>
+																								<td align="center">
+																									<table id="smsConfigTable"
+																										style="width:80%; padding:0;  background-color:#FFFFFF;">
+																										<tr>
+																											<td colspan="0" height="50" align="center">
+																												<span
+																												onClick='addRow("smsConfigTable","sms");'
+																												style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
+																											</td>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+																						</table>
+																					</div> <!-- nielin modify end */ 2009-01-03--->
+
+																				</td>
+																			</tr>
+																			<tr>
+																				<td nowrap colspan="8">
+																					<!-- nielin modify begin (Phone div)*/ 2009-01-03--->
+																					<div id="formDiv" style="">
+																						<table width="100%"
+																							style="BORDER-COLLAPSE: collapse"
+																							borderColor=#cedefa cellPadding=0 rules=none
+																							border=1 algin="center">
+																							<tr>
+																								<td style="padding:0px 0px 0px 5px">&nbsp;&nbsp;电话接收详细配置</td>
+																							</tr>
+																							<tr>
+																								<td align="center">
+																									<table id="phoneConfigTable"
+																										style="width:80%; padding:0;  background-color:#FFFFFF;">
+																										<tr>
+																											<td colspan="0" height="50" align="center">
+																												<span
+																												onClick='addRow("phoneConfigTable","phone");'
+																												style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
+																											</td>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+																						</table>
+																					</div> <!-- nielin modify end */ 2009-01-03--->
+
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<!-- nielin add (for timeShareConfig) start 2010-01-03 -->
+																				<td><input type="hidden" id="rowNum"
+																					name="rowNum"></td>
+																				<!-- nielin add (for timeShareConfig) end 2010-01-03 -->
+
+																			</tr>
+																			<tr>
+																				<TD nowrap colspan="4" align=center><br> <input
+																					type="button" value="保 存" style="width:50"
+																					id="process" onclick="#">&nbsp;&nbsp; <input
+																					type="reset" style="width:50" value="返回"
+																					onclick="javascript:history.back(1)"></TD>
+																			</tr>
+																		</TBODY>
+																	</TABLE>
+
+
 																</td>
 															</tr>
-															<!-- snow modify end */ 2010-05-20-->
-															
-															<tr>	
-																<td nowrap colspan="8">
-																	
-																    <!-- nielin modify begin (SMS div)*/ 2009-01-03-->
-																        <div id="formDiv" style="">         
-															                <table width="100%" style="BORDER-COLLAPSE: collapse" borderColor=#cedefa cellPadding=0 rules=none border=1 algin="center" >
-														                        <tr>
-														                            <td style="padding:0px 0px 0px 5px">&nbsp;&nbsp;短信发送详细配置</td>
-														                        </tr>
-														                        <tr>
-														                            <td align="center">           
-														                                <table id="smsConfigTable"  style="width:80%; padding:0;  background-color:#FFFFFF;" >
-													                                        <tr>
-													                                            <td colspan="0" height="50" align="center"> 
-													                                                <span  onClick='addRow("smsConfigTable","sms");' style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
-													                                            </td>
-													                                        </tr>
-														                                </table>
-														                            </td>
-														                        </tr>
-															                </table>
-															            </div> 
-																      <!-- nielin modify end */ 2009-01-03--->					
-																
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<table id="detail-content-footer"
+															class="detail-content-footer">
+															<tr>
+																<td>
+																	<table width="100%" border="0" cellspacing="0"
+																		cellpadding="0">
+																		<tr>
+																			<td align="left" valign="bottom"><img
+																				src="<%=rootPath%>/common/images/right_b_01.jpg"
+																				width="5" height="12" /></td>
+																			<td></td>
+																			<td align="right" valign="bottom"><img
+																				src="<%=rootPath%>/common/images/right_b_03.jpg"
+																				width="5" height="12" /></td>
+																		</tr>
+																	</table>
 																</td>
 															</tr>
-															<tr>
-																<td nowrap colspan="8">
-																
-																    <!-- nielin modify begin (Phone div)*/ 2009-01-03--->
-																        <div id="formDiv" style="">         
-															                <table width="100%" style="BORDER-COLLAPSE: collapse" borderColor=#cedefa cellPadding=0 rules=none border=1 algin="center" >
-														                        <tr>
-														                            <td style="padding:0px 0px 0px 5px">&nbsp;&nbsp;电话接收详细配置</td>
-														                        </tr>
-														                        <tr>
-														                            <td align="center">           
-														                                <table id="phoneConfigTable"  style="width:80%; padding:0;  background-color:#FFFFFF;" >
-													                                        <tr>
-													                                            <td colspan="0" height="50" align="center"> 
-													                                                <span  onClick='addRow("phoneConfigTable","phone");' style="border: 1px solid black;margin:10px;padding:0px 3px 0px 3px;cursor: hand;">增加一行</span>
-													                                            </td>
-													                                        </tr>
-														                                </table>
-														                            </td>
-														                        </tr>
-															                </table>
-															            </div> 
-																      <!-- nielin modify end */ 2009-01-03--->					
-																	
-																</td>
-															</tr>
-															
-															<tr>
-																<!-- nielin add (for timeShareConfig) start 2010-01-03 -->
-																<td><input type="hidden" id="rowNum" name="rowNum"></td>
-																<!-- nielin add (for timeShareConfig) end 2010-01-03 -->
-															
-															</tr>
-															<tr>
-																<TD nowrap colspan="4" align=center>
-																<br><input type="button" value="保 存" style="width:50" id="process" onclick="#">&nbsp;&nbsp;
-																	<input type="reset" style="width:50" value="返回" onclick="javascript:history.back(1)">
-																</TD>	
-															</tr>	
-							</TBODY>
-						</TABLE>
-										 							
-										 							
-				        										</td>
-				        									</tr>
-				        								</table>
-				        							</td>
-				        						</tr>
-				        						<tr>
-				        							<td>
-				        								<table id="detail-content-footer" class="detail-content-footer">
-				        									<tr>
-				        										<td>
-				        											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-											                  			<tr>
-											                    			<td align="left" valign="bottom"><img src="<%=rootPath%>/common/images/right_b_01.jpg" width="5" height="12" /></td>
-											                    			<td></td>
-											                    			<td align="right" valign="bottom"><img src="<%=rootPath%>/common/images/right_b_03.jpg" width="5" height="12" /></td>
-											                  			</tr>
-											              			</table>
-				        										</td>
-				        									</tr>
-				        								</table>
-				        							</td>
-				        						</tr>
-				        					</table>
+														</table>
+													</td>
+												</tr>
+											</table>
 										</td>
 									</tr>
 									<tr>
-										<td>
-											
-										</td>
+										<td></td>
 									</tr>
 								</table>
 							</td>
@@ -484,7 +538,7 @@ function initmenu()
 				</td>
 			</tr>
 		</table>
-		
+
 	</form>
 </BODY>
 

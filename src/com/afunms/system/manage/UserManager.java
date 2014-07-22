@@ -286,7 +286,8 @@ public class UserManager extends BaseManager implements ManagerInterface {
      * 用户登录
      */
     private String login() {
-    SysLogger.info("------- 用户登陆 ----------");
+    	System.out.println("用户开始登陆。。。"+getParaValue("password"));
+    SysLogger.info("------- 用户登陆 --ssss--------");
 	if (getParaValue("password") == null) {
 	    //setErrorCode(ErrorMessage.INCORRECT_PASSWORD);
 	    return "/errorIndex.jsp";
@@ -310,6 +311,7 @@ public class UserManager extends BaseManager implements ManagerInterface {
 
 	MD5 md = new MD5();
 	String pwd = md.getMD5ofStr(getParaValue("password"));
+	System.out.println(pwd+"999999999999999--------------999999999");
 	UserDao dao = new UserDao();
 	User vo = null;
 	try {

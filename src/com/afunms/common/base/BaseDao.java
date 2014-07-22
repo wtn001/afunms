@@ -478,7 +478,6 @@ public abstract class BaseDao {
 				return rs.getString("cnt");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			if (rs != null) {

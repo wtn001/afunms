@@ -7,14 +7,30 @@ import com.afunms.common.base.ManagerInterface;
 import com.afunms.config.dao.SupperDao;
 import com.afunms.config.model.Supper;
 
+/**
+ * 功能：供应商控制层
+ * 
+ * @author Administrator
+ * 
+ */
 public class SupperManager extends BaseManager implements ManagerInterface {
 
+	/**
+	 * 1.加载供应商列表
+	 * 
+	 * @return
+	 */
 	public String list() {
 		SupperDao dao = new SupperDao();
 		setTarget("/config/supper/list.jsp");
 		return list(dao);
 	}
 
+	/**
+	 * 2.实现供应商信息的修改
+	 * 
+	 * @return
+	 */
 	private String update() {
 		Supper vo = new Supper();
 		vo.setSu_id(getParaValue("id"));
@@ -30,11 +46,16 @@ public class SupperManager extends BaseManager implements ManagerInterface {
 		vo.setSu_url(getParaValue("su_url"));
 		SupperDao dao = new SupperDao();
 		String target = null;
-		if(dao.update(vo))
-	    	   target = "/supper.do?action=list";
+		if (dao.update(vo))
+			target = "/supper.do?action=list";
 		return target;
 	}
-	
+
+	/**
+	 * 3.实现供应商信息的保存
+	 * 
+	 * @return
+	 */
 	private String save() {
 		Supper vo = new Supper();
 		vo.setSu_name(getParaValue("su_name"));
@@ -61,6 +82,9 @@ public class SupperManager extends BaseManager implements ManagerInterface {
 		return target;
 	}
 
+	/**
+	 * 4.执行方法体
+	 */
 	public String execute(String action) {
 		if (action.equals("list"))
 			return list();
@@ -83,14 +107,14 @@ public class SupperManager extends BaseManager implements ManagerInterface {
 		if (action.equals("ready_add")) {
 			return "/config/supper/add.jsp";
 		}
-		
+
 		if (action.equals("ready_edit")) {
 			DaoInterface dao = new SupperDao();
-		    setTarget("/config/supper/edit.jsp");
-	        return readyEdit(dao);
+			setTarget("/config/supper/edit.jsp");
+			return readyEdit(dao);
 		}
 		if (action.equals("update")) {
-			 return update();
+			return update();
 		}
 		return null;
 	}

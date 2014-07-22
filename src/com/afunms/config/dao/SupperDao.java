@@ -8,13 +8,21 @@ import com.afunms.common.base.DaoInterface;
 import com.afunms.common.util.SysLogger;
 import com.afunms.config.model.Supper;
 
+/**
+ * 功能：供应商的数据访问层，提供了对供应商的数据访问操作
+ * 
+ * @author Administrator
+ * 
+ */
 public class SupperDao extends BaseDao implements DaoInterface {
 
 	public SupperDao() {
 		super("nms_supper_info");
 	}
 
-	@Override
+	/**
+	 * 1.把一条记录载入vo
+	 */
 	public BaseVo loadFromRS(ResultSet rs) {
 		Supper vo = new Supper();
 		try {
@@ -39,18 +47,23 @@ public class SupperDao extends BaseDao implements DaoInterface {
 		return false;
 	}
 
+	/**
+	 * 2.增加（保存）供应商的方法
+	 * 
+	 * @param vo
+	 * @return
+	 */
 	public int save(Supper vo) {
 		int result = -1;
 		String sql = null;
 		try {
 			/*
 			 * sql = "select * from system_user where user_id='" +
-			 * vo.getUserid() + "'"; rs = conn.executeQuery(sql); if (rs.next()) //
-			 * 用户已经存在 return 0;
+			 * vo.getUserid() + "'"; rs = conn.executeQuery(sql); if (rs.next())
+			 * // 用户已经存在 return 0;
 			 */
 			StringBuffer sqlBf = new StringBuffer(100);
-			sqlBf
-					.append("insert into nms_supper_info(id,su_name,su_class,su_area,su_desc,su_person,su_email,su_phone,su_address,su_dept,su_url)");
+			sqlBf.append("insert into nms_supper_info(id,su_name,su_class,su_area,su_desc,su_person,su_email,su_phone,su_address,su_dept,su_url)");
 			sqlBf.append("values(");
 			sqlBf.append(getNextID());
 			sqlBf.append(",'");
@@ -85,9 +98,11 @@ public class SupperDao extends BaseDao implements DaoInterface {
 		return result;
 	}
 
+	/**
+	 * 3.修改供应商信息的方法
+	 */
 	public boolean update(BaseVo baseVo) {
 		Supper vo = (Supper) baseVo;
-		
 		StringBuffer sql = new StringBuffer(200);
 		sql.append("update nms_supper_info set su_name='");
 		sql.append(vo.getSu_name());
