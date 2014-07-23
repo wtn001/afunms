@@ -21,7 +21,7 @@
 	List list = null;
 	BusinessDao dao = new BusinessDao();
 	try {
-		list = dao.loadRoleBusiness(current_user.getBusinessids());
+		list = dao.loadRoleBusiness(current_user.getBusinessids()); //查询当前用户的所有业务
 	} catch (Exception e) {
 		e.printStackTrace();
 	} finally {
@@ -248,12 +248,7 @@ body,td,th {
 								
 							}
 							<%treeNodeNum++;
-							
-							
 							currTreeNodeFatherId = currTreeNodeId;
-							
-							
-							
 							if("1".equals(currTreeNode.getIsHaveChild())){       
 					    	// 不干任何事
 					    	} else {
