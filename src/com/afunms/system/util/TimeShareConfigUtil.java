@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.afunms.application.model.FTPConfig;
 import com.afunms.system.dao.SmsConfigDao;
 import com.afunms.system.dao.TimeShareConfigDao;
 import com.afunms.system.model.SmsConfig;

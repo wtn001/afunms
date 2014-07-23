@@ -453,7 +453,6 @@ public class DiscoverCompleteDao extends BaseDao {
 						// 补充发现
 						if (node.getDiscoverstatus() == -1) {
 							// 新发现的设备
-
 							// 生成网络设备表
 							// 连通率
 							ctable.createTable(conn, "ping", allipstr, "ping");// Ping
@@ -1414,7 +1413,6 @@ public class DiscoverCompleteDao extends BaseDao {
 				// alarmIndicatorsUtil.saveAlarmInicatorsThresholdForNode(node.getId()+"",
 				// AlarmConstant.TYPE_HOST, "windows");
 				// } catch (RuntimeException e) {
-				// // TODO Auto-generated catch block
 				// e.printStackTrace();
 				// }
 				// }
@@ -1430,7 +1428,6 @@ public class DiscoverCompleteDao extends BaseDao {
 				// alarmIndicatorsUtil.saveAlarmInicatorsThresholdForNode(node.getId()+"",
 				// AlarmConstant.TYPE_NET, "cisco");
 				// } catch (RuntimeException e) {
-				// // TODO Auto-generated catch block
 				// e.printStackTrace();
 				// }
 				// }

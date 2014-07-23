@@ -1,4 +1,4 @@
-<%@page language="java" contentType="text/html;charset=GB2312"%>
+<%@page language="java" contentType="text/html;charset=GBK"%>
 <%@page import="com.afunms.common.util.SessionConstant"%>
 <%@page import="com.afunms.system.model.User"%>
 <%

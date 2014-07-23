@@ -20,10 +20,16 @@ import com.afunms.application.dao.TomcatDao;
 
 import com.afunms.application.model.Tomcat;
 
+/**
+ * Tomcat节点加载，实现了在NodeLoader抽象类中定义的方法
+ * 
+ * @author Administrator
+ * 
+ */
 public class TomcatLoader extends NodeLoader {
 	public void loading() {
 		TomcatDao dao = new TomcatDao();
-		List list=null;
+		List list = null;
 		try {
 			list = dao.loadOrderByIP();
 		} catch (Exception e) {
@@ -31,7 +37,8 @@ public class TomcatLoader extends NodeLoader {
 		} finally {
 			dao.close();
 		}
-		if(list == null)list = new ArrayList();
+		if (list == null)
+			list = new ArrayList();
 		ShareData.setTomcatlist(list);
 		clearRubbish(list);
 		for (int i = 0; i < list.size(); i++) {
@@ -45,13 +52,15 @@ public class TomcatLoader extends NodeLoader {
 		List nodeList = PollingEngine.getInstance().getTomcatList(); // 得到内存中的list
 		for (int index = 0; index < nodeList.size(); index++) {
 			if (nodeList.get(index) instanceof com.afunms.polling.node.Tomcat) {
-				com.afunms.polling.node.Tomcat node = (com.afunms.polling.node.Tomcat) nodeList.get(index);
+				com.afunms.polling.node.Tomcat node = (com.afunms.polling.node.Tomcat) nodeList
+						.get(index);
 				if (baseVoList == null) {
 					nodeList.remove(node);
 				} else {
 					boolean flag = false;
 					for (int j = 0; j < baseVoList.size(); j++) {
-						com.afunms.application.model.Tomcat hostNode = (com.afunms.application.model.Tomcat) baseVoList.get(j);
+						com.afunms.application.model.Tomcat hostNode = (com.afunms.application.model.Tomcat) baseVoList
+								.get(j);
 						if (node.getId() == hostNode.getId()) {
 							flag = true;
 						}
@@ -73,7 +82,7 @@ public class TomcatLoader extends NodeLoader {
 		tomcat.setAlias(vo.getAlias());
 		tomcat.setIpAddress(vo.getIpAddress());
 		tomcat.setPort(vo.getPort());
-		if(vo.getMonflag() == 1)
+		if (vo.getMonflag() == 1)
 			tomcat.setManaged(true);
 		else
 			tomcat.setManaged(false);

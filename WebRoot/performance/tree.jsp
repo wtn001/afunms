@@ -1,10 +1,11 @@
-<%@page language="java" contentType="text/html;charset=GB2312"%>
+<!-- 功能：性能--性能资源--左侧导航树 -->
+<%@page language="java" contentType="text/html;charset=GBK"%>
 <%@page import="java.util.List"%>
 <%@page import="com.afunms.topology.dao.TreeNodeDao"%>
 <%@page import="com.afunms.topology.model.TreeNode"%>
 <%@page import="com.afunms.topology.util.NodeHelper"%>
 <%@page import="com.afunms.common.util.SessionConstant"%>
-<%@page import="com.afunms.system.model.User"%>   
+<%@page import="com.afunms.system.model.User"%>
 <%@page import="com.afunms.config.dao.BusinessDao"%>
 <%@page import="com.afunms.config.model.Business"%>
 <%@page import="java.util.*"%>
@@ -13,10 +14,10 @@
 <%@page import="com.afunms.indicators.util.Constant"%>
 <%@page import="com.afunms.system.dao.SystemConfigDao"%>
 <%@page import="com.afunms.common.util.ShareData"%>
-<%   
+<%
 	String rootPath = request.getContextPath();
 	User current_user = (User) session
-			.getAttribute(SessionConstant.CURRENT_USER);
+	.getAttribute(SessionConstant.CURRENT_USER);
 	List list = null;
 	BusinessDao dao = new BusinessDao();
 	try {
@@ -35,8 +36,8 @@
 	for (int i = 0; i < list.size(); i++) {
 		Business business = (Business) list.get(i);
 		if (current_user.getBusinessids() != null 
-			&& current_user.getBusinessids().contains("," + business.getId() + ",")) {
-			bussinessList_tmp.add(business);
+	&& current_user.getBusinessids().contains("," + business.getId() + ",")) {
+	bussinessList_tmp.add(business);
 		}
 		bids_str = bids_str + business.getPid() + ",";
 	}
@@ -44,59 +45,68 @@
 		//list = bussinessList_tmp;
 	}
 	String rightFramePath =rootPath+"/perform.do?action=monitornodelist&flag=1&category=net_switch";
-
 %>
 <html>
 <head>
 <title></title>
-<link rel="StyleSheet" href="../performance/dtree/dtree.css" type="text/css" />
+<link rel="StyleSheet" href="../performance/dtree/dtree.css"
+	type="text/css" />
 <script type="text/javascript" src="../performance/dtree/dtree.js"></script>
 <style>
 body {
-margin-left: 6px;
-margin-top: 0px;
-margin-right: 6px;
-margin-bottom: 6px;
-scrollbar-face-color: #E0E3EB;
-scrollbar-highlight-color: #E0E3EB;
-scrollbar-shadow-color: #E0E3EB;
-scrollbar-3dlight-color: #E0E3EB;
-scrollbar-arrow-color: #7ED053;
-scrollbar-track-color: #ffffff;
-scrollbar-darkshadow-color: #9D9DA1;
+	margin-left: 6px;
+	margin-top: 0px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	scrollbar-face-color: #E0E3EB;
+	scrollbar-highlight-color: #E0E3EB;
+	scrollbar-shadow-color: #E0E3EB;
+	scrollbar-3dlight-color: #E0E3EB;
+	scrollbar-arrow-color: #7ED053;
+	scrollbar-track-color: #ffffff;
+	scrollbar-darkshadow-color: #9D9DA1;
 }
-body,td,th {color: #666666;line-height:20px}
-.div_RightMenu
-{
-    z-index:30000;
-    text-align:left;    
-    cursor: default;
-    position: absolute;
-    background-color:#FAFFF8;
-    width:100px;
-    height:auto;
-    border: 1px solid #333333;
-    display:none;
-    filter:progid:DXImageTransform.Microsoft.Shadow(Color=#333333,Direction=120,strength=5);    
+
+body,td,th {
+	color: #666666;
+	line-height: 20px
 }
-.divMenuItem
-{
-    height:17px;
-    color:Black;
-    font-family:宋体;
-    vertical-align:middle;
-    font-size:10pt;
-    margin-bottom:3px;
-    cursor:hand;
-    padding-left:10px;
-    padding-top:2px;
+
+.div_RightMenu {
+	z-index: 30000;
+	text-align: left;
+	cursor: default;
+	position: absolute;
+	background-color: #FAFFF8;
+	width: 100px;
+	height: auto;
+	border: 1px solid #333333;
+	display: none;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#333333,
+		Direction=120, strength=5 );
+}
+
+.divMenuItem {
+	height: 17px;
+	color: Black;
+	font-family: 宋体;
+	vertical-align: middle;
+	font-size: 10pt;
+	margin-bottom: 3px;
+	cursor: hand;
+	padding-left: 10px;
+	padding-top: 2px;
 }
 </style>
 </head>
-<body style="background-image:url('/afunms/resource/image/global/bg6.jpg')">
-<div class="dtree" style="">
-<p><a href="javascript: d.openAll();">展开</a> | <a href="javascript: d.closeAll();">合闭</a></p>
-<script type="text/javascript">
+<body
+	style="background-image:url('/afunms/resource/image/global/bg6.jpg')">
+	<div class="dtree" style="">
+		<p>
+			<a href="javascript: d.openAll();">展开</a> | <a
+				href="javascript: d.closeAll();">合闭</a>
+		</p>
+		<script type="text/javascript">
         var currTreeNodeId = '';		// 当前树的节点 Id
         var treeNodeFatherId = '';		// 当前树的节点的父 Id	
         var key = 0 ;
@@ -104,9 +114,7 @@ body,td,th {color: #666666;line-height:20px}
 		d.add(0,-1,' 设备资源树');
 	
 		
-		<%
-		
-		         boolean showFlag=false;
+		<%boolean showFlag=false;
 			//String treeshowflag = "0";
 			String treeshowflag_str = "0";
 			Hashtable checkEventHashtable = ShareData.getCheckEventHash();
@@ -158,15 +166,12 @@ body,td,th {color: #666666;line-height:20px}
 					if(currBusiness.getPid().equals("0")){
 						currTreeNodeFatherId = "0";
 						currTreeNodeId = "business_" + currbid;
-						currBusinessNodeId = currTreeNodeId;
-						
-					%>
+						currBusinessNodeId = currTreeNodeId;%>
 					 	currTreeNodeId = '<%=currTreeNodeId%>';
 	      				currTreeNodeFatherId = '<%=currTreeNodeFatherId%>';
 					    var imagestr = "";
 					    d.add(currTreeNodeId,currTreeNodeFatherId,'<%=" " + currBusiness.getName()%>',"","","","rightFrame",imagestr,imagestr);
-					<%
-					    list = new ArrayList();
+					<%list = new ArrayList();
 					    for(Object object1 : bussinessList_tmp){
 					        currBusiness1 = (Business)object1;
 					        if(currBusiness.getId().equals(currBusiness1.getPid())){
@@ -177,16 +182,12 @@ body,td,th {color: #666666;line-height:20px}
 					}
 					    currTreeNodeFatherId = "business_" + currBusiness.getPid();
 						currTreeNodeId = "business_" + currbid;
-						currBusinessNodeId = currTreeNodeId;
-						
-						
-					%>
+						currBusinessNodeId = currTreeNodeId;%>
 					 	currTreeNodeId = '<%=currTreeNodeId%>';
 	      				currTreeNodeFatherId = '<%=currTreeNodeFatherId%>';
 					    var imagestr = "";
 					    d.add(currTreeNodeId,currTreeNodeFatherId,'<%=" " + currBusiness.getName()%>',"","","","rightFrame",imagestr,imagestr);
-					<%
-					if(treeNodeList == null || treeNodeList.size() == 0){
+					<%if(treeNodeList == null || treeNodeList.size() == 0){
 						return;
 					}
 					
@@ -225,8 +226,7 @@ body,td,th {color: #666666;line-height:20px}
 						if(0 == currTreeNode.getFatherId()){
 							currTreeNodeFatherId = currBusinessNodeId;
 						}
-						if(isShowTreeNodeFlag){
-							%>
+						if(isShowTreeNodeFlag){%>
 						 	currTreeNodeId = '<%=currTreeNodeId%>';
 		      				currTreeNodeFatherId = '<%=currTreeNodeFatherId%>';
 						    var imagestr = "<%=rootPath%>/performance/<%=NodeHelper.getTypeImage(currTreeNode
@@ -235,22 +235,19 @@ body,td,th {color: #666666;line-height:20px}
 									+ currTreeNode.getDeceiveNum() + ")"%>',"<%=rootPath + currTreeNode.getUrl()
 									+ "&treeBid=" + currbid%>","","","rightFrame",imagestr,imagestr);
 							if(0 == "<%=treeNodeNum%>" && "<%=rightFrameFlag%>"){
-								<%
-									//首页和拓扑图点击设备时跳转的页面链接
+								<%//首页和拓扑图点击设备时跳转的页面链接
 									 rightFramePath = rootPath + request.getParameter("rightFramePath");
 									rightFramePath = rightFramePath.replaceAll("-equals-","=");
 									rightFramePath = rightFramePath.replaceAll("-and-","&");
 									if(request.getParameter("rightFramePath") == null || request.getParameter("rightFramePath").equals("null")){
 										rightFramePath = rootPath + currTreeNode.getUrl() + "&treeBid=" + currbid;
 									}
-									showFlag=true;
-								%>
+									showFlag=true;%>
 								
 								parent.document.getElementById("rightFrame").src="<%=rightFramePath%>";
 								
 							}
-							<%
-							treeNodeNum++;
+							<%treeNodeNum++;
 							
 							
 							currTreeNodeFatherId = currTreeNodeId;
@@ -288,8 +285,7 @@ body,td,th {color: #666666;line-height:20px}
 						   			String imagestr = rootPath + "/resource/" + NodeHelper.getCurrentStatusImage(alarmLevel);
 						   			if(Constant.TYPE_GATEWAY.equals(nodeDTO.getType()) || Constant.TYPE_F5.equals(nodeDTO.getType()) || Constant.TYPE_VPN.equals(nodeDTO.getType()) || Constant.TYPE_HOST.equals(nodeDTO.getType()) || Constant.TYPE_NET.equals(nodeDTO.getType()) || Constant.TYPE_DB.equals(nodeDTO.getType())){
 						   				imagestr = rootPath + "/performance/" + NodeHelper.getSubTypeImage(nodeDTO.getSubtype());  
-						   			}   
-						   			%>
+						   			}%>
 								 	currTreeNodeId = '<%=currTreeNodeId%>';
 				      				currTreeNodeFatherId = '<%=currTreeNodeFatherId%>';
 								    var imagestr = "<%=imagestr%>";
@@ -297,8 +293,7 @@ body,td,th {color: #666666;line-height:20px}
 											+ "/detail/dispatcher.jsp?flag=1&id="
 											+ currTreeNode.getNodeTag()
 											+ nodeDTO.getId()%>","","","rightFrame",imagestr,imagestr);
-									<%
-						   		} // 完成 每一个设备 循环 (L3)
+									<%} // 完成 每一个设备 循环 (L3)
 						   	}
 						}
 					}	// 完成每一个设备树节点循环 (L2)
@@ -306,164 +301,140 @@ body,td,th {color: #666666;line-height:20px}
 			        e.printStackTrace();
 			    }
 			}	// 完成每一个业务循环 (L1)
-			if(!showFlag){
-				
-			%>
-				parent.document.getElementById("rightFrame").src="<%=rightFramePath%>";
-				<%
+			if(!showFlag){%>
+				parent.document.getElementById("rightFrame").src="<%=rightFramePath%>
+			";
+		<%}%>
+			document.write(d);
+
+			//------------search one device-------------根据选中的树节点在地图上搜索对应的设备
+
+			function SearchNode(ip) {
+				var coor = window.parent.mainFrame.mainFrame.getNodeCoor(ip);
+				if (coor == null) {
+					var msg = "没有在图中搜索到IP地址为 " + ip + " 的设备。";
+					window.alert(msg);
+					return;
+				} else if (typeof coor == "string") {
+					window.alert(coor);
+					return;
+				}
+				window.parent.mainFrame.mainFrame.moveMainLayer(coor);
 			}
-		%>
-		
-		
-		document.write(d);
+			//--------------------end--------------------
+			//--------------------begin选中设备显示右键菜单--------------------
+			var nodeid = "";
+			var nodeip = "";
+			var nodecategory = "";
+			function showMenu(id, ip) {
+				nodeid = id.split(";")[0];
+				nodecategory = id.split(";")[1];
+				nodeip = ip;
+				/**/
+				if (document.getElementById("div_RightMenu") == null) {
+					CreateMenu();
+					document.oncontextmenu = ShowMenu
+					document.body.onclick = HideMenu
+				} else {
+					document.oncontextmenu = ShowMenu
+					document.body.onclick = HideMenu
+				}
 
-//------------search one device-------------根据选中的树节点在地图上搜索对应的设备
+			}
+			function add() {
+				var nodeId = nodeid;//要保证nodeid的长度大于3
+				var coor = window.parent.mainFrame.mainFrame.getNodeId(nodeId);
+				if (coor == null) {
+					window.parent.mainFrame.mainFrame.addEquip(nodeId,
+							nodecategory);
+				} else if (typeof coor == "string") {
+					window.alert(coor);
+					return;
+				}
+				window.parent.mainFrame.mainFrame.moveMainLayer(coor);
+				window.alert("该设备已经在拓扑图中存在！");
+			}
+			function detail() {
+				showalert(nodeid);
+				window.parent.parent.opener.focus();
+			}
+			function showalert(id) {
+				//alert("performance/tree.jsp--->/afunms/detail/dispatcher.jsp?id="+id);
+				window.parent.parent.opener.location = "/afunms/detail/dispatcher.jsp?id="
+						+ id;
+			}
+			function evtMenuOnmouseMove() {
+				this.style.backgroundColor = '#8AAD77';
+				this.style.paddingLeft = '10px';
+			}
+			function evtOnMouseOut() {
+				this.style.backgroundColor = '#FAFFF8';
+			}
+			function CreateMenu() {
+				var div_Menu = document.createElement("Div");
+				div_Menu.id = "div_RightMenu";
+				div_Menu.className = "div_RightMenu";
 
-function SearchNode(ip)
-{
-	var coor = window.parent.mainFrame.mainFrame.getNodeCoor(ip);
-	if (coor == null)
-	{
-		var msg = "没有在图中搜索到IP地址为 "+ ip +" 的设备。";
-		window.alert(msg);
-		return;
-	}
-	else if (typeof coor == "string")
-	{
-		window.alert(coor);
-		return;
-	}
-	window.parent.mainFrame.mainFrame.moveMainLayer(coor);
-}
-//--------------------end--------------------
-//--------------------begin选中设备显示右键菜单--------------------
-var nodeid="";
-var nodeip="";
-var nodecategory="";
-function showMenu(id,ip){
-    nodeid = id.split(";")[0];
-    nodecategory = id.split(";")[1];
-    nodeip = ip;
-    /**/
-    if(document.getElementById("div_RightMenu") == null)
-    {    
-        CreateMenu();
-        document.oncontextmenu = ShowMenu
-        document.body.onclick  = HideMenu    
-    }
-    else
-    {
-        document.oncontextmenu = ShowMenu
-        document.body.onclick  = HideMenu    
-    } 
+				var div_Menu1 = document.createElement("Div");
+				div_Menu1.id = "div_Menu1";
+				div_Menu1.className = "divMenuItem";
+				div_Menu1.onclick = add;
+				div_Menu1.onmousemove = evtMenuOnmouseMove;
+				div_Menu1.onmouseout = evtOnMouseOut;
+				div_Menu1.innerHTML = "添加到拓扑图";
+				var div_Menu2 = document.createElement("Div");
+				div_Menu2.id = "div_Menu2";
+				div_Menu2.className = "divMenuItem";
+				div_Menu2.onclick = detail;
+				div_Menu2.onmousemove = evtMenuOnmouseMove;
+				div_Menu2.onmouseout = evtOnMouseOut;
+				div_Menu2.innerHTML = "详细信息";
 
-}
-function add(){
-    var nodeId = nodeid;//要保证nodeid的长度大于3
-    var coor = window.parent.mainFrame.mainFrame.getNodeId(nodeId);
-    if (coor == null)
-	{
-         window.parent.mainFrame.mainFrame.addEquip(nodeId,nodecategory);
-	}
-	else if (typeof coor == "string")
-	{
-		window.alert(coor);
-		return;
-	}
-    window.parent.mainFrame.mainFrame.moveMainLayer(coor);
-    window.alert("该设备已经在拓扑图中存在！");
-}
-function detail(){
-    showalert(nodeid);
-	window.parent.parent.opener.focus();
-}
-function showalert(id) {
-	//alert("performance/tree.jsp--->/afunms/detail/dispatcher.jsp?id="+id);
-	window.parent.parent.opener.location="/afunms/detail/dispatcher.jsp?id="+id;
-}
-function evtMenuOnmouseMove()
-{
-    this.style.backgroundColor='#8AAD77';
-    this.style.paddingLeft='10px';    
-}
-function evtOnMouseOut()
-{
-    this.style.backgroundColor='#FAFFF8';
-}
-function CreateMenu()
-{    
-        var div_Menu          = document.createElement("Div");
-        div_Menu.id           = "div_RightMenu";
-        div_Menu.className    = "div_RightMenu";
-        
-        var div_Menu1         = document.createElement("Div");
-        div_Menu1.id          = "div_Menu1";
-        div_Menu1.className   = "divMenuItem";
-        div_Menu1.onclick     = add;
-        div_Menu1.onmousemove = evtMenuOnmouseMove;
-        div_Menu1.onmouseout  = evtOnMouseOut;
-        div_Menu1.innerHTML   = "添加到拓扑图";
-        var div_Menu2         = document.createElement("Div");
-        div_Menu2.id          = "div_Menu2";
-        div_Menu2.className   = "divMenuItem";
-        div_Menu2.onclick     = detail;
-        div_Menu2.onmousemove = evtMenuOnmouseMove;
-        div_Menu2.onmouseout  = evtOnMouseOut;
-        div_Menu2.innerHTML   = "详细信息";
-        
-        div_Menu.appendChild(div_Menu1);
-        div_Menu.appendChild(div_Menu2);
-        document.body.appendChild(div_Menu);
-}
-// 判断客户端浏览器
-function IsIE() 
-{
-    if (navigator.appName=="Microsoft Internet Explorer") 
-    {
-        return true;
-    } 
-    else 
-    {
-        return false;
-    }
-}
+				div_Menu.appendChild(div_Menu1);
+				div_Menu.appendChild(div_Menu2);
+				document.body.appendChild(div_Menu);
+			}
+			// 判断客户端浏览器
+			function IsIE() {
+				if (navigator.appName == "Microsoft Internet Explorer") {
+					return true;
+				} else {
+					return false;
+				}
+			}
 
-function ShowMenu()
-{
-    
-    if (IsIE())
-    {
-        document.body.onclick  = HideMenu;
-        var redge=document.body.clientWidth-event.clientX;
-        var bedge=document.body.clientHeight-event.clientY;
-        var menu = document.getElementById("div_RightMenu");
-        if (redge<menu.offsetWidth)
-        {
-            menu.style.left=document.body.scrollLeft + event.clientX-menu.offsetWidth
-        }
-        else
-        {
-            menu.style.left=document.body.scrollLeft + event.clientX
-            //这里有改动
-            menu.style.display = "block";
-        }
-        if (bedge<menu.offsetHeight)
-        {
-            menu.style.top=document.body.scrollTop + event.clientY - menu.offsetHeight
-        }
-        else
-        {
-            menu.style.top = document.body.scrollTop + event.clientY
-            menu.style.display = "block";
-        }
-    }
-    return false;
-}
-function HideMenu()
-{
-    if (IsIE())  document.getElementById("div_RightMenu").style.display="none";    
-}
-</script>
-</div>
+			function ShowMenu() {
+
+				if (IsIE()) {
+					document.body.onclick = HideMenu;
+					var redge = document.body.clientWidth - event.clientX;
+					var bedge = document.body.clientHeight - event.clientY;
+					var menu = document.getElementById("div_RightMenu");
+					if (redge < menu.offsetWidth) {
+						menu.style.left = document.body.scrollLeft
+								+ event.clientX - menu.offsetWidth
+					} else {
+						menu.style.left = document.body.scrollLeft
+								+ event.clientX
+						//这里有改动
+						menu.style.display = "block";
+					}
+					if (bedge < menu.offsetHeight) {
+						menu.style.top = document.body.scrollTop
+								+ event.clientY - menu.offsetHeight
+					} else {
+						menu.style.top = document.body.scrollTop
+								+ event.clientY
+						menu.style.display = "block";
+					}
+				}
+				return false;
+			}
+			function HideMenu() {
+				if (IsIE())
+					document.getElementById("div_RightMenu").style.display = "none";
+			}
+		</script>
+	</div>
 </body>
 </html>

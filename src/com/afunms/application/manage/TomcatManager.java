@@ -185,7 +185,7 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 		// 在轮询线程中增加被监视节点
 		TomcatLoader loader = new TomcatLoader();
 		try {
-			loader.loadOne(vo);
+			loader.loadOne(vo);// 加载一个节点
 			loader.close();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -249,8 +249,13 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 		return "/tomcat.do?action=list";
 	}
 
+	/**
+	 * 5.实现中间件---Tomcat的删除操作
+	 * 
+	 * @return
+	 */
 	public String delete() {
-		String id = getParaValue("radio");
+		String id = getParaValue("radio"); // 根据选中的单选按钮获取要删除的Tomcat中间件的ID
 		TomcatDao dao = new TomcatDao();
 		try {
 			Node node = PollingEngine.getInstance().getTomcatByID(
@@ -259,6 +264,7 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 			HostApplyDao hostApplyDao = null;
 			try {
 				hostApplyDao = new HostApplyDao();
+				// 根据条件删除
 				hostApplyDao.delete(" where ipaddress = '"
 						+ node.getIpAddress()
 						+ "' and subtype = 'tomcat' and nodeid = '" + id + "'");
@@ -269,8 +275,9 @@ public class TomcatManager extends BaseManager implements ManagerInterface {
 					hostApplyDao.close();
 				}
 			}
-
+			// TomcatList中删除 
 			PollingEngine.getInstance().deleteTomcatByID(Integer.parseInt(id));
+			// 在app_tomcat_node表中删除
 			dao.delete(id);
 			TimeShareConfigUtil timeShareConfigUtil = new TimeShareConfigUtil();
 			timeShareConfigUtil.deleteTimeShareConfig(id,

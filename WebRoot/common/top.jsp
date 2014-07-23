@@ -19,7 +19,7 @@
 		response.sendRedirect("/common/error.jsp?errorcode=3003");
 	}
    	List<Function> menuRoot = (List<Function>)request.getAttribute("menuRoot");
-    System.out.printf(menuRoot.get(0).getFunc_desc());
+    System.out.printf(menuRoot.get(0).getFunc_desc());//²Ëµ¥¼¶±ð
    	if(null != menuRoot && menuRoot.size() > 0){
    		for(int i = 0;i<menuRoot.size();i++){
    			Function fun = (Function)menuRoot.get(i);
